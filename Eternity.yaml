@@ -5,10 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 US_分享日记_297, server: 205.234.200.104, port: 33164, type: vmess, uuid: 31e8f7b4-ba3e-440a-9f56-8241569c017a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sd23dss}}
-  - {name: 🇯🇵 日本 v2rayfree.eu.org, server: kr02.freeflyingcloud.xyz, port: 21702, type: trojan, password: 68dc22fb-e7f3-4806-acd7-b4182d80981e, sni: kr02.freeflyingcloud.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 US_分享日记_329, server: 104.21.44.106, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
-  - {name: 🇯🇵 US_分享日记_177, server: kkyx.yydsii.com, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇯🇵 NL_分享日记_25, server: nl-full.privateip.net, port: 443, type: vmess, uuid: 7d70bc41-7a14-42f2-96e8-9686c7444f6b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: nl-full.privateip.net}}}
+  - {name: 🇯🇵 GB_分享日记_9, server: uk-full.privateip.net, port: 443, type: vmess, uuid: 2f024052-9128-4d8e-944c-124ae738c0d7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: uk-full.privateip.net}}}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB, server: azhj.xifasd.top, port: 20767, type: trojan, password: c39d5e05-3d06-317e-b5ca-e2f71b661570, sni: ssl.ssl12.xyz, skip-cert-verify: false}
   - {name: 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB, server: 419tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 419tw.ljydw.top, skip-cert-verify: false}
   - {name: 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB, server: 625tw.ljydw.top, port: 80, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 625tw.ljydw.top, skip-cert-verify: false}
@@ -50,14 +50,14 @@ proxies:
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: 🇯🇵 US_分享日记_319, server: 172.67.161.77, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
-  - {name: 🇯🇵 US_分享日记_297 2, server: 205.234.200.104, port: 33164, type: vmess, uuid: 31e8f7b4-ba3e-440a-9f56-8241569c017a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sd23dss}}
-  - {name: 🇺🇸 美国 004, server: 172.67.172.67, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇯🇵 US_分享日记_177 2, server: kkyx.yydsii.com, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇨🇦 加拿大 003, server: 172.67.199.185, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 12, server: 104.21.23.231, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fcdn.flha.ru}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.67.214.33, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fcdn.flha.ru}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 9, server: yh4.dtku41.xyz, port: 8080, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm, headers: {Host: booty-pensions-scheduling-blogging.trycloudflare.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: yh5.dtku41.xyz, port: 8080, type: vmess, uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm, headers: {Host: fantastic-doe-bids-ended.trycloudflare.com}}}
   - {name: US_10, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false}
+  - {name: US_14, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}}
+  - {name: US_16, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: US_17, server: 68.183.129.197, port: 8080, type: vmess, uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
+  - {name: 🇺🇸 V001-US-付费推荐dlj.tf/ssrsub, server: russia.com, port: 8080, type: vmess, uuid: bd8c41a8-7598-4c28-9965-522545e14892, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
+  - {name: 🇺🇸 V002-US-付费推荐dlj.tf/ssrsub, server: www.who.int, port: 8080, type: vmess, uuid: bd8c41a8-7598-4c28-9965-522545e14892, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
   - {name: 🇺🇸 V003-US-付费推荐dlj.tf/ssrsub, server: russia.com, port: 80, type: vmess, uuid: bd8c41a8-7598-4c28-9965-522545e14892, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
   - {name: 🇺🇸 美国+德克萨斯州达拉斯Linode数据中心, server: 45.56.69.64, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: QxS7HoM6VSTGHCJg8sVFBS}
   - {name: 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB, server: a021.zhuan99.men, port: 10021, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
@@ -73,20 +73,18 @@ proxies:
   - {name: 🇺🇸 美国_121320013, server: www.wto.org, port: 443, type: vmess, uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm, headers: {Host: copies-bandwidth-harold-tops.trycloudflare.com}}}
   - {name: 🇺🇸 美国_121320014, server: cloudconeaaa.gorgorchicken.one, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
   - {name: 🇺🇸 美国_121320015, server: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top}}}
-  - {name: 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian, server: 3.112.214.89, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https//t.me/MrXbin-14, server: 43.201.54.34, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https//t.me/MrXbin-24, server: 54.179.101.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https//t.me/MrXbin-32, server: 18.142.225.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https//t.me/MrXbin-151, server: sg01.freeflyingcloud.xyz, port: 35702, type: trojan, password: 63db084a-e2ce-46db-9dd6-d4ed2c3d2663, sni: sg01.freeflyingcloud.xyz, skip-cert-verify: true}
-  - {name: 0|-https//t.me/MrXbin-3, server: 13.215.208.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https//t.me/MrXbin-43, server: p230.panda004.net, port: 42978, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 0|-https//t.me/MrXbin-17, server: 18.141.207.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: Channel id @ShadowProxy66 🇺🇸, server: 205.234.232.191, port: 10512, type: vmess, uuid: 58781eee-baba-6666-baba-2ca0ada6568b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇪 |SE|瑞典|@wxgqlfx|133, server: 65.20.113.203, port: 80, type: vmess, uuid: 251780c1-1501-43b3-be2a-d144a20d479a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Nbs2DSTSkFW6MrrFQHeSDQ7}}
-  - {name: V18-付费推荐dlj.tf/ssrsub, server: mizban.arzonhost.ir, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mizban.arzonhost.ir}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 0|-https//t.me/MrXbin-44, server: 47.128.64.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: _01, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 0|-https//t.me/MrXbin-10, server: 54.238.23.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https//t.me/MrXbin-11, server: 35.87.25.21, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https//t.me/MrXbin-24, server: 54.248.173.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https//t.me/MrXbin-124, server: 52.195.237.101, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇳🇱 荷兰_121320048, server: 95.179.128.114, port: 80, type: vmess, uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Av8czorIlYicU6D349brWUw6a, headers: {Host: 95.179.128.114}}}
+  - {name: 0|-https//t.me/MrXbin-8, server: 43.201.47.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇫🇷 TR-TCP-NA 🇫🇷 FR-51.210.182.170443 📡 PING-100.90-MS, server: 51.210.182.170, port: 443, type: trojan, password: 278fff60-fc3a-11ee-a4a6-1239d0255272, skip-cert-verify: true}
+  - {name: 0|-https//t.me/MrXbin-1, server: 43.206.237.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https//t.me/MrXbin-23, server: 43.202.41.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https//t.me/MrXbin-13, server: 43.203.233.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: RO_08, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 49, server: 104.17.21.243, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /y475, headers: {Host: 104.17.21.243}}}
   - {name: V06-付费推荐dlj.tf/ssrsub, server: 205.234.201.97, port: 10087, type: vmess, uuid: 1cce2a35-0fad-46a1-bc80-1d8985bfbfc5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /gost}}
   - {name: V07-付费推荐dlj.tf/ssrsub, server: 205.234.231.135, port: 13743, type: vmess, uuid: 31f4136f-9203-4b53-a759-a7aedd57caa8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dasdfer}}
   - {name: V09-付费推荐dlj.tf/ssrsub, server: 104.21.224.201, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}}
@@ -96,7 +94,9 @@ proxies:
   - {name: V13-付费推荐dlj.tf/ssrsub, server: 104.21.82.39, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}}
   - {name: V14-付费推荐dlj.tf/ssrsub, server: 172.67.152.170, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}}
   - {name: V15-付费推荐dlj.tf/ssrsub, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: a564b1ec-2d51-418a-ba01-e9ab22736afc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 67, server: speed.cloudflare.com, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: speed.cloudflare.com}}}
+  - {name: V16-付费推荐dlj.tf/ssrsub, server: m07.tk4433.com, port: 2053, type: vmess, uuid: 5e2b3a4d-bd24-4a58-f55d-ed7bdcd421d3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /m07.tk4433.com, headers: {Host: m07.tk4433.com}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 48, server: 104.25.52.187, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /y475, headers: {Host: 104.25.52.187}}}
+  - {name: V19-付费推荐dlj.tf/ssrsub, server: 142.111.135.121, port: 45568, type: vmess, uuid: 79125050-8415-421e-909e-4a87c6da3ead, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,10 +112,10 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 US_分享日记_297
-      - 🇯🇵 日本 v2rayfree.eu.org
+      - 🇯🇵 US_分享日记_329
       - 🇨🇳 台湾_121320001
-      - 🇯🇵 US_分享日记_177
+      - 🇯🇵 NL_分享日记_25
+      - 🇯🇵 GB_分享日记_9
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
@@ -157,14 +157,14 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇯🇵 US_分享日记_319
-      - 🇯🇵 US_分享日记_297 2
-      - 🇺🇸 美国 004
-      - 🇯🇵 US_分享日记_177 2
-      - 🇨🇦 加拿大 003
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 5
       - US_10
+      - US_14
+      - US_16
+      - US_17
+      - 🇺🇸 V001-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 V002-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V003-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 美国+德克萨斯州达拉斯Linode数据中心
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB
@@ -180,20 +180,18 @@ proxy-groups:
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https//t.me/MrXbin-14
+      - 0|-https//t.me/MrXbin-10
+      - 0|-https//t.me/MrXbin-11
       - 0|-https//t.me/MrXbin-24
-      - 0|-https//t.me/MrXbin-32
-      - 0|-https//t.me/MrXbin-151
-      - 0|-https//t.me/MrXbin-3
-      - 0|-https//t.me/MrXbin-43
-      - 0|-https//t.me/MrXbin-17
-      - Channel id @ShadowProxy66 🇺🇸
-      - 🇸🇪 |SE|瑞典|@wxgqlfx|133
-      - V18-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
-      - 0|-https//t.me/MrXbin-44
-      - _01
+      - 0|-https//t.me/MrXbin-124
+      - 🇳🇱 荷兰_121320048
+      - 0|-https//t.me/MrXbin-8
+      - 🇫🇷 TR-TCP-NA 🇫🇷 FR-51.210.182.170443 📡 PING-100.90-MS
+      - 0|-https//t.me/MrXbin-1
+      - 0|-https//t.me/MrXbin-23
+      - 0|-https//t.me/MrXbin-13
+      - RO_08
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 49
       - V06-付费推荐dlj.tf/ssrsub
       - V07-付费推荐dlj.tf/ssrsub
       - V09-付费推荐dlj.tf/ssrsub
@@ -203,7 +201,9 @@ proxy-groups:
       - V13-付费推荐dlj.tf/ssrsub
       - V14-付费推荐dlj.tf/ssrsub
       - V15-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 67
+      - V16-付费推荐dlj.tf/ssrsub
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 48
+      - V19-付费推荐dlj.tf/ssrsub
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,10 +254,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 US_分享日记_297
-      - 🇯🇵 日本 v2rayfree.eu.org
+      - 🇯🇵 US_分享日记_329
       - 🇨🇳 台湾_121320001
-      - 🇯🇵 US_分享日记_177
+      - 🇯🇵 NL_分享日记_25
+      - 🇯🇵 GB_分享日记_9
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
@@ -299,14 +299,14 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇯🇵 US_分享日记_319
-      - 🇯🇵 US_分享日记_297 2
-      - 🇺🇸 美国 004
-      - 🇯🇵 US_分享日记_177 2
-      - 🇨🇦 加拿大 003
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 5
       - US_10
+      - US_14
+      - US_16
+      - US_17
+      - 🇺🇸 V001-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 V002-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V003-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 美国+德克萨斯州达拉斯Linode数据中心
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB
@@ -322,20 +322,18 @@ proxy-groups:
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https//t.me/MrXbin-14
+      - 0|-https//t.me/MrXbin-10
+      - 0|-https//t.me/MrXbin-11
       - 0|-https//t.me/MrXbin-24
-      - 0|-https//t.me/MrXbin-32
-      - 0|-https//t.me/MrXbin-151
-      - 0|-https//t.me/MrXbin-3
-      - 0|-https//t.me/MrXbin-43
-      - 0|-https//t.me/MrXbin-17
-      - Channel id @ShadowProxy66 🇺🇸
-      - 🇸🇪 |SE|瑞典|@wxgqlfx|133
-      - V18-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
-      - 0|-https//t.me/MrXbin-44
-      - _01
+      - 0|-https//t.me/MrXbin-124
+      - 🇳🇱 荷兰_121320048
+      - 0|-https//t.me/MrXbin-8
+      - 🇫🇷 TR-TCP-NA 🇫🇷 FR-51.210.182.170443 📡 PING-100.90-MS
+      - 0|-https//t.me/MrXbin-1
+      - 0|-https//t.me/MrXbin-23
+      - 0|-https//t.me/MrXbin-13
+      - RO_08
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 49
       - V06-付费推荐dlj.tf/ssrsub
       - V07-付费推荐dlj.tf/ssrsub
       - V09-付费推荐dlj.tf/ssrsub
@@ -345,17 +343,19 @@ proxy-groups:
       - V13-付费推荐dlj.tf/ssrsub
       - V14-付费推荐dlj.tf/ssrsub
       - V15-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 67
+      - V16-付费推荐dlj.tf/ssrsub
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 48
+      - V19-付费推荐dlj.tf/ssrsub
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 US_分享日记_297
-      - 🇯🇵 日本 v2rayfree.eu.org
+      - 🇯🇵 US_分享日记_329
       - 🇨🇳 台湾_121320001
-      - 🇯🇵 US_分享日记_177
+      - 🇯🇵 NL_分享日记_25
+      - 🇯🇵 GB_分享日记_9
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
@@ -397,14 +397,14 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇯🇵 US_分享日记_319
-      - 🇯🇵 US_分享日记_297 2
-      - 🇺🇸 美国 004
-      - 🇯🇵 US_分享日记_177 2
-      - 🇨🇦 加拿大 003
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 5
       - US_10
+      - US_14
+      - US_16
+      - US_17
+      - 🇺🇸 V001-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 V002-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V003-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 美国+德克萨斯州达拉斯Linode数据中心
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB
@@ -420,20 +420,18 @@ proxy-groups:
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https//t.me/MrXbin-14
+      - 0|-https//t.me/MrXbin-10
+      - 0|-https//t.me/MrXbin-11
       - 0|-https//t.me/MrXbin-24
-      - 0|-https//t.me/MrXbin-32
-      - 0|-https//t.me/MrXbin-151
-      - 0|-https//t.me/MrXbin-3
-      - 0|-https//t.me/MrXbin-43
-      - 0|-https//t.me/MrXbin-17
-      - Channel id @ShadowProxy66 🇺🇸
-      - 🇸🇪 |SE|瑞典|@wxgqlfx|133
-      - V18-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
-      - 0|-https//t.me/MrXbin-44
-      - _01
+      - 0|-https//t.me/MrXbin-124
+      - 🇳🇱 荷兰_121320048
+      - 0|-https//t.me/MrXbin-8
+      - 🇫🇷 TR-TCP-NA 🇫🇷 FR-51.210.182.170443 📡 PING-100.90-MS
+      - 0|-https//t.me/MrXbin-1
+      - 0|-https//t.me/MrXbin-23
+      - 0|-https//t.me/MrXbin-13
+      - RO_08
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 49
       - V06-付费推荐dlj.tf/ssrsub
       - V07-付费推荐dlj.tf/ssrsub
       - V09-付费推荐dlj.tf/ssrsub
@@ -443,23 +441,24 @@ proxy-groups:
       - V13-付费推荐dlj.tf/ssrsub
       - V14-付费推荐dlj.tf/ssrsub
       - V15-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 67
+      - V16-付费推荐dlj.tf/ssrsub
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 48
+      - V19-付费推荐dlj.tf/ssrsub
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 US_分享日记_297
-      - 🇯🇵 US_分享日记_177
-      - 🇯🇵 US_分享日记_319
-      - 🇯🇵 US_分享日记_297 2
-      - 🇺🇸 美国 004
-      - 🇯🇵 US_分享日记_177 2
-      - 🇨🇦 加拿大 003
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇯🇵 US_分享日记_329
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 5
       - US_10
+      - US_14
+      - US_16
+      - US_17
+      - 🇺🇸 V001-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 V002-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V003-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 美国+德克萨斯州达拉斯Linode数据中心
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB
@@ -481,10 +480,10 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 US_分享日记_297
-      - 🇯🇵 日本 v2rayfree.eu.org
+      - 🇯🇵 US_分享日记_329
       - 🇨🇳 台湾_121320001
-      - 🇯🇵 US_分享日记_177
+      - 🇯🇵 NL_分享日记_25
+      - 🇯🇵 GB_分享日记_9
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
@@ -526,10 +525,6 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇯🇵 US_分享日记_319
-      - 🇯🇵 US_分享日记_297 2
-      - 🇯🇵 US_分享日记_177 2
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -553,20 +548,18 @@ proxy-groups:
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 31 TG@SSRSUB
       - 🇺🇸 United States 07 TG@SSRSUB
       - 🇺🇸 United States(ChatGPT) 06 TG@SSRSUB
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https//t.me/MrXbin-14
+      - 0|-https//t.me/MrXbin-10
+      - 0|-https//t.me/MrXbin-11
       - 0|-https//t.me/MrXbin-24
-      - 0|-https//t.me/MrXbin-32
-      - 0|-https//t.me/MrXbin-151
-      - 0|-https//t.me/MrXbin-3
-      - 0|-https//t.me/MrXbin-43
-      - 0|-https//t.me/MrXbin-17
-      - Channel id @ShadowProxy66 🇺🇸
-      - 🇸🇪 |SE|瑞典|@wxgqlfx|133
-      - V18-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
-      - 0|-https//t.me/MrXbin-44
-      - _01
+      - 0|-https//t.me/MrXbin-124
+      - 🇳🇱 荷兰_121320048
+      - 0|-https//t.me/MrXbin-8
+      - 🇫🇷 TR-TCP-NA 🇫🇷 FR-51.210.182.170443 📡 PING-100.90-MS
+      - 0|-https//t.me/MrXbin-1
+      - 0|-https//t.me/MrXbin-23
+      - 0|-https//t.me/MrXbin-13
+      - RO_08
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 49
       - V06-付费推荐dlj.tf/ssrsub
       - V07-付费推荐dlj.tf/ssrsub
       - V09-付费推荐dlj.tf/ssrsub
@@ -576,22 +569,24 @@ proxy-groups:
       - V13-付费推荐dlj.tf/ssrsub
       - V14-付费推荐dlj.tf/ssrsub
       - V15-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 67
+      - V16-付费推荐dlj.tf/ssrsub
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 48
+      - V19-付费推荐dlj.tf/ssrsub
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 US_分享日记_297
-      - 🇯🇵 US_分享日记_177
-      - 🇯🇵 US_分享日记_319
-      - 🇯🇵 US_分享日记_297 2
-      - 🇺🇸 美国 004
-      - 🇯🇵 US_分享日记_177 2
-      - 🇺🇸 美国 CloudFlare节点 12
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇯🇵 US_分享日记_329
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 5
       - US_10
+      - US_14
+      - US_16
+      - US_17
+      - 🇺🇸 V001-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 V002-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V003-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 美国+德克萨斯州达拉斯Linode数据中心
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB
@@ -636,16 +631,15 @@ proxy-groups:
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 US_分享日记_297
-      - 🇯🇵 日本 v2rayfree.eu.org
-      - 🇯🇵 US_分享日记_177
+      - 🇯🇵 US_分享日记_329
+      - 🇯🇵 NL_分享日记_25
+      - 🇯🇵 GB_分享日记_9
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
@@ -661,9 +655,6 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇯🇵 US_分享日记_319
-      - 🇯🇵 US_分享日记_297 2
-      - 🇯🇵 US_分享日记_177 2
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
