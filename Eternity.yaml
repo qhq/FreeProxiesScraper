@@ -5,11 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇯🇵 US_分享日记 4, server: 205.234.200.104, port: 33164, type: vmess, uuid: 31e8f7b4-ba3e-440a-9f56-8241569c017a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sd23dss, headers: {Host: 205.234.200.104}}}
+  - {name: 🇯🇵 日本 东京Fastly节点, server: fastly.alipay.ovh, port: 80, type: vmess, uuid: d39a347a-00c9-4f91-9255-7f536c07c5a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2560", headers: {Host: nmsl.kp}}}
   - {name: 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian, server: 52.199.117.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 边缘计算 日本 A, server: freejc.133141.xyz, port: 2086, type: vmess, uuid: 64835c9c-0f38-414f-a620-9b81fa900b28, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: japan.freejc.test.freecarriertraffic.133141.xyz}}}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB, server: azhj.xifasd.top, port: 20767, type: trojan, password: c39d5e05-3d06-317e-b5ca-e2f71b661570, sni: ssl.ssl12.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB, server: a006.zhuan99.men, port: 10006, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB, server: 805tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 805tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB, server: 0309tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 0309tw.ljydw.top, skip-cert-verify: false}
   - {name: 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB, server: 419tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 419tw.ljydw.top, skip-cert-verify: false}
   - {name: 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB, server: 625tw.ljydw.top, port: 80, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 625tw.ljydw.top, skip-cert-verify: false}
   - {name: 🇭🇰 Hong Kong 01 TG@SSRSUB, server: hk19.microsoftjs.top, port: 443, type: trojan, password: a21e5380-7711-4c6d-af44-e6210e5436af, skip-cert-verify: false}
@@ -49,10 +49,11 @@ proxies:
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 CloudFlare节点 4（ccbaohe.com）免费机场节点, server: 172.67.172.219, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇨🇦 加拿大 034, server: 172.67.169.90, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇯🇵 US_分享日记_77, server: 172.67.199.211, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 12, server: 104.21.23.231, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fcdn.flha.ru}}}
+  - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: 🇯🇵 US_分享日记 4 2, server: 205.234.200.104, port: 33164, type: vmess, uuid: 31e8f7b4-ba3e-440a-9f56-8241569c017a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sd23dss, headers: {Host: 205.234.200.104}}}
+  - {name: 🇺🇸 _US_美国_5, server: 35.93.23.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 10|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_57, server: yh4.dtku41.xyz, port: 8080, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm, headers: {Host: booty-pensions-scheduling-blogging.trycloudflare.com}}}
+  - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国+德克萨斯州达拉斯Linode数据中心, server: 45.56.69.64, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: QxS7HoM6VSTGHCJg8sVFBS}
   - {name: 🇺🇸 美国_121320005, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
@@ -68,16 +69,24 @@ proxies:
   - {name: 🇺🇸 美国_121320023, server: 172.252.56.69, port: 36450, type: vmess, uuid: 2f5144ae-8fb8-43e1-b6f9-52bb36f124ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320024, server: 172.67.221.114, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
   - {name: 🇺🇸 美国_121320028, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇦 加拿大_121320032, server: 193.203.203.63, port: 80, type: vmess, uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 193.203.203.63}}}
   - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320035, server: 64.176.42.137, port: 20886, type: vmess, uuid: f574b237-3ebf-405c-d540-541530fe5ed7, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320036, server: 64.176.59.68, port: 59350, type: vmess, uuid: 5821ac21-8e3f-4c8b-832d-a55190c944e9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_121320037, server: 47.236.22.3, port: 47885, type: vmess, uuid: 2fb7aa37-e195-44f1-f000-5727610d22e3, alterId: 0, cipher: auto, tls: false}
-  - {name: 0|-https//t.me/MrXbin-134, server: kr02.freeflyingcloud.xyz, port: 21702, type: trojan, password: 78e56e35-b9b8-4ad6-85b4-0f12431db62b, sni: kr02.freeflyingcloud.xyz, skip-cert-verify: true}
-  - {name: 0|-https//t.me/MrXbin-16, server: 43.203.220.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https//t.me/MrXbin-128, server: 221.150.109.81, port: 42978, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 0|-https//t.me/MrXbin-1, server: 52.69.81.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https//t.me/MrXbin-121, server: jp5g.xn--vhq70hxyat50h6wk.com, port: 80, type: vmess, uuid: 5f64e25e-490d-4929-b901-a5adc6907ecc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp5g.xn--vhq70hxyat50h6wk.com}}}
+  - {name: 0|-https//t.me/MrXbin-19, server: 43.203.233.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https//t.me/MrXbin-27, server: 18.141.207.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https//t.me/MrXbin-25, server: 54.180.156.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: VM-WS-NONE 🇮🇷 IR-2.189.130.8912863 📡 PING-213.55-MS, server: 2.189.130.89, port: 12863, type: vmess, uuid: ba0c03a5-5333-40e1-8383-2974d2ce22af, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: Channel id @ShadowProxy66 🇺🇸, server: 136.175.177.45, port: 35694, type: vmess, uuid: 603684a2-d080-40d7-d09c-afc3ac036eb4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fsdafa}}
+  - {name: V01-付费推荐dlj.tf/ssrsub, server: 104.252.160.24, port: 11065, type: vmess, uuid: d15ad646-2871-40f2-92e4-4afb530ac6b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: V11-付费推荐dlj.tf/ssrsub, server: 104.21.229.49, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai08", headers: {Host: a.prapt4.ir}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 76, server: 51.81.223.22, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: V12-付费推荐dlj.tf/ssrsub, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
+  - {name: V13-付费推荐dlj.tf/ssrsub, server: 104.21.82.39, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}}
+  - {name: V14-付费推荐dlj.tf/ssrsub, server: 172.67.152.170, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}}
+  - {name: V15-付费推荐dlj.tf/ssrsub, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: a564b1ec-2d51-418a-ba01-e9ab22736afc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}}
+  - {name: V16-付费推荐dlj.tf/ssrsub, server: m07.tk4433.com, port: 2053, type: vmess, uuid: 5e2b3a4d-bd24-4a58-f55d-ed7bdcd421d3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /m07.tk4433.com, headers: {Host: m07.tk4433.com}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 54, server: qq13.feiclouddd.me, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-opts: {path: /sadfasf, headers: {Host: qq13.feiclouddd.me}}}
   - {name: V19-付费推荐dlj.tf/ssrsub, server: 142.111.135.121, port: 45568, type: vmess, uuid: 79125050-8415-421e-909e-4a87c6da3ead, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: V20-付费推荐dlj.tf/ssrsub, server: 172.252.136.209, port: 17758, type: vmess, uuid: bad75668-9701-494b-cf16-ba2fc23e7722, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: V21-付费推荐dlj.tf/ssrsub, server: 209.222.10.113, port: 59404, type: vmess, uuid: 8b5456d2-d0ea-4b94-fe7d-42aa11b84a43, alterId: 0, cipher: auto, tls: false}
@@ -88,14 +97,6 @@ proxies:
   - {name: V26-付费推荐dlj.tf/ssrsub, server: 149.28.80.197, port: 31338, type: vmess, uuid: 1e09b605-e588-4cd4-e39a-8fae4ea13431, alterId: 0, cipher: auto, tls: false}
   - {name: V27-付费推荐dlj.tf/ssrsub, server: 149.28.89.226, port: 18519, type: vmess, uuid: 59494231-e96b-423a-c3d5-1ab28ff0e13d, alterId: 0, cipher: auto, tls: false}
   - {name: V28-付费推荐dlj.tf/ssrsub, server: 173.199.114.215, port: 51671, type: vmess, uuid: 338ae84a-77d3-4438-bbdd-1444105dad20, alterId: 0, cipher: auto, tls: false}
-  - {name: V29-付费推荐dlj.tf/ssrsub, server: 149.28.233.73, port: 25487, type: vmess, uuid: 352970a3-41c2-4d57-925f-452d76ba6d23, alterId: 0, cipher: auto, tls: false}
-  - {name: V30-付费推荐dlj.tf/ssrsub, server: 149.28.35.248, port: 49726, type: vmess, uuid: 2f4a30ab-803a-40b0-d5ae-c691c3bdf138, alterId: 0, cipher: auto, tls: false}
-  - {name: V31-付费推荐dlj.tf/ssrsub, server: 149.28.44.151, port: 37403, type: vmess, uuid: c5b3caa5-2a98-45a8-9867-20b7c872221b, alterId: 0, cipher: auto, tls: false}
-  - {name: V32-付费推荐dlj.tf/ssrsub, server: 149.28.46.252, port: 18118, type: vmess, uuid: e223876d-ae70-4889-f6cf-15097a008888, alterId: 0, cipher: auto, tls: false}
-  - {name: V33-付费推荐dlj.tf/ssrsub, server: 207.246.81.104, port: 44270, type: vmess, uuid: 4e6f5546-bc2f-450d-d669-f5ac822e6fde, alterId: 0, cipher: auto, tls: false}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 75, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, headers: {Host: ac2088.herokuapp.com}}}
-  - {name: V35-付费推荐dlj.tf/ssrsub, server: 149.28.124.239, port: 34112, type: vmess, uuid: 83486d3b-2a38-480e-dc0f-fd2db85df3b3, alterId: 0, cipher: auto, tls: false}
-  - {name: V36-付费推荐dlj.tf/ssrsub, server: 156.235.89.251, port: 16100, type: vmess, uuid: 255b2ba7-3848-4f54-c0b5-68ea3f1a314c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,11 +112,11 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇯🇵 US_分享日记 4
+      - 🇯🇵 日本 东京Fastly节点
       - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 🇯🇵 边缘计算 日本 A
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
       - 🇭🇰 Hong Kong 01 TG@SSRSUB
@@ -155,10 +156,11 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇺🇸 美国 CloudFlare节点 4（ccbaohe.com）免费机场节点
-      - 🇨🇦 加拿大 034
-      - 🇯🇵 US_分享日记_77
-      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - 🇯🇵 US_分享日记 4 2
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 10|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_57
+      - 🇺🇸 美国_121320029
       - 🇺🇸 美国+德克萨斯州达拉斯Linode数据中心
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -174,16 +176,24 @@ proxy-groups:
       - 🇺🇸 美国_121320023
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320028
+      - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320035
       - 🇺🇸 美国_121320036
-      - 🇺🇸 美国_121320037
-      - 0|-https//t.me/MrXbin-134
-      - 0|-https//t.me/MrXbin-16
-      - 0|-https//t.me/MrXbin-128
-      - 0|-https//t.me/MrXbin-1
+      - 0|-https//t.me/MrXbin-121
+      - 0|-https//t.me/MrXbin-19
+      - 0|-https//t.me/MrXbin-27
+      - 0|-https//t.me/MrXbin-25
+      - VM-WS-NONE 🇮🇷 IR-2.189.130.8912863 📡 PING-213.55-MS
+      - Channel id @ShadowProxy66 🇺🇸
+      - V01-付费推荐dlj.tf/ssrsub
       - V11-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 76
+      - V12-付费推荐dlj.tf/ssrsub
+      - V13-付费推荐dlj.tf/ssrsub
+      - V14-付费推荐dlj.tf/ssrsub
+      - V15-付费推荐dlj.tf/ssrsub
+      - V16-付费推荐dlj.tf/ssrsub
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 54
       - V19-付费推荐dlj.tf/ssrsub
       - V20-付费推荐dlj.tf/ssrsub
       - V21-付费推荐dlj.tf/ssrsub
@@ -194,14 +204,6 @@ proxy-groups:
       - V26-付费推荐dlj.tf/ssrsub
       - V27-付费推荐dlj.tf/ssrsub
       - V28-付费推荐dlj.tf/ssrsub
-      - V29-付费推荐dlj.tf/ssrsub
-      - V30-付费推荐dlj.tf/ssrsub
-      - V31-付费推荐dlj.tf/ssrsub
-      - V32-付费推荐dlj.tf/ssrsub
-      - V33-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 75
-      - V35-付费推荐dlj.tf/ssrsub
-      - V36-付费推荐dlj.tf/ssrsub
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,11 +254,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 US_分享日记 4
+      - 🇯🇵 日本 东京Fastly节点
       - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 🇯🇵 边缘计算 日本 A
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
       - 🇭🇰 Hong Kong 01 TG@SSRSUB
@@ -296,10 +298,11 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇺🇸 美国 CloudFlare节点 4（ccbaohe.com）免费机场节点
-      - 🇨🇦 加拿大 034
-      - 🇯🇵 US_分享日记_77
-      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - 🇯🇵 US_分享日记 4 2
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 10|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_57
+      - 🇺🇸 美国_121320029
       - 🇺🇸 美国+德克萨斯州达拉斯Linode数据中心
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -315,16 +318,24 @@ proxy-groups:
       - 🇺🇸 美国_121320023
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320028
+      - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320035
       - 🇺🇸 美国_121320036
-      - 🇺🇸 美国_121320037
-      - 0|-https//t.me/MrXbin-134
-      - 0|-https//t.me/MrXbin-16
-      - 0|-https//t.me/MrXbin-128
-      - 0|-https//t.me/MrXbin-1
+      - 0|-https//t.me/MrXbin-121
+      - 0|-https//t.me/MrXbin-19
+      - 0|-https//t.me/MrXbin-27
+      - 0|-https//t.me/MrXbin-25
+      - VM-WS-NONE 🇮🇷 IR-2.189.130.8912863 📡 PING-213.55-MS
+      - Channel id @ShadowProxy66 🇺🇸
+      - V01-付费推荐dlj.tf/ssrsub
       - V11-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 76
+      - V12-付费推荐dlj.tf/ssrsub
+      - V13-付费推荐dlj.tf/ssrsub
+      - V14-付费推荐dlj.tf/ssrsub
+      - V15-付费推荐dlj.tf/ssrsub
+      - V16-付费推荐dlj.tf/ssrsub
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 54
       - V19-付费推荐dlj.tf/ssrsub
       - V20-付费推荐dlj.tf/ssrsub
       - V21-付费推荐dlj.tf/ssrsub
@@ -335,25 +346,17 @@ proxy-groups:
       - V26-付费推荐dlj.tf/ssrsub
       - V27-付费推荐dlj.tf/ssrsub
       - V28-付费推荐dlj.tf/ssrsub
-      - V29-付费推荐dlj.tf/ssrsub
-      - V30-付费推荐dlj.tf/ssrsub
-      - V31-付费推荐dlj.tf/ssrsub
-      - V32-付费推荐dlj.tf/ssrsub
-      - V33-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 75
-      - V35-付费推荐dlj.tf/ssrsub
-      - V36-付费推荐dlj.tf/ssrsub
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 US_分享日记 4
+      - 🇯🇵 日本 东京Fastly节点
       - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 🇯🇵 边缘计算 日本 A
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
       - 🇭🇰 Hong Kong 01 TG@SSRSUB
@@ -393,10 +396,11 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇺🇸 美国 CloudFlare节点 4（ccbaohe.com）免费机场节点
-      - 🇨🇦 加拿大 034
-      - 🇯🇵 US_分享日记_77
-      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - 🇯🇵 US_分享日记 4 2
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 10|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_57
+      - 🇺🇸 美国_121320029
       - 🇺🇸 美国+德克萨斯州达拉斯Linode数据中心
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -412,16 +416,24 @@ proxy-groups:
       - 🇺🇸 美国_121320023
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320028
+      - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320035
       - 🇺🇸 美国_121320036
-      - 🇺🇸 美国_121320037
-      - 0|-https//t.me/MrXbin-134
-      - 0|-https//t.me/MrXbin-16
-      - 0|-https//t.me/MrXbin-128
-      - 0|-https//t.me/MrXbin-1
+      - 0|-https//t.me/MrXbin-121
+      - 0|-https//t.me/MrXbin-19
+      - 0|-https//t.me/MrXbin-27
+      - 0|-https//t.me/MrXbin-25
+      - VM-WS-NONE 🇮🇷 IR-2.189.130.8912863 📡 PING-213.55-MS
+      - Channel id @ShadowProxy66 🇺🇸
+      - V01-付费推荐dlj.tf/ssrsub
       - V11-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 76
+      - V12-付费推荐dlj.tf/ssrsub
+      - V13-付费推荐dlj.tf/ssrsub
+      - V14-付费推荐dlj.tf/ssrsub
+      - V15-付费推荐dlj.tf/ssrsub
+      - V16-付费推荐dlj.tf/ssrsub
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 54
       - V19-付费推荐dlj.tf/ssrsub
       - V20-付费推荐dlj.tf/ssrsub
       - V21-付费推荐dlj.tf/ssrsub
@@ -432,24 +444,17 @@ proxy-groups:
       - V26-付费推荐dlj.tf/ssrsub
       - V27-付费推荐dlj.tf/ssrsub
       - V28-付费推荐dlj.tf/ssrsub
-      - V29-付费推荐dlj.tf/ssrsub
-      - V30-付费推荐dlj.tf/ssrsub
-      - V31-付费推荐dlj.tf/ssrsub
-      - V32-付费推荐dlj.tf/ssrsub
-      - V33-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 75
-      - V35-付费推荐dlj.tf/ssrsub
-      - V36-付费推荐dlj.tf/ssrsub
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 CloudFlare节点 4（ccbaohe.com）免费机场节点
-      - 🇨🇦 加拿大 034
-      - 🇯🇵 US_分享日记_77
-      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇯🇵 US_分享日记 4
+      - 🇯🇵 US_分享日记 4 2
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 10|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_57
+      - 🇺🇸 美国_121320029
       - 🇺🇸 美国+德克萨斯州达拉斯Linode数据中心
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -465,21 +470,21 @@ proxy-groups:
       - 🇺🇸 美国_121320023
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320028
+      - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320035
       - 🇺🇸 美国_121320036
-      - 🇺🇸 美国_121320037
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 US_分享日记 4
+      - 🇯🇵 日本 东京Fastly节点
       - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 🇯🇵 边缘计算 日本 A
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
       - 🇭🇰 Hong Kong 01 TG@SSRSUB
@@ -519,7 +524,8 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇯🇵 US_分享日记_77
+      - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - 🇯🇵 US_分享日记 4 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -528,9 +534,6 @@ proxy-groups:
     proxies:
       - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
       - 🇭🇰 Hong Kong 01 TG@SSRSUB
@@ -542,12 +545,20 @@ proxy-groups:
       - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 15 TG@SSRSUB
       - 🇸🇬 Singapore 06 TG@SSRSUB
       - 🇸🇬 Singapore 48 TG@SSRSUB
-      - 0|-https//t.me/MrXbin-134
-      - 0|-https//t.me/MrXbin-16
-      - 0|-https//t.me/MrXbin-128
-      - 0|-https//t.me/MrXbin-1
+      - 0|-https//t.me/MrXbin-121
+      - 0|-https//t.me/MrXbin-19
+      - 0|-https//t.me/MrXbin-27
+      - 0|-https//t.me/MrXbin-25
+      - VM-WS-NONE 🇮🇷 IR-2.189.130.8912863 📡 PING-213.55-MS
+      - Channel id @ShadowProxy66 🇺🇸
+      - V01-付费推荐dlj.tf/ssrsub
       - V11-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 76
+      - V12-付费推荐dlj.tf/ssrsub
+      - V13-付费推荐dlj.tf/ssrsub
+      - V14-付费推荐dlj.tf/ssrsub
+      - V15-付费推荐dlj.tf/ssrsub
+      - V16-付费推荐dlj.tf/ssrsub
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 54
       - V19-付费推荐dlj.tf/ssrsub
       - V20-付费推荐dlj.tf/ssrsub
       - V21-付费推荐dlj.tf/ssrsub
@@ -558,23 +569,17 @@ proxy-groups:
       - V26-付费推荐dlj.tf/ssrsub
       - V27-付费推荐dlj.tf/ssrsub
       - V28-付费推荐dlj.tf/ssrsub
-      - V29-付费推荐dlj.tf/ssrsub
-      - V30-付费推荐dlj.tf/ssrsub
-      - V31-付费推荐dlj.tf/ssrsub
-      - V32-付费推荐dlj.tf/ssrsub
-      - V33-付费推荐dlj.tf/ssrsub
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 75
-      - V35-付费推荐dlj.tf/ssrsub
-      - V36-付费推荐dlj.tf/ssrsub
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 CloudFlare节点 4（ccbaohe.com）免费机场节点
-      - 🇯🇵 US_分享日记_77
-      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇯🇵 US_分享日记 4
+      - 🇯🇵 US_分享日记 4 2
+      - 🇺🇸 _US_美国_5
+      - 🇺🇸 10|🇺🇸_US_美国->🇨🇦_CA_加拿大_4_57
+      - 🇺🇸 美国_121320029
       - 🇺🇸 美国+德克萨斯州达拉斯Linode数据中心
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -593,7 +598,6 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320035
       - 🇺🇸 美国_121320036
-      - 🇺🇸 美国_121320037
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -624,12 +628,16 @@ proxy-groups:
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
+      - 🇸🇬 github.com/freefq - 新加坡OVH 8
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 US_分享日记 4
+      - 🇯🇵 日本 东京Fastly节点
+      - 🇯🇵 边缘计算 日本 A
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
@@ -645,7 +653,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇯🇵 US_分享日记_77
+      - 🇯🇵 US_分享日记 4 2
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -653,9 +661,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
       - 🇨🇳 台湾_121320001
@@ -1955,7 +1960,6 @@ rules:
  - DOMAIN-SUFFIX,app-store.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,appe-store.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-appstore.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-itunes.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.rs,🍎 苹果服务
@@ -1966,7 +1970,6 @@ rules:
  - DOMAIN-SUFFIX,appleappstore.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.net,🍎 苹果服务
- - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.us,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-iclou.com,🍎 苹果服务
@@ -1975,7 +1978,6 @@ rules:
  - DOMAIN-SUFFIX,appleid.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hk,🍎 苹果服务
- - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.audio,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.blog,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.chat,🍎 苹果服务
@@ -2011,6 +2013,7 @@ rules:
  - DOMAIN-SUFFIX,applepaysupplies.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.tv,🍎 苹果服务
+ - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.co.id,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.hk,🍎 苹果服务
@@ -2022,49 +2025,7 @@ rules:
  - DOMAIN-SUFFIX,darwinsource.com,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsource.org,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsourcecode.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ids-apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itun.es,🍎 苹果服务
  - DOMAIN-SUFFIX,itunbes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ituneas.com,🍎 苹果服务
@@ -2098,12 +2059,8 @@ rules:
  - DOMAIN-SUFFIX,itunesu.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunesu.net,🍎 苹果服务
  - DOMAIN-SUFFIX,iutunes.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,myappleid.com,🍎 苹果服务
- - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
  - DOMAIN-SUFFIX,tvappstore.net,🍎 苹果服务
- - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplestore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplleipods.com,🍎 苹果服务
@@ -2332,6 +2289,7 @@ rules:
  - DOMAIN-SUFFIX,wwwipodlounge.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwmacbookair.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.comscoreresearch.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
@@ -2369,13 +2327,60 @@ rules:
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
- - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
- - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-livephotoskit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-KEYWORD,apple-support.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.edgekey.net,🍎 苹果服务
