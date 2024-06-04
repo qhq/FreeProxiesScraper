@@ -5,8 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 %F0%9F%87%AF%F0%9F%87%B5%20Japan%200%20@V2rayStore, server: jp-v2ray.ipracevpn.com, port: 2083, type: vmess, uuid: 3a0c6a81-236b-4e73-ac22-a580549edbf9, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇯🇵 日本 东京Fastly节点, server: www.hkbu.edu.hk, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}}
+  - {name: 🇰🇷 韩国 蘑菇主机BGP数据中心, server: 103.214.68.57, port: 10001, type: vmess, uuid: ebca5f68-bf59-4081-e658-f158839c2f5c, alterId: 0, cipher: auto, tls: true}
   - {name: 🇯🇵 日本+V2CROSS.COM, server: 146.56.130.130, port: 14850, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡+Amazon数据中心, server: 54.151.213.224, port: 14467, type: trojan, password: KmzJNwtPRSWx, sni: appsvs.shop, skip-cert-verify: false}
   - {name: 🇰🇷 韩国+首尔Amazon数据中心, server: 13.124.213.75, port: 14444, type: trojan, password: QbyLbiy1qb6J, sni: appsvs.shop, skip-cert-verify: false}
@@ -15,6 +14,7 @@ proxies:
   - {name: 🇯🇵 日本+V2CROSS.COM 2, server: 43.201.57.106, port: 14455, type: trojan, password: HoW8ZVuyxuQ7, sni: appsvs.shop, skip-cert-verify: false}
   - {name: 🇯🇵 日本东京+Amazon数据中心, server: 52.199.188.25, port: 14467, type: trojan, password: AlUgLOE3BQ8k, sni: appsvs.shop, skip-cert-verify: false}
   - {name: 🇨🇳 台湾省+中华电信(HiNet)数据中心, server: 118.163.128.81, port: 13688, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
   - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
@@ -49,33 +49,47 @@ proxies:
   - {name: 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3, server: V104.bgpnet.top, port: 26104, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /admin, headers: {Host: V104.bgpnet.top}}}
   - {name: 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7, server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}}
-  - {name: 🇺🇸 美国+华盛顿州, server: 205.134.180.139, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: lWaGPVFjmnag}
-  - {name: 🇺🇸 美国15, server: 104.16.45.79, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: jp.xlb8.eu.org}}}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国_1, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇨🇦 加拿大 069, server: 104.19.47.188, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇨🇦 加拿大 066, server: 104.19.47.226, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 29, server: cc.tianxiedaiweige.tk, port: 443, type: trojan, password: 662dde24-c50c-4011-82b0-5c306afc56f2, skip-cert-verify: true}
+  - {name: US_09, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: US_10, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false}
   - {name: US_11, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: Pool_🇺🇸US_12, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws}}
+  - {name: US_13, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false}
+  - {name: US_14, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}}
+  - {name: US_16, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: US_17, server: 68.183.129.197, port: 8080, type: vmess, uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
   - {name: 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub, server: russia.com, port: 2095, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
-  - {name: 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub, server: russia.com, port: 8080, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 27, server: cn.zzv05.infonode.xyz, port: 17016, type: vmess, uuid: edac1153-eff4-3719-92a3-c7620ea00bd7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: cn.zzv05.infonode.xyz}}}
   - {name: 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress, server: 198.2.218.102, port: 41400, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国 华盛顿州西雅图市AWS有限公司EC2云服务器8号云机房, server: bolder-metal-comma.glitch.me, port: 80, type: vmess, uuid: dac61bb8-461c-4a4a-b14b-5a5ff6991fee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: bolder-metal-comma.glitch.me, headers: {Host: bolder-metal-comma.glitch.me}}}
   - {name: 🇺🇸 美国 Fastly全球Anycast节点, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.71.160, port: 80, type: vmess, uuid: 47ce7333-79e4-4958-90f8-913a0ce8f8c1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl3.127.0.0.1.arsha疯狂麦克斯传奇.angels蓝色.bursting.suonycars.buzz.}}}
   - {name: 🇺🇸 美国 CloudFlare节点 2, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: ccd92698-4499-472d-a06f-f90e7e89ba4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: GWYp69Yujp2.yofnhkfc.xyz, headers: {Host: cfcdn3.sanfencdn9.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.19.45.88, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 25, server: inap007.xmrth-node.xyz, port: 15567, type: vmess, uuid: f727bfd8-122f-38a0-82b4-d98e61820d0e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}}
   - {name: 🇺🇸 美国 CloudFlare节点 4, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: ccd92698-4499-472d-a06f-f90e7e89ba4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}}
   - {name: 🇺🇸 美国 CloudFlare节点 5, server: 172.67.172.219, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: oiictw.yydsii.com}}
   - {name: 🇺🇸 美国 CloudFlare节点 6, server: crackthecode.ftp.sh, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /gwdef.sbs:443/linkws, headers: {Host: vcp3.dehel15354.woRKErS.Dev}}}
   - {name: 🇺🇸 美国 CloudFlare节点 7, server: 104.18.14.19, port: 80, type: vmess, uuid: 4e63f0da-80ff-4b1e-8f68-80158ad0ff2a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 4e63f0da, headers: {Host: thus-appliance-passenger-shoes.trycloudflare.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 8, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: ccd92698-4499-472d-a06f-f90e7e89ba4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/3YKfzGw4, headers: {Host: rpmlybgzsg2.yofnhkfc.xyz}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 9, server: 162.159.9.55, port: 80, type: vmess, uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: hinet.alipay.ovh}}
-  - {name: 🇺🇸 美国 CloudFlare节点 10, server: onea.flha.ru, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 13, server: 172.67.185.79, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 16, server: 172.64.170.160, port: 2052, type: vmess, uuid: ccd92698-4499-472d-a06f-f90e7e89ba4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: rpmlybgzsg2.yofnhkfc.xyz}}
-  - {name: 🇺🇸 美国 CloudFlare节点 20, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: server31.beheshtbaneh.com, headers: {Host: server31.beheshtbaneh.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 21, server: 104.19.45.137, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
-  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: 158.51.121.36, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}}
-  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: 23.154.136.2, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}}
-  - {name: 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore 4, server: 192.210.231.217, port: 80, type: vmess, uuid: 19d01a72-b30e-40d3-e87b-d16114368040, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aa}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 35, server: 196.247.59.154, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 32, server: news.microsoft.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: news.microsoft.com}}}
+  - {name: CF | 🟢 | vmess | @vmess_vless_v2rayng | 15, server: 188.114.97.3, port: 80, type: vmess, uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE, headers: {Host: De1.vmess.site.}}}
+  - {name: "[🇨🇦]t.me/ConfigsHub 3", server: 188.114.98.39, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: mikasa.yaemiko.cloudns.org}}}
+  - {name: CF | 🟢 | vmess | @v2Line | 2, server: 104.26.6.65, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: mikasa.yaemiko.cloudns.org}}}
+  - {name: 🇩🇪 %F0%9F%87%A9%F0%9F%87%AA%20Germany%20Mobitel%20Server%2002%20@V2rayStore, server: de-v2ray.freevmess.com, port: 52808, type: vmess, uuid: 2c864223-74fd-4314-b947-2c346dc4c9d1, alterId: 0, cipher: auto, tls: true}
+  - {name: 未知1289 47.7KB/s, server: 190.93.247.155, port: 80, type: vmess, uuid: d9aaf6f8-0ef7-499c-830a-c7e5e56f3bd8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: Uk2.vmess.site.}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: github.com/freefq - 广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: github.com/freefq - 广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: _01, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: RO_08, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
+  - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _02, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
+  - {name: _03, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false}
+  - {name: _04, server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true}
+  - {name: _05, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false}
+  - {name: Relay_-🇬🇧GB_06, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false}
   - {name: 湖南省 联通, server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
   - {name: 🇨🇳 广东省深圳市 移动, server: 183.232.142.47, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
   - {name: 广东省汕头市 移动, server: 183.240.179.207, port: 30013, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false}
@@ -83,20 +97,6 @@ proxies:
   - {name: 广东省江门市 移动 2, server: 120.238.122.243, port: 40259, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇨🇳 广东省广州市 移动, server: 183.236.51.59, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 广东省佛山市 移动, server: 183.232.199.28, port: 21006, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
-  - {name: 广东省佛山市 移动 4, server: 183.232.199.61, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
-  - {name: 广东省 移动, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
-  - {name: 广东省 移动 3, server: 120.233.204.126, port: 16632, type: vmess, uuid: d9a9d508-67e1-4929-8bea-8733d5a30c93, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ee1683cb66f83a1d45e5fdf2e7bdc7dd.mobgslb.tbcache.com}}}
-  - {name: 🇷🇺 俄罗斯 莫斯科JustHost, server: 45.136.245.240, port: 12910, type: vmess, uuid: 8259cb1c-dd6c-4739-9c88-af550d977525, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 31.192.234.7, port: 12954, type: vmess, uuid: 8259cb1c-dd6c-4739-9c88-af550d977525, alterId: 0, cipher: auto, tls: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 31, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 🇦🇱 阿尔巴尼亚+V2CROSS.COM, server: 109.104.152.126, port: 51122, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 30, server: 185.167.116.253, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
-  - {name: 🇬🇧 英国+伦敦Microsoft公司, server: 51.140.93.164, port: 7045, type: ss, cipher: chacha20-ietf-poly1305, password: REpxHYqh4fqAjuIojeCOFZ}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 29, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free-russian01-cdn.xiaohouzi.club}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 28, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: false}
-  - {name: 🇨🇳 江苏省徐州市+移动, server: xiaonangua.lwjyj.com, port: 32652, type: ss, cipher: aes-128-gcm, password: fcf9cb7c-6bc9-406e-87c0-bd8b09d170ee}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 27, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇷🇺 俄罗斯+V2CROSS.COM, server: 185.174.137.72, port: 57262, type: ss, cipher: chacha20-ietf-poly1305, password: WrszSP43UAOcFljDkb8vAL}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,8 +112,7 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 %F0%9F%87%AF%F0%9F%87%B5%20Japan%200%20@V2rayStore
-      - 🇯🇵 日本 东京Fastly节点
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
       - 🇯🇵 日本+V2CROSS.COM
       - 🇸🇬 新加坡+Amazon数据中心
       - 🇰🇷 韩国+首尔Amazon数据中心
@@ -122,6 +121,7 @@ proxy-groups:
       - 🇯🇵 日本+V2CROSS.COM 2
       - 🇯🇵 日本东京+Amazon数据中心
       - 🇨🇳 台湾省+中华电信(HiNet)数据中心
+      - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -156,33 +156,47 @@ proxy-groups:
       - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
       - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
-      - 🇺🇸 美国+华盛顿州
-      - 🇺🇸 美国15
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦 加拿大 069
+      - 🇨🇦 加拿大 066
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 29
+      - US_09
+      - US_10
       - US_11
+      - Pool_🇺🇸US_12
+      - US_13
+      - US_14
+      - US_16
+      - US_17
       - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 27
       - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
       - 🇺🇸 美国 华盛顿州西雅图市AWS有限公司EC2云服务器8号云机房
       - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 25
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 CloudFlare节点 6
       - 🇺🇸 美国 CloudFlare节点 7
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore 4
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 35
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 32
+      - CF | 🟢 | vmess | @vmess_vless_v2rayng | 15
+      - "[🇨🇦]t.me/ConfigsHub 3"
+      - CF | 🟢 | vmess | @v2Line | 2
+      - 🇩🇪 %F0%9F%87%A9%F0%9F%87%AA%20Germany%20Mobitel%20Server%2002%20@V2rayStore
+      - 未知1289 47.7KB/s
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
+      - github.com/freefq - 广东省江门市移动 8
+      - github.com/freefq - 广东省江门市移动 11
+      - _01
+      - RO_08
+      - ZZ_20
+      - ZZ_21
+      - _02
+      - _03
+      - _04
+      - _05
+      - Relay_-🇬🇧GB_06
       - 湖南省 联通
       - 🇨🇳 广东省深圳市 移动
       - 广东省汕头市 移动
@@ -190,20 +204,6 @@ proxy-groups:
       - 广东省江门市 移动 2
       - 🇨🇳 广东省广州市 移动
       - 广东省佛山市 移动
-      - 广东省佛山市 移动 4
-      - 广东省 移动
-      - 广东省 移动 3
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 31
-      - 🇦🇱 阿尔巴尼亚+V2CROSS.COM
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 30
-      - 🇬🇧 英国+伦敦Microsoft公司
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 29
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 28
-      - 🇨🇳 江苏省徐州市+移动
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 27
-      - 🇷🇺 俄罗斯+V2CROSS.COM
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,8 +254,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 %F0%9F%87%AF%F0%9F%87%B5%20Japan%200%20@V2rayStore
-      - 🇯🇵 日本 东京Fastly节点
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
       - 🇯🇵 日本+V2CROSS.COM
       - 🇸🇬 新加坡+Amazon数据中心
       - 🇰🇷 韩国+首尔Amazon数据中心
@@ -264,6 +263,7 @@ proxy-groups:
       - 🇯🇵 日本+V2CROSS.COM 2
       - 🇯🇵 日本东京+Amazon数据中心
       - 🇨🇳 台湾省+中华电信(HiNet)数据中心
+      - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -298,33 +298,47 @@ proxy-groups:
       - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
       - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
-      - 🇺🇸 美国+华盛顿州
-      - 🇺🇸 美国15
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦 加拿大 069
+      - 🇨🇦 加拿大 066
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 29
+      - US_09
+      - US_10
       - US_11
+      - Pool_🇺🇸US_12
+      - US_13
+      - US_14
+      - US_16
+      - US_17
       - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 27
       - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
       - 🇺🇸 美国 华盛顿州西雅图市AWS有限公司EC2云服务器8号云机房
       - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 25
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 CloudFlare节点 6
       - 🇺🇸 美国 CloudFlare节点 7
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore 4
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 35
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 32
+      - CF | 🟢 | vmess | @vmess_vless_v2rayng | 15
+      - "[🇨🇦]t.me/ConfigsHub 3"
+      - CF | 🟢 | vmess | @v2Line | 2
+      - 🇩🇪 %F0%9F%87%A9%F0%9F%87%AA%20Germany%20Mobitel%20Server%2002%20@V2rayStore
+      - 未知1289 47.7KB/s
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
+      - github.com/freefq - 广东省江门市移动 8
+      - github.com/freefq - 广东省江门市移动 11
+      - _01
+      - RO_08
+      - ZZ_20
+      - ZZ_21
+      - _02
+      - _03
+      - _04
+      - _05
+      - Relay_-🇬🇧GB_06
       - 湖南省 联通
       - 🇨🇳 广东省深圳市 移动
       - 广东省汕头市 移动
@@ -332,28 +346,13 @@ proxy-groups:
       - 广东省江门市 移动 2
       - 🇨🇳 广东省广州市 移动
       - 广东省佛山市 移动
-      - 广东省佛山市 移动 4
-      - 广东省 移动
-      - 广东省 移动 3
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 31
-      - 🇦🇱 阿尔巴尼亚+V2CROSS.COM
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 30
-      - 🇬🇧 英国+伦敦Microsoft公司
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 29
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 28
-      - 🇨🇳 江苏省徐州市+移动
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 27
-      - 🇷🇺 俄罗斯+V2CROSS.COM
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 %F0%9F%87%AF%F0%9F%87%B5%20Japan%200%20@V2rayStore
-      - 🇯🇵 日本 东京Fastly节点
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
       - 🇯🇵 日本+V2CROSS.COM
       - 🇸🇬 新加坡+Amazon数据中心
       - 🇰🇷 韩国+首尔Amazon数据中心
@@ -362,6 +361,7 @@ proxy-groups:
       - 🇯🇵 日本+V2CROSS.COM 2
       - 🇯🇵 日本东京+Amazon数据中心
       - 🇨🇳 台湾省+中华电信(HiNet)数据中心
+      - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -396,33 +396,47 @@ proxy-groups:
       - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
       - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
-      - 🇺🇸 美国+华盛顿州
-      - 🇺🇸 美国15
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦 加拿大 069
+      - 🇨🇦 加拿大 066
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 29
+      - US_09
+      - US_10
       - US_11
+      - Pool_🇺🇸US_12
+      - US_13
+      - US_14
+      - US_16
+      - US_17
       - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 27
       - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
       - 🇺🇸 美国 华盛顿州西雅图市AWS有限公司EC2云服务器8号云机房
       - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 25
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 CloudFlare节点 6
       - 🇺🇸 美国 CloudFlare节点 7
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇺🇸 北美地区 V2CROSS.COM
-      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore 4
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 35
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 32
+      - CF | 🟢 | vmess | @vmess_vless_v2rayng | 15
+      - "[🇨🇦]t.me/ConfigsHub 3"
+      - CF | 🟢 | vmess | @v2Line | 2
+      - 🇩🇪 %F0%9F%87%A9%F0%9F%87%AA%20Germany%20Mobitel%20Server%2002%20@V2rayStore
+      - 未知1289 47.7KB/s
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
+      - github.com/freefq - 广东省江门市移动 8
+      - github.com/freefq - 广东省江门市移动 11
+      - _01
+      - RO_08
+      - ZZ_20
+      - ZZ_21
+      - _02
+      - _03
+      - _04
+      - _05
+      - Relay_-🇬🇧GB_06
       - 湖南省 联通
       - 🇨🇳 广东省深圳市 移动
       - 广东省汕头市 移动
@@ -430,58 +444,43 @@ proxy-groups:
       - 广东省江门市 移动 2
       - 🇨🇳 广东省广州市 移动
       - 广东省佛山市 移动
-      - 广东省佛山市 移动 4
-      - 广东省 移动
-      - 广东省 移动 3
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 31
-      - 🇦🇱 阿尔巴尼亚+V2CROSS.COM
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 30
-      - 🇬🇧 英国+伦敦Microsoft公司
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 29
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 28
-      - 🇨🇳 江苏省徐州市+移动
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 27
-      - 🇷🇺 俄罗斯+V2CROSS.COM
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国+华盛顿州
-      - 🇺🇸 美国15
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦 加拿大 069
+      - 🇨🇦 加拿大 066
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 29
+      - US_09
+      - US_10
       - US_11
+      - Pool_🇺🇸US_12
+      - US_13
+      - US_14
+      - US_16
+      - US_17
       - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 27
       - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
       - 🇺🇸 美国 华盛顿州西雅图市AWS有限公司EC2云服务器8号云机房
       - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 25
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 CloudFlare节点 6
       - 🇺🇸 美国 CloudFlare节点 7
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇺🇸 北美地区 V2CROSS.COM
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 %F0%9F%87%AF%F0%9F%87%B5%20Japan%200%20@V2rayStore
-      - 🇯🇵 日本 东京Fastly节点
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
       - 🇯🇵 日本+V2CROSS.COM
       - 🇸🇬 新加坡+Amazon数据中心
       - 🇰🇷 韩国+首尔Amazon数据中心
@@ -490,6 +489,7 @@ proxy-groups:
       - 🇯🇵 日本+V2CROSS.COM 2
       - 🇯🇵 日本东京+Amazon数据中心
       - 🇨🇳 台湾省+中华电信(HiNet)数据中心
+      - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -530,10 +530,23 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 %F0%9F%87%AF%F0%9F%87%B5%20Japan%200%20@V2rayStore
-      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore 4
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 35
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 32
+      - CF | 🟢 | vmess | @vmess_vless_v2rayng | 15
+      - "[🇨🇦]t.me/ConfigsHub 3"
+      - CF | 🟢 | vmess | @v2Line | 2
+      - 🇩🇪 %F0%9F%87%A9%F0%9F%87%AA%20Germany%20Mobitel%20Server%2002%20@V2rayStore
+      - 未知1289 47.7KB/s
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
+      - github.com/freefq - 广东省江门市移动 8
+      - github.com/freefq - 广东省江门市移动 11
+      - _01
+      - RO_08
+      - ZZ_20
+      - ZZ_21
+      - _02
+      - _03
+      - _04
+      - _05
+      - Relay_-🇬🇧GB_06
       - 湖南省 联通
       - 🇨🇳 广东省深圳市 移动
       - 广东省汕头市 移动
@@ -541,49 +554,34 @@ proxy-groups:
       - 广东省江门市 移动 2
       - 🇨🇳 广东省广州市 移动
       - 广东省佛山市 移动
-      - 广东省佛山市 移动 4
-      - 广东省 移动
-      - 广东省 移动 3
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 31
-      - 🇦🇱 阿尔巴尼亚+V2CROSS.COM
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 30
-      - 🇬🇧 英国+伦敦Microsoft公司
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 29
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 28
-      - 🇨🇳 江苏省徐州市+移动
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 27
-      - 🇷🇺 俄罗斯+V2CROSS.COM
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国+华盛顿州
-      - 🇺🇸 美国15
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 29
+      - US_09
+      - US_10
       - US_11
+      - Pool_🇺🇸US_12
+      - US_13
+      - US_14
+      - US_16
+      - US_17
       - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 27
       - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
       - 🇺🇸 美国 华盛顿州西雅图市AWS有限公司EC2云服务器8号云机房
       - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 25
       - 🇺🇸 美国 CloudFlare节点 4
       - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 CloudFlare节点 6
       - 🇺🇸 美国 CloudFlare节点 7
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 美国 CloudFlare节点 13
-      - 🇺🇸 美国 CloudFlare节点 16
-      - 🇺🇸 美国 CloudFlare节点 20
-      - 🇺🇸 美国 CloudFlare节点 21
-      - 🇺🇸 北美地区 V2CROSS.COM
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -616,8 +614,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 %F0%9F%87%AF%F0%9F%87%B5%20Japan%200%20@V2rayStore
-      - 🇯🇵 日本 东京Fastly节点
       - 🇯🇵 日本+V2CROSS.COM
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇯🇵 日本+V2CROSS.COM 2
@@ -646,6 +642,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 台湾省+中华电信(HiNet)数据中心
+      - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -658,6 +655,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
       - 🇰🇷 韩国+首尔Amazon数据中心
 rules:
  - DOMAIN,asusrouter.com,DIRECT
@@ -10278,6 +10276,7 @@ rules:
  - DOMAIN-SUFFIX,channelnewsasia.com,🚀 节点选择
  - DOMAIN-SUFFIX,chaoex.com,🚀 节点选择
  - DOMAIN-SUFFIX,chapm25.com,🚀 节点选择
+ - DOMAIN-SUFFIX,chat.lmsys.org,🚀 节点选择
  - DOMAIN-SUFFIX,chatnook.com,🚀 节点选择
  - DOMAIN-SUFFIX,chaturbate.com,🚀 节点选择
  - DOMAIN-SUFFIX,checkgfw.com,🚀 节点选择
@@ -13454,6 +13453,7 @@ rules:
  - DOMAIN-SUFFIX,ra.gg,🚀 节点选择
  - DOMAIN-SUFFIX,radicalparty.org,🚀 节点选择
  - DOMAIN-SUFFIX,radiko.jp,🚀 节点选择
+ - DOMAIN-SUFFIX,radio-canada.ca,🚀 节点选择
  - DOMAIN-SUFFIX,radio.garden,🚀 节点选择
  - DOMAIN-SUFFIX,radioaustralia.net.au,🚀 节点选择
  - DOMAIN-SUFFIX,radiohilight.net,🚀 节点选择
@@ -14079,6 +14079,7 @@ rules:
  - DOMAIN-SUFFIX,taipei.gov.tw,🚀 节点选择
  - DOMAIN-SUFFIX,taipeisociety.org,🚀 节点选择
  - DOMAIN-SUFFIX,taipeitimes.com,🚀 节点选择
+ - DOMAIN-SUFFIX,taisounds.com,🚀 节点选择
  - DOMAIN-SUFFIX,taiwan-sex.com,🚀 节点选择
  - DOMAIN-SUFFIX,taiwanbible.com,🚀 节点选择
  - DOMAIN-SUFFIX,taiwancon.com,🚀 节点选择
