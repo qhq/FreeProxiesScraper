@@ -5,9 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore, server: sg2-v2ray.ipracevpn.com, port: 2083, type: vmess, uuid: 509f7d68-ee8d-4d03-865d-de854a5000a3, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇯🇵 _RU_俄罗斯->🇯🇵_JP_日本, server: 89.185.84.185, port: 12575, type: ss, cipher: chacha20-ietf-poly1305, password: pUJMrUkY8fpVI2b18T5sRi}
   - {name: 🇯🇵 JP😈SSRSUB_476951725, server: tls.07.node-for-bigairport.win, port: 44443, type: vmess, uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}}
+  - {name: 🇰🇷 KR😈SSRSUB_752622824, server: tg.lsjc_group.xn--yfr72t8r4bvhd.xyz, port: 80, type: vmess, uuid: 8d87a6d3-1966-46c2-a520-bf26cfd754ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tg.lsjc_group.xn--yfr72t8r4bvhd.xyz}}}
+  - {name: 🇯🇵 JP😈SSRSUB_1163289939, server: 141.147.174.244, port: 443, type: vmess, uuid: 3c5d5534-4b08-4f1a-f8da-f1f9134554f6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 JP😈SSRSUB_-1534771290, server: tls.04.node-for-bigairport.win, port: 22443, type: vmess, uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.04.node-for-bigairport.win}}}
   - {name: 🇨🇳 TW😈SSRSUB_-1615409974, server: 104.19.172.163, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 TW😈SSRSUB_213192865, server: 172.67.172.205, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -49,15 +49,13 @@ proxies:
   - {name: 🇸🇬 新加坡_121320090, server: 143.42.66.9, port: 40637, type: vmess, uuid: 7e30d039-1751-4fbd-aa0a-918b03003515, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /chami}}
   - {name: 🇯🇵 日本_121320001, server: 103.35.190.65, port: 443, type: vmess, uuid: ed531ebe-4971-47f9-a881-636d0b101a45, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 日本_121320007, server: 64.176.39.31, port: 56262, type: vmess, uuid: 590f2744-e9d1-4f2c-a384-d35b736bca41, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本_121320022, server: 149.28.19.63, port: 42280, type: vmess, uuid: 823ca0d4-a7f8-4e99-8090-2351f718d106, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 TR-TCP-TLS 🇺🇸 US-159.223.207.18234428, server: 159.223.207.182, port: 34428, type: trojan, password: zIvR7ryOXv, sni: drehitm.duckdns.org, skip-cert-verify: false}
-  - {name: US53 6.6MB/s, server: us3e-mmnnfr9dop0.v2freevpn.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}}
-  - {name: 🇨🇦 加拿大 261, server: www.udemy.com, port: 80, type: vmess, uuid: 73d64a3c-57fa-4dbf-9caf-3aee4fea7637, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: usvmqlsgf1ljbtzjun8.lovemianfei.store}}}
-  - {name: 🇨🇦 加拿大 260, server: whatismyipaddress.com, port: 80, type: vmess, uuid: 73d64a3c-57fa-4dbf-9caf-3aee4fea7637, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: usvmqlsgf1ljbtzjun8.lovemianfei.store}}}
-  - {name: 🇨🇦 加拿大 038, server: 104.19.47.129, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇨🇦 加拿大 278, server: 104.18.57.111, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: 🇨🇦 加拿大 274, server: 104.19.123.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: 🇨🇦 CA😈SSRSUB_674502816, server: 104.26.0.50, port: 2086, type: vmess, uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm, headers: {Host: ip5-4.freegradely.xyz}}}
+  - {name: 🇯🇵 日本_121320009, server: kkyx.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yxtw.651568.xyz}}}
+  - {name: 🇨🇦 CA😈SSRSUB_-325878939, server: 172.67.185.218, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub, server: russia.com, port: 8080, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: 🇨🇦 加拿大 281, server: 104.19.57.4, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: 🇨🇦 CA😈SSRSUB_554320299, server: 104.25.77.191, port: 80, type: vmess, uuid: 0880c19f-f253-4298-8573-42fb83bf3006, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /other, headers: {Host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.}}}
+  - {name: 🇨🇦 CA😈SSRSUB_1246332267, server: 104.24.200.140, port: 80, type: vmess, uuid: 1b1fd0c4-44d8-4c7b-ab61-f9c86b5df1c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /other}}
+  - {name: 🇨🇦 CA😈SSRSUB_-1954617455, server: 104.16.61.8, port: 8080, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jahfkjha.cfd/linkws, headers: {Host: hyfhhg.jadovah977.workers.dev}}}
   - {name: 🇨🇦 CA😈SSRSUB_1529605686, server: 104.24.20.174, port: 80, type: vmess, uuid: ee091af5-83cc-445c-9ced-79a65a8f9a40, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /X2Cy1dqQjtZV6p1uO5Avv}}
   - {name: 🇨🇦 CA😈SSRSUB_1437067508, server: 162.159.136.98, port: 80, type: vmess, uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ccs2.hostmjj.com}}}
   - {name: 🇨🇦 CA😈SSRSUB_-2099288245, server: 104.23.97.11, port: 80, type: vmess, uuid: 0880c19f-f253-4298-8573-42fb83bf3006, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /other}}
@@ -67,21 +65,18 @@ proxies:
   - {name: 🇨🇦 CA😈SSRSUB_-451474164, server: 104.26.15.213, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048"}}
   - {name: 🇺🇸 US😈SSRSUB_777952858, server: 151.101.195.10, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048"}}
   - {name: 🇨🇦 CA😈SSRSUB_1517781064, server: 23.227.38.3, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm}}
-  - {name: 🇨🇦 CA😈SSRSUB_-2011271893, server: 172.67.199.69, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 US😈SSRSUB_-1189618999, server: 38.33.34.37, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/191019072927}}
   - {name: 🇺🇸 US😈SSRSUB_-234558492, server: 151.101.131.10, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048"}}
   - {name: 🇨🇦 CA😈SSRSUB_-1650884680, server: 104.19.32.88, port: 2086, type: vmess, uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm}}
   - {name: 🇺🇸 US😈SSRSUB_513443448, server: 107.167.20.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/191019072927}}
   - {name: 🇨🇦 CA😈SSRSUB_1918425992, server: 104.17.224.0, port: 80, type: vmess, uuid: 99ab35ac-9f17-4ce4-a70e-1e7def8f04c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray-vmess/tls}}
   - {name: 🇨🇦 CA😈SSRSUB_-1026753657, server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.freegradely.xyz}}}
   - {name: 🇨🇦 CA😈SSRSUB_-1150120130, server: 104.19.38.88, port: 2086, type: vmess, uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm}}
-  - {name: 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore 2, server: sg2-v2ray.ipracevpn.com, port: 2083, type: vmess, uuid: 509f7d68-ee8d-4d03-865d-de854a5000a3, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 CN😈SSRSUB_-1577236299, server: 183.238.202.173, port: 54565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇦 CA😈SSRSUB_1132634313, server: 23.227.39.11, port: 8080, type: vmess, uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1IKYjV0r/}}
+  - {name: 0|-https//t.me/MrXbin-129, server: 52.77.246.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 Americas😈SSRSUB_-1965554259, server: 104.19.47.4, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 Americas😈SSRSUB_2003495174, server: 104.19.47.126, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oiictw.yydsii.com}}}
   - {name: Other😈SSRSUB_-642291814, server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
-  - {name: 🇫🇷 FR😈SSRSUB_1388672434, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: speed.cloudflare.com}}}
-  - {name: 🇨🇳 CN😈SSRSUB_905747790, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray}}
-  - {name: 🇨🇳 CN😈SSRSUB_1849468093, server: 183.240.235.162, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN😈SSRSUB_-1650991511, server: 120.232.153.27, port: 50582, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN😈SSRSUB_1305952007, server: 183.240.235.164, port: 55908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: UM😈SSRSUB_-1986465562, server: freeyx.cloudflare88.eu.org, port: 8080, type: vmess, uuid: c66a6fd2-28f0-4f8e-c03a-538aab77e89b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cloud, headers: {Host: freeyx.cloudflare88.eu.org}}}
   - {name: 🇨🇳 CN😈SSRSUB_-1212766799, server: 120.232.153.40, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇨🇳 CN😈SSRSUB_1136656902, server: 183.240.235.170, port: 34602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
@@ -89,15 +84,19 @@ proxies:
   - {name: 🇬🇧 UK😈SSRSUB_-1419721698, server: 104.19.37.144, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8"}}
   - {name: UM😈SSRSUB_442109129, server: bHBKrw.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
   - {name: UM😈SSRSUB_1120030419, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: 150be761-0f1b-464c-a0c7-09fd31bd2f31, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}}
-  - {name: CH😈SSRSUB_-1628870745, server: SuitEn.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Americas😈SSRSUB_-1965554259, server: 104.19.47.4, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇨🇳 CN😈SSRSUB_1305952007, server: 183.240.235.164, port: 55908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: Euro😈SSRSUB_2099714449, server: dns.ton.org, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: dns.ton.org}}}
+  - {name: CH😈SSRSUB_-2059992362, server: mjhgoD.gov.goldliond.top, port: 20185, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 DE😈SSRSUB_1624189889, server: 141.101.122.184, port: 80, type: vmess, uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm}}
   - {name: UM😈SSRSUB_45319295, server: www.hkbu.edu.hk, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: www.hkbu.edu.hk}}}
+  - {name: 🇺🇸 Americas😈SSRSUB_-1751677786, server: fbi.gov, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
   - {name: Other😈SSRSUB_898959783, server: kz-v2ray.ipracevpn.com, port: 2083, type: vmess, uuid: f2623be1-b7b9-41d6-a3df-34c5338e3748, alterId: 0, cipher: auto, tls: true}
   - {name: 🇬🇧 GB😈SSRSUB_-639719218, server: 194.36.55.132, port: 80, type: vmess, uuid: 1b1fd0c4-44d8-4c7b-ab61-f9c86b5df1c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /other}}
-  - {name: 🇺🇸 Americas😈SSRSUB_2003495174, server: 104.19.47.126, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇨🇳 CN😈SSRSUB_-1650991511, server: 120.232.153.27, port: 50582, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: UM😈SSRSUB_1303543440, server: www.pcmag.com, port: 80, type: vmess, uuid: 3c5e7915-4999-48cf-9d9f-2311531d7b5e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.pcmag.com}}}
   - {name: NO😈SSRSUB_-441685284, server: 51.13.182.130, port: 48562, type: ss, cipher: chacha20-ietf-poly1305, password: eHpq4cgXzmWTkI2xKN3w54}
+  - {name: IE😈SSRSUB_1314219897, server: 13.74.30.44, port: 36680, type: ss, cipher: chacha20-ietf-poly1305, password: of9UbKeXjLEpbQ4n7tZjGQ}
+  - {name: IE😈SSRSUB_1212168275, server: 13.79.72.88, port: 21190, type: ss, cipher: chacha20-ietf-poly1305, password: yoOT6tXP5LdMyyU5IQDcGn}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -113,9 +112,9 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore
-      - 🇯🇵 _RU_俄罗斯->🇯🇵_JP_日本
       - 🇯🇵 JP😈SSRSUB_476951725
+      - 🇰🇷 KR😈SSRSUB_752622824
+      - 🇯🇵 JP😈SSRSUB_1163289939
       - 🇯🇵 JP😈SSRSUB_-1534771290
       - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 TW😈SSRSUB_213192865
@@ -157,15 +156,13 @@ proxy-groups:
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
-      - 🇯🇵 日本_121320022
-      - 🇺🇸 TR-TCP-TLS 🇺🇸 US-159.223.207.18234428
-      - US53 6.6MB/s
-      - 🇨🇦 加拿大 261
-      - 🇨🇦 加拿大 260
-      - 🇨🇦 加拿大 038
-      - 🇨🇦 加拿大 278
-      - 🇨🇦 加拿大 274
-      - 🇨🇦 CA😈SSRSUB_674502816
+      - 🇯🇵 日本_121320009
+      - 🇨🇦 CA😈SSRSUB_-325878939
+      - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
+      - 🇨🇦 加拿大 281
+      - 🇨🇦 CA😈SSRSUB_554320299
+      - 🇨🇦 CA😈SSRSUB_1246332267
+      - 🇨🇦 CA😈SSRSUB_-1954617455
       - 🇨🇦 CA😈SSRSUB_1529605686
       - 🇨🇦 CA😈SSRSUB_1437067508
       - 🇨🇦 CA😈SSRSUB_-2099288245
@@ -175,21 +172,18 @@ proxy-groups:
       - 🇨🇦 CA😈SSRSUB_-451474164
       - 🇺🇸 US😈SSRSUB_777952858
       - 🇨🇦 CA😈SSRSUB_1517781064
-      - 🇨🇦 CA😈SSRSUB_-2011271893
+      - 🇺🇸 US😈SSRSUB_-1189618999
       - 🇺🇸 US😈SSRSUB_-234558492
       - 🇨🇦 CA😈SSRSUB_-1650884680
       - 🇺🇸 US😈SSRSUB_513443448
       - 🇨🇦 CA😈SSRSUB_1918425992
       - 🇨🇦 CA😈SSRSUB_-1026753657
       - 🇨🇦 CA😈SSRSUB_-1150120130
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore 2
-      - 🇨🇳 CN😈SSRSUB_-1577236299
+      - 🇨🇦 CA😈SSRSUB_1132634313
+      - 0|-https//t.me/MrXbin-129
+      - 🇺🇸 Americas😈SSRSUB_-1965554259
+      - 🇺🇸 Americas😈SSRSUB_2003495174
       - Other😈SSRSUB_-642291814
-      - 🇫🇷 FR😈SSRSUB_1388672434
-      - 🇨🇳 CN😈SSRSUB_905747790
-      - 🇨🇳 CN😈SSRSUB_1849468093
-      - 🇨🇳 CN😈SSRSUB_-1650991511
-      - 🇨🇳 CN😈SSRSUB_1305952007
       - UM😈SSRSUB_-1986465562
       - 🇨🇳 CN😈SSRSUB_-1212766799
       - 🇨🇳 CN😈SSRSUB_1136656902
@@ -197,15 +191,19 @@ proxy-groups:
       - 🇬🇧 UK😈SSRSUB_-1419721698
       - UM😈SSRSUB_442109129
       - UM😈SSRSUB_1120030419
-      - CH😈SSRSUB_-1628870745
-      - 🇺🇸 Americas😈SSRSUB_-1965554259
+      - 🇨🇳 CN😈SSRSUB_1305952007
+      - Euro😈SSRSUB_2099714449
+      - CH😈SSRSUB_-2059992362
       - 🇩🇪 DE😈SSRSUB_1624189889
       - UM😈SSRSUB_45319295
+      - 🇺🇸 Americas😈SSRSUB_-1751677786
       - Other😈SSRSUB_898959783
       - 🇬🇧 GB😈SSRSUB_-639719218
-      - 🇺🇸 Americas😈SSRSUB_2003495174
+      - 🇨🇳 CN😈SSRSUB_-1650991511
       - UM😈SSRSUB_1303543440
       - NO😈SSRSUB_-441685284
+      - IE😈SSRSUB_1314219897
+      - IE😈SSRSUB_1212168275
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -256,9 +254,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore
-      - 🇯🇵 _RU_俄罗斯->🇯🇵_JP_日本
       - 🇯🇵 JP😈SSRSUB_476951725
+      - 🇰🇷 KR😈SSRSUB_752622824
+      - 🇯🇵 JP😈SSRSUB_1163289939
       - 🇯🇵 JP😈SSRSUB_-1534771290
       - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 TW😈SSRSUB_213192865
@@ -300,15 +298,13 @@ proxy-groups:
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
-      - 🇯🇵 日本_121320022
-      - 🇺🇸 TR-TCP-TLS 🇺🇸 US-159.223.207.18234428
-      - US53 6.6MB/s
-      - 🇨🇦 加拿大 261
-      - 🇨🇦 加拿大 260
-      - 🇨🇦 加拿大 038
-      - 🇨🇦 加拿大 278
-      - 🇨🇦 加拿大 274
-      - 🇨🇦 CA😈SSRSUB_674502816
+      - 🇯🇵 日本_121320009
+      - 🇨🇦 CA😈SSRSUB_-325878939
+      - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
+      - 🇨🇦 加拿大 281
+      - 🇨🇦 CA😈SSRSUB_554320299
+      - 🇨🇦 CA😈SSRSUB_1246332267
+      - 🇨🇦 CA😈SSRSUB_-1954617455
       - 🇨🇦 CA😈SSRSUB_1529605686
       - 🇨🇦 CA😈SSRSUB_1437067508
       - 🇨🇦 CA😈SSRSUB_-2099288245
@@ -318,21 +314,18 @@ proxy-groups:
       - 🇨🇦 CA😈SSRSUB_-451474164
       - 🇺🇸 US😈SSRSUB_777952858
       - 🇨🇦 CA😈SSRSUB_1517781064
-      - 🇨🇦 CA😈SSRSUB_-2011271893
+      - 🇺🇸 US😈SSRSUB_-1189618999
       - 🇺🇸 US😈SSRSUB_-234558492
       - 🇨🇦 CA😈SSRSUB_-1650884680
       - 🇺🇸 US😈SSRSUB_513443448
       - 🇨🇦 CA😈SSRSUB_1918425992
       - 🇨🇦 CA😈SSRSUB_-1026753657
       - 🇨🇦 CA😈SSRSUB_-1150120130
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore 2
-      - 🇨🇳 CN😈SSRSUB_-1577236299
+      - 🇨🇦 CA😈SSRSUB_1132634313
+      - 0|-https//t.me/MrXbin-129
+      - 🇺🇸 Americas😈SSRSUB_-1965554259
+      - 🇺🇸 Americas😈SSRSUB_2003495174
       - Other😈SSRSUB_-642291814
-      - 🇫🇷 FR😈SSRSUB_1388672434
-      - 🇨🇳 CN😈SSRSUB_905747790
-      - 🇨🇳 CN😈SSRSUB_1849468093
-      - 🇨🇳 CN😈SSRSUB_-1650991511
-      - 🇨🇳 CN😈SSRSUB_1305952007
       - UM😈SSRSUB_-1986465562
       - 🇨🇳 CN😈SSRSUB_-1212766799
       - 🇨🇳 CN😈SSRSUB_1136656902
@@ -340,24 +333,28 @@ proxy-groups:
       - 🇬🇧 UK😈SSRSUB_-1419721698
       - UM😈SSRSUB_442109129
       - UM😈SSRSUB_1120030419
-      - CH😈SSRSUB_-1628870745
-      - 🇺🇸 Americas😈SSRSUB_-1965554259
+      - 🇨🇳 CN😈SSRSUB_1305952007
+      - Euro😈SSRSUB_2099714449
+      - CH😈SSRSUB_-2059992362
       - 🇩🇪 DE😈SSRSUB_1624189889
       - UM😈SSRSUB_45319295
+      - 🇺🇸 Americas😈SSRSUB_-1751677786
       - Other😈SSRSUB_898959783
       - 🇬🇧 GB😈SSRSUB_-639719218
-      - 🇺🇸 Americas😈SSRSUB_2003495174
+      - 🇨🇳 CN😈SSRSUB_-1650991511
       - UM😈SSRSUB_1303543440
       - NO😈SSRSUB_-441685284
+      - IE😈SSRSUB_1314219897
+      - IE😈SSRSUB_1212168275
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore
-      - 🇯🇵 _RU_俄罗斯->🇯🇵_JP_日本
       - 🇯🇵 JP😈SSRSUB_476951725
+      - 🇰🇷 KR😈SSRSUB_752622824
+      - 🇯🇵 JP😈SSRSUB_1163289939
       - 🇯🇵 JP😈SSRSUB_-1534771290
       - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 TW😈SSRSUB_213192865
@@ -399,15 +396,13 @@ proxy-groups:
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
-      - 🇯🇵 日本_121320022
-      - 🇺🇸 TR-TCP-TLS 🇺🇸 US-159.223.207.18234428
-      - US53 6.6MB/s
-      - 🇨🇦 加拿大 261
-      - 🇨🇦 加拿大 260
-      - 🇨🇦 加拿大 038
-      - 🇨🇦 加拿大 278
-      - 🇨🇦 加拿大 274
-      - 🇨🇦 CA😈SSRSUB_674502816
+      - 🇯🇵 日本_121320009
+      - 🇨🇦 CA😈SSRSUB_-325878939
+      - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
+      - 🇨🇦 加拿大 281
+      - 🇨🇦 CA😈SSRSUB_554320299
+      - 🇨🇦 CA😈SSRSUB_1246332267
+      - 🇨🇦 CA😈SSRSUB_-1954617455
       - 🇨🇦 CA😈SSRSUB_1529605686
       - 🇨🇦 CA😈SSRSUB_1437067508
       - 🇨🇦 CA😈SSRSUB_-2099288245
@@ -417,21 +412,18 @@ proxy-groups:
       - 🇨🇦 CA😈SSRSUB_-451474164
       - 🇺🇸 US😈SSRSUB_777952858
       - 🇨🇦 CA😈SSRSUB_1517781064
-      - 🇨🇦 CA😈SSRSUB_-2011271893
+      - 🇺🇸 US😈SSRSUB_-1189618999
       - 🇺🇸 US😈SSRSUB_-234558492
       - 🇨🇦 CA😈SSRSUB_-1650884680
       - 🇺🇸 US😈SSRSUB_513443448
       - 🇨🇦 CA😈SSRSUB_1918425992
       - 🇨🇦 CA😈SSRSUB_-1026753657
       - 🇨🇦 CA😈SSRSUB_-1150120130
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore 2
-      - 🇨🇳 CN😈SSRSUB_-1577236299
+      - 🇨🇦 CA😈SSRSUB_1132634313
+      - 0|-https//t.me/MrXbin-129
+      - 🇺🇸 Americas😈SSRSUB_-1965554259
+      - 🇺🇸 Americas😈SSRSUB_2003495174
       - Other😈SSRSUB_-642291814
-      - 🇫🇷 FR😈SSRSUB_1388672434
-      - 🇨🇳 CN😈SSRSUB_905747790
-      - 🇨🇳 CN😈SSRSUB_1849468093
-      - 🇨🇳 CN😈SSRSUB_-1650991511
-      - 🇨🇳 CN😈SSRSUB_1305952007
       - UM😈SSRSUB_-1986465562
       - 🇨🇳 CN😈SSRSUB_-1212766799
       - 🇨🇳 CN😈SSRSUB_1136656902
@@ -439,29 +431,31 @@ proxy-groups:
       - 🇬🇧 UK😈SSRSUB_-1419721698
       - UM😈SSRSUB_442109129
       - UM😈SSRSUB_1120030419
-      - CH😈SSRSUB_-1628870745
-      - 🇺🇸 Americas😈SSRSUB_-1965554259
+      - 🇨🇳 CN😈SSRSUB_1305952007
+      - Euro😈SSRSUB_2099714449
+      - CH😈SSRSUB_-2059992362
       - 🇩🇪 DE😈SSRSUB_1624189889
       - UM😈SSRSUB_45319295
+      - 🇺🇸 Americas😈SSRSUB_-1751677786
       - Other😈SSRSUB_898959783
       - 🇬🇧 GB😈SSRSUB_-639719218
-      - 🇺🇸 Americas😈SSRSUB_2003495174
+      - 🇨🇳 CN😈SSRSUB_-1650991511
       - UM😈SSRSUB_1303543440
       - NO😈SSRSUB_-441685284
+      - IE😈SSRSUB_1314219897
+      - IE😈SSRSUB_1212168275
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 TR-TCP-TLS 🇺🇸 US-159.223.207.18234428
-      - US53 6.6MB/s
-      - 🇨🇦 加拿大 261
-      - 🇨🇦 加拿大 260
-      - 🇨🇦 加拿大 038
-      - 🇨🇦 加拿大 278
-      - 🇨🇦 加拿大 274
-      - 🇨🇦 CA😈SSRSUB_674502816
+      - 🇨🇦 CA😈SSRSUB_-325878939
+      - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
+      - 🇨🇦 加拿大 281
+      - 🇨🇦 CA😈SSRSUB_554320299
+      - 🇨🇦 CA😈SSRSUB_1246332267
+      - 🇨🇦 CA😈SSRSUB_-1954617455
       - 🇨🇦 CA😈SSRSUB_1529605686
       - 🇨🇦 CA😈SSRSUB_1437067508
       - 🇨🇦 CA😈SSRSUB_-2099288245
@@ -471,22 +465,23 @@ proxy-groups:
       - 🇨🇦 CA😈SSRSUB_-451474164
       - 🇺🇸 US😈SSRSUB_777952858
       - 🇨🇦 CA😈SSRSUB_1517781064
-      - 🇨🇦 CA😈SSRSUB_-2011271893
+      - 🇺🇸 US😈SSRSUB_-1189618999
       - 🇺🇸 US😈SSRSUB_-234558492
       - 🇨🇦 CA😈SSRSUB_-1650884680
       - 🇺🇸 US😈SSRSUB_513443448
       - 🇨🇦 CA😈SSRSUB_1918425992
       - 🇨🇦 CA😈SSRSUB_-1026753657
       - 🇨🇦 CA😈SSRSUB_-1150120130
+      - 🇨🇦 CA😈SSRSUB_1132634313
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore
-      - 🇯🇵 _RU_俄罗斯->🇯🇵_JP_日本
       - 🇯🇵 JP😈SSRSUB_476951725
+      - 🇰🇷 KR😈SSRSUB_752622824
+      - 🇯🇵 JP😈SSRSUB_1163289939
       - 🇯🇵 JP😈SSRSUB_-1534771290
       - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 TW😈SSRSUB_213192865
@@ -528,23 +523,17 @@ proxy-groups:
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
-      - 🇯🇵 日本_121320022
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore 2
+      - 🇯🇵 日本_121320009
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore 2
-      - 🇨🇳 CN😈SSRSUB_-1577236299
+      - 0|-https//t.me/MrXbin-129
+      - 🇺🇸 Americas😈SSRSUB_-1965554259
+      - 🇺🇸 Americas😈SSRSUB_2003495174
       - Other😈SSRSUB_-642291814
-      - 🇫🇷 FR😈SSRSUB_1388672434
-      - 🇨🇳 CN😈SSRSUB_905747790
-      - 🇨🇳 CN😈SSRSUB_1849468093
-      - 🇨🇳 CN😈SSRSUB_-1650991511
-      - 🇨🇳 CN😈SSRSUB_1305952007
       - UM😈SSRSUB_-1986465562
       - 🇨🇳 CN😈SSRSUB_-1212766799
       - 🇨🇳 CN😈SSRSUB_1136656902
@@ -552,25 +541,29 @@ proxy-groups:
       - 🇬🇧 UK😈SSRSUB_-1419721698
       - UM😈SSRSUB_442109129
       - UM😈SSRSUB_1120030419
-      - CH😈SSRSUB_-1628870745
-      - 🇺🇸 Americas😈SSRSUB_-1965554259
+      - 🇨🇳 CN😈SSRSUB_1305952007
+      - Euro😈SSRSUB_2099714449
+      - CH😈SSRSUB_-2059992362
       - 🇩🇪 DE😈SSRSUB_1624189889
       - UM😈SSRSUB_45319295
+      - 🇺🇸 Americas😈SSRSUB_-1751677786
       - Other😈SSRSUB_898959783
       - 🇬🇧 GB😈SSRSUB_-639719218
-      - 🇺🇸 Americas😈SSRSUB_2003495174
+      - 🇨🇳 CN😈SSRSUB_-1650991511
       - UM😈SSRSUB_1303543440
       - NO😈SSRSUB_-441685284
+      - IE😈SSRSUB_1314219897
+      - IE😈SSRSUB_1212168275
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 TR-TCP-TLS 🇺🇸 US-159.223.207.18234428
-      - US53 6.6MB/s
+      - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 US😈SSRSUB_-1421357583
       - 🇺🇸 US😈SSRSUB_777952858
+      - 🇺🇸 US😈SSRSUB_-1189618999
       - 🇺🇸 US😈SSRSUB_-234558492
       - 🇺🇸 US😈SSRSUB_513443448
   - name: 香港
@@ -587,7 +580,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore
       - 🇸🇬 SG😈SSRSUB_1159366513
       - 🇸🇬 SG😈SSRSUB_-2134427733
       - 🇸🇬 SG😈SSRSUB_532302730
@@ -597,15 +589,14 @@ proxy-groups:
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%20@V2rayStore 2
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 _RU_俄罗斯->🇯🇵_JP_日本
       - 🇯🇵 JP😈SSRSUB_476951725
+      - 🇯🇵 JP😈SSRSUB_1163289939
       - 🇯🇵 JP😈SSRSUB_-1534771290
       - 🇯🇵 JP😈SSRSUB_132290702
       - 🇯🇵 JP😈SSRSUB_-446145506
@@ -624,7 +615,7 @@ proxy-groups:
       - 🇯🇵 JP😈SSRSUB_472581188
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
-      - 🇯🇵 日本_121320022
+      - 🇯🇵 日本_121320009
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -643,6 +634,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇰🇷 KR😈SSRSUB_752622824
       - 🇰🇷 KR😈SSRSUB_1973636759
       - 🇰🇷 KR😈SSRSUB_-2075407552
       - 🇰🇷 KR😈SSRSUB_-252815427
@@ -1936,7 +1928,6 @@ rules:
  - DOMAIN-SUFFIX,app-store.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,appe-store.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-appstore.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-itunes.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.rs,🍎 苹果服务
@@ -1947,7 +1938,6 @@ rules:
  - DOMAIN-SUFFIX,appleappstore.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.net,🍎 苹果服务
- - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.us,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-iclou.com,🍎 苹果服务
@@ -1956,7 +1946,6 @@ rules:
  - DOMAIN-SUFFIX,appleid.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hk,🍎 苹果服务
- - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.audio,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.blog,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.chat,🍎 苹果服务
@@ -1992,7 +1981,6 @@ rules:
  - DOMAIN-SUFFIX,applepaysupplies.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.tv,🍎 苹果服务
- - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.co.id,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.hk,🍎 苹果服务
@@ -2004,49 +1992,7 @@ rules:
  - DOMAIN-SUFFIX,darwinsource.com,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsource.org,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsourcecode.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ids-apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itun.es,🍎 苹果服务
  - DOMAIN-SUFFIX,itunbes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ituneas.com,🍎 苹果服务
@@ -2080,12 +2026,8 @@ rules:
  - DOMAIN-SUFFIX,itunesu.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunesu.net,🍎 苹果服务
  - DOMAIN-SUFFIX,iutunes.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,myappleid.com,🍎 苹果服务
- - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
  - DOMAIN-SUFFIX,tvappstore.net,🍎 苹果服务
- - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplestore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplleipods.com,🍎 苹果服务
@@ -2314,7 +2256,6 @@ rules:
  - DOMAIN-SUFFIX,wwwipodlounge.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwmacbookair.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.comscoreresearch.com,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
@@ -2352,11 +2293,62 @@ rules:
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
+ - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-livephotoskit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-KEYWORD,apple-support.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.edgekey.net,🍎 苹果服务
