@@ -7,21 +7,21 @@ external-controller: :9090
 proxies:
   - {name: 🇰🇷 5|🇰🇷 韩国特殊|@ripaojiedian, server: 13.212.117.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 TR-TCP-TLS 🇭🇰 HK-154.44.27.9943005, server: 154.44.27.99, port: 43005, type: trojan, password: 4CCF9A9AB80E9889198B02ECE7FA08DD, sni: j0080.ruixiangseo.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 Japan Trojan @V2rayStore, server: jp-full.privateip.net, port: 443, type: trojan, password: d9576e81-fc34-46f2-b624-0c1e99cde4be, skip-cert-verify: false}
+  - {name: 🇯🇵 VM-WS-NA 🇯🇵 JP-183.181.36.19441597, server: 183.181.36.194, port: 41597, type: vmess, uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 SG😈SSRSUB_1159366513, server: 103.172.116.94, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
+  - {name: 🇸🇬 Singapore Trojan @V2rayStore 2, server: sg-full.privateip.net, port: 443, type: trojan, password: a7664db7-2782-4ef0-86a0-e3fec9185dd8, skip-cert-verify: false}
   - {name: 🇰🇷 KR😈SSRSUB_-2075407552, server: 43.201.17.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 TW😈SSRSUB_-1615409974, server: 104.19.172.163, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 JP😈SSRSUB_132290702, server: 57.180.25.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_-446145506, server: 18.179.23.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 HK😈SSRSUB_-1417589658, server: hkp9.network-cdn-gw.cc, port: 48809, type: ss, cipher: chacha20-ietf-poly1305, password: ff97a869-bc4c-46e9-8d46-33dd9fd74c12}
   - {name: 🇯🇵 JP😈SSRSUB_-662929779, server: 13.113.204.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_1973432312, server: 43.206.232.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 KR😈SSRSUB_1973636759, server: 43.202.43.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 TW😈SSRSUB_-1890001595, server: 104.19.47.185, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai2"}}
+  - {name: 🇯🇵 JP😈SSRSUB_132290702, server: 57.180.25.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_-747257240, server: 18.183.168.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_1112293865, server: 3.112.233.37, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_1878928951, server: 3.112.44.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 JP😈SSRSUB_-1534771290, server: tls.04.node-for-bigairport.win, port: 22443, type: vmess, uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.04.node-for-bigairport.win}}}
   - {name: 🇯🇵 JP😈SSRSUB_-1516397893, server: 18.181.172.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_261997471, server: 54.238.36.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_1309743001, server: 18.183.130.46, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
@@ -36,66 +36,67 @@ proxies:
   - {name: 🇸🇬 SG😈SSRSUB_-2134427733, server: 18.143.159.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_-2134533757, server: 13.113.253.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_472581188, server: 3.112.128.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 JP😈SSRSUB_1163289939, server: 141.147.174.244, port: 443, type: vmess, uuid: 3c5d5534-4b08-4f1a-f8da-f1f9134554f6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 SG😈SSRSUB_532302730, server: 54.169.241.205, port: 13390, type: trojan, password: EfL5RFC5CeL2, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇰🇷 KR😈SSRSUB_752622824, server: tg.lsjc_group.xn--yfr72t8r4bvhd.xyz, port: 80, type: vmess, uuid: 8d87a6d3-1966-46c2-a520-bf26cfd754ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tg.lsjc_group.xn--yfr72t8r4bvhd.xyz}}}
+  - {name: 🇨🇳 TW😈SSRSUB_-1615409974, server: 104.19.172.163, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP😈SSRSUB_476951725, server: tls.07.node-for-bigairport.win, port: 44443, type: vmess, uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320004, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡_121320008, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320009, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320037, server: 8.219.59.222, port: 46998, type: vmess, uuid: 5c9bed1a-716b-43e7-c807-9e0758186360, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡_121320090, server: 143.42.66.9, port: 40637, type: vmess, uuid: 7e30d039-1751-4fbd-aa0a-918b03003515, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /chami}}
-  - {name: 🇨🇦 CA😈SSRSUB_-2011271893, server: 172.67.199.69, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇯🇵 日本_121320001, server: 103.35.190.65, port: 443, type: vmess, uuid: ed531ebe-4971-47f9-a881-636d0b101a45, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 日本_121320007, server: 64.176.39.31, port: 56262, type: vmess, uuid: 590f2744-e9d1-4f2c-a384-d35b736bca41, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 Xerox, server: 13.60.108.119, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 038, server: 104.19.47.129, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oiictw.yydsii.com}}}
   - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US | 🟢 | vmess | @ROMAX_VPN | 3, server: npmjs.com, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: hdfy1c2.freeairlaines.com}}}
-  - {name: 🇺🇸 VM-TCP-NA 🇺🇸 US-174.136.205.4639027, server: 174.136.205.46, port: 39027, type: vmess, uuid: 26419143-8a06-43ab-d58c-bea7b7da8203, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国_5, server: 15.204.87.217, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇦 加拿大 274, server: 104.19.123.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 4 2, server: 104.18.57.121, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2 2, server: 104.19.46.233, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip002-2.dtku47.xyz}}}
-  - {name: 🇺🇸 US-23.224.239.151-0920, server: 23.224.239.151, port: 80, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇺🇸 美国 Xerox 2, server: sg08.421421.xyz, port: 20230, type: trojan, password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2, sni: 421421.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国_1, server: 170.64.226.74, port: 47621, type: ss, cipher: chacha20-ietf-poly1305, password: 7Fk0MO0Bj2nd0jHepJUKZ1}
+  - {name: 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub, server: russia.com, port: 2095, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
   - {name: 🇺🇸 美国 082, server: 172.64.175.213, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 6 2, server: 104.19.46.233, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip002-2.dtku47.xyz}}}
+  - {name: 🇨🇦 加拿大 274, server: 104.19.123.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: 🇺🇸 US-23.224.239.151-0920, server: 23.224.239.151, port: 80, type: vmess, uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 172.67.171.59, port: 80, type: vmess, uuid: 5d559e0b-7859-4661-97dd-17b965b70d8c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: Fr1.vmess.site.}}}
   - {name: 🇨🇦 加拿大 265, server: 104.19.21.63, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: 🇨🇦 加拿大 278, server: 104.18.57.111, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: 🇺🇸 US😈SSRSUB_494288652, server: 54.186.84.243, port: 13404, type: trojan, password: bWk37ZWU%28Rsa, sni: appsvs.shop, skip-cert-verify: false}
-  - {name: 🇺🇸 US😈SSRSUB_777952858, server: 151.101.195.10, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048"}}
-  - {name: 🇨🇦 CA😈SSRSUB_1517781064, server: 23.227.38.3, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm}}
-  - {name: 🇨🇦 CA😈SSRSUB_-451474164, server: 104.26.15.213, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048"}}
-  - {name: 🇺🇸 US😈SSRSUB_-234558492, server: 151.101.131.10, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048"}}
-  - {name: 🇨🇦 CA😈SSRSUB_-1650884680, server: 104.19.32.88, port: 2086, type: vmess, uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm}}
+  - {name: 🇨🇦 加拿大_121320003, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 US😈SSRSUB_513443448, server: 107.167.20.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/191019072927}}
   - {name: 🇨🇦 CA😈SSRSUB_1918425992, server: 104.17.224.0, port: 80, type: vmess, uuid: 99ab35ac-9f17-4ce4-a70e-1e7def8f04c6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray-vmess/tls}}
-  - {name: 🇨🇦 CA😈SSRSUB_1808335507, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
   - {name: 🇨🇦 CA😈SSRSUB_-1026753657, server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.freegradely.xyz}}}
   - {name: 🇨🇦 CA😈SSRSUB_-1150120130, server: 104.19.38.88, port: 2086, type: vmess, uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm}}
-  - {name: 🇷🇺 俄罗斯联邦_121320002, server: 46.29.166.237, port: 47555, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false}
-  - {name: 0|-https//t.me/MrXbin-2, server: 43.203.209.219, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇦 CA😈SSRSUB_1132634313, server: 23.227.39.11, port: 8080, type: vmess, uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1IKYjV0r/}}
+  - {name: 🇨🇦 CA😈SSRSUB_-1555499648, server: 104.19.47.186, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇦 CA😈SSRSUB_252438459, server: 172.64.144.66, port: 2086, type: vmess, uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm, headers: {Host: ip5-4.freegradely.xyz}}}
+  - {name: 🇨🇦 CA😈SSRSUB_-791326701, server: 23.227.38.7, port: 8080, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: luther-soon-uploaded-anxiety.trycloudflare.com}}}
+  - {name: 🇨🇦 CA😈SSRSUB_-325878939, server: 172.67.185.218, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇨🇦 CA😈SSRSUB_1532351992, server: 104.26.0.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: 🇨🇦 CA😈SSRSUB_-673435208, server: 23.227.38.5, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.freegradely.xyz}}}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点 2, server: vlscdn.nimaxmusic.ir, port: 2052, type: vmess, uuid: a04be4ef-1797-4ca9-a549-4385ce42494c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vmess.nimaxmusic.ir}}}
+  - {name: 🇳🇱 VM-TCP-NA 🇳🇱 NL-154.47.21.528099, server: 154.47.21.52, port: 8099, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心, server: 34.248.104.227, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 巴黎Amazon数据中心 2, server: 52.47.74.34, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 Americas😈SSRSUB_2003495174, server: 104.19.47.126, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oiictw.yydsii.com}}}
-  - {name: "@v2ray_configs_pool 7", server: 172.67.171.59, port: 80, type: vmess, uuid: 5d559e0b-7859-4661-97dd-17b965b70d8c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: Fr1.vmess.site.}}}
-  - {name: 0|-https//t.me/MrXbin-145, server: sg08.421421.xyz, port: 20230, type: trojan, password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2, sni: 421421.xyz, skip-cert-verify: true}
-  - {name: 🇺🇾 _UY_乌拉圭, server: 179.27.200.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 0|-https//t.me/MrXbin-127, server: 31.129.22.73, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 3pURuTUf-lFgg5qWg8euFA}
-  - {name: 🇹🇷 _TR_土耳其, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 19, server: 38.75.136.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇩🇪 德国_121320007, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 GB | 🟢 | trojan | @PrivateVPNs | 3, server: 3.11.109.112, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 0|-https//t.me/MrXbin-61, server: 57.180.37.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 %F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Vmess%20WS%20@V2rayStore, server: hk-full.privateip.net, port: 443, type: vmess, uuid: 8b8d1759-9267-4dce-8ebd-8f02e51aa311, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: hk-full.privateip.net}}}
-  - {name: 🇬🇧 %F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20Vmess%20WS%20@V2rayStore 2, server: uk-full.privateip.net, port: 443, type: vmess, uuid: b8b1cad2-af20-4e44-9347-49af03908474, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: uk-full.privateip.net}}}
-  - {name: 未知_1, server: 103.172.116.79, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
-  - {name: TR-TCP-TLS 🇮🇪 IE-34.248.104.22722222, server: 34.248.104.227, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: KZ😈SSRSUB_1886683763, server: 213.156.137.67, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: Channel id @ShadowProxy66, server: 50.114.243.61, port: 43834, type: vmess, uuid: b246e34d-bbd1-4016-8f74-ea461c37e411, alterId: 0, cipher: auto, tls: false}
+  - {name: 0|-https//t.me/MrXbin-136, server: 23.157.40.102, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 6@oneclickvpnkeys, server: 104.26.0.95, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}}
+  - {name: CF | 🟢 | vmess | @v2Line | 4, server: 172.67.175.56, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}}
+  - {name: 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore 2, server: us.eaxeg.be, port: 80, type: vmess, uuid: bded6b7a-efe3-4164-badd-0d9cfab6a072, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /XC3c53DiSQ9N70H4Y2aW, headers: {Host: us.eaxeg.be}}}
+  - {name: 🇪🇸 %F0%9F%87%AA%F0%9F%87%B8%20Spain%20Vmess%20WS%20@V2rayStore, server: es-full.privateip.net, port: 443, type: vmess, uuid: 124fca2e-4f5b-402f-afc4-27b98a9da5e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: es-full.privateip.net}}}
+  - {name: 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore, server: 174.136.205.46, port: 39027, type: vmess, uuid: 26419143-8a06-43ab-d58c-bea7b7da8203, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 Japan Trojan @V2rayStore 2, server: jp-full.privateip.net, port: 443, type: trojan, password: d9576e81-fc34-46f2-b624-0c1e99cde4be, skip-cert-verify: false}
+  - {name: 🇸🇬 Singapore Trojan @V2rayStore 2 2, server: sg-full.privateip.net, port: 443, type: trojan, password: a7664db7-2782-4ef0-86a0-e3fec9185dd8, skip-cert-verify: false}
+  - {name: 🇫🇷 法国 巴黎Amazon数据中心, server: 35.181.84.137, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇫🇷 France Trojan @V2rayStore, server: fr-full.privateip.net, port: 443, type: trojan, password: 4a003191-9c04-452b-a40b-457386ec4b0c, skip-cert-verify: false}
+  - {name: 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20WS%20@V2rayStore, server: us-full.privateip.net, port: 443, type: vmess, uuid: 3502ad6e-76db-4d87-97e8-9f169c113f75, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: us-full.privateip.net}}}
+  - {name: 🇦🇺 Australia Trojan @V2rayStore, server: au-full.privateip.net, port: 443, type: trojan, password: 882f187b-feb1-4be7-8678-32460f1ecfe6, skip-cert-verify: false}
   - {name: IL😈SSRSUB_1148710866, server: 193.182.144.183, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: "@v2ray_configs_pool 10", server: 172.67.171.43, port: 80, type: vmess, uuid: b1cbda65-64ce-4fe3-9b61-3837060aac3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: Ch1.vmess.site.}}}
-  - {name: 🇦🇺 %F0%9F%87%A6%F0%9F%87%BA%20Australia%20Mobitel%20Server%2001%20@V2rayStore, server: au-v2ray.freevmess.com, port: 2083, type: vmess, uuid: 493f773c-2692-4611-bd22-557e1714d50e, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 CN😈SSRSUB_-1830203450, server: 183.232.139.22, port: 50611, type: trojan, password: gkviEOYc, sni: mention.protocolbuffer.com, skip-cert-verify: false}
-  - {name: 🇩🇪 DE😈SSRSUB_1624189889, server: 141.101.122.184, port: 80, type: vmess, uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm}}
-  - {name: UM😈SSRSUB_45319295, server: www.hkbu.edu.hk, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: www.hkbu.edu.hk}}}
-  - {name: Other😈SSRSUB_898959783, server: kz-v2ray.ipracevpn.com, port: 2083, type: vmess, uuid: f2623be1-b7b9-41d6-a3df-34c5338e3748, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇩🇪 Germany Trojan @V2rayStore, server: de2-full.privateip.net, port: 443, type: trojan, password: a425962b-c16b-4781-8da5-1afcb135b2d6, skip-cert-verify: false}
+  - {name: 🇹🇷 _TR_土耳其, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇾 _UY_乌拉圭, server: 179.27.200.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 未知_1, server: 103.172.116.79, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
+  - {name: UM😈SSRSUB_1080108416, server: 18.189.169.214, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -113,21 +114,21 @@ proxy-groups:
     proxies:
       - 🇰🇷 5|🇰🇷 韩国特殊|@ripaojiedian
       - 🇭🇰 TR-TCP-TLS 🇭🇰 HK-154.44.27.9943005
+      - 🇯🇵 Japan Trojan @V2rayStore
+      - 🇯🇵 VM-WS-NA 🇯🇵 JP-183.181.36.19441597
       - 🇸🇬 SG😈SSRSUB_1159366513
       - 🇨🇳 台湾_121320001
+      - 🇸🇬 Singapore Trojan @V2rayStore 2
       - 🇰🇷 KR😈SSRSUB_-2075407552
-      - 🇨🇳 TW😈SSRSUB_-1615409974
-      - 🇯🇵 JP😈SSRSUB_132290702
       - 🇯🇵 JP😈SSRSUB_-446145506
       - 🇭🇰 HK😈SSRSUB_-1417589658
       - 🇯🇵 JP😈SSRSUB_-662929779
       - 🇯🇵 JP😈SSRSUB_1973432312
       - 🇰🇷 KR😈SSRSUB_1973636759
-      - 🇨🇳 TW😈SSRSUB_-1890001595
+      - 🇯🇵 JP😈SSRSUB_132290702
       - 🇯🇵 JP😈SSRSUB_-747257240
       - 🇯🇵 JP😈SSRSUB_1112293865
       - 🇯🇵 JP😈SSRSUB_1878928951
-      - 🇯🇵 JP😈SSRSUB_-1534771290
       - 🇯🇵 JP😈SSRSUB_-1516397893
       - 🇯🇵 JP😈SSRSUB_261997471
       - 🇯🇵 JP😈SSRSUB_1309743001
@@ -142,66 +143,67 @@ proxy-groups:
       - 🇸🇬 SG😈SSRSUB_-2134427733
       - 🇯🇵 JP😈SSRSUB_-2134533757
       - 🇯🇵 JP😈SSRSUB_472581188
-      - 🇯🇵 JP😈SSRSUB_1163289939
       - 🇸🇬 SG😈SSRSUB_532302730
-      - 🇰🇷 KR😈SSRSUB_752622824
+      - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
-      - 🇯🇵 JP😈SSRSUB_476951725
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
-      - 🇨🇦 CA😈SSRSUB_-2011271893
+      - 🇯🇵 日本_121320001
+      - 🇯🇵 日本_121320007
+      - 🇺🇸 美国 Xerox
+      - 🇨🇦 加拿大 038
       - 🇺🇸 美国_121320029
-      - 🇺🇸 US | 🟢 | vmess | @ROMAX_VPN | 3
-      - 🇺🇸 VM-TCP-NA 🇺🇸 US-174.136.205.4639027
-      - 🇺🇸 _US_美国_5
-      - 🇨🇦 加拿大 274
-      - 🇺🇸 美国 CloudFlare节点 4 2
-      - 🇺🇸 美国 CloudFlare节点 2 2
-      - 🇺🇸 US-23.224.239.151-0920
+      - 🇺🇸 美国 Xerox 2
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 美国 082
+      - 🇺🇸 美国 CloudFlare节点 6 2
+      - 🇨🇦 加拿大 274
+      - 🇺🇸 US-23.224.239.151-0920
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇦 加拿大 265
-      - 🇨🇦 加拿大 278
-      - 🇺🇸 US😈SSRSUB_494288652
-      - 🇺🇸 US😈SSRSUB_777952858
-      - 🇨🇦 CA😈SSRSUB_1517781064
-      - 🇨🇦 CA😈SSRSUB_-451474164
-      - 🇺🇸 US😈SSRSUB_-234558492
-      - 🇨🇦 CA😈SSRSUB_-1650884680
+      - 🇨🇦 加拿大_121320003
       - 🇺🇸 US😈SSRSUB_513443448
       - 🇨🇦 CA😈SSRSUB_1918425992
-      - 🇨🇦 CA😈SSRSUB_1808335507
       - 🇨🇦 CA😈SSRSUB_-1026753657
       - 🇨🇦 CA😈SSRSUB_-1150120130
-      - 🇷🇺 俄罗斯联邦_121320002
-      - 0|-https//t.me/MrXbin-2
+      - 🇨🇦 CA😈SSRSUB_1132634313
+      - 🇨🇦 CA😈SSRSUB_-1555499648
+      - 🇨🇦 CA😈SSRSUB_252438459
+      - 🇨🇦 CA😈SSRSUB_-791326701
+      - 🇨🇦 CA😈SSRSUB_-325878939
+      - 🇨🇦 CA😈SSRSUB_1532351992
+      - 🇨🇦 CA😈SSRSUB_-673435208
+      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
+      - 🇳🇱 VM-TCP-NA 🇳🇱 NL-154.47.21.528099
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇫🇷 法国 巴黎Amazon数据中心 2
       - 🇺🇸 Americas😈SSRSUB_2003495174
-      - "@v2ray_configs_pool 7"
-      - 0|-https//t.me/MrXbin-145
-      - 🇺🇾 _UY_乌拉圭
-      - 0|-https//t.me/MrXbin-127
-      - 🇹🇷 _TR_土耳其
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 19
-      - 🇩🇪 德国_121320007
-      - 🇬🇧 GB | 🟢 | trojan | @PrivateVPNs | 3
-      - 0|-https//t.me/MrXbin-61
-      - 🇭🇰 %F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Vmess%20WS%20@V2rayStore
-      - 🇬🇧 %F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20Vmess%20WS%20@V2rayStore 2
-      - 未知_1
-      - TR-TCP-TLS 🇮🇪 IE-34.248.104.22722222
-      - KZ😈SSRSUB_1886683763
+      - Channel id @ShadowProxy66
+      - 0|-https//t.me/MrXbin-136
+      - 6@oneclickvpnkeys
+      - CF | 🟢 | vmess | @v2Line | 4
+      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore 2
+      - 🇪🇸 %F0%9F%87%AA%F0%9F%87%B8%20Spain%20Vmess%20WS%20@V2rayStore
+      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore
+      - 🇯🇵 Japan Trojan @V2rayStore 2
+      - 🇸🇬 Singapore Trojan @V2rayStore 2 2
+      - 🇫🇷 法国 巴黎Amazon数据中心
+      - 🇫🇷 France Trojan @V2rayStore
+      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20WS%20@V2rayStore
+      - 🇦🇺 Australia Trojan @V2rayStore
       - IL😈SSRSUB_1148710866
-      - "@v2ray_configs_pool 10"
-      - 🇦🇺 %F0%9F%87%A6%F0%9F%87%BA%20Australia%20Mobitel%20Server%2001%20@V2rayStore
-      - 🇨🇳 CN😈SSRSUB_-1830203450
-      - 🇩🇪 DE😈SSRSUB_1624189889
-      - UM😈SSRSUB_45319295
-      - Other😈SSRSUB_898959783
+      - 🇩🇪 Germany Trojan @V2rayStore
+      - 🇹🇷 _TR_土耳其
+      - 🇺🇾 _UY_乌拉圭
+      - 未知_1
+      - UM😈SSRSUB_1080108416
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,21 +256,21 @@ proxy-groups:
     proxies:
       - 🇰🇷 5|🇰🇷 韩国特殊|@ripaojiedian
       - 🇭🇰 TR-TCP-TLS 🇭🇰 HK-154.44.27.9943005
+      - 🇯🇵 Japan Trojan @V2rayStore
+      - 🇯🇵 VM-WS-NA 🇯🇵 JP-183.181.36.19441597
       - 🇸🇬 SG😈SSRSUB_1159366513
       - 🇨🇳 台湾_121320001
+      - 🇸🇬 Singapore Trojan @V2rayStore 2
       - 🇰🇷 KR😈SSRSUB_-2075407552
-      - 🇨🇳 TW😈SSRSUB_-1615409974
-      - 🇯🇵 JP😈SSRSUB_132290702
       - 🇯🇵 JP😈SSRSUB_-446145506
       - 🇭🇰 HK😈SSRSUB_-1417589658
       - 🇯🇵 JP😈SSRSUB_-662929779
       - 🇯🇵 JP😈SSRSUB_1973432312
       - 🇰🇷 KR😈SSRSUB_1973636759
-      - 🇨🇳 TW😈SSRSUB_-1890001595
+      - 🇯🇵 JP😈SSRSUB_132290702
       - 🇯🇵 JP😈SSRSUB_-747257240
       - 🇯🇵 JP😈SSRSUB_1112293865
       - 🇯🇵 JP😈SSRSUB_1878928951
-      - 🇯🇵 JP😈SSRSUB_-1534771290
       - 🇯🇵 JP😈SSRSUB_-1516397893
       - 🇯🇵 JP😈SSRSUB_261997471
       - 🇯🇵 JP😈SSRSUB_1309743001
@@ -283,66 +285,67 @@ proxy-groups:
       - 🇸🇬 SG😈SSRSUB_-2134427733
       - 🇯🇵 JP😈SSRSUB_-2134533757
       - 🇯🇵 JP😈SSRSUB_472581188
-      - 🇯🇵 JP😈SSRSUB_1163289939
       - 🇸🇬 SG😈SSRSUB_532302730
-      - 🇰🇷 KR😈SSRSUB_752622824
+      - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
-      - 🇯🇵 JP😈SSRSUB_476951725
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
-      - 🇨🇦 CA😈SSRSUB_-2011271893
+      - 🇯🇵 日本_121320001
+      - 🇯🇵 日本_121320007
+      - 🇺🇸 美国 Xerox
+      - 🇨🇦 加拿大 038
       - 🇺🇸 美国_121320029
-      - 🇺🇸 US | 🟢 | vmess | @ROMAX_VPN | 3
-      - 🇺🇸 VM-TCP-NA 🇺🇸 US-174.136.205.4639027
-      - 🇺🇸 _US_美国_5
-      - 🇨🇦 加拿大 274
-      - 🇺🇸 美国 CloudFlare节点 4 2
-      - 🇺🇸 美国 CloudFlare节点 2 2
-      - 🇺🇸 US-23.224.239.151-0920
+      - 🇺🇸 美国 Xerox 2
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 美国 082
+      - 🇺🇸 美国 CloudFlare节点 6 2
+      - 🇨🇦 加拿大 274
+      - 🇺🇸 US-23.224.239.151-0920
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇦 加拿大 265
-      - 🇨🇦 加拿大 278
-      - 🇺🇸 US😈SSRSUB_494288652
-      - 🇺🇸 US😈SSRSUB_777952858
-      - 🇨🇦 CA😈SSRSUB_1517781064
-      - 🇨🇦 CA😈SSRSUB_-451474164
-      - 🇺🇸 US😈SSRSUB_-234558492
-      - 🇨🇦 CA😈SSRSUB_-1650884680
+      - 🇨🇦 加拿大_121320003
       - 🇺🇸 US😈SSRSUB_513443448
       - 🇨🇦 CA😈SSRSUB_1918425992
-      - 🇨🇦 CA😈SSRSUB_1808335507
       - 🇨🇦 CA😈SSRSUB_-1026753657
       - 🇨🇦 CA😈SSRSUB_-1150120130
-      - 🇷🇺 俄罗斯联邦_121320002
-      - 0|-https//t.me/MrXbin-2
+      - 🇨🇦 CA😈SSRSUB_1132634313
+      - 🇨🇦 CA😈SSRSUB_-1555499648
+      - 🇨🇦 CA😈SSRSUB_252438459
+      - 🇨🇦 CA😈SSRSUB_-791326701
+      - 🇨🇦 CA😈SSRSUB_-325878939
+      - 🇨🇦 CA😈SSRSUB_1532351992
+      - 🇨🇦 CA😈SSRSUB_-673435208
+      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
+      - 🇳🇱 VM-TCP-NA 🇳🇱 NL-154.47.21.528099
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇫🇷 法国 巴黎Amazon数据中心 2
       - 🇺🇸 Americas😈SSRSUB_2003495174
-      - "@v2ray_configs_pool 7"
-      - 0|-https//t.me/MrXbin-145
-      - 🇺🇾 _UY_乌拉圭
-      - 0|-https//t.me/MrXbin-127
-      - 🇹🇷 _TR_土耳其
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 19
-      - 🇩🇪 德国_121320007
-      - 🇬🇧 GB | 🟢 | trojan | @PrivateVPNs | 3
-      - 0|-https//t.me/MrXbin-61
-      - 🇭🇰 %F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Vmess%20WS%20@V2rayStore
-      - 🇬🇧 %F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20Vmess%20WS%20@V2rayStore 2
-      - 未知_1
-      - TR-TCP-TLS 🇮🇪 IE-34.248.104.22722222
-      - KZ😈SSRSUB_1886683763
+      - Channel id @ShadowProxy66
+      - 0|-https//t.me/MrXbin-136
+      - 6@oneclickvpnkeys
+      - CF | 🟢 | vmess | @v2Line | 4
+      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore 2
+      - 🇪🇸 %F0%9F%87%AA%F0%9F%87%B8%20Spain%20Vmess%20WS%20@V2rayStore
+      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore
+      - 🇯🇵 Japan Trojan @V2rayStore 2
+      - 🇸🇬 Singapore Trojan @V2rayStore 2 2
+      - 🇫🇷 法国 巴黎Amazon数据中心
+      - 🇫🇷 France Trojan @V2rayStore
+      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20WS%20@V2rayStore
+      - 🇦🇺 Australia Trojan @V2rayStore
       - IL😈SSRSUB_1148710866
-      - "@v2ray_configs_pool 10"
-      - 🇦🇺 %F0%9F%87%A6%F0%9F%87%BA%20Australia%20Mobitel%20Server%2001%20@V2rayStore
-      - 🇨🇳 CN😈SSRSUB_-1830203450
-      - 🇩🇪 DE😈SSRSUB_1624189889
-      - UM😈SSRSUB_45319295
-      - Other😈SSRSUB_898959783
+      - 🇩🇪 Germany Trojan @V2rayStore
+      - 🇹🇷 _TR_土耳其
+      - 🇺🇾 _UY_乌拉圭
+      - 未知_1
+      - UM😈SSRSUB_1080108416
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -351,21 +354,21 @@ proxy-groups:
     proxies:
       - 🇰🇷 5|🇰🇷 韩国特殊|@ripaojiedian
       - 🇭🇰 TR-TCP-TLS 🇭🇰 HK-154.44.27.9943005
+      - 🇯🇵 Japan Trojan @V2rayStore
+      - 🇯🇵 VM-WS-NA 🇯🇵 JP-183.181.36.19441597
       - 🇸🇬 SG😈SSRSUB_1159366513
       - 🇨🇳 台湾_121320001
+      - 🇸🇬 Singapore Trojan @V2rayStore 2
       - 🇰🇷 KR😈SSRSUB_-2075407552
-      - 🇨🇳 TW😈SSRSUB_-1615409974
-      - 🇯🇵 JP😈SSRSUB_132290702
       - 🇯🇵 JP😈SSRSUB_-446145506
       - 🇭🇰 HK😈SSRSUB_-1417589658
       - 🇯🇵 JP😈SSRSUB_-662929779
       - 🇯🇵 JP😈SSRSUB_1973432312
       - 🇰🇷 KR😈SSRSUB_1973636759
-      - 🇨🇳 TW😈SSRSUB_-1890001595
+      - 🇯🇵 JP😈SSRSUB_132290702
       - 🇯🇵 JP😈SSRSUB_-747257240
       - 🇯🇵 JP😈SSRSUB_1112293865
       - 🇯🇵 JP😈SSRSUB_1878928951
-      - 🇯🇵 JP😈SSRSUB_-1534771290
       - 🇯🇵 JP😈SSRSUB_-1516397893
       - 🇯🇵 JP😈SSRSUB_261997471
       - 🇯🇵 JP😈SSRSUB_1309743001
@@ -380,95 +383,97 @@ proxy-groups:
       - 🇸🇬 SG😈SSRSUB_-2134427733
       - 🇯🇵 JP😈SSRSUB_-2134533757
       - 🇯🇵 JP😈SSRSUB_472581188
-      - 🇯🇵 JP😈SSRSUB_1163289939
       - 🇸🇬 SG😈SSRSUB_532302730
-      - 🇰🇷 KR😈SSRSUB_752622824
+      - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
-      - 🇯🇵 JP😈SSRSUB_476951725
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
-      - 🇨🇦 CA😈SSRSUB_-2011271893
+      - 🇯🇵 日本_121320001
+      - 🇯🇵 日本_121320007
+      - 🇺🇸 美国 Xerox
+      - 🇨🇦 加拿大 038
       - 🇺🇸 美国_121320029
-      - 🇺🇸 US | 🟢 | vmess | @ROMAX_VPN | 3
-      - 🇺🇸 VM-TCP-NA 🇺🇸 US-174.136.205.4639027
-      - 🇺🇸 _US_美国_5
-      - 🇨🇦 加拿大 274
-      - 🇺🇸 美国 CloudFlare节点 4 2
-      - 🇺🇸 美国 CloudFlare节点 2 2
-      - 🇺🇸 US-23.224.239.151-0920
+      - 🇺🇸 美国 Xerox 2
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 美国 082
+      - 🇺🇸 美国 CloudFlare节点 6 2
+      - 🇨🇦 加拿大 274
+      - 🇺🇸 US-23.224.239.151-0920
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇦 加拿大 265
-      - 🇨🇦 加拿大 278
-      - 🇺🇸 US😈SSRSUB_494288652
-      - 🇺🇸 US😈SSRSUB_777952858
-      - 🇨🇦 CA😈SSRSUB_1517781064
-      - 🇨🇦 CA😈SSRSUB_-451474164
-      - 🇺🇸 US😈SSRSUB_-234558492
-      - 🇨🇦 CA😈SSRSUB_-1650884680
+      - 🇨🇦 加拿大_121320003
       - 🇺🇸 US😈SSRSUB_513443448
       - 🇨🇦 CA😈SSRSUB_1918425992
-      - 🇨🇦 CA😈SSRSUB_1808335507
       - 🇨🇦 CA😈SSRSUB_-1026753657
       - 🇨🇦 CA😈SSRSUB_-1150120130
-      - 🇷🇺 俄罗斯联邦_121320002
-      - 0|-https//t.me/MrXbin-2
+      - 🇨🇦 CA😈SSRSUB_1132634313
+      - 🇨🇦 CA😈SSRSUB_-1555499648
+      - 🇨🇦 CA😈SSRSUB_252438459
+      - 🇨🇦 CA😈SSRSUB_-791326701
+      - 🇨🇦 CA😈SSRSUB_-325878939
+      - 🇨🇦 CA😈SSRSUB_1532351992
+      - 🇨🇦 CA😈SSRSUB_-673435208
+      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
+      - 🇳🇱 VM-TCP-NA 🇳🇱 NL-154.47.21.528099
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇫🇷 法国 巴黎Amazon数据中心 2
       - 🇺🇸 Americas😈SSRSUB_2003495174
-      - "@v2ray_configs_pool 7"
-      - 0|-https//t.me/MrXbin-145
-      - 🇺🇾 _UY_乌拉圭
-      - 0|-https//t.me/MrXbin-127
-      - 🇹🇷 _TR_土耳其
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 19
-      - 🇩🇪 德国_121320007
-      - 🇬🇧 GB | 🟢 | trojan | @PrivateVPNs | 3
-      - 0|-https//t.me/MrXbin-61
-      - 🇭🇰 %F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Vmess%20WS%20@V2rayStore
-      - 🇬🇧 %F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20Vmess%20WS%20@V2rayStore 2
-      - 未知_1
-      - TR-TCP-TLS 🇮🇪 IE-34.248.104.22722222
-      - KZ😈SSRSUB_1886683763
+      - Channel id @ShadowProxy66
+      - 0|-https//t.me/MrXbin-136
+      - 6@oneclickvpnkeys
+      - CF | 🟢 | vmess | @v2Line | 4
+      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore 2
+      - 🇪🇸 %F0%9F%87%AA%F0%9F%87%B8%20Spain%20Vmess%20WS%20@V2rayStore
+      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore
+      - 🇯🇵 Japan Trojan @V2rayStore 2
+      - 🇸🇬 Singapore Trojan @V2rayStore 2 2
+      - 🇫🇷 法国 巴黎Amazon数据中心
+      - 🇫🇷 France Trojan @V2rayStore
+      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20WS%20@V2rayStore
+      - 🇦🇺 Australia Trojan @V2rayStore
       - IL😈SSRSUB_1148710866
-      - "@v2ray_configs_pool 10"
-      - 🇦🇺 %F0%9F%87%A6%F0%9F%87%BA%20Australia%20Mobitel%20Server%2001%20@V2rayStore
-      - 🇨🇳 CN😈SSRSUB_-1830203450
-      - 🇩🇪 DE😈SSRSUB_1624189889
-      - UM😈SSRSUB_45319295
-      - Other😈SSRSUB_898959783
+      - 🇩🇪 Germany Trojan @V2rayStore
+      - 🇹🇷 _TR_土耳其
+      - 🇺🇾 _UY_乌拉圭
+      - 未知_1
+      - UM😈SSRSUB_1080108416
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇦 CA😈SSRSUB_-2011271893
+      - 🇺🇸 美国 Xerox
+      - 🇨🇦 加拿大 038
       - 🇺🇸 美国_121320029
-      - 🇺🇸 US | 🟢 | vmess | @ROMAX_VPN | 3
-      - 🇺🇸 VM-TCP-NA 🇺🇸 US-174.136.205.4639027
-      - 🇺🇸 _US_美国_5
-      - 🇨🇦 加拿大 274
-      - 🇺🇸 美国 CloudFlare节点 4 2
-      - 🇺🇸 美国 CloudFlare节点 2 2
-      - 🇺🇸 US-23.224.239.151-0920
+      - 🇺🇸 美国 Xerox 2
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 美国 082
+      - 🇺🇸 美国 CloudFlare节点 6 2
+      - 🇨🇦 加拿大 274
+      - 🇺🇸 US-23.224.239.151-0920
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇨🇦 加拿大 265
-      - 🇨🇦 加拿大 278
-      - 🇺🇸 US😈SSRSUB_494288652
-      - 🇺🇸 US😈SSRSUB_777952858
-      - 🇨🇦 CA😈SSRSUB_1517781064
-      - 🇨🇦 CA😈SSRSUB_-451474164
-      - 🇺🇸 US😈SSRSUB_-234558492
-      - 🇨🇦 CA😈SSRSUB_-1650884680
+      - 🇨🇦 加拿大_121320003
       - 🇺🇸 US😈SSRSUB_513443448
       - 🇨🇦 CA😈SSRSUB_1918425992
-      - 🇨🇦 CA😈SSRSUB_1808335507
       - 🇨🇦 CA😈SSRSUB_-1026753657
       - 🇨🇦 CA😈SSRSUB_-1150120130
+      - 🇨🇦 CA😈SSRSUB_1132634313
+      - 🇨🇦 CA😈SSRSUB_-1555499648
+      - 🇨🇦 CA😈SSRSUB_252438459
+      - 🇨🇦 CA😈SSRSUB_-791326701
+      - 🇨🇦 CA😈SSRSUB_-325878939
+      - 🇨🇦 CA😈SSRSUB_1532351992
+      - 🇨🇦 CA😈SSRSUB_-673435208
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -477,21 +482,21 @@ proxy-groups:
     proxies:
       - 🇰🇷 5|🇰🇷 韩国特殊|@ripaojiedian
       - 🇭🇰 TR-TCP-TLS 🇭🇰 HK-154.44.27.9943005
+      - 🇯🇵 Japan Trojan @V2rayStore
+      - 🇯🇵 VM-WS-NA 🇯🇵 JP-183.181.36.19441597
       - 🇸🇬 SG😈SSRSUB_1159366513
       - 🇨🇳 台湾_121320001
+      - 🇸🇬 Singapore Trojan @V2rayStore 2
       - 🇰🇷 KR😈SSRSUB_-2075407552
-      - 🇨🇳 TW😈SSRSUB_-1615409974
-      - 🇯🇵 JP😈SSRSUB_132290702
       - 🇯🇵 JP😈SSRSUB_-446145506
       - 🇭🇰 HK😈SSRSUB_-1417589658
       - 🇯🇵 JP😈SSRSUB_-662929779
       - 🇯🇵 JP😈SSRSUB_1973432312
       - 🇰🇷 KR😈SSRSUB_1973636759
-      - 🇨🇳 TW😈SSRSUB_-1890001595
+      - 🇯🇵 JP😈SSRSUB_132290702
       - 🇯🇵 JP😈SSRSUB_-747257240
       - 🇯🇵 JP😈SSRSUB_1112293865
       - 🇯🇵 JP😈SSRSUB_1878928951
-      - 🇯🇵 JP😈SSRSUB_-1534771290
       - 🇯🇵 JP😈SSRSUB_-1516397893
       - 🇯🇵 JP😈SSRSUB_261997471
       - 🇯🇵 JP😈SSRSUB_1309743001
@@ -506,66 +511,68 @@ proxy-groups:
       - 🇸🇬 SG😈SSRSUB_-2134427733
       - 🇯🇵 JP😈SSRSUB_-2134533757
       - 🇯🇵 JP😈SSRSUB_472581188
-      - 🇯🇵 JP😈SSRSUB_1163289939
       - 🇸🇬 SG😈SSRSUB_532302730
-      - 🇰🇷 KR😈SSRSUB_752622824
+      - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
-      - 🇯🇵 JP😈SSRSUB_476951725
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
+      - 🇯🇵 日本_121320001
+      - 🇯🇵 日本_121320007
+      - 🇯🇵 Japan Trojan @V2rayStore 2
+      - 🇸🇬 Singapore Trojan @V2rayStore 2 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇷🇺 俄罗斯联邦_121320002
-      - 0|-https//t.me/MrXbin-2
+      - 🇯🇵 Japan Trojan @V2rayStore
+      - 🇸🇬 Singapore Trojan @V2rayStore 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
+      - 🇳🇱 VM-TCP-NA 🇳🇱 NL-154.47.21.528099
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇫🇷 法国 巴黎Amazon数据中心 2
       - 🇺🇸 Americas😈SSRSUB_2003495174
-      - "@v2ray_configs_pool 7"
-      - 0|-https//t.me/MrXbin-145
-      - 🇺🇾 _UY_乌拉圭
-      - 0|-https//t.me/MrXbin-127
-      - 🇹🇷 _TR_土耳其
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 19
-      - 🇩🇪 德国_121320007
-      - 🇬🇧 GB | 🟢 | trojan | @PrivateVPNs | 3
-      - 0|-https//t.me/MrXbin-61
-      - 🇭🇰 %F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Vmess%20WS%20@V2rayStore
-      - 🇬🇧 %F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20Vmess%20WS%20@V2rayStore 2
-      - 未知_1
-      - TR-TCP-TLS 🇮🇪 IE-34.248.104.22722222
-      - KZ😈SSRSUB_1886683763
+      - Channel id @ShadowProxy66
+      - 0|-https//t.me/MrXbin-136
+      - 6@oneclickvpnkeys
+      - CF | 🟢 | vmess | @v2Line | 4
+      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore 2
+      - 🇪🇸 %F0%9F%87%AA%F0%9F%87%B8%20Spain%20Vmess%20WS%20@V2rayStore
+      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20@V2rayStore
+      - 🇯🇵 Japan Trojan @V2rayStore 2
+      - 🇸🇬 Singapore Trojan @V2rayStore 2 2
+      - 🇫🇷 法国 巴黎Amazon数据中心
+      - 🇫🇷 France Trojan @V2rayStore
+      - 🇺🇸 %F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Vmess%20WS%20@V2rayStore
+      - 🇦🇺 Australia Trojan @V2rayStore
       - IL😈SSRSUB_1148710866
-      - "@v2ray_configs_pool 10"
-      - 🇦🇺 %F0%9F%87%A6%F0%9F%87%BA%20Australia%20Mobitel%20Server%2001%20@V2rayStore
-      - 🇨🇳 CN😈SSRSUB_-1830203450
-      - 🇩🇪 DE😈SSRSUB_1624189889
-      - UM😈SSRSUB_45319295
-      - Other😈SSRSUB_898959783
+      - 🇩🇪 Germany Trojan @V2rayStore
+      - 🇹🇷 _TR_土耳其
+      - 🇺🇾 _UY_乌拉圭
+      - 未知_1
+      - UM😈SSRSUB_1080108416
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇺🇸 美国 Xerox
       - 🇺🇸 美国_121320029
-      - 🇺🇸 US | 🟢 | vmess | @ROMAX_VPN | 3
-      - 🇺🇸 VM-TCP-NA 🇺🇸 US-174.136.205.4639027
-      - 🇺🇸 _US_美国_5
-      - 🇺🇸 美国 CloudFlare节点 4 2
-      - 🇺🇸 美国 CloudFlare节点 2 2
-      - 🇺🇸 US-23.224.239.151-0920
+      - 🇺🇸 美国 Xerox 2
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 美国 082
-      - 🇺🇸 US😈SSRSUB_494288652
-      - 🇺🇸 US😈SSRSUB_777952858
-      - 🇺🇸 US😈SSRSUB_-234558492
+      - 🇺🇸 美国 CloudFlare节点 6 2
+      - 🇺🇸 US-23.224.239.151-0920
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 US😈SSRSUB_513443448
   - name: 香港
     type: url-test
@@ -583,6 +590,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 SG😈SSRSUB_1159366513
+      - 🇸🇬 Singapore Trojan @V2rayStore 2
       - 🇸🇬 SG😈SSRSUB_-2134427733
       - 🇸🇬 SG😈SSRSUB_532302730
       - 🇸🇬 新加坡_121320001
@@ -591,20 +599,22 @@ proxy-groups:
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
+      - 🇸🇬 Singapore Trojan @V2rayStore 2 2
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP😈SSRSUB_132290702
+      - 🇯🇵 Japan Trojan @V2rayStore
+      - 🇯🇵 VM-WS-NA 🇯🇵 JP-183.181.36.19441597
       - 🇯🇵 JP😈SSRSUB_-446145506
       - 🇯🇵 JP😈SSRSUB_-662929779
       - 🇯🇵 JP😈SSRSUB_1973432312
+      - 🇯🇵 JP😈SSRSUB_132290702
       - 🇯🇵 JP😈SSRSUB_-747257240
       - 🇯🇵 JP😈SSRSUB_1112293865
       - 🇯🇵 JP😈SSRSUB_1878928951
-      - 🇯🇵 JP😈SSRSUB_-1534771290
       - 🇯🇵 JP😈SSRSUB_-1516397893
       - 🇯🇵 JP😈SSRSUB_261997471
       - 🇯🇵 JP😈SSRSUB_1309743001
@@ -613,8 +623,9 @@ proxy-groups:
       - 🇯🇵 JP😈SSRSUB_1127044940
       - 🇯🇵 JP😈SSRSUB_-2134533757
       - 🇯🇵 JP😈SSRSUB_472581188
-      - 🇯🇵 JP😈SSRSUB_1163289939
-      - 🇯🇵 JP😈SSRSUB_476951725
+      - 🇯🇵 日本_121320001
+      - 🇯🇵 日本_121320007
+      - 🇯🇵 Japan Trojan @V2rayStore 2
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -623,7 +634,6 @@ proxy-groups:
     proxies:
       - 🇨🇳 台湾_121320001
       - 🇨🇳 TW😈SSRSUB_-1615409974
-      - 🇨🇳 TW😈SSRSUB_-1890001595
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -640,7 +650,6 @@ proxy-groups:
       - 🇰🇷 KR😈SSRSUB_163807724
       - 🇰🇷 KR😈SSRSUB_859546337
       - 🇰🇷 KR😈SSRSUB_1757663272
-      - 🇰🇷 KR😈SSRSUB_752622824
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,cp.cloudflare.com,DIRECT
