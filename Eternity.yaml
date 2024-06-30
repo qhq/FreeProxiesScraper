@@ -5,11 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇸🇬 0,5|🇸🇬 新加坡|@ripaojiedian", server: sg6.naizi.vip, port: 2024, type: trojan, password: bfc552e8-2607-4386-9c90-81437ac5ba23, sni: sg6.naizi.vip, skip-cert-verify: false}
-  - {name: "🇯🇵 0,5|🇯🇵 日本特殊|@ripaojiedian", server: 3.39.227.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 JP😈SSRSUB_476951725, server: tls.07.node-for-bigairport.win, port: 44443, type: vmess, uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}}
+  - {name: 🇸🇬 _SG_新加坡->🏳️_unKnow_未知, server: 18.143.144.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 5|🇰🇷 韩国特殊|@ripaojiedian, server: 18.141.240.110, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_-1534771290, server: tls.04.node-for-bigairport.win, port: 22443, type: vmess, uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.04.node-for-bigairport.win}}}
-  - {name: 🇨🇳 TW😈SSRSUB_-1615409974, server: 104.19.172.163, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
+  - {name: 🇰🇷 KR😈SSRSUB_752622824, server: tg.lsjc_group.xn--yfr72t8r4bvhd.xyz, port: 80, type: vmess, uuid: 8d87a6d3-1966-46c2-a520-bf26cfd754ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tg.lsjc_group.xn--yfr72t8r4bvhd.xyz}}}
   - {name: 🇨🇳 TW😈SSRSUB_213192865, server: 172.67.172.205, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 TW😈SSRSUB_-1890001595, server: 104.19.47.185, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai2"}}
   - {name: 🇸🇬 SG😈SSRSUB_1159366513, server: 103.172.116.94, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe}
@@ -38,6 +38,7 @@ proxies:
   - {name: 🇯🇵 JP😈SSRSUB_-2134533757, server: 13.113.253.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_472581188, server: 3.112.128.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 SG😈SSRSUB_532302730, server: 54.169.241.205, port: 13390, type: trojan, password: EfL5RFC5CeL2, sni: appsvs.shop, skip-cert-verify: false}
+  - {name: 🇨🇳 TW😈SSRSUB_-1615409974, server: 104.19.172.163, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
@@ -49,21 +50,13 @@ proxies:
   - {name: 🇸🇬 新加坡_121320090, server: 143.42.66.9, port: 40637, type: vmess, uuid: 7e30d039-1751-4fbd-aa0a-918b03003515, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /chami}}
   - {name: 🇯🇵 日本_121320001, server: 103.35.190.65, port: 443, type: vmess, uuid: ed531ebe-4971-47f9-a881-636d0b101a45, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 日本_121320007, server: 64.176.39.31, port: 56262, type: vmess, uuid: 590f2744-e9d1-4f2c-a384-d35b736bca41, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 104.17.221.34, port: 8080, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: usakansas.xlb8.eu.org}}}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国_1, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇨🇦 CA😈SSRSUB_-2011271893, server: 172.67.199.69, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 7, server: 104.19.21.73, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: US_13, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub, server: russia.com, port: 8080, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
-  - {name: 🇺🇸 V103-US-付费推荐dlj.tf/ssrsub, server: russia.com, port: 2095, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
-  - {name: 🇨🇦 加拿大 271, server: 104.19.55.49, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub, server: russia.com, port: 2095, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 10, server: 172.67.199.118, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇨🇦 加拿大 274, server: 104.19.123.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
-  - {name: US_17, server: 68.183.129.197, port: 8080, type: vmess, uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
-  - {name: US_16, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: US_14, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}}
+  - {name: 🇺🇸 V104-US-付费推荐dlj.tf/ssrsub, server: russia.com, port: 8080, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
   - {name: 🇨🇦 CA😈SSRSUB_1068910962, server: 104.19.38.8, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm}}
   - {name: 🇨🇦 CA😈SSRSUB_-473124971, server: 104.20.247.178, port: 80, type: vmess, uuid: 1b1fd0c4-44d8-4c7b-ab61-f9c86b5df1c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /other}}
-  - {name: 🇨🇦 CA😈SSRSUB_-352530556, server: 104.19.173.68, port: 80, type: vmess, uuid: 3c5e7915-4999-48cf-9d9f-2311531d7b5e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇦 CA😈SSRSUB_806363324, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}}
   - {name: 🇨🇦 CA😈SSRSUB_674502816, server: 104.26.0.50, port: 2086, type: vmess, uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm, headers: {Host: ip5-4.freegradely.xyz}}}
   - {name: 🇺🇸 US😈SSRSUB_-1753685517, server: 172.64.169.160, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm}}
@@ -72,30 +65,38 @@ proxies:
   - {name: 🇺🇸 US😈SSRSUB_1657287095, server: 172.105.150.181, port: 28953, type: vmess, uuid: d1f31766-564a-47ab-88cc-0721145b78b8, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇦 CA😈SSRSUB_1808168665, server: 104.17.88.124, port: 80, type: vmess, uuid: 1b1fd0c4-44d8-4c7b-ab61-f9c86b5df1c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /other}}
   - {name: 🇨🇦 CA😈SSRSUB_-2045587917, server: 104.19.44.174, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: amd2.720208.xyz}}}
-  - {name: 🇲🇾 VM-WS-NA 🇲🇾 MY-38.54.112.18244676, server: 38.54.112.182, port: 44676, type: vmess, uuid: 69788b39-ba6f-47dd-80f7-26d792cbc1e1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 🇺🇸 Americas😈SSRSUB_2003495174, server: 104.19.47.126, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oiictw.yydsii.com}}}
-  - {name: 0|-https//t.me/MrXbin-156, server: 52.79.247.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: VM-WS-NA 🏴‍☠️ NA-104.17.134.4680, server: 104.17.134.46, port: 80, type: vmess, uuid: 2d14e84b-226b-412a-9a3c-ffce70b02bdf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 127.0.0.1.dl.эврика.mrarsha.尤里卡.醫生.специалист.wonkacapitano.buzz.}}}
-  - {name: _01, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: _03, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false}
-  - {name: _04, server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true}
-  - {name: _05, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_-🇬🇧GB_06, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN😈SSRSUB_-134289611, server: 120.232.153.37, port: 34414, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN😈SSRSUB_-2129480278, server: 183.236.51.23, port: 45020, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN😈SSRSUB_-1577236299, server: 183.238.202.173, port: 54565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN😈SSRSUB_378947004, server: 183.240.235.166, port: 41490, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN😈SSRSUB_1441326630, server: 120.232.153.71, port: 54965, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US😈SSRSUB_-1189618999, server: 38.33.34.37, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/191019072927}}
+  - {name: 🇨🇦 CA😈SSRSUB_1246332267, server: 104.24.200.140, port: 80, type: vmess, uuid: 1b1fd0c4-44d8-4c7b-ab61-f9c86b5df1c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /other}}
+  - {name: 🇨🇦 CA😈SSRSUB_-1954617455, server: 104.16.61.8, port: 8080, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jahfkjha.cfd/linkws, headers: {Host: hyfhhg.jadovah977.workers.dev}}}
+  - {name: 🇨🇦 CA😈SSRSUB_1529605686, server: 104.24.20.174, port: 80, type: vmess, uuid: ee091af5-83cc-445c-9ced-79a65a8f9a40, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /X2Cy1dqQjtZV6p1uO5Avv}}
+  - {name: 🇨🇦 CA😈SSRSUB_1437067508, server: 162.159.136.98, port: 80, type: vmess, uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ccs2.hostmjj.com}}}
+  - {name: 🇨🇦 CA😈SSRSUB_-2099288245, server: 104.23.97.11, port: 80, type: vmess, uuid: 0880c19f-f253-4298-8573-42fb83bf3006, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /other}}
+  - {name: 🇺🇸 US😈SSRSUB_-1421357583, server: 142.4.96.67, port: 31000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/191019072927}}
+  - {name: 🇨🇦 CA😈SSRSUB_-1217602740, server: 104.16.149.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
+  - {name: 🇷🇺 俄罗斯+v2rayfree.eu.org, server: 194.87.45.189, port: 40076, type: ss, cipher: chacha20-ietf-poly1305, password: ECjp87TIkUiJ5AhRZglZ9E}
+  - {name: VM-WS-NA 🇻🇳 VN-38.54.30.4755700, server: 38.54.30.47, port: 55700, type: vmess, uuid: af11f27c-ed0c-486d-bcc4-fe11f3759e3d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
+  - {name: 0|-https//t.me/MrXbin-34, server: 57.180.37.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇳🇱 VM-TCP-NA 🇳🇱 NL-154.47.21.528099, server: 154.47.21.52, port: 8099, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 88, server: us-05.licom.ml, port: 12501, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: false}
   - {name: Other😈SSRSUB_-642291814, server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm, headers: {Host: ip002.dtku47.xyz}}}
-  - {name: 🇫🇷 FR😈SSRSUB_1388672434, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: speed.cloudflare.com}}}
   - {name: 🇨🇳 CN😈SSRSUB_905747790, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray}}
   - {name: 🇨🇳 CN😈SSRSUB_1849468093, server: 183.240.235.162, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇨🇳 CN😈SSRSUB_-1650991511, server: 120.232.153.27, port: 50582, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇨🇳 CN😈SSRSUB_1305952007, server: 183.240.235.164, port: 55908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: UM😈SSRSUB_-1986465562, server: freeyx.cloudflare88.eu.org, port: 8080, type: vmess, uuid: c66a6fd2-28f0-4f8e-c03a-538aab77e89b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cloud, headers: {Host: freeyx.cloudflare88.eu.org}}}
   - {name: 🇨🇳 CN😈SSRSUB_-1212766799, server: 120.232.153.40, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87, server: 15.235.202.196, port: 80, type: vmess, uuid: 66f7af16-9d20-4df2-9849-0f65a8bb5527, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 15.235.202.196}}}
+  - {name: UM😈SSRSUB_1034331182, server: freeyx.cloudflare88.eu.org, port: 2095, type: vmess, uuid: c66a6fd2-28f0-4f8e-c03a-538aab77e89b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cloud, headers: {Host: freeyx.cloudflare88.eu.org}}}
   - {name: 🇨🇳 CN😈SSRSUB_1136656902, server: 183.240.235.170, port: 34602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇷🇺 RU😈SSRSUB_1788054851, server: 15002.kuaiyin02.top, port: 15002, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 UK😈SSRSUB_-1419721698, server: 104.19.37.144, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8"}}
+  - {name: UM😈SSRSUB_442109129, server: bHBKrw.gov.goldliond.top, port: 20183, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 AU😈SSRSUB_-868178660, server: CeWCB4.gov.goldliond.top, port: 20184, type: vmess, uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f, alterId: 0, cipher: auto, tls: false}
+  - {name: UM😈SSRSUB_1120030419, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: 150be761-0f1b-464c-a0c7-09fd31bd2f31, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}}
+  - {name: 🇺🇸 Americas😈SSRSUB_-1965554259, server: 104.19.47.4, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇩🇪 DE😈SSRSUB_1624189889, server: 141.101.122.184, port: 80, type: vmess, uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm}}
+  - {name: UM😈SSRSUB_45319295, server: www.hkbu.edu.hk, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: www.hkbu.edu.hk}}}
+  - {name: Other😈SSRSUB_898959783, server: kz-v2ray.ipracevpn.com, port: 2083, type: vmess, uuid: f2623be1-b7b9-41d6-a3df-34c5338e3748, alterId: 0, cipher: auto, tls: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,11 +112,11 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇸🇬 0,5|🇸🇬 新加坡|@ripaojiedian
-      - 🇯🇵 0,5|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 JP😈SSRSUB_476951725
+      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
+      - 🇰🇷 5|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_-1534771290
-      - 🇨🇳 TW😈SSRSUB_-1615409974
+      - 🇨🇳 台湾_121320001
+      - 🇰🇷 KR😈SSRSUB_752622824
       - 🇨🇳 TW😈SSRSUB_213192865
       - 🇨🇳 TW😈SSRSUB_-1890001595
       - 🇸🇬 SG😈SSRSUB_1159366513
@@ -144,6 +145,7 @@ proxy-groups:
       - 🇯🇵 JP😈SSRSUB_-2134533757
       - 🇯🇵 JP😈SSRSUB_472581188
       - 🇸🇬 SG😈SSRSUB_532302730
+      - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -155,21 +157,13 @@ proxy-groups:
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦 CA😈SSRSUB_-2011271893
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 7
+      - US_13
       - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V103-US-付费推荐dlj.tf/ssrsub
-      - 🇨🇦 加拿大 271
-      - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇨🇦 加拿大 274
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - US_17
-      - US_16
-      - US_14
+      - 🇺🇸 V104-US-付费推荐dlj.tf/ssrsub
       - 🇨🇦 CA😈SSRSUB_1068910962
       - 🇨🇦 CA😈SSRSUB_-473124971
-      - 🇨🇦 CA😈SSRSUB_-352530556
       - 🇨🇦 CA😈SSRSUB_806363324
       - 🇨🇦 CA😈SSRSUB_674502816
       - 🇺🇸 US😈SSRSUB_-1753685517
@@ -178,30 +172,38 @@ proxy-groups:
       - 🇺🇸 US😈SSRSUB_1657287095
       - 🇨🇦 CA😈SSRSUB_1808168665
       - 🇨🇦 CA😈SSRSUB_-2045587917
-      - 🇲🇾 VM-WS-NA 🇲🇾 MY-38.54.112.18244676
-      - 🇺🇸 Americas😈SSRSUB_2003495174
-      - 0|-https//t.me/MrXbin-156
-      - VM-WS-NA 🏴‍☠️ NA-104.17.134.4680
-      - _01
-      - _03
-      - _04
-      - _05
-      - Relay_-🇬🇧GB_06
-      - 🇨🇳 CN😈SSRSUB_-134289611
-      - 🇨🇳 CN😈SSRSUB_-2129480278
-      - 🇨🇳 CN😈SSRSUB_-1577236299
-      - 🇨🇳 CN😈SSRSUB_378947004
-      - 🇨🇳 CN😈SSRSUB_1441326630
+      - 🇺🇸 US😈SSRSUB_-1189618999
+      - 🇨🇦 CA😈SSRSUB_1246332267
+      - 🇨🇦 CA😈SSRSUB_-1954617455
+      - 🇨🇦 CA😈SSRSUB_1529605686
+      - 🇨🇦 CA😈SSRSUB_1437067508
+      - 🇨🇦 CA😈SSRSUB_-2099288245
+      - 🇺🇸 US😈SSRSUB_-1421357583
+      - 🇨🇦 CA😈SSRSUB_-1217602740
+      - 🇷🇺 俄罗斯+v2rayfree.eu.org
+      - VM-WS-NA 🇻🇳 VN-38.54.30.4755700
+      - 0|-https//t.me/MrXbin-34
+      - 🇳🇱 VM-TCP-NA 🇳🇱 NL-154.47.21.528099
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 88
       - Other😈SSRSUB_-642291814
-      - 🇫🇷 FR😈SSRSUB_1388672434
       - 🇨🇳 CN😈SSRSUB_905747790
       - 🇨🇳 CN😈SSRSUB_1849468093
       - 🇨🇳 CN😈SSRSUB_-1650991511
       - 🇨🇳 CN😈SSRSUB_1305952007
       - UM😈SSRSUB_-1986465562
       - 🇨🇳 CN😈SSRSUB_-1212766799
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87
+      - UM😈SSRSUB_1034331182
       - 🇨🇳 CN😈SSRSUB_1136656902
       - 🇷🇺 RU😈SSRSUB_1788054851
+      - 🇬🇧 UK😈SSRSUB_-1419721698
+      - UM😈SSRSUB_442109129
+      - 🇦🇺 AU😈SSRSUB_-868178660
+      - UM😈SSRSUB_1120030419
+      - 🇺🇸 Americas😈SSRSUB_-1965554259
+      - 🇩🇪 DE😈SSRSUB_1624189889
+      - UM😈SSRSUB_45319295
+      - Other😈SSRSUB_898959783
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,11 +254,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 0,5|🇸🇬 新加坡|@ripaojiedian
-      - 🇯🇵 0,5|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 JP😈SSRSUB_476951725
+      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
+      - 🇰🇷 5|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_-1534771290
-      - 🇨🇳 TW😈SSRSUB_-1615409974
+      - 🇨🇳 台湾_121320001
+      - 🇰🇷 KR😈SSRSUB_752622824
       - 🇨🇳 TW😈SSRSUB_213192865
       - 🇨🇳 TW😈SSRSUB_-1890001595
       - 🇸🇬 SG😈SSRSUB_1159366513
@@ -285,6 +287,7 @@ proxy-groups:
       - 🇯🇵 JP😈SSRSUB_-2134533757
       - 🇯🇵 JP😈SSRSUB_472581188
       - 🇸🇬 SG😈SSRSUB_532302730
+      - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -296,21 +299,13 @@ proxy-groups:
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦 CA😈SSRSUB_-2011271893
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 7
+      - US_13
       - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V103-US-付费推荐dlj.tf/ssrsub
-      - 🇨🇦 加拿大 271
-      - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇨🇦 加拿大 274
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - US_17
-      - US_16
-      - US_14
+      - 🇺🇸 V104-US-付费推荐dlj.tf/ssrsub
       - 🇨🇦 CA😈SSRSUB_1068910962
       - 🇨🇦 CA😈SSRSUB_-473124971
-      - 🇨🇦 CA😈SSRSUB_-352530556
       - 🇨🇦 CA😈SSRSUB_806363324
       - 🇨🇦 CA😈SSRSUB_674502816
       - 🇺🇸 US😈SSRSUB_-1753685517
@@ -319,41 +314,49 @@ proxy-groups:
       - 🇺🇸 US😈SSRSUB_1657287095
       - 🇨🇦 CA😈SSRSUB_1808168665
       - 🇨🇦 CA😈SSRSUB_-2045587917
-      - 🇲🇾 VM-WS-NA 🇲🇾 MY-38.54.112.18244676
-      - 🇺🇸 Americas😈SSRSUB_2003495174
-      - 0|-https//t.me/MrXbin-156
-      - VM-WS-NA 🏴‍☠️ NA-104.17.134.4680
-      - _01
-      - _03
-      - _04
-      - _05
-      - Relay_-🇬🇧GB_06
-      - 🇨🇳 CN😈SSRSUB_-134289611
-      - 🇨🇳 CN😈SSRSUB_-2129480278
-      - 🇨🇳 CN😈SSRSUB_-1577236299
-      - 🇨🇳 CN😈SSRSUB_378947004
-      - 🇨🇳 CN😈SSRSUB_1441326630
+      - 🇺🇸 US😈SSRSUB_-1189618999
+      - 🇨🇦 CA😈SSRSUB_1246332267
+      - 🇨🇦 CA😈SSRSUB_-1954617455
+      - 🇨🇦 CA😈SSRSUB_1529605686
+      - 🇨🇦 CA😈SSRSUB_1437067508
+      - 🇨🇦 CA😈SSRSUB_-2099288245
+      - 🇺🇸 US😈SSRSUB_-1421357583
+      - 🇨🇦 CA😈SSRSUB_-1217602740
+      - 🇷🇺 俄罗斯+v2rayfree.eu.org
+      - VM-WS-NA 🇻🇳 VN-38.54.30.4755700
+      - 0|-https//t.me/MrXbin-34
+      - 🇳🇱 VM-TCP-NA 🇳🇱 NL-154.47.21.528099
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 88
       - Other😈SSRSUB_-642291814
-      - 🇫🇷 FR😈SSRSUB_1388672434
       - 🇨🇳 CN😈SSRSUB_905747790
       - 🇨🇳 CN😈SSRSUB_1849468093
       - 🇨🇳 CN😈SSRSUB_-1650991511
       - 🇨🇳 CN😈SSRSUB_1305952007
       - UM😈SSRSUB_-1986465562
       - 🇨🇳 CN😈SSRSUB_-1212766799
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87
+      - UM😈SSRSUB_1034331182
       - 🇨🇳 CN😈SSRSUB_1136656902
       - 🇷🇺 RU😈SSRSUB_1788054851
+      - 🇬🇧 UK😈SSRSUB_-1419721698
+      - UM😈SSRSUB_442109129
+      - 🇦🇺 AU😈SSRSUB_-868178660
+      - UM😈SSRSUB_1120030419
+      - 🇺🇸 Americas😈SSRSUB_-1965554259
+      - 🇩🇪 DE😈SSRSUB_1624189889
+      - UM😈SSRSUB_45319295
+      - Other😈SSRSUB_898959783
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 0,5|🇸🇬 新加坡|@ripaojiedian
-      - 🇯🇵 0,5|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 JP😈SSRSUB_476951725
+      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
+      - 🇰🇷 5|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_-1534771290
-      - 🇨🇳 TW😈SSRSUB_-1615409974
+      - 🇨🇳 台湾_121320001
+      - 🇰🇷 KR😈SSRSUB_752622824
       - 🇨🇳 TW😈SSRSUB_213192865
       - 🇨🇳 TW😈SSRSUB_-1890001595
       - 🇸🇬 SG😈SSRSUB_1159366513
@@ -382,6 +385,7 @@ proxy-groups:
       - 🇯🇵 JP😈SSRSUB_-2134533757
       - 🇯🇵 JP😈SSRSUB_472581188
       - 🇸🇬 SG😈SSRSUB_532302730
+      - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -393,21 +397,13 @@ proxy-groups:
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦 CA😈SSRSUB_-2011271893
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 7
+      - US_13
       - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V103-US-付费推荐dlj.tf/ssrsub
-      - 🇨🇦 加拿大 271
-      - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇨🇦 加拿大 274
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - US_17
-      - US_16
-      - US_14
+      - 🇺🇸 V104-US-付费推荐dlj.tf/ssrsub
       - 🇨🇦 CA😈SSRSUB_1068910962
       - 🇨🇦 CA😈SSRSUB_-473124971
-      - 🇨🇦 CA😈SSRSUB_-352530556
       - 🇨🇦 CA😈SSRSUB_806363324
       - 🇨🇦 CA😈SSRSUB_674502816
       - 🇺🇸 US😈SSRSUB_-1753685517
@@ -416,51 +412,51 @@ proxy-groups:
       - 🇺🇸 US😈SSRSUB_1657287095
       - 🇨🇦 CA😈SSRSUB_1808168665
       - 🇨🇦 CA😈SSRSUB_-2045587917
-      - 🇲🇾 VM-WS-NA 🇲🇾 MY-38.54.112.18244676
-      - 🇺🇸 Americas😈SSRSUB_2003495174
-      - 0|-https//t.me/MrXbin-156
-      - VM-WS-NA 🏴‍☠️ NA-104.17.134.4680
-      - _01
-      - _03
-      - _04
-      - _05
-      - Relay_-🇬🇧GB_06
-      - 🇨🇳 CN😈SSRSUB_-134289611
-      - 🇨🇳 CN😈SSRSUB_-2129480278
-      - 🇨🇳 CN😈SSRSUB_-1577236299
-      - 🇨🇳 CN😈SSRSUB_378947004
-      - 🇨🇳 CN😈SSRSUB_1441326630
+      - 🇺🇸 US😈SSRSUB_-1189618999
+      - 🇨🇦 CA😈SSRSUB_1246332267
+      - 🇨🇦 CA😈SSRSUB_-1954617455
+      - 🇨🇦 CA😈SSRSUB_1529605686
+      - 🇨🇦 CA😈SSRSUB_1437067508
+      - 🇨🇦 CA😈SSRSUB_-2099288245
+      - 🇺🇸 US😈SSRSUB_-1421357583
+      - 🇨🇦 CA😈SSRSUB_-1217602740
+      - 🇷🇺 俄罗斯+v2rayfree.eu.org
+      - VM-WS-NA 🇻🇳 VN-38.54.30.4755700
+      - 0|-https//t.me/MrXbin-34
+      - 🇳🇱 VM-TCP-NA 🇳🇱 NL-154.47.21.528099
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 88
       - Other😈SSRSUB_-642291814
-      - 🇫🇷 FR😈SSRSUB_1388672434
       - 🇨🇳 CN😈SSRSUB_905747790
       - 🇨🇳 CN😈SSRSUB_1849468093
       - 🇨🇳 CN😈SSRSUB_-1650991511
       - 🇨🇳 CN😈SSRSUB_1305952007
       - UM😈SSRSUB_-1986465562
       - 🇨🇳 CN😈SSRSUB_-1212766799
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87
+      - UM😈SSRSUB_1034331182
       - 🇨🇳 CN😈SSRSUB_1136656902
       - 🇷🇺 RU😈SSRSUB_1788054851
+      - 🇬🇧 UK😈SSRSUB_-1419721698
+      - UM😈SSRSUB_442109129
+      - 🇦🇺 AU😈SSRSUB_-868178660
+      - UM😈SSRSUB_1120030419
+      - 🇺🇸 Americas😈SSRSUB_-1965554259
+      - 🇩🇪 DE😈SSRSUB_1624189889
+      - UM😈SSRSUB_45319295
+      - Other😈SSRSUB_898959783
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
+      - 🇨🇦 CA😈SSRSUB_-2011271893
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 7
+      - US_13
       - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V103-US-付费推荐dlj.tf/ssrsub
-      - 🇨🇦 加拿大 271
-      - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇨🇦 加拿大 274
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - US_17
-      - US_16
-      - US_14
+      - 🇺🇸 V104-US-付费推荐dlj.tf/ssrsub
       - 🇨🇦 CA😈SSRSUB_1068910962
       - 🇨🇦 CA😈SSRSUB_-473124971
-      - 🇨🇦 CA😈SSRSUB_-352530556
       - 🇨🇦 CA😈SSRSUB_806363324
       - 🇨🇦 CA😈SSRSUB_674502816
       - 🇺🇸 US😈SSRSUB_-1753685517
@@ -469,17 +465,25 @@ proxy-groups:
       - 🇺🇸 US😈SSRSUB_1657287095
       - 🇨🇦 CA😈SSRSUB_1808168665
       - 🇨🇦 CA😈SSRSUB_-2045587917
+      - 🇺🇸 US😈SSRSUB_-1189618999
+      - 🇨🇦 CA😈SSRSUB_1246332267
+      - 🇨🇦 CA😈SSRSUB_-1954617455
+      - 🇨🇦 CA😈SSRSUB_1529605686
+      - 🇨🇦 CA😈SSRSUB_1437067508
+      - 🇨🇦 CA😈SSRSUB_-2099288245
+      - 🇺🇸 US😈SSRSUB_-1421357583
+      - 🇨🇦 CA😈SSRSUB_-1217602740
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 0,5|🇸🇬 新加坡|@ripaojiedian
-      - 🇯🇵 0,5|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 JP😈SSRSUB_476951725
+      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
+      - 🇰🇷 5|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_-1534771290
-      - 🇨🇳 TW😈SSRSUB_-1615409974
+      - 🇨🇳 台湾_121320001
+      - 🇰🇷 KR😈SSRSUB_752622824
       - 🇨🇳 TW😈SSRSUB_213192865
       - 🇨🇳 TW😈SSRSUB_-1890001595
       - 🇸🇬 SG😈SSRSUB_1159366513
@@ -508,6 +512,7 @@ proxy-groups:
       - 🇯🇵 JP😈SSRSUB_-2134533757
       - 🇯🇵 JP😈SSRSUB_472581188
       - 🇸🇬 SG😈SSRSUB_532302730
+      - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -525,48 +530,44 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇲🇾 VM-WS-NA 🇲🇾 MY-38.54.112.18244676
-      - 🇺🇸 Americas😈SSRSUB_2003495174
-      - 0|-https//t.me/MrXbin-156
-      - VM-WS-NA 🏴‍☠️ NA-104.17.134.4680
-      - _01
-      - _03
-      - _04
-      - _05
-      - Relay_-🇬🇧GB_06
-      - 🇨🇳 CN😈SSRSUB_-134289611
-      - 🇨🇳 CN😈SSRSUB_-2129480278
-      - 🇨🇳 CN😈SSRSUB_-1577236299
-      - 🇨🇳 CN😈SSRSUB_378947004
-      - 🇨🇳 CN😈SSRSUB_1441326630
+      - 🇷🇺 俄罗斯+v2rayfree.eu.org
+      - VM-WS-NA 🇻🇳 VN-38.54.30.4755700
+      - 0|-https//t.me/MrXbin-34
+      - 🇳🇱 VM-TCP-NA 🇳🇱 NL-154.47.21.528099
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 88
       - Other😈SSRSUB_-642291814
-      - 🇫🇷 FR😈SSRSUB_1388672434
       - 🇨🇳 CN😈SSRSUB_905747790
       - 🇨🇳 CN😈SSRSUB_1849468093
       - 🇨🇳 CN😈SSRSUB_-1650991511
       - 🇨🇳 CN😈SSRSUB_1305952007
       - UM😈SSRSUB_-1986465562
       - 🇨🇳 CN😈SSRSUB_-1212766799
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87
+      - UM😈SSRSUB_1034331182
       - 🇨🇳 CN😈SSRSUB_1136656902
       - 🇷🇺 RU😈SSRSUB_1788054851
+      - 🇬🇧 UK😈SSRSUB_-1419721698
+      - UM😈SSRSUB_442109129
+      - 🇦🇺 AU😈SSRSUB_-868178660
+      - UM😈SSRSUB_1120030419
+      - 🇺🇸 Americas😈SSRSUB_-1965554259
+      - 🇩🇪 DE😈SSRSUB_1624189889
+      - UM😈SSRSUB_45319295
+      - Other😈SSRSUB_898959783
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 7
+      - US_13
       - 🇺🇸 V102-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V103-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V101-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - US_17
-      - US_16
-      - US_14
+      - 🇺🇸 V104-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 US😈SSRSUB_-1753685517
       - 🇺🇸 US😈SSRSUB_1657287095
+      - 🇺🇸 US😈SSRSUB_-1189618999
+      - 🇺🇸 US😈SSRSUB_-1421357583
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -581,7 +582,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 0,5|🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
       - 🇸🇬 SG😈SSRSUB_1159366513
       - 🇸🇬 SG😈SSRSUB_-2134427733
       - 🇸🇬 SG😈SSRSUB_532302730
@@ -597,8 +598,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 0,5|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 JP😈SSRSUB_476951725
       - 🇯🇵 JP😈SSRSUB_-1534771290
       - 🇯🇵 JP😈SSRSUB_132290702
       - 🇯🇵 JP😈SSRSUB_-446145506
@@ -623,9 +622,10 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 TW😈SSRSUB_-1615409974
+      - 🇨🇳 台湾_121320001
       - 🇨🇳 TW😈SSRSUB_213192865
       - 🇨🇳 TW😈SSRSUB_-1890001595
+      - 🇨🇳 TW😈SSRSUB_-1615409974
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -635,6 +635,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇰🇷 5|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 KR😈SSRSUB_752622824
       - 🇰🇷 KR😈SSRSUB_1973636759
       - 🇰🇷 KR😈SSRSUB_-2075407552
       - 🇰🇷 KR😈SSRSUB_-252815427
@@ -1981,6 +1983,7 @@ rules:
  - DOMAIN-SUFFIX,applepaysupplies.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.tv,🍎 苹果服务
+ - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.co.id,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.hk,🍎 苹果服务
@@ -2260,6 +2263,7 @@ rules:
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.com.au,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.wang,🍎 苹果服务
@@ -2292,9 +2296,7 @@ rules:
  - DOMAIN-SUFFIX,iphoto.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
- - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
- - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
@@ -9547,6 +9549,7 @@ rules:
  - DOMAIN-SUFFIX,9news.com.au,🚀 节点选择
  - DOMAIN-SUFFIX,9to5mac.com,🚀 节点选择
  - DOMAIN-SUFFIX,a-normal-day.com,🚀 节点选择
+ - DOMAIN-SUFFIX,a5.com.ru,🚀 节点选择
  - DOMAIN-SUFFIX,aamacau.com,🚀 节点选择
  - DOMAIN-SUFFIX,abc.com,🚀 节点选择
  - DOMAIN-SUFFIX,abc.net.au,🚀 节点选择
@@ -10231,6 +10234,7 @@ rules:
  - DOMAIN-SUFFIX,cdp1989.org,🚀 节点选择
  - DOMAIN-SUFFIX,cdp1998.org,🚀 节点选择
  - DOMAIN-SUFFIX,cdp2006.org,🚀 节点选择
+ - DOMAIN-SUFFIX,cdpa.url.tw,🚀 节点选择
  - DOMAIN-SUFFIX,cdpeu.org,🚀 节点选择
  - DOMAIN-SUFFIX,cdpusa.org,🚀 节点选择
  - DOMAIN-SUFFIX,cdpweb.org,🚀 节点选择
@@ -10261,7 +10265,6 @@ rules:
  - DOMAIN-SUFFIX,channelnewsasia.com,🚀 节点选择
  - DOMAIN-SUFFIX,chaoex.com,🚀 节点选择
  - DOMAIN-SUFFIX,chapm25.com,🚀 节点选择
- - DOMAIN-SUFFIX,chat.lmsys.org,🚀 节点选择
  - DOMAIN-SUFFIX,chatnook.com,🚀 节点选择
  - DOMAIN-SUFFIX,chaturbate.com,🚀 节点选择
  - DOMAIN-SUFFIX,checkgfw.com,🚀 节点选择
@@ -10273,7 +10276,9 @@ rules:
  - DOMAIN-SUFFIX,cherrysave.com,🚀 节点选择
  - DOMAIN-SUFFIX,chhongbi.org,🚀 节点选择
  - DOMAIN-SUFFIX,chicagoncmtv.com,🚀 节点选择
+ - DOMAIN-SUFFIX,china-mmm.jp.net,🚀 节点选择
  - DOMAIN-SUFFIX,china-mmm.net,🚀 节点选择
+ - DOMAIN-SUFFIX,china-mmm.sa.com,🚀 节点选择
  - DOMAIN-SUFFIX,china-review.com.ua,🚀 节点选择
  - DOMAIN-SUFFIX,china-week.com,🚀 节点选择
  - DOMAIN-SUFFIX,china101.com,🚀 节点选择
@@ -10421,7 +10426,6 @@ rules:
  - DOMAIN-SUFFIX,cmule.org,🚀 节点选择
  - DOMAIN-SUFFIX,cmx.im,🚀 节点选择
  - DOMAIN-SUFFIX,cn-proxy.com,🚀 节点选择
- - DOMAIN-SUFFIX,cn.com,🚀 节点选择
  - DOMAIN-SUFFIX,cn6.eu,🚀 节点选择
  - DOMAIN-SUFFIX,cna.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,cnabc.com,🚀 节点选择
@@ -10456,7 +10460,6 @@ rules:
  - DOMAIN-SUFFIX,coinut.com,🚀 节点选择
  - DOMAIN-SUFFIX,collateralmurder.com,🚀 节点选择
  - DOMAIN-SUFFIX,collateralmurder.org,🚀 节点选择
- - DOMAIN-SUFFIX,com.ru,🚀 节点选择
  - DOMAIN-SUFFIX,com.uk,🚀 节点选择
  - DOMAIN-SUFFIX,comedycentral.com,🚀 节点选择
  - DOMAIN-SUFFIX,comefromchina.com,🚀 节点选择
@@ -10633,6 +10636,7 @@ rules:
  - DOMAIN-SUFFIX,democrats.org,🚀 节点选择
  - DOMAIN-SUFFIX,demosisto.hk,🚀 节点选择
  - DOMAIN-SUFFIX,depositphotos.com,🚀 节点选择
+ - DOMAIN-SUFFIX,derekhsu.homeip.net,🚀 节点选择
  - DOMAIN-SUFFIX,desc.se,🚀 节点选择
  - DOMAIN-SUFFIX,desipro.de,🚀 节点选择
  - DOMAIN-SUFFIX,deskconnect.com,🚀 节点选择
@@ -10705,6 +10709,7 @@ rules:
  - DOMAIN-SUFFIX,dnsrd.com,🚀 节点选择
  - DOMAIN-SUFFIX,dnssec.net,🚀 节点选择
  - DOMAIN-SUFFIX,docker.com,🚀 节点选择
+ - DOMAIN-SUFFIX,docker.io,🚀 节点选择
  - DOMAIN-SUFFIX,doctorvoice.org,🚀 节点选择
  - DOMAIN-SUFFIX,documentingreality.com,🚀 节点选择
  - DOMAIN-SUFFIX,dogfartnetwork.com,🚀 节点选择
@@ -11702,7 +11707,6 @@ rules:
  - DOMAIN-SUFFIX,holyspiritspeaks.org,🚀 节点选择
  - DOMAIN-SUFFIX,home.sina.com,🚀 节点选择
  - DOMAIN-SUFFIX,homedepot.com,🚀 节点选择
- - DOMAIN-SUFFIX,homeip.net,🚀 节点选择
  - DOMAIN-SUFFIX,homeperversion.com,🚀 节点选择
  - DOMAIN-SUFFIX,homeservershow.com,🚀 节点选择
  - DOMAIN-SUFFIX,honeynet.org,🚀 节点选择
@@ -12102,7 +12106,6 @@ rules:
  - DOMAIN-SUFFIX,journalofdemocracy.org,🚀 节点选择
  - DOMAIN-SUFFIX,joymiihub.com,🚀 节点选择
  - DOMAIN-SUFFIX,jp.hao123.com,🚀 节点选择
- - DOMAIN-SUFFIX,jp.net,🚀 节点选择
  - DOMAIN-SUFFIX,jpopforum.net,🚀 节点选择
  - DOMAIN-SUFFIX,jqueryui.com,🚀 节点选择
  - DOMAIN-SUFFIX,js.revsci.net,🚀 节点选择
@@ -12350,7 +12353,6 @@ rules:
  - DOMAIN-SUFFIX,livefilestore.com,🚀 节点选择
  - DOMAIN-SUFFIX,liveleak.com,🚀 节点选择
  - DOMAIN-SUFFIX,livemint.com,🚀 节点选择
- - DOMAIN-SUFFIX,livestation.com,🚀 节点选择
  - DOMAIN-SUFFIX,livestream.com,🚀 节点选择
  - DOMAIN-SUFFIX,livevideo.com,🚀 节点选择
  - DOMAIN-SUFFIX,livingonline.us,🚀 节点选择
@@ -12360,7 +12362,7 @@ rules:
  - DOMAIN-SUFFIX,lizhizhuangbi.com,🚀 节点选择
  - DOMAIN-SUFFIX,lkcn.net,🚀 节点选择
  - DOMAIN-SUFFIX,llnwd.net,🚀 节点选择
- - DOMAIN-SUFFIX,llss.me,🚀 节点选择
+ - DOMAIN-SUFFIX,lmsys.org,🚀 节点选择
  - DOMAIN-SUFFIX,lncn.org,🚀 节点选择
  - DOMAIN-SUFFIX,load.to,🚀 节点选择
  - DOMAIN-SUFFIX,lobsangwangyal.com,🚀 节点选择
@@ -13437,7 +13439,6 @@ rules:
  - DOMAIN-SUFFIX,qz.com,🚀 节点选择
  - DOMAIN-SUFFIX,r0.ru,🚀 节点选择
  - DOMAIN-SUFFIX,r18.com,🚀 节点选择
- - DOMAIN-SUFFIX,ra.gg,🚀 节点选择
  - DOMAIN-SUFFIX,radicalparty.org,🚀 节点选择
  - DOMAIN-SUFFIX,radiko.jp,🚀 节点选择
  - DOMAIN-SUFFIX,radio-canada.ca,🚀 节点选择
@@ -13598,7 +13599,6 @@ rules:
  - DOMAIN-SUFFIX,s1s1s1.com,🚀 节点选择
  - DOMAIN-SUFFIX,s4miniarchive.com,🚀 节点选择
  - DOMAIN-SUFFIX,s8forum.com,🚀 节点选择
- - DOMAIN-SUFFIX,sa.com,🚀 节点选择
  - DOMAIN-SUFFIX,sa.hao123.com,🚀 节点选择
  - DOMAIN-SUFFIX,saboom.com,🚀 节点选择
  - DOMAIN-SUFFIX,sacks.com,🚀 节点选择
@@ -14651,7 +14651,6 @@ rules:
  - DOMAIN-SUFFIX,urbansurvival.com,🚀 节点选择
  - DOMAIN-SUFFIX,urchin.com,🚀 节点选择
  - DOMAIN-SUFFIX,url.com.tw,🚀 节点选择
- - DOMAIN-SUFFIX,url.tw,🚀 节点选择
  - DOMAIN-SUFFIX,urlborg.com,🚀 节点选择
  - DOMAIN-SUFFIX,urlparser.com,🚀 节点选择
  - DOMAIN-SUFFIX,us.to,🚀 节点选择
@@ -15198,7 +15197,6 @@ rules:
  - DOMAIN-SUFFIX,yingsuoss.com,🚀 节点选择
  - DOMAIN-SUFFIX,yinlei.org,🚀 节点选择
  - DOMAIN-SUFFIX,yipub.com,🚀 节点选择
- - DOMAIN-SUFFIX,yiyechat.com,🚀 节点选择
  - DOMAIN-SUFFIX,yizhihongxing.com,🚀 节点选择
  - DOMAIN-SUFFIX,yobit.net,🚀 节点选择
  - DOMAIN-SUFFIX,yobt.com,🚀 节点选择
@@ -15239,7 +15237,6 @@ rules:
  - DOMAIN-SUFFIX,yuanzhengtang.org,🚀 节点选择
  - DOMAIN-SUFFIX,yulghun.com,🚀 节点选择
  - DOMAIN-SUFFIX,yunchao.net,🚀 节点选择
- - DOMAIN-SUFFIX,yuntipub.com,🚀 节点选择
  - DOMAIN-SUFFIX,yuvutu.com,🚀 节点选择
  - DOMAIN-SUFFIX,yvesgeleyn.com,🚀 节点选择
  - DOMAIN-SUFFIX,ywpw.com,🚀 节点选择
@@ -15263,6 +15260,7 @@ rules:
  - DOMAIN-SUFFIX,zello.com,🚀 节点选择
  - DOMAIN-SUFFIX,zengjinyan.org,🚀 节点选择
  - DOMAIN-SUFFIX,zenmate.com,🚀 节点选择
+ - DOMAIN-SUFFIX,zenmate.com.ru,🚀 节点选择
  - DOMAIN-SUFFIX,zerohedge.com,🚀 节点选择
  - DOMAIN-SUFFIX,zeronet.io,🚀 节点选择
  - DOMAIN-SUFFIX,zeutch.com,🚀 节点选择
