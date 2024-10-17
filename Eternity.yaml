@@ -5,9 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian, server: 18.182.55.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 KR😈SSRSUB_455686761, server: shouer1.209966.xyz, port: 14338, type: vmess, uuid: 7fd4d16d-4b6b-4560-cf6c-23fa094be476, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 KR😈SSRSUB_3604095127, server: 3.35.222.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 HK😈SSRSUB_3695677373, server: sgp.cdn-sgp.xyz, port: 5245, type: vmess, uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sgp.cdn-sgp.xyz}}}
   - {name: 🇯🇵 JP😈SSRSUB_718089260, server: 43.201.82.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 韩国+V2CROSS.COM, server: 117.123.144.67, port: 28825, type: trojan, password: 95b, sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com, skip-cert-verify: false}
   - {name: 🇰🇷 韩国+V2CROSS.COM 2, server: 211.107.201.14, port: 25001, type: trojan, password: 95b, sni: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com, skip-cert-verify: false}
@@ -49,7 +48,9 @@ proxies:
   - {name: 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7, server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}}
   - {name: 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19, server: 426hk.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 426hk.fans8.xyz}}}
-  - {name: 🇺🇸 美国+V2CROSS.COM 11, server: 69.50.92.110, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20, server: V309.bgpnet.top, port: 26309, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23, server: V203.bgpnet.top, port: 26203, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 031, server: 104.25.112.185, port: 443, type: vmess, uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lfljvws, headers: {Host: rac.679888.xyz}}}
   - {name: 🇺🇸 美国+V2CROSS.COM 10, server: 45.144.48.63, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: d3837224ed465f00}
   - {name: 🇺🇸 美国+Amazon+EC2服务器, server: 3.143.42.57, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon+EC2服务器 2, server: 3.64.17.216, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
@@ -72,11 +73,11 @@ proxies:
   - {name: 🇺🇸 美国+Xerox 2, server: 13.60.132.40, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+俄亥俄州都柏林Amazon数据中心, server: 18.216.168.34, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+俄勒冈州波特兰Amazon数据中心, server: us004.421421.xyz, port: 20230, type: trojan, password: cf13832b-4ca0-4fee-8e85-2b2411104e75, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇳🇱 荷兰_121320048, server: 95.179.128.114, port: 80, type: vmess, uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Av8czorIlYicU6D349brWUw6a, headers: {Host: 95.179.128.114}}}
-  - {name: 二爷免费翻墙 https//1808.free.hr 节点_39, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: 二爷免费翻墙 https//1808.free.hr 节点_224, server: 173.245.59.8, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /glweidf.cfd/linkws, headers: {Host: 77h2quiet-dream-5c34.foratay741.workers.dev}}}
+  - {name: UM😈SSRSUB_2519677486, server: 104.25.127.240, port: 443, type: vmess, uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lfljvws, headers: {Host: rac.679888.xyz}}}
+  - {name: TG😈SSRSUB_2733003048, server: 3.113.6.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: Other😈SSRSUB_1541348366, server: 35.87.156.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: TG😈SSRSUB_2729127674, server: 54.178.150.106, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: TG😈SSRSUB_3688352138, server: 120.210.205.82, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Euro😈SSRSUB_2368461052, server: 120.232.153.71, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
   - {name: CH😈SSRSUB_2785493623, server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: UM😈SSRSUB_2313596545, server: 151.101.2.133, port: 443, type: vmess, uuid: 66833e2f-dca1-4591-951c-1392ace0b2f6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "ws/?ed=2048"}}
   - {name: UM😈SSRSUB_1540031215, server: 183.238.202.173, port: 39041, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
@@ -89,13 +90,13 @@ proxies:
   - {name: 🇬🇧 UK😈SSRSUB_1655862801, server: 120.237.79.157, port: 46665, type: vmess, uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3, alterId: 64, cipher: auto, tls: false}
   - {name: Euro😈SSRSUB_2523899909, server: 104.16.68.38, port: 2052, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /glweidf.sbs/linkws}}
   - {name: Asia😈SSRSUB_207235238, server: cfcdn2.sanfencdn9.com, port: 2086, type: vmess, uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ifBUEjhG, headers: {Host: gbdzxvumhk1.xqyhvpee.xyz}}}
-  - {name: UM😈SSRSUB_2519677486, server: 104.25.127.240, port: 443, type: vmess, uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lfljvws, headers: {Host: rac.679888.xyz}}}
+  - {name: Euro😈SSRSUB_2368461052, server: 120.232.153.71, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 Americas😈SSRSUB_3881104772, server: 162.159.140.66, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999}}
   - {name: UM😈SSRSUB_865104408, server: 172.64.166.33, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999}}
   - {name: 🇮🇪 爱尔兰+V2CROSS.COM, server: 13.79.174.197, port: 63314, type: ss, cipher: chacha20-ietf-poly1305, password: nAOsWTXwwlBFd2Ez2dGK2s}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 81, server: 154.17.2.112, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 80, server: 167.88.63.79, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 79, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: hohm.microsoft.com}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 130, server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-opts: {path: /sdafasfsa, headers: {Host: ban4.feiclouddd.me}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /111111.online, headers: {Host: www.digitalocean.com}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 128, server: 120.236.197.205, port: 3389, type: trojan, password: ba4fedf8c217c146, sni: n2.gladns.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,9 +112,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 KR😈SSRSUB_455686761
-      - 🇰🇷 KR😈SSRSUB_3604095127
+      - 🇭🇰 HK😈SSRSUB_3695677373
       - 🇯🇵 JP😈SSRSUB_718089260
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
@@ -155,7 +155,9 @@ proxy-groups:
       - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
       - 🇭🇰 mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇺🇸 美国+V2CROSS.COM 11
+      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
+      - 🇺🇸 美国 031
       - 🇺🇸 美国+V2CROSS.COM 10
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
@@ -178,11 +180,11 @@ proxy-groups:
       - 🇺🇸 美国+Xerox 2
       - 🇺🇸 美国+俄亥俄州都柏林Amazon数据中心
       - 🇺🇸 美国+俄勒冈州波特兰Amazon数据中心
-      - 🇳🇱 荷兰_121320048
-      - 二爷免费翻墙 https//1808.free.hr 节点_39
-      - 二爷免费翻墙 https//1808.free.hr 节点_224
+      - UM😈SSRSUB_2519677486
+      - TG😈SSRSUB_2733003048
+      - Other😈SSRSUB_1541348366
+      - TG😈SSRSUB_2729127674
       - TG😈SSRSUB_3688352138
-      - Euro😈SSRSUB_2368461052
       - CH😈SSRSUB_2785493623
       - UM😈SSRSUB_2313596545
       - UM😈SSRSUB_1540031215
@@ -195,13 +197,13 @@ proxy-groups:
       - 🇬🇧 UK😈SSRSUB_1655862801
       - Euro😈SSRSUB_2523899909
       - Asia😈SSRSUB_207235238
-      - UM😈SSRSUB_2519677486
+      - Euro😈SSRSUB_2368461052
       - 🇺🇸 Americas😈SSRSUB_3881104772
       - UM😈SSRSUB_865104408
       - 🇮🇪 爱尔兰+V2CROSS.COM
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 81
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 80
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 79
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 130
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 128
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,9 +254,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 KR😈SSRSUB_455686761
-      - 🇰🇷 KR😈SSRSUB_3604095127
+      - 🇭🇰 HK😈SSRSUB_3695677373
       - 🇯🇵 JP😈SSRSUB_718089260
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
@@ -296,7 +297,9 @@ proxy-groups:
       - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
       - 🇭🇰 mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇺🇸 美国+V2CROSS.COM 11
+      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
+      - 🇺🇸 美国 031
       - 🇺🇸 美国+V2CROSS.COM 10
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
@@ -319,11 +322,11 @@ proxy-groups:
       - 🇺🇸 美国+Xerox 2
       - 🇺🇸 美国+俄亥俄州都柏林Amazon数据中心
       - 🇺🇸 美国+俄勒冈州波特兰Amazon数据中心
-      - 🇳🇱 荷兰_121320048
-      - 二爷免费翻墙 https//1808.free.hr 节点_39
-      - 二爷免费翻墙 https//1808.free.hr 节点_224
+      - UM😈SSRSUB_2519677486
+      - TG😈SSRSUB_2733003048
+      - Other😈SSRSUB_1541348366
+      - TG😈SSRSUB_2729127674
       - TG😈SSRSUB_3688352138
-      - Euro😈SSRSUB_2368461052
       - CH😈SSRSUB_2785493623
       - UM😈SSRSUB_2313596545
       - UM😈SSRSUB_1540031215
@@ -336,22 +339,21 @@ proxy-groups:
       - 🇬🇧 UK😈SSRSUB_1655862801
       - Euro😈SSRSUB_2523899909
       - Asia😈SSRSUB_207235238
-      - UM😈SSRSUB_2519677486
+      - Euro😈SSRSUB_2368461052
       - 🇺🇸 Americas😈SSRSUB_3881104772
       - UM😈SSRSUB_865104408
       - 🇮🇪 爱尔兰+V2CROSS.COM
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 81
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 80
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 79
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 130
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 128
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 KR😈SSRSUB_455686761
-      - 🇰🇷 KR😈SSRSUB_3604095127
+      - 🇭🇰 HK😈SSRSUB_3695677373
       - 🇯🇵 JP😈SSRSUB_718089260
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
@@ -393,7 +395,9 @@ proxy-groups:
       - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
       - 🇭🇰 mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇺🇸 美国+V2CROSS.COM 11
+      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
+      - 🇺🇸 美国 031
       - 🇺🇸 美国+V2CROSS.COM 10
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
@@ -416,11 +420,11 @@ proxy-groups:
       - 🇺🇸 美国+Xerox 2
       - 🇺🇸 美国+俄亥俄州都柏林Amazon数据中心
       - 🇺🇸 美国+俄勒冈州波特兰Amazon数据中心
-      - 🇳🇱 荷兰_121320048
-      - 二爷免费翻墙 https//1808.free.hr 节点_39
-      - 二爷免费翻墙 https//1808.free.hr 节点_224
+      - UM😈SSRSUB_2519677486
+      - TG😈SSRSUB_2733003048
+      - Other😈SSRSUB_1541348366
+      - TG😈SSRSUB_2729127674
       - TG😈SSRSUB_3688352138
-      - Euro😈SSRSUB_2368461052
       - CH😈SSRSUB_2785493623
       - UM😈SSRSUB_2313596545
       - UM😈SSRSUB_1540031215
@@ -433,20 +437,20 @@ proxy-groups:
       - 🇬🇧 UK😈SSRSUB_1655862801
       - Euro😈SSRSUB_2523899909
       - Asia😈SSRSUB_207235238
-      - UM😈SSRSUB_2519677486
+      - Euro😈SSRSUB_2368461052
       - 🇺🇸 Americas😈SSRSUB_3881104772
       - UM😈SSRSUB_865104408
       - 🇮🇪 爱尔兰+V2CROSS.COM
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 81
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 80
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 79
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 130
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 128
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国+V2CROSS.COM 11
+      - 🇺🇸 美国 031
       - 🇺🇸 美国+V2CROSS.COM 10
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
@@ -475,9 +479,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 KR😈SSRSUB_455686761
-      - 🇰🇷 KR😈SSRSUB_3604095127
+      - 🇭🇰 HK😈SSRSUB_3695677373
       - 🇯🇵 JP😈SSRSUB_718089260
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
@@ -519,17 +522,19 @@ proxy-groups:
       - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
       - 🇭🇰 mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇳🇱 荷兰_121320048
-      - 二爷免费翻墙 https//1808.free.hr 节点_39
-      - 二爷免费翻墙 https//1808.free.hr 节点_224
+      - UM😈SSRSUB_2519677486
+      - TG😈SSRSUB_2733003048
+      - Other😈SSRSUB_1541348366
+      - TG😈SSRSUB_2729127674
       - TG😈SSRSUB_3688352138
-      - Euro😈SSRSUB_2368461052
       - CH😈SSRSUB_2785493623
       - UM😈SSRSUB_2313596545
       - UM😈SSRSUB_1540031215
@@ -542,20 +547,20 @@ proxy-groups:
       - 🇬🇧 UK😈SSRSUB_1655862801
       - Euro😈SSRSUB_2523899909
       - Asia😈SSRSUB_207235238
-      - UM😈SSRSUB_2519677486
+      - Euro😈SSRSUB_2368461052
       - 🇺🇸 Americas😈SSRSUB_3881104772
       - UM😈SSRSUB_865104408
       - 🇮🇪 爱尔兰+V2CROSS.COM
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 81
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 80
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 79
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 130
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 128
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国+V2CROSS.COM 11
+      - 🇺🇸 美国 031
       - 🇺🇸 美国+V2CROSS.COM 10
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
@@ -584,6 +589,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇭🇰 HK😈SSRSUB_3695677373
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
       - 🇭🇰 香港_121320001
@@ -592,6 +598,8 @@ proxy-groups:
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
       - 🇭🇰 mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
@@ -643,15 +651,15 @@ proxy-groups:
       - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
+      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
+      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 KR😈SSRSUB_455686761
-      - 🇰🇷 KR😈SSRSUB_3604095127
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
 rules:
