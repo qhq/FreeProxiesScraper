@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 13|🇭🇰 香港3|@ripaojiedian, server: 154.197.26.120, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
   - {name: 🇭🇰 HK😈SSRSUB_252344610, server: 120.232.153.40, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK😈SSRSUB_3949890657, server: o1sl.qiyunlink.top, port: 46728, type: vmess, uuid: f2796bde-ba2a-4b2c-acca-872c5eb784d0, alterId: 0, cipher: auto, tls: false}
   - {name: 🇰🇷 KR😈SSRSUB_455686761, server: shouer1.209966.xyz, port: 14338, type: vmess, uuid: 7fd4d16d-4b6b-4560-cf6c-23fa094be476, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 HK😈SSRSUB_3695677373, server: sgp.cdn-sgp.xyz, port: 5245, type: vmess, uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sgp.cdn-sgp.xyz}}}
   - {name: 🇰🇷 KR😈SSRSUB_3604095127, server: 3.35.222.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
@@ -46,12 +46,11 @@ proxies:
   - {name: 🇨🇳 果宝特攻-免费线路-台湾-01, server: tw1-vds7.anyhk.co, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: 0d43fd02-cb36-4f3c-be19-c9cbed362646}
   - {name: 🇨🇳 果宝特攻-免费线路-台湾-长期, server: gdgs.tarioblink.me, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 0d43fd02-cb36-4f3c-be19-c9cbed362646}
   - {name: 🇸🇬 果宝特攻-免费节点-新加坡-02, server: gdgs.tarioblink.me, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 0d43fd02-cb36-4f3c-be19-c9cbed362646}
+  - {name: 🇭🇰 香港(油管破解资源君2.0) 2, server: hk.tiktokcdn.sbs, port: 2083, type: vmess, uuid: GenshinMinecraft, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xui, headers: {Host: hk.tiktokcdn.sbs}}}
   - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: 110.40.69.43, port: 21616, type: vmess, uuid: 432dd1c8-b83c-47a0-82d9-453beeda35dc, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 _US_美国_1, server: 23.157.40.113, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国(油管破解资源君2.0), server: 119.36.161.40, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.99136853.xyz}}}
-  - {name: 🇨🇦 CA😈SSRSUB_31514793, server: 13.250.59.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇦 CA😈SSRSUB_219694356, server: tg_mfbpn03.52cloud.us.kg, port: 42348, type: ss, cipher: chacha20-ietf-poly1305, password: 5409bf78-b122-4b9b-9050-da36576f5bbc}
   - {name: 🇺🇸 美国+Amazon+EC2服务器, server: 3.143.42.57, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon+EC2服务器 2, server: 3.64.17.216, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon+EC2服务器 3, server: 3.64.191.45, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: sni=trojan.burgerip.co.uk, skip-cert-verify: false}
@@ -72,10 +71,12 @@ proxies:
   - {name: 🇺🇸 美国+Xerox, server: 13.51.247.95, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Xerox 2, server: 13.60.132.40, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+俄亥俄州都柏林Amazon数据中心, server: 18.216.168.34, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+俄勒冈州波特兰Amazon数据中心, server: us004.421421.xyz, port: 20230, type: trojan, password: cf13832b-4ca0-4fee-8e85-2b2411104e75, sni: 421421.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心, server: 54.86.248.206, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇷🇺 RU😈SSRSUB_884534536, server: 217.30.10.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: 🇷🇺 俄罗斯+V2CROSS.COM 3, server: 194.87.45.189, port: 40076, type: ss, cipher: chacha20-ietf-poly1305, password: sOJ7Wo6yHqWQv8FUEq3BKV}
+  - {name: 亚太地区+V2CROSS.COM, server: 103.174.86.113, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn}
   - {name: UM😈SSRSUB_279023244, server: 104.16.60.8, port: 8080, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /afrhms16v.bestxray.buzz/linkws}}
-  - {name: Other😈SSRSUB_4099562408, server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TG😈SSRSUB_3290563095, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Other😈SSRSUB_1901174806, server: 183.236.48.161, port: 33288, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: UM😈SSRSUB_3861831637, server: 172.64.167.44, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999}}
   - {name: 🇬🇧 UK😈SSRSUB_2125441813, server: 141.101.122.109, port: 443, type: vmess, uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /lfljvws, headers: {Host: rac.679888.xyz}}}
   - {name: Other😈SSRSUB_525609051, server: 183.236.48.163, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
@@ -111,8 +112,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 HK😈SSRSUB_252344610
+      - 🇭🇰 HK😈SSRSUB_3949890657
       - 🇰🇷 KR😈SSRSUB_455686761
       - 🇭🇰 HK😈SSRSUB_3695677373
       - 🇰🇷 KR😈SSRSUB_3604095127
@@ -152,12 +153,11 @@ proxy-groups:
       - 🇨🇳 果宝特攻-免费线路-台湾-01
       - 🇨🇳 果宝特攻-免费线路-台湾-长期
       - 🇸🇬 果宝特攻-免费节点-新加坡-02
+      - 🇭🇰 香港(油管破解资源君2.0) 2
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 美国(油管破解资源君2.0)
-      - 🇨🇦 CA😈SSRSUB_31514793
+      - 🇨🇦 CA😈SSRSUB_219694356
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
@@ -178,10 +178,12 @@ proxy-groups:
       - 🇺🇸 美国+Xerox
       - 🇺🇸 美国+Xerox 2
       - 🇺🇸 美国+俄亥俄州都柏林Amazon数据中心
+      - 🇺🇸 美国+俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
+      - 🇷🇺 RU😈SSRSUB_884534536
+      - 🇷🇺 俄罗斯+V2CROSS.COM 3
+      - 亚太地区+V2CROSS.COM
       - UM😈SSRSUB_279023244
-      - Other😈SSRSUB_4099562408
-      - TG😈SSRSUB_3290563095
-      - Other😈SSRSUB_1901174806
       - UM😈SSRSUB_3861831637
       - 🇬🇧 UK😈SSRSUB_2125441813
       - Other😈SSRSUB_525609051
@@ -252,8 +254,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 HK😈SSRSUB_252344610
+      - 🇭🇰 HK😈SSRSUB_3949890657
       - 🇰🇷 KR😈SSRSUB_455686761
       - 🇭🇰 HK😈SSRSUB_3695677373
       - 🇰🇷 KR😈SSRSUB_3604095127
@@ -293,12 +295,11 @@ proxy-groups:
       - 🇨🇳 果宝特攻-免费线路-台湾-01
       - 🇨🇳 果宝特攻-免费线路-台湾-长期
       - 🇸🇬 果宝特攻-免费节点-新加坡-02
+      - 🇭🇰 香港(油管破解资源君2.0) 2
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 美国(油管破解资源君2.0)
-      - 🇨🇦 CA😈SSRSUB_31514793
+      - 🇨🇦 CA😈SSRSUB_219694356
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
@@ -319,10 +320,12 @@ proxy-groups:
       - 🇺🇸 美国+Xerox
       - 🇺🇸 美国+Xerox 2
       - 🇺🇸 美国+俄亥俄州都柏林Amazon数据中心
+      - 🇺🇸 美国+俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
+      - 🇷🇺 RU😈SSRSUB_884534536
+      - 🇷🇺 俄罗斯+V2CROSS.COM 3
+      - 亚太地区+V2CROSS.COM
       - UM😈SSRSUB_279023244
-      - Other😈SSRSUB_4099562408
-      - TG😈SSRSUB_3290563095
-      - Other😈SSRSUB_1901174806
       - UM😈SSRSUB_3861831637
       - 🇬🇧 UK😈SSRSUB_2125441813
       - Other😈SSRSUB_525609051
@@ -349,8 +352,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 HK😈SSRSUB_252344610
+      - 🇭🇰 HK😈SSRSUB_3949890657
       - 🇰🇷 KR😈SSRSUB_455686761
       - 🇭🇰 HK😈SSRSUB_3695677373
       - 🇰🇷 KR😈SSRSUB_3604095127
@@ -390,12 +393,11 @@ proxy-groups:
       - 🇨🇳 果宝特攻-免费线路-台湾-01
       - 🇨🇳 果宝特攻-免费线路-台湾-长期
       - 🇸🇬 果宝特攻-免费节点-新加坡-02
+      - 🇭🇰 香港(油管破解资源君2.0) 2
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 美国(油管破解资源君2.0)
-      - 🇨🇦 CA😈SSRSUB_31514793
+      - 🇨🇦 CA😈SSRSUB_219694356
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
@@ -416,10 +418,12 @@ proxy-groups:
       - 🇺🇸 美国+Xerox
       - 🇺🇸 美国+Xerox 2
       - 🇺🇸 美国+俄亥俄州都柏林Amazon数据中心
+      - 🇺🇸 美国+俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
+      - 🇷🇺 RU😈SSRSUB_884534536
+      - 🇷🇺 俄罗斯+V2CROSS.COM 3
+      - 亚太地区+V2CROSS.COM
       - UM😈SSRSUB_279023244
-      - Other😈SSRSUB_4099562408
-      - TG😈SSRSUB_3290563095
-      - Other😈SSRSUB_1901174806
       - UM😈SSRSUB_3861831637
       - 🇬🇧 UK😈SSRSUB_2125441813
       - Other😈SSRSUB_525609051
@@ -446,9 +450,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 美国(油管破解资源君2.0)
-      - 🇨🇦 CA😈SSRSUB_31514793
+      - 🇨🇦 CA😈SSRSUB_219694356
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
@@ -469,14 +471,16 @@ proxy-groups:
       - 🇺🇸 美国+Xerox
       - 🇺🇸 美国+Xerox 2
       - 🇺🇸 美国+俄亥俄州都柏林Amazon数据中心
+      - 🇺🇸 美国+俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 HK😈SSRSUB_252344610
+      - 🇭🇰 HK😈SSRSUB_3949890657
       - 🇰🇷 KR😈SSRSUB_455686761
       - 🇭🇰 HK😈SSRSUB_3695677373
       - 🇰🇷 KR😈SSRSUB_3604095127
@@ -516,6 +520,7 @@ proxy-groups:
       - 🇨🇳 果宝特攻-免费线路-台湾-01
       - 🇨🇳 果宝特攻-免费线路-台湾-长期
       - 🇸🇬 果宝特攻-免费节点-新加坡-02
+      - 🇭🇰 香港(油管破解资源君2.0) 2
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
@@ -525,10 +530,10 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇷🇺 RU😈SSRSUB_884534536
+      - 🇷🇺 俄罗斯+V2CROSS.COM 3
+      - 亚太地区+V2CROSS.COM
       - UM😈SSRSUB_279023244
-      - Other😈SSRSUB_4099562408
-      - TG😈SSRSUB_3290563095
-      - Other😈SSRSUB_1901174806
       - UM😈SSRSUB_3861831637
       - 🇬🇧 UK😈SSRSUB_2125441813
       - Other😈SSRSUB_525609051
@@ -555,8 +560,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 美国(油管破解资源君2.0)
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
@@ -577,20 +580,23 @@ proxy-groups:
       - 🇺🇸 美国+Xerox
       - 🇺🇸 美国+Xerox 2
       - 🇺🇸 美国+俄亥俄州都柏林Amazon数据中心
+      - 🇺🇸 美国+俄勒冈州波特兰Amazon数据中心
+      - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 HK😈SSRSUB_252344610
+      - 🇭🇰 HK😈SSRSUB_3949890657
       - 🇭🇰 HK😈SSRSUB_3695677373
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
+      - 🇭🇰 香港(油管破解资源君2.0) 2
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
