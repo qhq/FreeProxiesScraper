@@ -5,9 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian, server: 54.248.142.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian, server: 43.206.238.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_3557893587, server: yd2.ainivp.com, port: 33202, type: vmess, uuid: 9204afcd-023e-781f-1abc-c12efccd1344, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: yd2.ainivp.com}}}
+  - {name: 🇰🇷 韩国+V2CROSS.COM, server: 117.123.144.67, port: 28825, type: trojan, password: 95b, sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com, skip-cert-verify: false}
   - {name: 🇰🇷 韩国+V2CROSS.COM 2, server: 211.107.201.14, port: 25001, type: trojan, password: 95b, sni: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com, skip-cert-verify: false}
   - {name: 🇯🇵 日本+东京Amazon数据中心, server: bgroup.node1.t.nodelist-airport.com, port: 50001, type: trojan, password: 2155145a-b1b5-443a-8977-670f6bd10f02, skip-cert-verify: false}
   - {name: 🇭🇰 香港+阿里云, server: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma, port: 443, type: trojan, password: a3ca0380-8a17-403a-a5b3-a9f6e59be193, sni: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma, skip-cert-verify: false}
@@ -49,49 +48,51 @@ proxies:
   - {name: 二爷翻墙网 https//1808.free.hr_KR_4, server: 27.113.95.223, port: 30012, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com}}}
   - {name: 二爷翻墙网 https//1808.free.hr_KR_5, server: 222.107.168.179, port: 50000, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com}}}
   - {name: 二爷翻墙网 https//1808.free.hr_KR_6, server: 119.205.51.190, port: 50000, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com}}}
-  - {name: 🇨🇦 加拿大 124, server: 104.26.12.31, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip16.6929198.xyz}}}
-  - {name: 🇺🇸 美国 028, server: 104.19.45.35, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: 🇨🇦 加拿大 008, server: 104.19.45.50, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
-  - {name: 🇺🇸 美国 016, server: www.visa.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: 🇨🇦 加拿大 041, server: 104.19.47.65, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
-  - {name: 🇺🇸 美国 009, server: 104.26.5.88, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: 🇺🇸 美国 229, server: 172.64.166.32, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6929198.xyz}}}
-  - {name: 🇨🇦 加拿大 106, server: 162.159.140.56, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: 🇺🇸 美国 015, server: 104.22.37.243, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip15.6016725.xyz}}}
-  - {name: 🇺🇸 美国 007, server: 104.19.21.71, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
-  - {name: 🇨🇦 加拿大 001, server: 104.19.45.15, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
-  - {name: 🇨🇦 加拿大 199, server: 104.19.42.49, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: 🇨🇦 加拿大 251, server: malaysia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
+  - {name: 二爷翻墙网 https//1808.free.hr_KR_7, server: 175.203.204.222, port: 50035, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com}}}
+  - {name: 二爷翻墙网 https//1808.free.hr_JP_49, server: 146.56.153.6, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com}}}
+  - {name: 🇨🇦 加拿大 141, server: 104.16.148.244, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
+  - {name: 🇺🇸 美国 104, server: 172.64.167.25, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
+  - {name: 🇨🇦 加拿大 027, server: 104.19.45.31, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
+  - {name: 🇺🇸 美国 032, server: 104.19.46.103, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇺🇸 美国 111, server: 172.64.166.16, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇨🇦 加拿大 012, server: 104.19.45.47, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip28.6929198.xyz}}}
+  - {name: 🇨🇦 加拿大 010, server: 162.159.140.19, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
+  - {name: 🇨🇦 加拿大 069, server: 162.159.140.91, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
+  - {name: 🇨🇦 加拿大 045, server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
+  - {name: 🇺🇸 美国 102, server: 104.26.5.60, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇺🇸 美国 023, server: 172.64.175.213, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
   - {name: 🇺🇸 美国 230, server: 104.21.238.100, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
   - {name: 🇺🇸 美国 013, server: 172.64.198.249, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip23.6016725.xyz}}}
-  - {name: 🇨🇦 加拿大 235, server: 104.19.38.12, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
   - {name: 🇺🇸 美国 018, server: 104.19.59.89, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
-  - {name: 🇺🇸 美国 019, server: 104.26.5.145, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
-  - {name: 🇺🇸 美国 032, server: 104.19.46.103, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇺🇸 美国 149, server: 104.19.38.11, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip6.6929198.xyz}}}
+  - {name: 🇨🇦 加拿大 195, server: 162.159.140.77, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇨🇦 加拿大 008, server: 104.19.45.50, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
+  - {name: 🇺🇸 美国 118, server: 104.19.32.216, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇺🇸 美国 208, server: 172.64.167.19, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c2.6016725.xyz}}}
+  - {name: 🇨🇦 加拿大 011, server: 104.26.12.140, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}}
   - {name: 🇺🇸 美国+Amazon+EC2服务器, server: 3.143.42.57, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心, server: 54.86.248.206, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+惠普HP, server: 16.171.91.51, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+麻省理工学院, server: 18.135.167.255, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian 2, server: 54.248.142.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 Americas😈SSRSUB_2780588367, server: 162.159.140.89, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
   - {name: UM😈SSRSUB_389189921, server: 172.64.167.10, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
+  - {name: 🇺🇸 Americas😈SSRSUB_3391161080, server: 104.19.45.42, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip19.6929198.xyz}}}
+  - {name: Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf, server: ssr5.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: CH😈SSRSUB_3574339605, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 25, server: workers.dev, port: 443, type: vmess, uuid: 7a70e0f7-170d-4ab0-82a0-c40554bfb320, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /111111.online, headers: {Host: workers.dev}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 20, server: 154.17.2.153, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: UM😈SSRSUB_2004026099, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Americas😈SSRSUB_1358187351, server: www.visa.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 26, server: 172.67.222.46, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 172.67.222.46}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 24, server: 147.135.112.248, port: 80, type: vmess, uuid: 973c2639-c9c2-484d-ae9b-3d68b2f30d9e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 147.135.112.248}}}
+  - {name: 🇭🇰 adi|0703v - dg-hk-node01, server: dg-hk-node01.linkthink.app, port: 10210, type: ssr, cipher: dummy, password: abK09D1FnV, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ajax.microsoft.com}
+  - {name: 亚洲(油管破解资源君2.0), server: 45.64.22.55, port: 443, type: vmess, uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: w.800876.xyz}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 18, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: cf-lt-dns.sharecentre.online}}}
   - {name: Euro😈SSRSUB_3225342711, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: Other😈SSRSUB_2578581128, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: adi|0703v - 10120, server: 42.157.196.103, port: 10120, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: ajax.microsoft.com}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 23, server: 86.106.136.125, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 16, server: 23.224.101.102, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: 23.224.101.102}}}
   - {name: Euro😈SSRSUB_125949122, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
   - {name: Euro😈SSRSUB_2663973607, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 22, server: 38.114.114.67, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15, server: 145.239.1.100, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: CH😈SSRSUB_1834157617, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2852c164-1a5b-4628-b668-3554c7aa4453}
   - {name: CH😈SSRSUB_3783732564, server: iepl1.nezha.tech, port: 33577, type: ss, cipher: chacha20-ietf-poly1305, password: 96a8c243-0219-403e-b8fa-f48f696435e1}
   - {name: CH😈SSRSUB_1647550822, server: hzhz1.sssyun.xyz, port: 39202, type: ss, cipher: chacha20-ietf-poly1305, password: b40fb56c-f538-4bf2-951e-b645f48b9937}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 21, server: ping.pe, port: 443, type: vmess, uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /111111.online, headers: {Host: ping.pe}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 14, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: false}
   - {name: UM😈SSRSUB_549064432, server: 35.95.35.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅, server: cdnssr.ssrsub.com, port: 443, type: ss, cipher: aes-256-cfb, password: cdnssr.ssrsub.com}
   - {name: 公益机场https//bit.ly/3BPeo5G, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
@@ -111,9 +112,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3557893587
+      - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
@@ -155,49 +155,51 @@ proxy-groups:
       - 二爷翻墙网 https//1808.free.hr_KR_4
       - 二爷翻墙网 https//1808.free.hr_KR_5
       - 二爷翻墙网 https//1808.free.hr_KR_6
-      - 🇨🇦 加拿大 124
-      - 🇺🇸 美国 028
-      - 🇨🇦 加拿大 008
-      - 🇺🇸 美国 016
-      - 🇨🇦 加拿大 041
-      - 🇺🇸 美国 009
-      - 🇺🇸 美国 229
-      - 🇨🇦 加拿大 106
-      - 🇺🇸 美国 015
-      - 🇺🇸 美国 007
-      - 🇨🇦 加拿大 001
-      - 🇨🇦 加拿大 199
-      - 🇨🇦 加拿大 251
+      - 二爷翻墙网 https//1808.free.hr_KR_7
+      - 二爷翻墙网 https//1808.free.hr_JP_49
+      - 🇨🇦 加拿大 141
+      - 🇺🇸 美国 104
+      - 🇨🇦 加拿大 027
+      - 🇺🇸 美国 032
+      - 🇺🇸 美国 111
+      - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大 010
+      - 🇨🇦 加拿大 069
+      - 🇨🇦 加拿大 045
+      - 🇺🇸 美国 102
+      - 🇺🇸 美国 023
       - 🇺🇸 美国 230
       - 🇺🇸 美国 013
-      - 🇨🇦 加拿大 235
       - 🇺🇸 美国 018
-      - 🇺🇸 美国 019
-      - 🇺🇸 美国 032
+      - 🇺🇸 美国 149
+      - 🇨🇦 加拿大 195
+      - 🇨🇦 加拿大 008
+      - 🇺🇸 美国 118
+      - 🇺🇸 美国 208
+      - 🇨🇦 加拿大 011
       - 🇺🇸 美国+Amazon+EC2服务器
-      - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian 2
-      - 🇺🇸 Americas😈SSRSUB_2780588367
       - UM😈SSRSUB_389189921
+      - 🇺🇸 Americas😈SSRSUB_3391161080
+      - Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
       - CH😈SSRSUB_3574339605
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 25
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 20
       - UM😈SSRSUB_2004026099
-      - 🇺🇸 Americas😈SSRSUB_1358187351
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 26
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 24
+      - 🇭🇰 adi|0703v - dg-hk-node01
+      - 亚洲(油管破解资源君2.0)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 18
       - Euro😈SSRSUB_3225342711
       - Other😈SSRSUB_2578581128
-      - adi|0703v - 10120
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 23
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 16
       - Euro😈SSRSUB_125949122
       - Euro😈SSRSUB_2663973607
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 22
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 21
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 14
       - UM😈SSRSUB_549064432
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
       - 公益机场https//bit.ly/3BPeo5G
@@ -252,9 +254,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3557893587
+      - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
@@ -296,49 +297,51 @@ proxy-groups:
       - 二爷翻墙网 https//1808.free.hr_KR_4
       - 二爷翻墙网 https//1808.free.hr_KR_5
       - 二爷翻墙网 https//1808.free.hr_KR_6
-      - 🇨🇦 加拿大 124
-      - 🇺🇸 美国 028
-      - 🇨🇦 加拿大 008
-      - 🇺🇸 美国 016
-      - 🇨🇦 加拿大 041
-      - 🇺🇸 美国 009
-      - 🇺🇸 美国 229
-      - 🇨🇦 加拿大 106
-      - 🇺🇸 美国 015
-      - 🇺🇸 美国 007
-      - 🇨🇦 加拿大 001
-      - 🇨🇦 加拿大 199
-      - 🇨🇦 加拿大 251
+      - 二爷翻墙网 https//1808.free.hr_KR_7
+      - 二爷翻墙网 https//1808.free.hr_JP_49
+      - 🇨🇦 加拿大 141
+      - 🇺🇸 美国 104
+      - 🇨🇦 加拿大 027
+      - 🇺🇸 美国 032
+      - 🇺🇸 美国 111
+      - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大 010
+      - 🇨🇦 加拿大 069
+      - 🇨🇦 加拿大 045
+      - 🇺🇸 美国 102
+      - 🇺🇸 美国 023
       - 🇺🇸 美国 230
       - 🇺🇸 美国 013
-      - 🇨🇦 加拿大 235
       - 🇺🇸 美国 018
-      - 🇺🇸 美国 019
-      - 🇺🇸 美国 032
+      - 🇺🇸 美国 149
+      - 🇨🇦 加拿大 195
+      - 🇨🇦 加拿大 008
+      - 🇺🇸 美国 118
+      - 🇺🇸 美国 208
+      - 🇨🇦 加拿大 011
       - 🇺🇸 美国+Amazon+EC2服务器
-      - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian 2
-      - 🇺🇸 Americas😈SSRSUB_2780588367
       - UM😈SSRSUB_389189921
+      - 🇺🇸 Americas😈SSRSUB_3391161080
+      - Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
       - CH😈SSRSUB_3574339605
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 25
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 20
       - UM😈SSRSUB_2004026099
-      - 🇺🇸 Americas😈SSRSUB_1358187351
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 26
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 24
+      - 🇭🇰 adi|0703v - dg-hk-node01
+      - 亚洲(油管破解资源君2.0)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 18
       - Euro😈SSRSUB_3225342711
       - Other😈SSRSUB_2578581128
-      - adi|0703v - 10120
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 23
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 16
       - Euro😈SSRSUB_125949122
       - Euro😈SSRSUB_2663973607
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 22
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 21
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 14
       - UM😈SSRSUB_549064432
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
       - 公益机场https//bit.ly/3BPeo5G
@@ -349,9 +352,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3557893587
+      - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
@@ -393,49 +395,51 @@ proxy-groups:
       - 二爷翻墙网 https//1808.free.hr_KR_4
       - 二爷翻墙网 https//1808.free.hr_KR_5
       - 二爷翻墙网 https//1808.free.hr_KR_6
-      - 🇨🇦 加拿大 124
-      - 🇺🇸 美国 028
-      - 🇨🇦 加拿大 008
-      - 🇺🇸 美国 016
-      - 🇨🇦 加拿大 041
-      - 🇺🇸 美国 009
-      - 🇺🇸 美国 229
-      - 🇨🇦 加拿大 106
-      - 🇺🇸 美国 015
-      - 🇺🇸 美国 007
-      - 🇨🇦 加拿大 001
-      - 🇨🇦 加拿大 199
-      - 🇨🇦 加拿大 251
+      - 二爷翻墙网 https//1808.free.hr_KR_7
+      - 二爷翻墙网 https//1808.free.hr_JP_49
+      - 🇨🇦 加拿大 141
+      - 🇺🇸 美国 104
+      - 🇨🇦 加拿大 027
+      - 🇺🇸 美国 032
+      - 🇺🇸 美国 111
+      - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大 010
+      - 🇨🇦 加拿大 069
+      - 🇨🇦 加拿大 045
+      - 🇺🇸 美国 102
+      - 🇺🇸 美国 023
       - 🇺🇸 美国 230
       - 🇺🇸 美国 013
-      - 🇨🇦 加拿大 235
       - 🇺🇸 美国 018
-      - 🇺🇸 美国 019
-      - 🇺🇸 美国 032
+      - 🇺🇸 美国 149
+      - 🇨🇦 加拿大 195
+      - 🇨🇦 加拿大 008
+      - 🇺🇸 美国 118
+      - 🇺🇸 美国 208
+      - 🇨🇦 加拿大 011
       - 🇺🇸 美国+Amazon+EC2服务器
-      - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian 2
-      - 🇺🇸 Americas😈SSRSUB_2780588367
       - UM😈SSRSUB_389189921
+      - 🇺🇸 Americas😈SSRSUB_3391161080
+      - Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
       - CH😈SSRSUB_3574339605
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 25
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 20
       - UM😈SSRSUB_2004026099
-      - 🇺🇸 Americas😈SSRSUB_1358187351
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 26
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 24
+      - 🇭🇰 adi|0703v - dg-hk-node01
+      - 亚洲(油管破解资源君2.0)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 18
       - Euro😈SSRSUB_3225342711
       - Other😈SSRSUB_2578581128
-      - adi|0703v - 10120
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 23
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 16
       - Euro😈SSRSUB_125949122
       - Euro😈SSRSUB_2663973607
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 22
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 21
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 14
       - UM😈SSRSUB_549064432
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
       - 公益机场https//bit.ly/3BPeo5G
@@ -446,27 +450,27 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇦 加拿大 124
-      - 🇺🇸 美国 028
-      - 🇨🇦 加拿大 008
-      - 🇺🇸 美国 016
-      - 🇨🇦 加拿大 041
-      - 🇺🇸 美国 009
-      - 🇺🇸 美国 229
-      - 🇨🇦 加拿大 106
-      - 🇺🇸 美国 015
-      - 🇺🇸 美国 007
-      - 🇨🇦 加拿大 001
-      - 🇨🇦 加拿大 199
-      - 🇨🇦 加拿大 251
+      - 🇨🇦 加拿大 141
+      - 🇺🇸 美国 104
+      - 🇨🇦 加拿大 027
+      - 🇺🇸 美国 032
+      - 🇺🇸 美国 111
+      - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大 010
+      - 🇨🇦 加拿大 069
+      - 🇨🇦 加拿大 045
+      - 🇺🇸 美国 102
+      - 🇺🇸 美国 023
       - 🇺🇸 美国 230
       - 🇺🇸 美国 013
-      - 🇨🇦 加拿大 235
       - 🇺🇸 美国 018
-      - 🇺🇸 美国 019
-      - 🇺🇸 美国 032
+      - 🇺🇸 美国 149
+      - 🇨🇦 加拿大 195
+      - 🇨🇦 加拿大 008
+      - 🇺🇸 美国 118
+      - 🇺🇸 美国 208
+      - 🇨🇦 加拿大 011
       - 🇺🇸 美国+Amazon+EC2服务器
-      - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
   - name: 🌏 东亚地区
@@ -475,9 +479,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3557893587
+      - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
@@ -519,34 +522,34 @@ proxy-groups:
       - 二爷翻墙网 https//1808.free.hr_KR_4
       - 二爷翻墙网 https//1808.free.hr_KR_5
       - 二爷翻墙网 https//1808.free.hr_KR_6
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian 2
+      - 二爷翻墙网 https//1808.free.hr_KR_7
+      - 二爷翻墙网 https//1808.free.hr_JP_49
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian 2
-      - 🇺🇸 Americas😈SSRSUB_2780588367
       - UM😈SSRSUB_389189921
+      - 🇺🇸 Americas😈SSRSUB_3391161080
+      - Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
       - CH😈SSRSUB_3574339605
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 25
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 20
       - UM😈SSRSUB_2004026099
-      - 🇺🇸 Americas😈SSRSUB_1358187351
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 26
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 24
+      - 🇭🇰 adi|0703v - dg-hk-node01
+      - 亚洲(油管破解资源君2.0)
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 18
       - Euro😈SSRSUB_3225342711
       - Other😈SSRSUB_2578581128
-      - adi|0703v - 10120
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 23
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 16
       - Euro😈SSRSUB_125949122
       - Euro😈SSRSUB_2663973607
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 22
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 21
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 14
       - UM😈SSRSUB_549064432
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
       - 公益机场https//bit.ly/3BPeo5G
@@ -557,19 +560,18 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 028
-      - 🇺🇸 美国 016
-      - 🇺🇸 美国 009
-      - 🇺🇸 美国 229
-      - 🇺🇸 美国 015
-      - 🇺🇸 美国 007
+      - 🇺🇸 美国 104
+      - 🇺🇸 美国 032
+      - 🇺🇸 美国 111
+      - 🇺🇸 美国 102
+      - 🇺🇸 美国 023
       - 🇺🇸 美国 230
       - 🇺🇸 美国 013
       - 🇺🇸 美国 018
-      - 🇺🇸 美国 019
-      - 🇺🇸 美国 032
+      - 🇺🇸 美国 149
+      - 🇺🇸 美国 118
+      - 🇺🇸 美国 208
       - 🇺🇸 美国+Amazon+EC2服务器
-      - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
   - name: 香港
@@ -589,7 +591,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -597,7 +598,6 @@ proxy-groups:
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian 2
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
@@ -625,6 +625,7 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本  48
       - 二爷翻墙网 https//1808.free.hr_JP_2
       - 二爷翻墙网 https//1808.free.hr_JP_3
+      - 二爷翻墙网 https//1808.free.hr_JP_49
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -642,11 +643,12 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 二爷翻墙网 https//1808.free.hr_KR_4
       - 二爷翻墙网 https//1808.free.hr_KR_5
       - 二爷翻墙网 https//1808.free.hr_KR_6
+      - 二爷翻墙网 https//1808.free.hr_KR_7
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
