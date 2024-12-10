@@ -37,6 +37,7 @@ proxies:
   - {name: 🇯🇵 日本_121320045, server: 167.179.83.138, port: 36013, type: vmess, uuid: 97700372-07d0-4e10-db96-937844f30a50, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320051, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320054, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国_121320001, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}}
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -48,36 +49,33 @@ proxies:
   - {name: 🇯🇵 日本05, server: jp005.421421.xyz, port: 20230, type: trojan, password: 0028109a-37ed-4ded-b858-e566388a904c, sni: 421421.xyz, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡08|流媒体, server: sg008.421421.xyz, port: 20230, type: trojan, password: 0028109a-37ed-4ded-b858-e566388a904c, sni: 421421.xyz, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡05|流媒体, server: sg005.421421.xyz, port: 20230, type: trojan, password: 0028109a-37ed-4ded-b858-e566388a904c, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡07|流媒体, server: sg007.421421.xyz, port: 20230, type: trojan, password: 0028109a-37ed-4ded-b858-e566388a904c, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 132, server: 104.21.238.118, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
-  - {name: 🇺🇸 美国 159, server: 104.26.0.214, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c3.6016725.xyz}}}
-  - {name: 🇨🇦 加拿大 186, server: 104.18.114.111, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
-  - {name: 🇨🇦 加拿大 145, server: 104.18.114.146, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
-  - {name: 🇺🇸 美国 143, server: 104.21.238.108, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
-  - {name: 🇺🇸 美国 059, server: 104.21.238.206, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
-  - {name: 🇨🇦 加拿大 121, server: 104.26.0.138, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
-  - {name: 🇺🇸 美国 020, server: 162.159.45.102, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
-  - {name: 🇨🇦 加拿大 120, server: 104.26.0.47, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
-  - {name: 🇺🇸 美国 164, server: 162.159.45.238, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
-  - {name: 🇺🇸 美国 203, server: 104.26.0.206, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
-  - {name: 🇨🇦 加拿大 196, server: 104.18.114.75, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
-  - {name: 🇺🇸 美国 122, server: 104.26.0.211, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
-  - {name: 🇺🇸 美国 083, server: 104.21.238.177, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
-  - {name: 🇺🇸 美国 138, server: 104.18.114.152, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
-  - {name: 🇺🇸 美国 047, server: 104.19.21.71, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: 🇨🇦 加拿大 010, server: japan.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: 🇺🇸 美国 028, server: 170.114.46.219, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇺🇸 美国 069, server: 104.26.0.3, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
-  - {name: 🇺🇸 美国 065, server: 104.18.114.206, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
-  - {name: 🇺🇸 美国 034, server: 104.21.238.231, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
-  - {name: 🇨🇦 加拿大 127, server: 104.21.238.152, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
-  - {name: 🇨🇦 加拿大 194, server: 104.18.114.201, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
-  - {name: 0|--1, server: 52.195.205.31, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|--5, server: 18.141.184.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 Americas😈SSRSUB_2780588367, server: 162.159.140.89, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: 0|--28, server: 190.93.245.80, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 110, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: 46.182.107.44}}}
+  - {name: 🇺🇸 美国 032, server: 104.26.0.91, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c3.6016725.xyz}}}
+  - {name: 🇨🇦 加拿大 195, server: 104.26.0.54, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
+  - {name: 🇺🇸 美国 080, server: 104.18.114.63, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
+  - {name: 🇺🇸 美国 068, server: 104.21.238.10, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
+  - {name: 🇺🇸 美国 074, server: 104.21.238.232, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
+  - {name: 🇨🇦 加拿大 149, server: 104.21.238.119, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
+  - {name: 🇺🇸 美国 058, server: 104.26.0.84, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
+  - {name: 🇺🇸 美国 013, server: 104.18.114.117, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
+  - {name: 🇺🇸 美国 037, server: 104.26.0.101, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
+  - {name: US_17, server: 68.183.129.197, port: 8080, type: vmess, uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
+  - {name: 🇺🇸 美国+Amazon+EC2服务器, server: 3.143.42.57, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+Amazon+EC2服务器 2, server: 3.64.17.216, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+Amazon+EC2服务器 3, server: 3.64.191.45, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: sni=trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+Amazon+EC2服务器 4, server: 3.67.211.46, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+Amazon+EC2服务器 5, server: 3.78.23.212, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+Amazon数据中心, server: 13.36.4.38, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+Amazon数据中心 2, server: 18.169.245.178, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+Amazon数据中心 3, server: 18.175.105.52, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+CloudFlare节点, server: 104.17.147.22, port: 2053, type: trojan, password: bpb-trojan, sni: bPB-worker-PANeL1-e4p.paGes.DeV, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+CloudFlare节点 2, server: 104.19.35.14, port: 443, type: trojan, password: bpb-trojan, sni: BPB-wOrkeR-pANel1-E4P.pageS.DeV, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+CloudFlare节点 3, server: 108.162.193.110, port: 443, type: trojan, password: Trevely, sni: trojan.trevely.us.kg, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+CloudFlare节点 4, server: 162.159.136.232, port: 8443, type: trojan, password: auto, sni: e9464f45.trauma-2r4.pages.dev, skip-cert-verify: false}
+  - {name: 0|--3, server: 18.141.184.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 112, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.18.6.138}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 116, server: 138.197.174.245, port: 56443, type: ss, cipher: chacha20-ietf-poly1305, password: yuMqkGIx6Ia0}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 120, server: 154.17.2.31, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 121, server: euserv9p.ezddns.tk, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: euserv9p.ezddns.tk}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124, server: 46.182.107.82, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: 46.182.107.82}}}
@@ -97,6 +95,7 @@ proxies:
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇭🇰 adi|0703v - dg-hk-node02, server: dg-hk-node02.linkthink.app, port: 12025, type: ssr, cipher: dummy, password: e5opjuLDEQ, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ajax.microsoft.com}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148, server: 45.136.244.181, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fr-unlimitxxx, headers: {Host: 45.136.244.181}}}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -144,6 +143,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -155,36 +155,33 @@ proxy-groups:
       - 🇯🇵 日本05
       - 🇸🇬 新加坡08|流媒体
       - 🇸🇬 新加坡05|流媒体
-      - 🇸🇬 新加坡07|流媒体
-      - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 159
-      - 🇨🇦 加拿大 186
-      - 🇨🇦 加拿大 145
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 059
-      - 🇨🇦 加拿大 121
-      - 🇺🇸 美国 020
-      - 🇨🇦 加拿大 120
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国 203
-      - 🇨🇦 加拿大 196
-      - 🇺🇸 美国 122
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 138
-      - 🇺🇸 美国 047
-      - 🇨🇦 加拿大 010
-      - 🇺🇸 美国 028
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 065
-      - 🇺🇸 美国 034
-      - 🇨🇦 加拿大 127
-      - 🇨🇦 加拿大 194
-      - 0|--1
-      - 0|--5
-      - 🇺🇸 Americas😈SSRSUB_2780588367
-      - 0|--28
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 110
+      - 🇺🇸 美国 032
+      - 🇨🇦 加拿大 195
+      - 🇺🇸 美国 080
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 074
+      - 🇨🇦 加拿大 149
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 013
+      - 🇺🇸 美国 037
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - US_17
+      - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 2
+      - 🇺🇸 美国+Amazon+EC2服务器 3
+      - 🇺🇸 美国+Amazon+EC2服务器 4
+      - 🇺🇸 美国+Amazon+EC2服务器 5
+      - 🇺🇸 美国+Amazon数据中心
+      - 🇺🇸 美国+Amazon数据中心 2
+      - 🇺🇸 美国+Amazon数据中心 3
+      - 🇺🇸 美国+CloudFlare节点
+      - 🇺🇸 美国+CloudFlare节点 2
+      - 🇺🇸 美国+CloudFlare节点 3
+      - 🇺🇸 美国+CloudFlare节点 4
+      - 0|--3
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 112
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 116
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 120
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 121
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124
@@ -204,6 +201,7 @@ proxy-groups:
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
       - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -286,6 +284,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -297,36 +296,33 @@ proxy-groups:
       - 🇯🇵 日本05
       - 🇸🇬 新加坡08|流媒体
       - 🇸🇬 新加坡05|流媒体
-      - 🇸🇬 新加坡07|流媒体
-      - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 159
-      - 🇨🇦 加拿大 186
-      - 🇨🇦 加拿大 145
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 059
-      - 🇨🇦 加拿大 121
-      - 🇺🇸 美国 020
-      - 🇨🇦 加拿大 120
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国 203
-      - 🇨🇦 加拿大 196
-      - 🇺🇸 美国 122
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 138
-      - 🇺🇸 美国 047
-      - 🇨🇦 加拿大 010
-      - 🇺🇸 美国 028
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 065
-      - 🇺🇸 美国 034
-      - 🇨🇦 加拿大 127
-      - 🇨🇦 加拿大 194
-      - 0|--1
-      - 0|--5
-      - 🇺🇸 Americas😈SSRSUB_2780588367
-      - 0|--28
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 110
+      - 🇺🇸 美国 032
+      - 🇨🇦 加拿大 195
+      - 🇺🇸 美国 080
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 074
+      - 🇨🇦 加拿大 149
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 013
+      - 🇺🇸 美国 037
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - US_17
+      - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 2
+      - 🇺🇸 美国+Amazon+EC2服务器 3
+      - 🇺🇸 美国+Amazon+EC2服务器 4
+      - 🇺🇸 美国+Amazon+EC2服务器 5
+      - 🇺🇸 美国+Amazon数据中心
+      - 🇺🇸 美国+Amazon数据中心 2
+      - 🇺🇸 美国+Amazon数据中心 3
+      - 🇺🇸 美国+CloudFlare节点
+      - 🇺🇸 美国+CloudFlare节点 2
+      - 🇺🇸 美国+CloudFlare节点 3
+      - 🇺🇸 美国+CloudFlare节点 4
+      - 0|--3
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 112
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 116
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 120
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 121
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124
@@ -346,6 +342,7 @@ proxy-groups:
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
       - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -384,6 +381,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -395,36 +393,33 @@ proxy-groups:
       - 🇯🇵 日本05
       - 🇸🇬 新加坡08|流媒体
       - 🇸🇬 新加坡05|流媒体
-      - 🇸🇬 新加坡07|流媒体
-      - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 159
-      - 🇨🇦 加拿大 186
-      - 🇨🇦 加拿大 145
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 059
-      - 🇨🇦 加拿大 121
-      - 🇺🇸 美国 020
-      - 🇨🇦 加拿大 120
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国 203
-      - 🇨🇦 加拿大 196
-      - 🇺🇸 美国 122
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 138
-      - 🇺🇸 美国 047
-      - 🇨🇦 加拿大 010
-      - 🇺🇸 美国 028
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 065
-      - 🇺🇸 美国 034
-      - 🇨🇦 加拿大 127
-      - 🇨🇦 加拿大 194
-      - 0|--1
-      - 0|--5
-      - 🇺🇸 Americas😈SSRSUB_2780588367
-      - 0|--28
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 110
+      - 🇺🇸 美国 032
+      - 🇨🇦 加拿大 195
+      - 🇺🇸 美国 080
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 074
+      - 🇨🇦 加拿大 149
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 013
+      - 🇺🇸 美国 037
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - US_17
+      - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 2
+      - 🇺🇸 美国+Amazon+EC2服务器 3
+      - 🇺🇸 美国+Amazon+EC2服务器 4
+      - 🇺🇸 美国+Amazon+EC2服务器 5
+      - 🇺🇸 美国+Amazon数据中心
+      - 🇺🇸 美国+Amazon数据中心 2
+      - 🇺🇸 美国+Amazon数据中心 3
+      - 🇺🇸 美国+CloudFlare节点
+      - 🇺🇸 美国+CloudFlare节点 2
+      - 🇺🇸 美国+CloudFlare节点 3
+      - 🇺🇸 美国+CloudFlare节点 4
+      - 0|--3
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 112
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 116
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 120
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 121
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124
@@ -444,35 +439,36 @@ proxy-groups:
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
       - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 159
-      - 🇨🇦 加拿大 186
-      - 🇨🇦 加拿大 145
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 059
-      - 🇨🇦 加拿大 121
-      - 🇺🇸 美国 020
-      - 🇨🇦 加拿大 120
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国 203
-      - 🇨🇦 加拿大 196
-      - 🇺🇸 美国 122
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 138
-      - 🇺🇸 美国 047
-      - 🇨🇦 加拿大 010
-      - 🇺🇸 美国 028
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 065
-      - 🇺🇸 美国 034
-      - 🇨🇦 加拿大 127
-      - 🇨🇦 加拿大 194
+      - 🇺🇸 美国 032
+      - 🇨🇦 加拿大 195
+      - 🇺🇸 美国 080
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 074
+      - 🇨🇦 加拿大 149
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 013
+      - 🇺🇸 美国 037
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - US_17
+      - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 2
+      - 🇺🇸 美国+Amazon+EC2服务器 3
+      - 🇺🇸 美国+Amazon+EC2服务器 4
+      - 🇺🇸 美国+Amazon+EC2服务器 5
+      - 🇺🇸 美国+Amazon数据中心
+      - 🇺🇸 美国+Amazon数据中心 2
+      - 🇺🇸 美国+Amazon数据中心 3
+      - 🇺🇸 美国+CloudFlare节点
+      - 🇺🇸 美国+CloudFlare节点 2
+      - 🇺🇸 美国+CloudFlare节点 3
+      - 🇺🇸 美国+CloudFlare节点 4
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -511,6 +507,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -522,19 +519,16 @@ proxy-groups:
       - 🇯🇵 日本05
       - 🇸🇬 新加坡08|流媒体
       - 🇸🇬 新加坡05|流媒体
-      - 🇸🇬 新加坡07|流媒体
-      - 🇸🇬 github.com/freefq - 新加坡OVH 8
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 0|--1
-      - 0|--5
-      - 🇺🇸 Americas😈SSRSUB_2780588367
-      - 0|--28
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 110
+      - 0|--3
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 112
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 116
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 120
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 121
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124
@@ -554,27 +548,34 @@ proxy-groups:
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
       - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 159
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 059
-      - 🇺🇸 美国 020
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国 203
-      - 🇺🇸 美国 122
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 138
-      - 🇺🇸 美国 047
-      - 🇺🇸 美国 028
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 065
-      - 🇺🇸 美国 034
+      - 🇺🇸 美国 032
+      - 🇺🇸 美国 080
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 074
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 013
+      - 🇺🇸 美国 037
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - US_17
+      - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 2
+      - 🇺🇸 美国+Amazon+EC2服务器 3
+      - 🇺🇸 美国+Amazon+EC2服务器 4
+      - 🇺🇸 美国+Amazon+EC2服务器 5
+      - 🇺🇸 美国+Amazon数据中心
+      - 🇺🇸 美国+Amazon数据中心 2
+      - 🇺🇸 美国+Amazon数据中心 3
+      - 🇺🇸 美国+CloudFlare节点
+      - 🇺🇸 美国+CloudFlare节点 2
+      - 🇺🇸 美国+CloudFlare节点 3
+      - 🇺🇸 美国+CloudFlare节点 4
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -602,8 +603,6 @@ proxy-groups:
       - 🇸🇬 新加坡06|流媒体
       - 🇸🇬 新加坡08|流媒体
       - 🇸🇬 新加坡05|流媒体
-      - 🇸🇬 新加坡07|流媒体
-      - 🇸🇬 github.com/freefq - 新加坡OVH 8
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
@@ -650,6 +649,7 @@ proxy-groups:
     proxies:
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
+      - 🇰🇷 韩国_121320001
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
