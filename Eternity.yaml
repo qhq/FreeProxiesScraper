@@ -5,8 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 HK😈SSRSUB_3128292237, server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP😈SSRSUB_3557893587, server: yd2.ainivp.com, port: 33202, type: vmess, uuid: 9204afcd-023e-781f-1abc-c12efccd1344, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: yd2.ainivp.com}}}
   - {name: 🇯🇵 JP😈SSRSUB_3528396055, server: 54.199.66.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 韩国+V2CROSS.COM, server: 117.123.144.67, port: 28825, type: trojan, password: 95b, sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com, skip-cert-verify: false}
   - {name: 🇰🇷 韩国+V2CROSS.COM 2, server: 211.107.201.14, port: 25001, type: trojan, password: 95b, sni: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com, skip-cert-verify: false}
@@ -50,53 +48,55 @@ proxies:
   - {name: 🇸🇬 新加坡07|流媒体, server: sg007.421421.xyz, port: 20230, type: trojan, password: 0028109a-37ed-4ded-b858-e566388a904c, sni: 421421.xyz, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡->🇺🇸_US_美国, server: 54.151.223.9, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大 184, server: 104.26.0.8, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
-  - {name: 🇨🇦 加拿大 100, server: 104.21.238.213, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c3.6016725.xyz}}}
-  - {name: 🇺🇸 美国 059, server: 104.21.238.206, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
-  - {name: 🇨🇦 加拿大 160, server: 104.21.238.176, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
-  - {name: 🇨🇦 加拿大 215, server: 104.26.0.131, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: c17.6016725.xyz}}}
-  - {name: 🇺🇸 美国 067, server: 104.26.0.240, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
-  - {name: 🇨🇦 加拿大 009, server: 104.21.238.85, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m10.106778.xyz}}}
-  - {name: 🇨🇦 加拿大 207, server: 104.19.21.230, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: 🇨🇦 加拿大 156, server: 104.26.0.75, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
+  - {name: 🇨🇦 加拿大 272, server: 104.26.0.134, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}}
+  - {name: 🇺🇸 美国 201, server: 104.26.0.250, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
+  - {name: 🇺🇸 美国 011, server: 167.68.5.24, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
+  - {name: 🇺🇸 美国 203, server: 104.26.0.206, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
   - {name: 🇺🇸 美国 020, server: 162.159.45.102, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
-  - {name: 🇨🇦 加拿大 103, server: 23.227.38.3, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇨🇦 加拿大 267, server: 104.26.0.141, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}}
+  - {name: 🇨🇦 加拿大 118, server: 104.21.238.196, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
+  - {name: 🇨🇦 加拿大 008, server: 104.19.45.50, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
+  - {name: 🇺🇸 美国 058, server: 104.26.0.84, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
+  - {name: 🇺🇸 美国 077, server: 104.26.0.160, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
+  - {name: 🇺🇸 美国 021, server: 159.112.235.35, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
+  - {name: 🇨🇦 加拿大 065, server: 172.67.70.92, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇨🇦 加拿大 115, server: 104.18.114.105, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
+  - {name: 🇺🇸 美国 164, server: 162.159.45.238, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
+  - {name: 🇺🇸 美国 018, server: 104.19.59.89, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
+  - {name: 🇨🇦 加拿大 096, server: 104.18.114.26, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
+  - {name: 🇨🇦 加拿大 136, server: 104.18.114.10, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
+  - {name: 🇨🇦 加拿大 041, server: 104.19.47.65, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
+  - {name: 🇨🇦 加拿大 158, server: 104.26.0.19, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
   - {name: 🇨🇦 加拿大 127, server: 104.21.238.152, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
-  - {name: 🇺🇸 美国 032, server: 104.26.0.91, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c3.6016725.xyz}}}
-  - {name: 🇺🇸 美国 085, server: 104.21.238.182, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
-  - {name: 🇺🇸 美国 037, server: 104.26.0.101, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
-  - {name: 🇺🇸 美国 088, server: 205.233.181.63, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
-  - {name: 🇺🇸 美国+Amazon数据中心 2, server: 18.169.245.178, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇸 美国+Amazon数据中心 3, server: 18.175.105.52, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇸 美国+CloudFlare节点, server: 104.17.147.22, port: 2053, type: trojan, password: bpb-trojan, sni: bPB-worker-PANeL1-e4p.paGes.DeV, skip-cert-verify: false}
-  - {name: 🇺🇸 美国+CloudFlare节点 2, server: 104.19.35.14, port: 443, type: trojan, password: bpb-trojan, sni: BPB-wOrkeR-pANel1-E4P.pageS.DeV, skip-cert-verify: false}
-  - {name: 🇺🇸 美国+CloudFlare节点 3, server: 108.162.193.110, port: 443, type: trojan, password: Trevely, sni: trojan.trevely.us.kg, skip-cert-verify: false}
-  - {name: 🇺🇸 美国+CloudFlare节点 4, server: 162.159.136.232, port: 8443, type: trojan, password: auto, sni: e9464f45.trauma-2r4.pages.dev, skip-cert-verify: false}
-  - {name: 0|--8, server: 54.200.220.184, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: UM😈SSRSUB_389189921, server: 172.64.167.10, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇮🇳 github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
-  - {name: 🇵🇱 github.com/freefq - 波兰  5, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
-  - {name: github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
-  - {name: github.com/freefq - 广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: _01, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 109, server: 107.175.44.154, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-opts: {path: /27353486f3a1d4f/, headers: {Host: 107.175.44.154}}}
-  - {name: RO_08, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
-  - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _02, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
-  - {name: _03, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false}
-  - {name: _04, server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true}
-  - {name: _05, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_-🇬🇧GB_06, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false}
-  - {name: CH😈SSRSUB_431941033, server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Other😈SSRSUB_3087487628, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 108, server: 172.99.190.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CH😈SSRSUB_2785493623, server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 107, server: 52.58.249.78, port: 57824, type: ss, cipher: chacha20-ietf-poly1305, password: pryhyxya}
-  - {name: Other😈SSRSUB_1873915727, server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大 268, server: 104.21.238.99, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
+  - {name: 🇺🇸 美国 052, server: 104.18.114.12, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}}
+  - {name: 🇨🇦 加拿大 092, server: 104.26.0.55, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e4.6929198.xyz}}}
+  - {name: 🇺🇸 Americas😈SSRSUB_518610679, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
+  - {name: Euro😈SSRSUB_2663973607, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: CH😈SSRSUB_1647550822, server: hzhz1.sssyun.xyz, port: 39202, type: ss, cipher: chacha20-ietf-poly1305, password: b40fb56c-f538-4bf2-951e-b645f48b9937}
+  - {name: Euro😈SSRSUB_1145647923, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: UM😈SSRSUB_549064432, server: 35.95.35.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅, server: cdnssr.ssrsub.com, port: 443, type: ss, cipher: aes-256-cfb, password: cdnssr.ssrsub.com}
+  - {name: 公益机场https//bit.ly/3BPeo5G, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 公益机场https//dlj.tf/SpivhEz, server: ssr4.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: SS节点订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/ss-sub, server: ssr1.ssrsub.com, port: 42471, type: ss, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub}
+  - {name: V2ray订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/V2Ray, server: ssr2.ssrsub.com, port: 38149, type: ss, cipher: aes-256-cfb, password: suo.yt/ssrsub}
+  - {name: Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf, server: ssr5.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: Clash托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: 🇮🇪 爱尔兰+V2CROSS.COM, server: 108.128.146.252, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇮🇪 爱尔兰+都柏林Amazon数据中心, server: 176.34.228.179, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇮🇪 爱尔兰+都柏林Amazon数据中心 2, server: 52.18.111.240, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇮🇪 爱尔兰+都柏林Amazon数据中心 3, server: 54.194.131.175, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇩🇪 德国+黑森州法兰克福Amazon数据中心, server: 18.196.105.231, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇩🇪 德国+黑森州法兰克福Amazon数据中心 2, server: 52.28.176.69, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇫🇷 法国+巴黎Amazon数据中心, server: 35.181.188.78, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇫🇮 芬兰+赫尔辛基Hetzner数据中心, server: fr1.ftpcomand.com, port: 110, type: trojan, password: SQXdz0p1cP, skip-cert-verify: false}
+  - {name: 🇨🇳 广东省广州市+移动, server: naiu-hk.05vr9nyqg5.download, port: 13008, type: trojan, password: c471ef32-798d-40a0-a57c-acf3475a204e, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: 🇬🇧 英国+社会保险安全部, server: 51.21.146.243, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇬🇧 英国+社会保险安全部 2, server: 51.21.88.148, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇬🇧 英国+社会保险安全部 3, server: 51.44.26.172, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,8 +112,6 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇭🇰 HK😈SSRSUB_3128292237
-      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
@@ -157,53 +155,55 @@ proxy-groups:
       - 🇸🇬 新加坡07|流媒体
       - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇨🇦 加拿大 184
-      - 🇨🇦 加拿大 100
-      - 🇺🇸 美国 059
-      - 🇨🇦 加拿大 160
-      - 🇨🇦 加拿大 215
-      - 🇺🇸 美国 067
-      - 🇨🇦 加拿大 009
-      - 🇨🇦 加拿大 207
-      - 🇨🇦 加拿大 156
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
+      - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
+      - 🇨🇦 加拿大 272
+      - 🇺🇸 美国 201
+      - 🇺🇸 美国 011
+      - 🇺🇸 美国 203
       - 🇺🇸 美国 020
-      - 🇨🇦 加拿大 103
+      - 🇨🇦 加拿大 267
+      - 🇨🇦 加拿大 118
+      - 🇨🇦 加拿大 008
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 021
+      - 🇨🇦 加拿大 065
+      - 🇨🇦 加拿大 115
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 018
+      - 🇨🇦 加拿大 096
+      - 🇨🇦 加拿大 136
+      - 🇨🇦 加拿大 041
+      - 🇨🇦 加拿大 158
       - 🇨🇦 加拿大 127
-      - 🇺🇸 美国 032
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 037
-      - 🇺🇸 美国 088
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇺🇸 美国+Amazon数据中心 2
-      - 🇺🇸 美国+Amazon数据中心 3
-      - 🇺🇸 美国+CloudFlare节点
-      - 🇺🇸 美国+CloudFlare节点 2
-      - 🇺🇸 美国+CloudFlare节点 3
-      - 🇺🇸 美国+CloudFlare节点 4
-      - 0|--8
-      - UM😈SSRSUB_389189921
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
-      - 🇮🇳 github.com/freefq - 印度  2
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - github.com/freefq - 广东省移动 7
-      - github.com/freefq - 广东省江门市移动 8
-      - _01
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 109
-      - RO_08
-      - ZZ_20
-      - ZZ_21
-      - _02
-      - _03
-      - _04
-      - _05
-      - Relay_-🇬🇧GB_06
-      - CH😈SSRSUB_431941033
-      - Other😈SSRSUB_3087487628
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 108
-      - CH😈SSRSUB_2785493623
-      - 🇷🇺 github.com/freefq - 俄罗斯  1
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 107
-      - Other😈SSRSUB_1873915727
+      - 🇨🇦 加拿大 268
+      - 🇺🇸 美国 052
+      - 🇨🇦 加拿大 092
+      - 🇺🇸 Americas😈SSRSUB_518610679
+      - Euro😈SSRSUB_2663973607
+      - CH😈SSRSUB_1647550822
+      - Euro😈SSRSUB_1145647923
+      - UM😈SSRSUB_549064432
+      - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
+      - 公益机场https//bit.ly/3BPeo5G
+      - 公益机场https//dlj.tf/SpivhEz
+      - SS节点订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
+      - V2ray订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
+      - Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
+      - Clash托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+      - 🇮🇪 爱尔兰+V2CROSS.COM
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 2
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
+      - 🇩🇪 德国+黑森州法兰克福Amazon数据中心
+      - 🇩🇪 德国+黑森州法兰克福Amazon数据中心 2
+      - 🇫🇷 法国+巴黎Amazon数据中心
+      - 🇫🇮 芬兰+赫尔辛基Hetzner数据中心
+      - 🇨🇳 广东省广州市+移动
+      - 🇬🇧 英国+社会保险安全部
+      - 🇬🇧 英国+社会保险安全部 2
+      - 🇬🇧 英国+社会保险安全部 3
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,8 +254,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 HK😈SSRSUB_3128292237
-      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
@@ -299,61 +297,61 @@ proxy-groups:
       - 🇸🇬 新加坡07|流媒体
       - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇨🇦 加拿大 184
-      - 🇨🇦 加拿大 100
-      - 🇺🇸 美国 059
-      - 🇨🇦 加拿大 160
-      - 🇨🇦 加拿大 215
-      - 🇺🇸 美国 067
-      - 🇨🇦 加拿大 009
-      - 🇨🇦 加拿大 207
-      - 🇨🇦 加拿大 156
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
+      - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
+      - 🇨🇦 加拿大 272
+      - 🇺🇸 美国 201
+      - 🇺🇸 美国 011
+      - 🇺🇸 美国 203
       - 🇺🇸 美国 020
-      - 🇨🇦 加拿大 103
+      - 🇨🇦 加拿大 267
+      - 🇨🇦 加拿大 118
+      - 🇨🇦 加拿大 008
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 021
+      - 🇨🇦 加拿大 065
+      - 🇨🇦 加拿大 115
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 018
+      - 🇨🇦 加拿大 096
+      - 🇨🇦 加拿大 136
+      - 🇨🇦 加拿大 041
+      - 🇨🇦 加拿大 158
       - 🇨🇦 加拿大 127
-      - 🇺🇸 美国 032
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 037
-      - 🇺🇸 美国 088
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇺🇸 美国+Amazon数据中心 2
-      - 🇺🇸 美国+Amazon数据中心 3
-      - 🇺🇸 美国+CloudFlare节点
-      - 🇺🇸 美国+CloudFlare节点 2
-      - 🇺🇸 美国+CloudFlare节点 3
-      - 🇺🇸 美国+CloudFlare节点 4
-      - 0|--8
-      - UM😈SSRSUB_389189921
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
-      - 🇮🇳 github.com/freefq - 印度  2
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - github.com/freefq - 广东省移动 7
-      - github.com/freefq - 广东省江门市移动 8
-      - _01
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 109
-      - RO_08
-      - ZZ_20
-      - ZZ_21
-      - _02
-      - _03
-      - _04
-      - _05
-      - Relay_-🇬🇧GB_06
-      - CH😈SSRSUB_431941033
-      - Other😈SSRSUB_3087487628
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 108
-      - CH😈SSRSUB_2785493623
-      - 🇷🇺 github.com/freefq - 俄罗斯  1
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 107
-      - Other😈SSRSUB_1873915727
+      - 🇨🇦 加拿大 268
+      - 🇺🇸 美国 052
+      - 🇨🇦 加拿大 092
+      - 🇺🇸 Americas😈SSRSUB_518610679
+      - Euro😈SSRSUB_2663973607
+      - CH😈SSRSUB_1647550822
+      - Euro😈SSRSUB_1145647923
+      - UM😈SSRSUB_549064432
+      - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
+      - 公益机场https//bit.ly/3BPeo5G
+      - 公益机场https//dlj.tf/SpivhEz
+      - SS节点订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
+      - V2ray订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
+      - Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
+      - Clash托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+      - 🇮🇪 爱尔兰+V2CROSS.COM
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 2
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
+      - 🇩🇪 德国+黑森州法兰克福Amazon数据中心
+      - 🇩🇪 德国+黑森州法兰克福Amazon数据中心 2
+      - 🇫🇷 法国+巴黎Amazon数据中心
+      - 🇫🇮 芬兰+赫尔辛基Hetzner数据中心
+      - 🇨🇳 广东省广州市+移动
+      - 🇬🇧 英国+社会保险安全部
+      - 🇬🇧 英国+社会保险安全部 2
+      - 🇬🇧 英国+社会保险安全部 3
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 HK😈SSRSUB_3128292237
-      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
@@ -397,53 +395,55 @@ proxy-groups:
       - 🇸🇬 新加坡07|流媒体
       - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇨🇦 加拿大 184
-      - 🇨🇦 加拿大 100
-      - 🇺🇸 美国 059
-      - 🇨🇦 加拿大 160
-      - 🇨🇦 加拿大 215
-      - 🇺🇸 美国 067
-      - 🇨🇦 加拿大 009
-      - 🇨🇦 加拿大 207
-      - 🇨🇦 加拿大 156
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
+      - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
+      - 🇨🇦 加拿大 272
+      - 🇺🇸 美国 201
+      - 🇺🇸 美国 011
+      - 🇺🇸 美国 203
       - 🇺🇸 美国 020
-      - 🇨🇦 加拿大 103
+      - 🇨🇦 加拿大 267
+      - 🇨🇦 加拿大 118
+      - 🇨🇦 加拿大 008
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 021
+      - 🇨🇦 加拿大 065
+      - 🇨🇦 加拿大 115
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 018
+      - 🇨🇦 加拿大 096
+      - 🇨🇦 加拿大 136
+      - 🇨🇦 加拿大 041
+      - 🇨🇦 加拿大 158
       - 🇨🇦 加拿大 127
-      - 🇺🇸 美国 032
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 037
-      - 🇺🇸 美国 088
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇺🇸 美国+Amazon数据中心 2
-      - 🇺🇸 美国+Amazon数据中心 3
-      - 🇺🇸 美国+CloudFlare节点
-      - 🇺🇸 美国+CloudFlare节点 2
-      - 🇺🇸 美国+CloudFlare节点 3
-      - 🇺🇸 美国+CloudFlare节点 4
-      - 0|--8
-      - UM😈SSRSUB_389189921
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
-      - 🇮🇳 github.com/freefq - 印度  2
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - github.com/freefq - 广东省移动 7
-      - github.com/freefq - 广东省江门市移动 8
-      - _01
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 109
-      - RO_08
-      - ZZ_20
-      - ZZ_21
-      - _02
-      - _03
-      - _04
-      - _05
-      - Relay_-🇬🇧GB_06
-      - CH😈SSRSUB_431941033
-      - Other😈SSRSUB_3087487628
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 108
-      - CH😈SSRSUB_2785493623
-      - 🇷🇺 github.com/freefq - 俄罗斯  1
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 107
-      - Other😈SSRSUB_1873915727
+      - 🇨🇦 加拿大 268
+      - 🇺🇸 美国 052
+      - 🇨🇦 加拿大 092
+      - 🇺🇸 Americas😈SSRSUB_518610679
+      - Euro😈SSRSUB_2663973607
+      - CH😈SSRSUB_1647550822
+      - Euro😈SSRSUB_1145647923
+      - UM😈SSRSUB_549064432
+      - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
+      - 公益机场https//bit.ly/3BPeo5G
+      - 公益机场https//dlj.tf/SpivhEz
+      - SS节点订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
+      - V2ray订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
+      - Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
+      - Clash托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+      - 🇮🇪 爱尔兰+V2CROSS.COM
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 2
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
+      - 🇩🇪 德国+黑森州法兰克福Amazon数据中心
+      - 🇩🇪 德国+黑森州法兰克福Amazon数据中心 2
+      - 🇫🇷 法国+巴黎Amazon数据中心
+      - 🇫🇮 芬兰+赫尔辛基Hetzner数据中心
+      - 🇨🇳 广东省广州市+移动
+      - 🇬🇧 英国+社会保险安全部
+      - 🇬🇧 英国+社会保险安全部 2
+      - 🇬🇧 英国+社会保险安全部 3
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -451,37 +451,35 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
-      - 🇨🇦 加拿大 184
-      - 🇨🇦 加拿大 100
-      - 🇺🇸 美国 059
-      - 🇨🇦 加拿大 160
-      - 🇨🇦 加拿大 215
-      - 🇺🇸 美国 067
-      - 🇨🇦 加拿大 009
-      - 🇨🇦 加拿大 207
-      - 🇨🇦 加拿大 156
+      - 🇨🇦 加拿大 272
+      - 🇺🇸 美国 201
+      - 🇺🇸 美国 011
+      - 🇺🇸 美国 203
       - 🇺🇸 美国 020
-      - 🇨🇦 加拿大 103
+      - 🇨🇦 加拿大 267
+      - 🇨🇦 加拿大 118
+      - 🇨🇦 加拿大 008
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 021
+      - 🇨🇦 加拿大 065
+      - 🇨🇦 加拿大 115
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 018
+      - 🇨🇦 加拿大 096
+      - 🇨🇦 加拿大 136
+      - 🇨🇦 加拿大 041
+      - 🇨🇦 加拿大 158
       - 🇨🇦 加拿大 127
-      - 🇺🇸 美国 032
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 037
-      - 🇺🇸 美国 088
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇺🇸 美国+Amazon数据中心 2
-      - 🇺🇸 美国+Amazon数据中心 3
-      - 🇺🇸 美国+CloudFlare节点
-      - 🇺🇸 美国+CloudFlare节点 2
-      - 🇺🇸 美国+CloudFlare节点 3
-      - 🇺🇸 美国+CloudFlare节点 4
+      - 🇨🇦 加拿大 268
+      - 🇺🇸 美国 052
+      - 🇨🇦 加拿大 092
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 HK😈SSRSUB_3128292237
-      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
@@ -525,36 +523,38 @@ proxy-groups:
       - 🇸🇬 新加坡07|流媒体
       - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
+      - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 0|--8
-      - UM😈SSRSUB_389189921
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
-      - 🇮🇳 github.com/freefq - 印度  2
-      - 🇵🇱 github.com/freefq - 波兰  5
-      - github.com/freefq - 广东省移动 7
-      - github.com/freefq - 广东省江门市移动 8
-      - _01
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 109
-      - RO_08
-      - ZZ_20
-      - ZZ_21
-      - _02
-      - _03
-      - _04
-      - _05
-      - Relay_-🇬🇧GB_06
-      - CH😈SSRSUB_431941033
-      - Other😈SSRSUB_3087487628
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 108
-      - CH😈SSRSUB_2785493623
-      - 🇷🇺 github.com/freefq - 俄罗斯  1
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 107
-      - Other😈SSRSUB_1873915727
+      - 🇺🇸 Americas😈SSRSUB_518610679
+      - Euro😈SSRSUB_2663973607
+      - CH😈SSRSUB_1647550822
+      - Euro😈SSRSUB_1145647923
+      - UM😈SSRSUB_549064432
+      - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
+      - 公益机场https//bit.ly/3BPeo5G
+      - 公益机场https//dlj.tf/SpivhEz
+      - SS节点订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
+      - V2ray订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
+      - Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
+      - Clash托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+      - 🇮🇪 爱尔兰+V2CROSS.COM
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 2
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
+      - 🇩🇪 德国+黑森州法兰克福Amazon数据中心
+      - 🇩🇪 德国+黑森州法兰克福Amazon数据中心 2
+      - 🇫🇷 法国+巴黎Amazon数据中心
+      - 🇫🇮 芬兰+赫尔辛基Hetzner数据中心
+      - 🇨🇳 广东省广州市+移动
+      - 🇬🇧 英国+社会保险安全部
+      - 🇬🇧 英国+社会保险安全部 2
+      - 🇬🇧 英国+社会保险安全部 3
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -562,27 +562,22 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
-      - 🇺🇸 美国 059
-      - 🇺🇸 美国 067
+      - 🇺🇸 美国 201
+      - 🇺🇸 美国 011
+      - 🇺🇸 美国 203
       - 🇺🇸 美国 020
-      - 🇺🇸 美国 032
-      - 🇺🇸 美国 085
-      - 🇺🇸 美国 037
-      - 🇺🇸 美国 088
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇺🇸 美国+Amazon数据中心 2
-      - 🇺🇸 美国+Amazon数据中心 3
-      - 🇺🇸 美国+CloudFlare节点
-      - 🇺🇸 美国+CloudFlare节点 2
-      - 🇺🇸 美国+CloudFlare节点 3
-      - 🇺🇸 美国+CloudFlare节点 4
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 021
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 018
+      - 🇺🇸 美国 052
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 HK😈SSRSUB_3128292237
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
       - 🇭🇰 香港_121320001
@@ -612,7 +607,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇯🇵 日本_121320001
@@ -633,6 +627,8 @@ proxy-groups:
       - 🇯🇵 日本08
       - 🇯🇵 日本07
       - 🇯🇵 日本05
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
+      - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -1930,7 +1926,6 @@ rules:
  - DOMAIN-SUFFIX,app-store.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,appe-store.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-appstore.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-itunes.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.rs,🍎 苹果服务
@@ -1941,7 +1936,6 @@ rules:
  - DOMAIN-SUFFIX,appleappstore.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.net,🍎 苹果服务
- - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.us,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-iclou.com,🍎 苹果服务
@@ -1950,7 +1944,6 @@ rules:
  - DOMAIN-SUFFIX,appleid.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hk,🍎 苹果服务
- - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.audio,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.blog,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.chat,🍎 苹果服务
@@ -1997,49 +1990,7 @@ rules:
  - DOMAIN-SUFFIX,darwinsource.com,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsource.org,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsourcecode.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ids-apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itun.es,🍎 苹果服务
  - DOMAIN-SUFFIX,itunbes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ituneas.com,🍎 苹果服务
@@ -2073,12 +2024,8 @@ rules:
  - DOMAIN-SUFFIX,itunesu.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunesu.net,🍎 苹果服务
  - DOMAIN-SUFFIX,iutunes.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,myappleid.com,🍎 苹果服务
- - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
  - DOMAIN-SUFFIX,tvappstore.net,🍎 苹果服务
- - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplestore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplleipods.com,🍎 苹果服务
@@ -2307,6 +2254,7 @@ rules:
  - DOMAIN-SUFFIX,wwwipodlounge.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwmacbookair.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.comscoreresearch.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
@@ -2344,14 +2292,62 @@ rules:
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
- - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-livephotoskit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-KEYWORD,apple-support.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.edgekey.net,🍎 苹果服务
