@@ -37,6 +37,7 @@ proxies:
   - {name: 🇯🇵 日本_121320045, server: 167.179.83.138, port: 36013, type: vmess, uuid: 97700372-07d0-4e10-db96-937844f30a50, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320051, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320054, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国_121320001, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}}
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -48,11 +49,10 @@ proxies:
   - {name: 🇯🇵 日本05, server: jp005.421421.xyz, port: 20230, type: trojan, password: 0028109a-37ed-4ded-b858-e566388a904c, sni: 421421.xyz, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡08|流媒体, server: sg008.421421.xyz, port: 20230, type: trojan, password: 0028109a-37ed-4ded-b858-e566388a904c, sni: 421421.xyz, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡05|流媒体, server: sg005.421421.xyz, port: 20230, type: trojan, password: 0028109a-37ed-4ded-b858-e566388a904c, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡07|流媒体, server: sg007.421421.xyz, port: 20230, type: trojan, password: 0028109a-37ed-4ded-b858-e566388a904c, sni: 421421.xyz, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 088, server: 172.67.133.78, port: 8443, type: vmess, uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dyajvws, headers: {Host: lax2.ibgfw.top}}}
   - {name: 🇺🇸 美国 083, server: 89.116.161.240, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 🇨🇦 加拿大 095, server: 92.53.188.185, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
-  - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
   - {name: US_09, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
   - {name: US_10, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false}
   - {name: US_11, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
@@ -72,19 +72,19 @@ proxies:
   - {name: 🇺🇸 美国+CloudFlare节点, server: 104.17.147.22, port: 2053, type: trojan, password: bpb-trojan, sni: bPB-worker-PANeL1-e4p.paGes.DeV, skip-cert-verify: false}
   - {name: 🇺🇸 美国+CloudFlare节点 2, server: 104.19.35.14, port: 443, type: trojan, password: bpb-trojan, sni: BPB-wOrkeR-pANel1-E4P.pageS.DeV, skip-cert-verify: false}
   - {name: 🇺🇸 美国+CloudFlare节点 3, server: 108.162.193.110, port: 443, type: trojan, password: Trevely, sni: trojan.trevely.us.kg, skip-cert-verify: false}
-  - {name: 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian, server: 54.178.191.236, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: Euro😈SSRSUB_2663973607, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: 🇳🇱 荷兰 003, server: 188.42.145.9, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
-  - {name: 🇬🇧 英国 001, server: 94.247.142.198, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
-  - {name: 🇩🇪 德国 004, server: 89.116.46.96, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 0|--17, server: 52.79.248.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇿 哈萨克斯坦 002, server: 194.59.5.221, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
-  - {name: 🇨🇾 塞浦路斯 003, server: 77.37.33.244, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
-  - {name: 🇩🇪 德国 005, server: 45.80.111.223, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
-  - {name: 🇨🇿 捷克 001, server: 14.102.229.82, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
   - {name: 🇰🇿 哈萨克斯坦 003, server: 185.176.26.209, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 🇳🇱 荷兰 003, server: 188.42.145.9, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 🇷🇺 _RU_俄罗斯_7, server: 185.22.155.228, port: 23456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: Euro😈SSRSUB_2663973607, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: 0|--12, server: 3.34.255.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇿 捷克 001, server: 14.102.229.82, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 🇩🇪 德国 004, server: 89.116.46.96, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 🇩🇪 德国 005, server: 45.80.111.223, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 🇨🇾 塞浦路斯 003, server: 77.37.33.244, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 🇬🇧 英国 001, server: 94.247.142.198, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144, server: cf.gheychi.me, port: 8080, type: vmess, uuid: ad98ffa2-914b-11ed-a1eb-0242ac120002, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ws, headers: {Host: cf.gheychi.me}}}
-  - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _02, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
   - {name: _03, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false}
   - {name: _04, server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true}
@@ -143,6 +143,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -154,11 +155,10 @@ proxy-groups:
       - 🇯🇵 日本05
       - 🇸🇬 新加坡08|流媒体
       - 🇸🇬 新加坡05|流媒体
-      - 🇸🇬 新加坡07|流媒体
+      - 🇨🇦 加拿大 088
       - 🇺🇸 美国 083
+      - 🇨🇦 加拿大 095
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - US_09
       - US_10
       - US_11
@@ -178,19 +178,19 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点
       - 🇺🇸 美国+CloudFlare节点 2
       - 🇺🇸 美国+CloudFlare节点 3
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - Euro😈SSRSUB_2663973607
-      - 🇳🇱 荷兰 003
-      - 🇬🇧 英国 001
-      - 🇩🇪 德国 004
+      - 0|--17
       - 🇰🇿 哈萨克斯坦 002
-      - 🇨🇾 塞浦路斯 003
-      - 🇩🇪 德国 005
-      - 🇨🇿 捷克 001
       - 🇰🇿 哈萨克斯坦 003
+      - 🇳🇱 荷兰 003
+      - 🇷🇺 _RU_俄罗斯_7
+      - Euro😈SSRSUB_2663973607
+      - 0|--12
+      - 🇨🇿 捷克 001
+      - 🇩🇪 德国 004
+      - 🇩🇪 德国 005
+      - 🇨🇾 塞浦路斯 003
+      - 🇬🇧 英国 001
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
-      - ZZ_20
-      - ZZ_21
       - _02
       - _03
       - _04
@@ -284,6 +284,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -295,11 +296,10 @@ proxy-groups:
       - 🇯🇵 日本05
       - 🇸🇬 新加坡08|流媒体
       - 🇸🇬 新加坡05|流媒体
-      - 🇸🇬 新加坡07|流媒体
+      - 🇨🇦 加拿大 088
       - 🇺🇸 美国 083
+      - 🇨🇦 加拿大 095
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - US_09
       - US_10
       - US_11
@@ -319,19 +319,19 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点
       - 🇺🇸 美国+CloudFlare节点 2
       - 🇺🇸 美国+CloudFlare节点 3
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - Euro😈SSRSUB_2663973607
-      - 🇳🇱 荷兰 003
-      - 🇬🇧 英国 001
-      - 🇩🇪 德国 004
+      - 0|--17
       - 🇰🇿 哈萨克斯坦 002
-      - 🇨🇾 塞浦路斯 003
-      - 🇩🇪 德国 005
-      - 🇨🇿 捷克 001
       - 🇰🇿 哈萨克斯坦 003
+      - 🇳🇱 荷兰 003
+      - 🇷🇺 _RU_俄罗斯_7
+      - Euro😈SSRSUB_2663973607
+      - 0|--12
+      - 🇨🇿 捷克 001
+      - 🇩🇪 德国 004
+      - 🇩🇪 德国 005
+      - 🇨🇾 塞浦路斯 003
+      - 🇬🇧 英国 001
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
-      - ZZ_20
-      - ZZ_21
       - _02
       - _03
       - _04
@@ -381,6 +381,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -392,11 +393,10 @@ proxy-groups:
       - 🇯🇵 日本05
       - 🇸🇬 新加坡08|流媒体
       - 🇸🇬 新加坡05|流媒体
-      - 🇸🇬 新加坡07|流媒体
+      - 🇨🇦 加拿大 088
       - 🇺🇸 美国 083
+      - 🇨🇦 加拿大 095
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - US_09
       - US_10
       - US_11
@@ -416,19 +416,19 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点
       - 🇺🇸 美国+CloudFlare节点 2
       - 🇺🇸 美国+CloudFlare节点 3
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - Euro😈SSRSUB_2663973607
-      - 🇳🇱 荷兰 003
-      - 🇬🇧 英国 001
-      - 🇩🇪 德国 004
+      - 0|--17
       - 🇰🇿 哈萨克斯坦 002
-      - 🇨🇾 塞浦路斯 003
-      - 🇩🇪 德国 005
-      - 🇨🇿 捷克 001
       - 🇰🇿 哈萨克斯坦 003
+      - 🇳🇱 荷兰 003
+      - 🇷🇺 _RU_俄罗斯_7
+      - Euro😈SSRSUB_2663973607
+      - 0|--12
+      - 🇨🇿 捷克 001
+      - 🇩🇪 德国 004
+      - 🇩🇪 德国 005
+      - 🇨🇾 塞浦路斯 003
+      - 🇬🇧 英国 001
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
-      - ZZ_20
-      - ZZ_21
       - _02
       - _03
       - _04
@@ -446,10 +446,10 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇨🇦 加拿大 088
       - 🇺🇸 美国 083
+      - 🇨🇦 加拿大 095
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - US_09
       - US_10
       - US_11
@@ -507,6 +507,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -518,27 +519,25 @@ proxy-groups:
       - 🇯🇵 日本05
       - 🇸🇬 新加坡08|流媒体
       - 🇸🇬 新加坡05|流媒体
-      - 🇸🇬 新加坡07|流媒体
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - Euro😈SSRSUB_2663973607
-      - 🇳🇱 荷兰 003
-      - 🇬🇧 英国 001
-      - 🇩🇪 德国 004
+      - 0|--17
       - 🇰🇿 哈萨克斯坦 002
-      - 🇨🇾 塞浦路斯 003
-      - 🇩🇪 德国 005
-      - 🇨🇿 捷克 001
       - 🇰🇿 哈萨克斯坦 003
+      - 🇳🇱 荷兰 003
+      - 🇷🇺 _RU_俄罗斯_7
+      - Euro😈SSRSUB_2663973607
+      - 0|--12
+      - 🇨🇿 捷克 001
+      - 🇩🇪 德国 004
+      - 🇩🇪 德国 005
+      - 🇨🇾 塞浦路斯 003
+      - 🇬🇧 英国 001
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
-      - ZZ_20
-      - ZZ_21
       - _02
       - _03
       - _04
@@ -558,8 +557,6 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国 083
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - US_09
       - US_10
       - US_11
@@ -607,8 +604,6 @@ proxy-groups:
       - 🇸🇬 新加坡06|流媒体
       - 🇸🇬 新加坡08|流媒体
       - 🇸🇬 新加坡05|流媒体
-      - 🇸🇬 新加坡07|流媒体
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
@@ -654,6 +649,7 @@ proxy-groups:
     proxies:
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
+      - 🇰🇷 韩国_121320001
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
