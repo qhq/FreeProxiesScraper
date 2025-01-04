@@ -5,14 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 13|🇭🇰 香港8|@ripaojiedian, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 HK😈SSRSUB_3128292237, server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP😈SSRSUB_3557893587, server: yd2.ainivp.com, port: 33202, type: vmess, uuid: 9204afcd-023e-781f-1abc-c12efccd1344, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: yd2.ainivp.com}}}
   - {name: 🇯🇵 JP😈SSRSUB_3528396055, server: 54.199.66.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国(油管破解资源君) 2, server: surongwei.eu.org, port: 443, type: vmess, uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /reffs7y26g0ua, headers: {Host: surongwei.eu.org}}}
   - {name: 🇰🇷 韩国+V2CROSS.COM, server: 117.123.144.67, port: 28825, type: trojan, password: 95b, sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com, skip-cert-verify: false}
   - {name: 🇰🇷 韩国+V2CROSS.COM 2, server: 211.107.201.14, port: 25001, type: trojan, password: 95b, sni: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com, skip-cert-verify: false}
   - {name: 🇯🇵 日本+东京Amazon数据中心, server: bgroup.node1.t.nodelist-airport.com, port: 50001, type: trojan, password: 2155145a-b1b5-443a-8977-670f6bd10f02, skip-cert-verify: false}
   - {name: 🇭🇰 香港+阿里云, server: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma, port: 443, type: trojan, password: a3ca0380-8a17-403a-a5b3-a9f6e59be193, sni: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma, skip-cert-verify: false}
   - {name: 🇭🇰 香港+电讯盈科有限公司, server: aliyun.2096.us.kg, port: 443, type: trojan, password: 95b, sni: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国(油管破解资源君), server: 152.69.230.170, port: 80, type: vmess, uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
   - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -43,14 +45,12 @@ proxies:
   - {name: "🇭🇰 香港01{优化1|V2ray}", server: hk1.awslcn.info, port: 25242, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}}
   - {name: "🇭🇰 香港05{优化1|V2ray}", server: hk1.awslcn.info, port: 25244, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}}
   - {name: 🇯🇵 日本5-WAP, server: cu.awslcn.info, port: 25278, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}}
-  - {name: 🇸🇬 新加坡-Trojan①, server: sg01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: sg01.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡-Trojan②, server: sg02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: sg02.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 _DE_德国->🇯🇵_JP_日本, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
   - {name: 🇯🇵 github.com/freefq - 日本  48, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: US_11, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 026, server: 36.150.215.222, port: 48544, type: trojan, password: vzhXXZVw, sni: 107.175.70.80, skip-cert-verify: true}
+  - {name: US_10, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false}
   - {name: Pool_🇺🇸US_12, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws}}
   - {name: US_13, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false}
   - {name: US_14, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}}
@@ -73,14 +73,14 @@ proxies:
   - {name: 🇺🇸 美国+CloudFlare节点 7, server: 172.67.130.66, port: 443, type: trojan, password: trojan, sni: test-a23.pages.dev, skip-cert-verify: false}
   - {name: 🇺🇸 美国+CloudFlare节点 8, server: 173.245.59.110, port: 443, type: trojan, password: Trevely, sni: trojan.trevely.us.kg, skip-cert-verify: false}
   - {name: 🇺🇸 美国+V2CROSS.COM, server: 65.75.194.43, port: 10511, type: trojan, password: 95b, sni: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com, skip-cert-verify: false}
-  - {name: CH😈SSRSUB_431941033, server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Other😈SSRSUB_3087487628, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: UM😈SSRSUB_1779776352, server: 104.19.45.11, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: CH😈SSRSUB_2785493623, server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: UM😈SSRSUB_389189921, server: 172.64.167.10, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
-  - {name: UM😈SSRSUB_2677098478, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: Other😈SSRSUB_1873915727, server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: UM😈SSRSUB_3928733360, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
+  - {name: 0|-https//t.me/MrXbin-3, server: 210.217.18.70, port: 3231, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 0|--5, server: 52.221.190.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|--9, server: 222.112.15.140, port: 43249, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 0|--35, server: p230.panda004.net, port: 41748, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇳🇱 荷兰_121320048, server: 95.179.128.114, port: 80, type: vmess, uuid: a6292090-afe1-4640-97a7-4f1d1d877cf1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Av8czorIlYicU6D349brWUw6a, headers: {Host: 95.179.128.114}}}
+  - {name: 0|--25, server: 3.35.206.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https//t.me/MrXbin-31, server: 43.203.122.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: Relay_-🇬🇧GB_06, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false}
   - {name: CH😈SSRSUB_3574339605, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 Americas😈SSRSUB_3391161080, server: 104.19.45.42, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip19.6929198.xyz}}}
   - {name: UM😈SSRSUB_2004026099, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
@@ -91,8 +91,8 @@ proxies:
   - {name: Other😈SSRSUB_2578581128, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 Americas😈SSRSUB_518610679, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
   - {name: 🇷🇺 RU😈SSRSUB_432833167, server: 194.87.31.160, port: 8081, type: vmess, uuid: a7e00c2f-411a-438f-9119-0f022a85a5e3, alterId: 0, cipher: auto, tls: false}
-  - {name: Euro😈SSRSUB_125949122, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: Euro😈SSRSUB_2663973607, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: 🇷🇺 俄罗斯(油管破解资源君) 3, server: v10a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fr-unlimitxxx, headers: {Host: v10a.toddns.tk}}}
+  - {name: 🇷🇺 俄罗斯(油管破解资源君) 2, server: gcsde.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Falling42gcsdenode, headers: {Host: gcsde.sylu.cyou}}}
   - {name: UM😈SSRSUB_108119541, server: 205.134.180.150, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2}
   - {name: CH😈SSRSUB_1834157617, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2852c164-1a5b-4628-b668-3554c7aa4453}
   - {name: CH😈SSRSUB_3783732564, server: iepl1.nezha.tech, port: 33577, type: ss, cipher: chacha20-ietf-poly1305, password: 96a8c243-0219-403e-b8fa-f48f696435e1}
@@ -112,14 +112,16 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
       - 🇭🇰 HK😈SSRSUB_3128292237
-      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇯🇵 JP😈SSRSUB_3528396055
+      - 🇰🇷 韩国(油管破解资源君) 2
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
+      - 🇰🇷 韩国(油管破解资源君)
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -150,14 +152,12 @@ proxy-groups:
       - 🇭🇰 香港01{优化1|V2ray}
       - 🇭🇰 香港05{优化1|V2ray}
       - 🇯🇵 日本5-WAP
-      - 🇸🇬 新加坡-Trojan①
-      - 🇸🇬 新加坡-Trojan②
-      - 🇯🇵 _DE_德国->🇯🇵_JP_日本
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - US_11
+      - 🇺🇸 美国 026
+      - US_10
       - Pool_🇺🇸US_12
       - US_13
       - US_14
@@ -180,14 +180,14 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 7
       - 🇺🇸 美国+CloudFlare节点 8
       - 🇺🇸 美国+V2CROSS.COM
-      - CH😈SSRSUB_431941033
-      - Other😈SSRSUB_3087487628
-      - UM😈SSRSUB_1779776352
-      - CH😈SSRSUB_2785493623
-      - UM😈SSRSUB_389189921
-      - UM😈SSRSUB_2677098478
-      - Other😈SSRSUB_1873915727
-      - UM😈SSRSUB_3928733360
+      - 0|-https//t.me/MrXbin-3
+      - 0|--5
+      - 0|--9
+      - 0|--35
+      - 🇳🇱 荷兰_121320048
+      - 0|--25
+      - 0|-https//t.me/MrXbin-31
+      - Relay_-🇬🇧GB_06
       - CH😈SSRSUB_3574339605
       - 🇺🇸 Americas😈SSRSUB_3391161080
       - UM😈SSRSUB_2004026099
@@ -198,8 +198,8 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - Euro😈SSRSUB_125949122
-      - Euro😈SSRSUB_2663973607
+      - 🇷🇺 俄罗斯(油管破解资源君) 3
+      - 🇷🇺 俄罗斯(油管破解资源君) 2
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
@@ -254,14 +254,16 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
       - 🇭🇰 HK😈SSRSUB_3128292237
-      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇯🇵 JP😈SSRSUB_3528396055
+      - 🇰🇷 韩国(油管破解资源君) 2
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
+      - 🇰🇷 韩国(油管破解资源君)
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -292,14 +294,12 @@ proxy-groups:
       - 🇭🇰 香港01{优化1|V2ray}
       - 🇭🇰 香港05{优化1|V2ray}
       - 🇯🇵 日本5-WAP
-      - 🇸🇬 新加坡-Trojan①
-      - 🇸🇬 新加坡-Trojan②
-      - 🇯🇵 _DE_德国->🇯🇵_JP_日本
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - US_11
+      - 🇺🇸 美国 026
+      - US_10
       - Pool_🇺🇸US_12
       - US_13
       - US_14
@@ -322,14 +322,14 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 7
       - 🇺🇸 美国+CloudFlare节点 8
       - 🇺🇸 美国+V2CROSS.COM
-      - CH😈SSRSUB_431941033
-      - Other😈SSRSUB_3087487628
-      - UM😈SSRSUB_1779776352
-      - CH😈SSRSUB_2785493623
-      - UM😈SSRSUB_389189921
-      - UM😈SSRSUB_2677098478
-      - Other😈SSRSUB_1873915727
-      - UM😈SSRSUB_3928733360
+      - 0|-https//t.me/MrXbin-3
+      - 0|--5
+      - 0|--9
+      - 0|--35
+      - 🇳🇱 荷兰_121320048
+      - 0|--25
+      - 0|-https//t.me/MrXbin-31
+      - Relay_-🇬🇧GB_06
       - CH😈SSRSUB_3574339605
       - 🇺🇸 Americas😈SSRSUB_3391161080
       - UM😈SSRSUB_2004026099
@@ -340,8 +340,8 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - Euro😈SSRSUB_125949122
-      - Euro😈SSRSUB_2663973607
+      - 🇷🇺 俄罗斯(油管破解资源君) 3
+      - 🇷🇺 俄罗斯(油管破解资源君) 2
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
@@ -352,14 +352,16 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
       - 🇭🇰 HK😈SSRSUB_3128292237
-      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇯🇵 JP😈SSRSUB_3528396055
+      - 🇰🇷 韩国(油管破解资源君) 2
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
+      - 🇰🇷 韩国(油管破解资源君)
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -390,14 +392,12 @@ proxy-groups:
       - 🇭🇰 香港01{优化1|V2ray}
       - 🇭🇰 香港05{优化1|V2ray}
       - 🇯🇵 日本5-WAP
-      - 🇸🇬 新加坡-Trojan①
-      - 🇸🇬 新加坡-Trojan②
-      - 🇯🇵 _DE_德国->🇯🇵_JP_日本
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - US_11
+      - 🇺🇸 美国 026
+      - US_10
       - Pool_🇺🇸US_12
       - US_13
       - US_14
@@ -420,14 +420,14 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 7
       - 🇺🇸 美国+CloudFlare节点 8
       - 🇺🇸 美国+V2CROSS.COM
-      - CH😈SSRSUB_431941033
-      - Other😈SSRSUB_3087487628
-      - UM😈SSRSUB_1779776352
-      - CH😈SSRSUB_2785493623
-      - UM😈SSRSUB_389189921
-      - UM😈SSRSUB_2677098478
-      - Other😈SSRSUB_1873915727
-      - UM😈SSRSUB_3928733360
+      - 0|-https//t.me/MrXbin-3
+      - 0|--5
+      - 0|--9
+      - 0|--35
+      - 🇳🇱 荷兰_121320048
+      - 0|--25
+      - 0|-https//t.me/MrXbin-31
+      - Relay_-🇬🇧GB_06
       - CH😈SSRSUB_3574339605
       - 🇺🇸 Americas😈SSRSUB_3391161080
       - UM😈SSRSUB_2004026099
@@ -438,8 +438,8 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - Euro😈SSRSUB_125949122
-      - Euro😈SSRSUB_2663973607
+      - 🇷🇺 俄罗斯(油管破解资源君) 3
+      - 🇷🇺 俄罗斯(油管破解资源君) 2
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
@@ -450,7 +450,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - US_11
+      - 🇺🇸 美国 026
+      - US_10
       - Pool_🇺🇸US_12
       - US_13
       - US_14
@@ -479,14 +480,16 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
       - 🇭🇰 HK😈SSRSUB_3128292237
-      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇯🇵 JP😈SSRSUB_3528396055
+      - 🇰🇷 韩国(油管破解资源君) 2
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
+      - 🇰🇷 韩国(油管破解资源君)
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -517,9 +520,6 @@ proxy-groups:
       - 🇭🇰 香港01{优化1|V2ray}
       - 🇭🇰 香港05{优化1|V2ray}
       - 🇯🇵 日本5-WAP
-      - 🇸🇬 新加坡-Trojan①
-      - 🇸🇬 新加坡-Trojan②
-      - 🇯🇵 _DE_德国->🇯🇵_JP_日本
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -530,14 +530,14 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - CH😈SSRSUB_431941033
-      - Other😈SSRSUB_3087487628
-      - UM😈SSRSUB_1779776352
-      - CH😈SSRSUB_2785493623
-      - UM😈SSRSUB_389189921
-      - UM😈SSRSUB_2677098478
-      - Other😈SSRSUB_1873915727
-      - UM😈SSRSUB_3928733360
+      - 0|-https//t.me/MrXbin-3
+      - 0|--5
+      - 0|--9
+      - 0|--35
+      - 🇳🇱 荷兰_121320048
+      - 0|--25
+      - 0|-https//t.me/MrXbin-31
+      - Relay_-🇬🇧GB_06
       - CH😈SSRSUB_3574339605
       - 🇺🇸 Americas😈SSRSUB_3391161080
       - UM😈SSRSUB_2004026099
@@ -548,8 +548,8 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - Euro😈SSRSUB_125949122
-      - Euro😈SSRSUB_2663973607
+      - 🇷🇺 俄罗斯(油管破解资源君) 3
+      - 🇷🇺 俄罗斯(油管破解资源君) 2
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
@@ -560,7 +560,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - US_11
+      - 🇺🇸 美国 026
+      - US_10
       - Pool_🇺🇸US_12
       - US_13
       - US_14
@@ -589,6 +590,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
       - 🇭🇰 HK😈SSRSUB_3128292237
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
@@ -609,8 +611,6 @@ proxy-groups:
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
-      - 🇸🇬 新加坡-Trojan①
-      - 🇸🇬 新加坡-Trojan②
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
   - name: 日本
     type: url-test
@@ -618,7 +618,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇯🇵 日本_121320001
@@ -636,7 +635,6 @@ proxy-groups:
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
       - 🇯🇵 日本5-WAP
-      - 🇯🇵 _DE_德国->🇯🇵_JP_日本
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
@@ -656,8 +654,10 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇰🇷 韩国(油管破解资源君) 2
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
+      - 🇰🇷 韩国(油管破解资源君)
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
@@ -1937,7 +1937,6 @@ rules:
  - DOMAIN-SUFFIX,app-store.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,appe-store.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-appstore.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-itunes.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.rs,🍎 苹果服务
@@ -1948,7 +1947,6 @@ rules:
  - DOMAIN-SUFFIX,appleappstore.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.net,🍎 苹果服务
- - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.us,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-iclou.com,🍎 苹果服务
@@ -1957,7 +1955,6 @@ rules:
  - DOMAIN-SUFFIX,appleid.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hk,🍎 苹果服务
- - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.audio,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.blog,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.chat,🍎 苹果服务
@@ -1993,7 +1990,6 @@ rules:
  - DOMAIN-SUFFIX,applepaysupplies.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.tv,🍎 苹果服务
- - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.co.id,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.hk,🍎 苹果服务
@@ -2005,50 +2001,7 @@ rules:
  - DOMAIN-SUFFIX,darwinsource.com,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsource.org,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsourcecode.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ids-apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itun.es,🍎 苹果服务
  - DOMAIN-SUFFIX,itunbes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ituneas.com,🍎 苹果服务
@@ -2082,12 +2035,8 @@ rules:
  - DOMAIN-SUFFIX,itunesu.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunesu.net,🍎 苹果服务
  - DOMAIN-SUFFIX,iutunes.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,myappleid.com,🍎 苹果服务
- - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
  - DOMAIN-SUFFIX,tvappstore.net,🍎 苹果服务
- - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplestore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplleipods.com,🍎 苹果服务
@@ -2316,7 +2265,6 @@ rules:
  - DOMAIN-SUFFIX,wwwipodlounge.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwmacbookair.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.comscoreresearch.com,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
@@ -2354,11 +2302,63 @@ rules:
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
- - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
+ - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-livephotoskit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-KEYWORD,apple-support.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.edgekey.net,🍎 苹果服务
