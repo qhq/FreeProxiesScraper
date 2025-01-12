@@ -5,9 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian, server: 54.169.246.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian, server: 52.79.247.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 _US_美国->🇯🇵_JP_日本, server: 35.88.145.21, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 HK😈SSRSUB_3128292237, server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP😈SSRSUB_3528396055, server: 54.199.66.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 韩国+V2CROSS.COM, server: 117.123.144.67, port: 28825, type: trojan, password: 95b, sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com, skip-cert-verify: false}
   - {name: 🇰🇷 韩国+V2CROSS.COM 2, server: 211.107.201.14, port: 25001, type: trojan, password: 95b, sni: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com, skip-cert-verify: false}
   - {name: 🇯🇵 日本+东京Amazon数据中心, server: bgroup.node1.t.nodelist-airport.com, port: 50001, type: trojan, password: 2155145a-b1b5-443a-8977-670f6bd10f02, skip-cert-verify: false}
@@ -44,11 +44,11 @@ proxies:
   - {name: "🇭🇰 香港02{优化2|V2ray}", server: hk2.awslcn.info, port: 25242, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.awslcn.info}}}
   - {name: "🇸🇬 新加坡01{优化2|V2ray}", server: sg1.awslcn.info, port: 25245, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}}
   - {name: 🇨🇳 台湾-Trojan②, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw02.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡-Trojan②, server: sg02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: sg02.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 _US_美国->🇯🇵_JP_日本, server: 35.88.145.21, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: 35.90.11.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 台湾-Trojan①, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw01.trojanyyds.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP😈SSRSUB_3557893587, server: yd2.ainivp.com, port: 33202, type: vmess, uuid: 9204afcd-023e-781f-1abc-c12efccd1344, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: yd2.ainivp.com}}}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
   - {name: US_09, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
   - {name: US_11, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: Pool_🇺🇸US_12, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws}}
@@ -56,8 +56,9 @@ proxies:
   - {name: US_14, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}}
   - {name: US_16, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: US_17, server: 68.183.129.197, port: 8080, type: vmess, uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
-  - {name: 🇺🇸 美国(油管破解资源君) 22, server: hucloud.tk, port: 443, type: vmess, uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /huhu, headers: {Host: hucloud.tk}}}
   - {name: 🇺🇸 美国(油管破解资源君) 20, server: 198.41.212.122, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 16, server: uicdn.cf, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/fdfadsfa/63848bfe228fd/, headers: {Host: us-lb.sshkit.org}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 15, server: 198.41.203.5, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
   - {name: 🇺🇸 美国+Amazon+EC2服务器, server: 3.143.42.57, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon+EC2服务器 2, server: 3.64.17.216, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon+EC2服务器 3, server: 3.64.191.45, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: sni=trojan.burgerip.co.uk, skip-cert-verify: false}
@@ -71,7 +72,6 @@ proxies:
   - {name: 🇺🇸 美国+CloudFlare节点 3, server: 108.162.193.110, port: 443, type: trojan, password: Trevely, sni: trojan.trevely.us.kg, skip-cert-verify: false}
   - {name: 🇺🇸 美国+CloudFlare节点 4, server: 162.159.136.232, port: 8443, type: trojan, password: auto, sni: e9464f45.trauma-2r4.pages.dev, skip-cert-verify: false}
   - {name: 🇺🇸 美国+CloudFlare节点 5, server: 162.159.153.8, port: 443, type: trojan, password: tg-dns68, sni: vip.putata.eu.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国+CloudFlare节点 6, server: 172.64.33.110, port: 443, type: trojan, password: Trevely, sni: trojan.trevely.us.kg, skip-cert-verify: false}
   - {name: RO_08, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
   - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _02, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
@@ -111,9 +111,9 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 _US_美国->🇯🇵_JP_日本
       - 🇭🇰 HK😈SSRSUB_3128292237
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
@@ -150,11 +150,11 @@ proxy-groups:
       - 🇭🇰 香港02{优化2|V2ray}
       - 🇸🇬 新加坡01{优化2|V2ray}
       - 🇨🇳 台湾-Trojan②
-      - 🇸🇬 新加坡-Trojan②
-      - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳 台湾-Trojan①
+      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
+      - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - US_09
       - US_11
       - Pool_🇺🇸US_12
@@ -162,8 +162,9 @@ proxy-groups:
       - US_14
       - US_16
       - US_17
-      - 🇺🇸 美国(油管破解资源君) 22
       - 🇺🇸 美国(油管破解资源君) 20
+      - 🇺🇸 美国(油管破解资源君) 16
+      - 🇺🇸 美国(油管破解资源君) 15
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
@@ -177,7 +178,6 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 3
       - 🇺🇸 美国+CloudFlare节点 4
       - 🇺🇸 美国+CloudFlare节点 5
-      - 🇺🇸 美国+CloudFlare节点 6
       - RO_08
       - ZZ_21
       - _02
@@ -252,9 +252,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 _US_美国->🇯🇵_JP_日本
       - 🇭🇰 HK😈SSRSUB_3128292237
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
@@ -291,11 +291,11 @@ proxy-groups:
       - 🇭🇰 香港02{优化2|V2ray}
       - 🇸🇬 新加坡01{优化2|V2ray}
       - 🇨🇳 台湾-Trojan②
-      - 🇸🇬 新加坡-Trojan②
-      - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳 台湾-Trojan①
+      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
+      - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - US_09
       - US_11
       - Pool_🇺🇸US_12
@@ -303,8 +303,9 @@ proxy-groups:
       - US_14
       - US_16
       - US_17
-      - 🇺🇸 美国(油管破解资源君) 22
       - 🇺🇸 美国(油管破解资源君) 20
+      - 🇺🇸 美国(油管破解资源君) 16
+      - 🇺🇸 美国(油管破解资源君) 15
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
@@ -318,7 +319,6 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 3
       - 🇺🇸 美国+CloudFlare节点 4
       - 🇺🇸 美国+CloudFlare节点 5
-      - 🇺🇸 美国+CloudFlare节点 6
       - RO_08
       - ZZ_21
       - _02
@@ -349,9 +349,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 _US_美国->🇯🇵_JP_日本
       - 🇭🇰 HK😈SSRSUB_3128292237
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
@@ -388,11 +388,11 @@ proxy-groups:
       - 🇭🇰 香港02{优化2|V2ray}
       - 🇸🇬 新加坡01{优化2|V2ray}
       - 🇨🇳 台湾-Trojan②
-      - 🇸🇬 新加坡-Trojan②
-      - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳 台湾-Trojan①
+      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
+      - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - US_09
       - US_11
       - Pool_🇺🇸US_12
@@ -400,8 +400,9 @@ proxy-groups:
       - US_14
       - US_16
       - US_17
-      - 🇺🇸 美国(油管破解资源君) 22
       - 🇺🇸 美国(油管破解资源君) 20
+      - 🇺🇸 美国(油管破解资源君) 16
+      - 🇺🇸 美国(油管破解资源君) 15
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
@@ -415,7 +416,6 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 3
       - 🇺🇸 美国+CloudFlare节点 4
       - 🇺🇸 美国+CloudFlare节点 5
-      - 🇺🇸 美国+CloudFlare节点 6
       - RO_08
       - ZZ_21
       - _02
@@ -447,7 +447,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - US_09
       - US_11
       - Pool_🇺🇸US_12
@@ -455,8 +454,9 @@ proxy-groups:
       - US_14
       - US_16
       - US_17
-      - 🇺🇸 美国(油管破解资源君) 22
       - 🇺🇸 美国(油管破解资源君) 20
+      - 🇺🇸 美国(油管破解资源君) 16
+      - 🇺🇸 美国(油管破解资源君) 15
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
@@ -470,16 +470,15 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 3
       - 🇺🇸 美国+CloudFlare节点 4
       - 🇺🇸 美国+CloudFlare节点 5
-      - 🇺🇸 美国+CloudFlare节点 6
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 _US_美国->🇯🇵_JP_日本
       - 🇭🇰 HK😈SSRSUB_3128292237
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
@@ -516,18 +515,17 @@ proxy-groups:
       - 🇭🇰 香港02{优化2|V2ray}
       - 🇸🇬 新加坡01{优化2|V2ray}
       - 🇨🇳 台湾-Trojan②
-      - 🇸🇬 新加坡-Trojan②
-      - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇨🇳 台湾-Trojan①
+      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
+      - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - RO_08
       - ZZ_21
       - _02
@@ -559,7 +557,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇯🇵 _US_美国->🇯🇵_JP_日本
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - US_09
       - US_11
       - Pool_🇺🇸US_12
@@ -567,8 +564,9 @@ proxy-groups:
       - US_14
       - US_16
       - US_17
-      - 🇺🇸 美国(油管破解资源君) 22
       - 🇺🇸 美国(油管破解资源君) 20
+      - 🇺🇸 美国(油管破解资源君) 16
+      - 🇺🇸 美国(油管破解资源君) 15
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
@@ -582,7 +580,6 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 3
       - 🇺🇸 美国+CloudFlare节点 4
       - 🇺🇸 美国+CloudFlare节点 5
-      - 🇺🇸 美国+CloudFlare节点 6
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -602,7 +599,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -610,8 +606,6 @@ proxy-groups:
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇸🇬 新加坡01{优化2|V2ray}
-      - 🇸🇬 新加坡-Trojan②
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
   - name: 日本
     type: url-test
@@ -619,7 +613,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 _US_美国->🇯🇵_JP_日本
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
@@ -635,8 +630,9 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇯🇵 _US_美国->🇯🇵_JP_日本
+      - 🇯🇵 JP😈SSRSUB_3557893587
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
+      - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -648,6 +644,7 @@ proxy-groups:
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇨🇳 台湾-Trojan②
+      - 🇨🇳 台湾-Trojan①
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
