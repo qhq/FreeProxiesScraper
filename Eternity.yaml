@@ -38,7 +38,6 @@ proxies:
   - {name: 🇯🇵 日本_121320045, server: 167.179.83.138, port: 36013, type: vmess, uuid: 97700372-07d0-4e10-db96-937844f30a50, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320051, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320054, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国_121320001, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}}
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -47,8 +46,9 @@ proxies:
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
   - {name: 🇯🇵 github.com/freefq - 日本  48, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 13|🇭🇰 香港|@ripaojiedian, server: mdss-hk.04z3susick.download, port: 12008, type: ss, cipher: aes-128-gcm, password: cbf3d234-6d24-47ec-a9cb-2c2692c5dcf1}
-  - {name: 🇭🇰 13|🇭🇰 香港2|@ripaojiedian, server: 50028.baidu-cdn.top, port: 50028, type: vmess, uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本(油管破解资源君), server: 43.154.208.92, port: 53613, type: vmess, uuid: 4b89f5bf-5ef2-4047-bc64-6cd9bc7d6829, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /hk10/getData, headers: {Host: hk10.linkeden.co}}}
+  - {name: "🇯🇵 0,13|🇯🇵 日本|@ripaojiedian", server: ywtwepcnwlou.xn--fiqs8sjz2bull.com, port: 11171, type: vmess, uuid: 68512223-ea66-46fc-82f4-e22b597cdd5e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾(油管破解资源君) 2, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
   - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
@@ -72,14 +72,16 @@ proxies:
   - {name: 🇺🇸 美国+CloudFlare节点 2, server: 104.19.35.14, port: 443, type: trojan, password: bpb-trojan, sni: BPB-wOrkeR-pANel1-E4P.pageS.DeV, skip-cert-verify: false}
   - {name: 🇺🇸 美国+CloudFlare节点 3, server: 108.162.193.110, port: 443, type: trojan, password: Trevely, sni: trojan.trevely.us.kg, skip-cert-verify: false}
   - {name: 🇺🇸 美国+CloudFlare节点 4, server: 162.159.136.232, port: 8443, type: trojan, password: auto, sni: e9464f45.trauma-2r4.pages.dev, skip-cert-verify: false}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 135, server: 167.99.192.30, port: 3567, type: ss, cipher: chacha20-ietf-poly1305, password: HGBdOKdcIer5}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 137, server: cacerts.digicert.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cacerts.digicert.com}}}
+  - {name: 0|🇺🇸5 |  6.2MB/s, server: 13.214.212.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇷🇺 _RU_俄罗斯, server: 217.30.10.18, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133, server: 164.90.234.85, port: 18492, type: ss, cipher: chacha20-ietf-poly1305, password: fdRAl4scWDTg}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 138, server: 173.245.49.23, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 173.245.49.23}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 140, server: rntwo.laoban666.xyz, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-opts: {path: /27353486f3a1d4f/, headers: {Host: rntwo.laoban666.xyz}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 142, server: 34.145.145.76, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 34.145.145.76}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144, server: cf.gheychi.me, port: 8080, type: vmess, uuid: ad98ffa2-914b-11ed-a1eb-0242ac120002, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ws, headers: {Host: cf.gheychi.me}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.18.7.138}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇭🇰 adi|0703v - dg-hk-node02, server: dg-hk-node02.linkthink.app, port: 12025, type: ssr, cipher: dummy, password: e5opjuLDEQ, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ajax.microsoft.com}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148, server: 45.136.244.181, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fr-unlimitxxx, headers: {Host: 45.136.244.181}}}
   - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
   - {name: 🇮🇳 github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
@@ -87,15 +89,13 @@ proxies:
   - {name: github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
   - {name: github.com/freefq - 广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
   - {name: _01, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇪🇺 欧洲(油管破解资源君) 23, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+  - {name: 🇪🇺 欧洲(油管破解资源君) 14, server: 51.161.118.38, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: RO_08, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
   - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: _02, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
   - {name: _03, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false}
   - {name: _04, server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true}
-  - {name: _05, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_-🇬🇧GB_06, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -144,7 +144,6 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -153,8 +152,9 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇭🇰 13|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本(油管破解资源君)
+      - 🇯🇵 0,13|🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 台湾(油管破解资源君) 2
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
@@ -178,14 +178,16 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 2
       - 🇺🇸 美国+CloudFlare节点 3
       - 🇺🇸 美国+CloudFlare节点 4
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 135
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 137
+      - 0|🇺🇸5 |  6.2MB/s
+      - 🇷🇺 _RU_俄罗斯
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 138
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 140
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 142
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
+      - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
@@ -193,15 +195,13 @@ proxy-groups:
       - github.com/freefq - 广东省移动 7
       - github.com/freefq - 广东省江门市移动 8
       - _01
-      - 🇪🇺 欧洲(油管破解资源君) 23
+      - 🇪🇺 欧洲(油管破解资源君) 14
       - RO_08
       - ZZ_20
       - ZZ_21
       - _02
       - _03
       - _04
-      - _05
-      - Relay_-🇬🇧GB_06
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -285,7 +285,6 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -294,8 +293,9 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇭🇰 13|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本(油管破解资源君)
+      - 🇯🇵 0,13|🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 台湾(油管破解资源君) 2
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
@@ -319,14 +319,16 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 2
       - 🇺🇸 美国+CloudFlare节点 3
       - 🇺🇸 美国+CloudFlare节点 4
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 135
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 137
+      - 0|🇺🇸5 |  6.2MB/s
+      - 🇷🇺 _RU_俄罗斯
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 138
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 140
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 142
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
+      - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
@@ -334,15 +336,13 @@ proxy-groups:
       - github.com/freefq - 广东省移动 7
       - github.com/freefq - 广东省江门市移动 8
       - _01
-      - 🇪🇺 欧洲(油管破解资源君) 23
+      - 🇪🇺 欧洲(油管破解资源君) 14
       - RO_08
       - ZZ_20
       - ZZ_21
       - _02
       - _03
       - _04
-      - _05
-      - Relay_-🇬🇧GB_06
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -382,7 +382,6 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -391,8 +390,9 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇭🇰 13|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本(油管破解资源君)
+      - 🇯🇵 0,13|🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 台湾(油管破解资源君) 2
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
@@ -416,14 +416,16 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 2
       - 🇺🇸 美国+CloudFlare节点 3
       - 🇺🇸 美国+CloudFlare节点 4
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 135
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 137
+      - 0|🇺🇸5 |  6.2MB/s
+      - 🇷🇺 _RU_俄罗斯
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 138
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 140
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 142
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
+      - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
@@ -431,15 +433,13 @@ proxy-groups:
       - github.com/freefq - 广东省移动 7
       - github.com/freefq - 广东省江门市移动 8
       - _01
-      - 🇪🇺 欧洲(油管破解资源君) 23
+      - 🇪🇺 欧洲(油管破解资源君) 14
       - RO_08
       - ZZ_20
       - ZZ_21
       - _02
       - _03
       - _04
-      - _05
-      - Relay_-🇬🇧GB_06
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -508,7 +508,6 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -517,22 +516,25 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇭🇰 13|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
+      - 🇯🇵 日本(油管破解资源君)
+      - 🇯🇵 0,13|🇯🇵 日本|@ripaojiedian
+      - 🇨🇳 台湾(油管破解资源君) 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 135
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 137
+      - 0|🇺🇸5 |  6.2MB/s
+      - 🇷🇺 _RU_俄罗斯
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 138
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 140
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 142
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
+      - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
@@ -540,15 +542,13 @@ proxy-groups:
       - github.com/freefq - 广东省移动 7
       - github.com/freefq - 广东省江门市移动 8
       - _01
-      - 🇪🇺 欧洲(油管破解资源君) 23
+      - 🇪🇺 欧洲(油管破解资源君) 14
       - RO_08
       - ZZ_20
       - ZZ_21
       - _02
       - _03
       - _04
-      - _05
-      - Relay_-🇬🇧GB_06
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -590,8 +590,6 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 13|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 13|🇭🇰 香港2|@ripaojiedian
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
@@ -633,6 +631,8 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
+      - 🇯🇵 日本(油管破解资源君)
+      - 🇯🇵 0,13|🇯🇵 日本|@ripaojiedian
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -643,6 +643,7 @@ proxy-groups:
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
+      - 🇨🇳 台湾(油管破解资源君) 2
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
@@ -651,7 +652,6 @@ proxy-groups:
     proxies:
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
-      - 🇰🇷 韩国_121320001
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
