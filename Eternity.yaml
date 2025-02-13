@@ -37,7 +37,6 @@ proxies:
   - {name: 🇯🇵 日本_121320045, server: 167.179.83.138, port: 36013, type: vmess, uuid: 97700372-07d0-4e10-db96-937844f30a50, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320051, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320054, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国_121320001, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}}
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -46,15 +45,16 @@ proxies:
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
   - {name: 🇯🇵 github.com/freefq - 日本  48, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 日本 001, server: 146.56.155.102, port: 20003, type: trojan, password: Aimer, sni: ngepo.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: ngepo.ambercc.filegear-sg.me}}}
-  - {name: 🇯🇵 日本 002, server: 45.76.60.123, port: 8881, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡 001, server: web.51.la, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇺🇸 _US_美国_1, server: 13.50.25.213, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 东京Sakura樱花云数据中心, server: 160.16.150.202, port: 443, type: trojan, password: 3bcd9e33-8377-4b32-af33-217158577ff3, sni: kdlsupport.zendesk.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 东京Sakura樱花云数据中心 2, server: www.tiktok.com.jp1.viefast.net, port: 80, type: vmess, uuid: 3bcd9e33-8377-4b32-af33-217158577ff3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /viefast, headers: {Host: kdlsupport.zendesk.com}}}
+  - {name: 🇯🇵 日本 东京Sakura樱花云数据中心 3, server: 160.16.135.40, port: 443, type: trojan, password: 3bcd9e33-8377-4b32-af33-217158577ff3, sni: kdlsupport.zendesk.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 东京Sakura樱花云数据中心 4, server: 160.16.198.83, port: 443, type: trojan, password: 3bcd9e33-8377-4b32-af33-217158577ff3, sni: kdlsupport.zendesk.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 Amazon数据中心, server: 18.171.21.26, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国->🇧🇪_BE_比利时_1, server: 54.218.124.184, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: 54.155.7.122, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 _DE_德国->🇺🇸_US_美国, server: 3.126.41.247, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 Amazon EC2服务器 2, server: 3.74.246.32, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon+EC2服务器, server: 3.143.42.57, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇸 美国+Amazon+EC2服务器 4, server: 3.67.211.46, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇸 美国+Amazon+EC2服务器 5, server: 3.78.23.212, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇸 美国+Amazon数据中心, server: 13.36.4.38, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇸 美国+Amazon数据中心 2, server: 18.169.245.178, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon数据中心 3, server: 18.175.105.52, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+CloudFlare节点, server: 104.17.147.22, port: 2053, type: trojan, password: bpb-trojan, sni: bPB-worker-PANeL1-e4p.paGes.DeV, skip-cert-verify: false}
   - {name: 🇺🇸 美国+CloudFlare节点 2, server: 104.19.35.14, port: 443, type: trojan, password: bpb-trojan, sni: BPB-wOrkeR-pANel1-E4P.pageS.DeV, skip-cert-verify: false}
@@ -72,13 +72,13 @@ proxies:
   - {name: 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心, server: 54.86.248.206, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+惠普HP, server: 16.171.91.51, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+麻省理工学院, server: 18.135.167.255, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇩🇪 _DE_德国, server: 134.255.210.49, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇧🇪 _BE_比利时, server: 192.71.249.146, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
   - {name: CH😈SSRSUB_431941033, server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: UM😈SSRSUB_1779776352, server: 104.19.45.11, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: CH😈SSRSUB_2785493623, server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: UM😈SSRSUB_389189921, server: 172.64.167.10, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24, server: t3.ssrsub.com, port: 8443, type: trojan, password: 8a233a34-36f4-400d-b7c8-93024e518ddb, skip-cert-verify: false}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: Other😈SSRSUB_1873915727, server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22, server: 95.142.175.14, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tkAx1ehPPkMN}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9, server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /niaoyun, headers: {Host: tunnel-tw-a-01.xncloud.xyz}}}
   - {name: CH😈SSRSUB_3574339605, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 Americas😈SSRSUB_3391161080, server: 104.19.45.42, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip19.6929198.xyz}}}
   - {name: UM😈SSRSUB_2004026099, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
@@ -89,13 +89,13 @@ proxies:
   - {name: Other😈SSRSUB_2578581128, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 Americas😈SSRSUB_518610679, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
   - {name: 🇷🇺 RU😈SSRSUB_432833167, server: 194.87.31.160, port: 8081, type: vmess, uuid: a7e00c2f-411a-438f-9119-0f022a85a5e3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20, server: 104.16.19.116, port: 80, type: vmess, uuid: c22d7577-1631-4d13-81bc-20c190c04071, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /wwwnet, headers: {Host: caa.ziyun.ga}}}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: UM😈SSRSUB_108119541, server: 205.134.180.150, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2}
   - {name: CH😈SSRSUB_1834157617, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2852c164-1a5b-4628-b668-3554c7aa4453}
   - {name: CH😈SSRSUB_3783732564, server: iepl1.nezha.tech, port: 33577, type: ss, cipher: chacha20-ietf-poly1305, password: 96a8c243-0219-403e-b8fa-f48f696435e1}
   - {name: CH😈SSRSUB_1647550822, server: hzhz1.sssyun.xyz, port: 39202, type: ss, cipher: chacha20-ietf-poly1305, password: b40fb56c-f538-4bf2-951e-b645f48b9937}
-  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}}
+  - {name: UM😈SSRSUB_549064432, server: 35.95.35.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -143,7 +143,6 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -152,15 +151,16 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇯🇵 日本 001
-      - 🇯🇵 日本 002
-      - 🇸🇬 新加坡 001
-      - 🇺🇸 _US_美国_1
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 3
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 4
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 _US_美国->🇧🇪_BE_比利时_1
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _DE_德国->🇺🇸_US_美国
+      - 🇺🇸 美国 Amazon EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器
-      - 🇺🇸 美国+Amazon+EC2服务器 4
-      - 🇺🇸 美国+Amazon+EC2服务器 5
-      - 🇺🇸 美国+Amazon数据中心
-      - 🇺🇸 美国+Amazon数据中心 2
       - 🇺🇸 美国+Amazon数据中心 3
       - 🇺🇸 美国+CloudFlare节点
       - 🇺🇸 美国+CloudFlare节点 2
@@ -178,13 +178,13 @@ proxy-groups:
       - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
-      - 🇩🇪 _DE_德国
-      - 🇧🇪 _BE_比利时
       - CH😈SSRSUB_431941033
+      - UM😈SSRSUB_1779776352
+      - CH😈SSRSUB_2785493623
       - UM😈SSRSUB_389189921
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10
       - Other😈SSRSUB_1873915727
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9
       - CH😈SSRSUB_3574339605
       - 🇺🇸 Americas😈SSRSUB_3391161080
       - UM😈SSRSUB_2004026099
@@ -195,13 +195,13 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14
+      - UM😈SSRSUB_549064432
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -284,7 +284,6 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -293,15 +292,16 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇯🇵 日本 001
-      - 🇯🇵 日本 002
-      - 🇸🇬 新加坡 001
-      - 🇺🇸 _US_美国_1
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 3
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 4
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 _US_美国->🇧🇪_BE_比利时_1
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _DE_德国->🇺🇸_US_美国
+      - 🇺🇸 美国 Amazon EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器
-      - 🇺🇸 美国+Amazon+EC2服务器 4
-      - 🇺🇸 美国+Amazon+EC2服务器 5
-      - 🇺🇸 美国+Amazon数据中心
-      - 🇺🇸 美国+Amazon数据中心 2
       - 🇺🇸 美国+Amazon数据中心 3
       - 🇺🇸 美国+CloudFlare节点
       - 🇺🇸 美国+CloudFlare节点 2
@@ -319,13 +319,13 @@ proxy-groups:
       - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
-      - 🇩🇪 _DE_德国
-      - 🇧🇪 _BE_比利时
       - CH😈SSRSUB_431941033
+      - UM😈SSRSUB_1779776352
+      - CH😈SSRSUB_2785493623
       - UM😈SSRSUB_389189921
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10
       - Other😈SSRSUB_1873915727
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9
       - CH😈SSRSUB_3574339605
       - 🇺🇸 Americas😈SSRSUB_3391161080
       - UM😈SSRSUB_2004026099
@@ -336,13 +336,13 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14
+      - UM😈SSRSUB_549064432
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -381,7 +381,6 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -390,15 +389,16 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇯🇵 日本 001
-      - 🇯🇵 日本 002
-      - 🇸🇬 新加坡 001
-      - 🇺🇸 _US_美国_1
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 3
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 4
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 _US_美国->🇧🇪_BE_比利时_1
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _DE_德国->🇺🇸_US_美国
+      - 🇺🇸 美国 Amazon EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器
-      - 🇺🇸 美国+Amazon+EC2服务器 4
-      - 🇺🇸 美国+Amazon+EC2服务器 5
-      - 🇺🇸 美国+Amazon数据中心
-      - 🇺🇸 美国+Amazon数据中心 2
       - 🇺🇸 美国+Amazon数据中心 3
       - 🇺🇸 美国+CloudFlare节点
       - 🇺🇸 美国+CloudFlare节点 2
@@ -416,13 +416,13 @@ proxy-groups:
       - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
-      - 🇩🇪 _DE_德国
-      - 🇧🇪 _BE_比利时
       - CH😈SSRSUB_431941033
+      - UM😈SSRSUB_1779776352
+      - CH😈SSRSUB_2785493623
       - UM😈SSRSUB_389189921
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10
       - Other😈SSRSUB_1873915727
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9
       - CH😈SSRSUB_3574339605
       - 🇺🇸 Americas😈SSRSUB_3391161080
       - UM😈SSRSUB_2004026099
@@ -433,25 +433,25 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14
+      - UM😈SSRSUB_549064432
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 _US_美国->🇧🇪_BE_比利时_1
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _DE_德国->🇺🇸_US_美国
+      - 🇺🇸 美国 Amazon EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器
-      - 🇺🇸 美国+Amazon+EC2服务器 4
-      - 🇺🇸 美国+Amazon+EC2服务器 5
-      - 🇺🇸 美国+Amazon数据中心
-      - 🇺🇸 美国+Amazon数据中心 2
       - 🇺🇸 美国+Amazon数据中心 3
       - 🇺🇸 美国+CloudFlare节点
       - 🇺🇸 美国+CloudFlare节点 2
@@ -507,7 +507,6 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -516,22 +515,23 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇯🇵 日本 001
-      - 🇯🇵 日本 002
-      - 🇸🇬 新加坡 001
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 3
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 4
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇩🇪 _DE_德国
-      - 🇧🇪 _BE_比利时
       - CH😈SSRSUB_431941033
+      - UM😈SSRSUB_1779776352
+      - CH😈SSRSUB_2785493623
       - UM😈SSRSUB_389189921
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10
       - Other😈SSRSUB_1873915727
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9
       - CH😈SSRSUB_3574339605
       - 🇺🇸 Americas😈SSRSUB_3391161080
       - UM😈SSRSUB_2004026099
@@ -542,25 +542,25 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14
+      - UM😈SSRSUB_549064432
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国_1
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 _US_美国->🇧🇪_BE_比利时_1
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _DE_德国->🇺🇸_US_美国
+      - 🇺🇸 美国 Amazon EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器
-      - 🇺🇸 美国+Amazon+EC2服务器 4
-      - 🇺🇸 美国+Amazon+EC2服务器 5
-      - 🇺🇸 美国+Amazon数据中心
-      - 🇺🇸 美国+Amazon数据中心 2
       - 🇺🇸 美国+Amazon数据中心 3
       - 🇺🇸 美国+CloudFlare节点
       - 🇺🇸 美国+CloudFlare节点 2
@@ -603,7 +603,6 @@ proxy-groups:
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇸🇬 新加坡 001
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
@@ -631,8 +630,10 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇯🇵 日本 001
-      - 🇯🇵 日本 002
+      - 🇯🇵 日本 东京Sakura樱花云数据中心
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 2
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 3
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 4
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -651,7 +652,6 @@ proxy-groups:
     proxies:
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
-      - 🇰🇷 韩国_121320001
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
