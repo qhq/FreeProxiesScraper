@@ -5,14 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇭🇰 12,13|香港|@ripaojiedian", server: 104.251.227.182, port: 443, type: trojan, password: 1e63e585ab2fef3adcc9ea75a62abc23, sni: hezijiasuqi.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君), server: 0222tw.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0222tw.fans8.xyz}}}
+  - {name: 🇯🇵 JP😈SSRSUB_3528396055, server: 54.199.66.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 韩国+V2CROSS.COM, server: 117.123.144.67, port: 28825, type: trojan, password: 95b, sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com, skip-cert-verify: false}
   - {name: 🇰🇷 韩国+V2CROSS.COM 2, server: 211.107.201.14, port: 25001, type: trojan, password: 95b, sni: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com, skip-cert-verify: false}
   - {name: 🇯🇵 日本+东京Amazon数据中心, server: bgroup.node1.t.nodelist-airport.com, port: 50001, type: trojan, password: 2155145a-b1b5-443a-8977-670f6bd10f02, skip-cert-verify: false}
   - {name: 🇭🇰 香港+阿里云, server: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma, port: 443, type: trojan, password: a3ca0380-8a17-403a-a5b3-a9f6e59be193, sni: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma, skip-cert-verify: false}
   - {name: 🇭🇰 香港+电讯盈科有限公司, server: aliyun.2096.us.kg, port: 443, type: trojan, password: 95b, sni: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org, skip-cert-verify: false}
-  - {name: 🇯🇵 日本(欢迎订阅Youtube破解资源君), server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 172.105.222.98}}}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
   - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -37,17 +35,19 @@ proxies:
   - {name: 🇯🇵 日本_121320045, server: 167.179.83.138, port: 36013, type: vmess, uuid: 97700372-07d0-4e10-db96-937844f30a50, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320051, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320054, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国_121320001, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}}
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 JP 04 Lain, server: southvip1.pkyun.xyz, port: 34104, type: ss, cipher: chacha20-ietf-poly1305, password: 95cdd785-13be-40cd-aa0e-45991b631629}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4, server: 39.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: false}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: china-f4s-az-hk.898868.xyz, port: 51645, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: china-f4s-az-hk.898868.xyz}}}
+  - {name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君), server: 0222tw.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0222tw.fans8.xyz}}}
+  - {name: 🇯🇵 日本(欢迎订阅Youtube破解资源君), server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 172.105.222.98}}}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
   - {name: 🇯🇵 github.com/freefq - 日本  48, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 0|🇭🇰 香港 01 | 1x HK, server: free.2weradf.xyz, port: 36141, type: ss, cipher: chacha20-ietf-poly1305, password: 8502ff45-9486-48ff-a40d-ef5f916642bd}
-  - {name: 🇯🇵 JP😈SSRSUB_3528396055, server: 54.199.66.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 1|🇭🇰香港 01 | 1x HK, server: free.2apzhfa.xyz, port: 31141, type: ss, cipher: chacha20-ietf-poly1305, password: bf76e2c0-145b-4910-b277-1f16f4a301da}
   - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: hk01.x.quickcht3.club, port: 52611, type: ss, cipher: chacha20-ietf-poly1305, password: 2be0c954-4291-45ea-b47d-ca713180550b}
   - {name: 🇺🇸 美国+Amazon+EC2服务器, server: 43.154.83.213, port: 443, type: trojan, password: Vad3.123a%29asd1234-asdasd.asdazzS.123, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon+EC2服务器 2, server: 3.64.17.216, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
@@ -73,11 +73,13 @@ proxies:
   - {name: 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心, server: 54.86.248.206, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+惠普HP, server: 16.171.91.51, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+麻省理工学院, server: 18.135.167.255, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: Euro😈SSRSUB_125949122, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: 🇩🇪 _DE_德国, server: 134.255.210.49, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇮🇪 爱尔兰+都柏林Amazon数据中心 3, server: 54.194.131.175, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 2|🇯🇵1 |  5.4MB/s, server: 54.249.42.175, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇷🇺 俄罗斯联邦_121320002, server: 46.29.166.237, port: 47555, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 RU😈SSRSUB_432833167, server: 194.87.31.160, port: 8081, type: vmess, uuid: a7e00c2f-411a-438f-9119-0f022a85a5e3, alterId: 0, cipher: auto, tls: false}
+  - {name: CH😈SSRSUB_1834157617, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2852c164-1a5b-4628-b668-3554c7aa4453}
+  - {name: CH😈SSRSUB_3783732564, server: iepl1.nezha.tech, port: 33577, type: ss, cipher: chacha20-ietf-poly1305, password: 96a8c243-0219-403e-b8fa-f48f696435e1}
   - {name: CH😈SSRSUB_1647550822, server: hzhz1.sssyun.xyz, port: 39202, type: ss, cipher: chacha20-ietf-poly1305, password: b40fb56c-f538-4bf2-951e-b645f48b9937}
-  - {name: Euro😈SSRSUB_1145647923, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 3, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/310910211916, headers: {Host: 96.43.91.60}}}
   - {name: UM😈SSRSUB_549064432, server: 35.95.35.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅, server: cdnssr.ssrsub.com, port: 443, type: ss, cipher: aes-256-cfb, password: cdnssr.ssrsub.com}
   - {name: 公益机场https//bit.ly/3BPeo5G, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
@@ -89,14 +91,12 @@ proxies:
   - {name: 🇮🇪 爱尔兰+V2CROSS.COM, server: 108.128.146.252, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇮🇪 爱尔兰+都柏林Amazon数据中心, server: 176.34.228.179, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇮🇪 爱尔兰+都柏林Amazon数据中心 2, server: 52.18.111.240, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: CH😈SSRSUB_3783732564, server: iepl1.nezha.tech, port: 33577, type: ss, cipher: chacha20-ietf-poly1305, password: 96a8c243-0219-403e-b8fa-f48f696435e1}
+  - {name: 🇮🇪 爱尔兰+都柏林Amazon数据中心 3, server: 54.194.131.175, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇩🇪 德国+黑森州法兰克福Amazon数据中心, server: 18.196.105.231, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇩🇪 德国+黑森州法兰克福Amazon数据中心 2, server: 52.28.176.69, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇫🇷 法国+巴黎Amazon数据中心, server: 35.181.188.78, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇫🇮 芬兰+赫尔辛基Hetzner数据中心, server: fr1.ftpcomand.com, port: 110, type: trojan, password: SQXdz0p1cP, skip-cert-verify: false}
   - {name: 🇨🇳 广东省广州市+移动, server: naiu-hk.05vr9nyqg5.download, port: 13008, type: trojan, password: c471ef32-798d-40a0-a57c-acf3475a204e, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 🇨🇳 广东省广州市+移动 2, server: naiu-jp.05vr9nyqg5.download, port: 13018, type: trojan, password: cf8c51d3-e692-46a6-b351-4c5ef0b5efc3, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 🇬🇧 英国+社会保险安全部, server: 51.21.146.243, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,14 +112,12 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -144,17 +142,19 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 JP 04 Lain
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇭🇰 0|🇭🇰 香港 01 | 1x HK
-      - 🇯🇵 JP😈SSRSUB_3528396055
+      - 🇭🇰 1|🇭🇰香港 01 | 1x HK
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
@@ -180,11 +180,13 @@ proxy-groups:
       - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
-      - Euro😈SSRSUB_125949122
-      - 🇩🇪 _DE_德国
-      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
+      - 2|🇯🇵1 |  5.4MB/s
+      - 🇷🇺 俄罗斯联邦_121320002
+      - 🇷🇺 RU😈SSRSUB_432833167
+      - CH😈SSRSUB_1834157617
+      - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - Euro😈SSRSUB_1145647923
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 3
       - UM😈SSRSUB_549064432
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
       - 公益机场https//bit.ly/3BPeo5G
@@ -196,14 +198,12 @@ proxy-groups:
       - 🇮🇪 爱尔兰+V2CROSS.COM
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心 2
-      - CH😈SSRSUB_3783732564
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
       - 🇩🇪 德国+黑森州法兰克福Amazon数据中心
       - 🇩🇪 德国+黑森州法兰克福Amazon数据中心 2
       - 🇫🇷 法国+巴黎Amazon数据中心
       - 🇫🇮 芬兰+赫尔辛基Hetzner数据中心
       - 🇨🇳 广东省广州市+移动
-      - 🇨🇳 广东省广州市+移动 2
-      - 🇬🇧 英国+社会保险安全部
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,14 +254,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -286,17 +284,19 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 JP 04 Lain
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇭🇰 0|🇭🇰 香港 01 | 1x HK
-      - 🇯🇵 JP😈SSRSUB_3528396055
+      - 🇭🇰 1|🇭🇰香港 01 | 1x HK
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
@@ -322,11 +322,13 @@ proxy-groups:
       - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
-      - Euro😈SSRSUB_125949122
-      - 🇩🇪 _DE_德国
-      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
+      - 2|🇯🇵1 |  5.4MB/s
+      - 🇷🇺 俄罗斯联邦_121320002
+      - 🇷🇺 RU😈SSRSUB_432833167
+      - CH😈SSRSUB_1834157617
+      - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - Euro😈SSRSUB_1145647923
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 3
       - UM😈SSRSUB_549064432
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
       - 公益机场https//bit.ly/3BPeo5G
@@ -338,28 +340,24 @@ proxy-groups:
       - 🇮🇪 爱尔兰+V2CROSS.COM
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心 2
-      - CH😈SSRSUB_3783732564
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
       - 🇩🇪 德国+黑森州法兰克福Amazon数据中心
       - 🇩🇪 德国+黑森州法兰克福Amazon数据中心 2
       - 🇫🇷 法国+巴黎Amazon数据中心
       - 🇫🇮 芬兰+赫尔辛基Hetzner数据中心
       - 🇨🇳 广东省广州市+移动
-      - 🇨🇳 广东省广州市+移动 2
-      - 🇬🇧 英国+社会保险安全部
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -384,17 +382,19 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 JP 04 Lain
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇭🇰 0|🇭🇰 香港 01 | 1x HK
-      - 🇯🇵 JP😈SSRSUB_3528396055
+      - 🇭🇰 1|🇭🇰香港 01 | 1x HK
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
@@ -420,11 +420,13 @@ proxy-groups:
       - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
-      - Euro😈SSRSUB_125949122
-      - 🇩🇪 _DE_德国
-      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
+      - 2|🇯🇵1 |  5.4MB/s
+      - 🇷🇺 俄罗斯联邦_121320002
+      - 🇷🇺 RU😈SSRSUB_432833167
+      - CH😈SSRSUB_1834157617
+      - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - Euro😈SSRSUB_1145647923
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 3
       - UM😈SSRSUB_549064432
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
       - 公益机场https//bit.ly/3BPeo5G
@@ -436,14 +438,12 @@ proxy-groups:
       - 🇮🇪 爱尔兰+V2CROSS.COM
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心 2
-      - CH😈SSRSUB_3783732564
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
       - 🇩🇪 德国+黑森州法兰克福Amazon数据中心
       - 🇩🇪 德国+黑森州法兰克福Amazon数据中心 2
       - 🇫🇷 法国+巴黎Amazon数据中心
       - 🇫🇮 芬兰+赫尔辛基Hetzner数据中心
       - 🇨🇳 广东省广州市+移动
-      - 🇨🇳 广东省广州市+移动 2
-      - 🇬🇧 英国+社会保险安全部
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -480,14 +480,12 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 12,13|香港|@ripaojiedian
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -512,17 +510,19 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 JP 04 Lain
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇭🇰 0|🇭🇰 香港 01 | 1x HK
-      - 🇯🇵 JP😈SSRSUB_3528396055
+      - 🇭🇰 1|🇭🇰香港 01 | 1x HK
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
@@ -530,11 +530,13 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - Euro😈SSRSUB_125949122
-      - 🇩🇪 _DE_德国
-      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
+      - 2|🇯🇵1 |  5.4MB/s
+      - 🇷🇺 俄罗斯联邦_121320002
+      - 🇷🇺 RU😈SSRSUB_432833167
+      - CH😈SSRSUB_1834157617
+      - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - Euro😈SSRSUB_1145647923
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 3
       - UM😈SSRSUB_549064432
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
       - 公益机场https//bit.ly/3BPeo5G
@@ -546,14 +548,12 @@ proxy-groups:
       - 🇮🇪 爱尔兰+V2CROSS.COM
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心 2
-      - CH😈SSRSUB_3783732564
+      - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
       - 🇩🇪 德国+黑森州法兰克福Amazon数据中心
       - 🇩🇪 德国+黑森州法兰克福Amazon数据中心 2
       - 🇫🇷 法国+巴黎Amazon数据中心
       - 🇫🇮 芬兰+赫尔辛基Hetzner数据中心
       - 🇨🇳 广东省广州市+移动
-      - 🇨🇳 广东省广州市+移动 2
-      - 🇬🇧 英国+社会保险安全部
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -590,13 +590,14 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 12,13|香港|@ripaojiedian
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 0|🇭🇰 香港 01 | 1x HK
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 1|🇭🇰香港 01 | 1x HK
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
   - name: 狮城
     type: url-test
@@ -617,8 +618,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇯🇵 日本+东京Amazon数据中心
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320009
@@ -634,21 +635,21 @@ proxy-groups:
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
       - 🇯🇵 JP 04 Lain
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇯🇵 JP😈SSRSUB_3528396055
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
@@ -657,7 +658,6 @@ proxy-groups:
     proxies:
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
-      - 🇰🇷 韩国_121320001
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
@@ -7079,7 +7079,6 @@ rules:
  - DOMAIN-SUFFIX,ipplus360.com,🧱 国内网站
  - DOMAIN-SUFFIX,iprdp.net,🧱 国内网站
  - DOMAIN-SUFFIX,ipssh.net,🧱 国内网站
- - DOMAIN-SUFFIX,ipv6-test.com,🧱 国内网站
  - DOMAIN-SUFFIX,iq.com,🧱 国内网站
  - DOMAIN-SUFFIX,iqiyi.com,🧱 国内网站
  - DOMAIN-SUFFIX,iqiyipic.com,🧱 国内网站
@@ -8320,8 +8319,6 @@ rules:
  - DOMAIN-SUFFIX,tenpay.com,🧱 国内网站
  - DOMAIN-SUFFIX,tenxcloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,test-cignacmb.com,🧱 国内网站
- - DOMAIN-SUFFIX,test-ipv4.com,🧱 国内网站
- - DOMAIN-SUFFIX,test-ipv6.com,🧱 国内网站
  - DOMAIN-SUFFIX,testwaf.com,🧱 国内网站
  - DOMAIN-SUFFIX,texasholdemcup.com,🧱 国内网站
  - DOMAIN-SUFFIX,texasholdemcup.net,🧱 国内网站
@@ -9443,6 +9440,7 @@ rules:
  - DOMAIN-SUFFIX,17t17p.com,🚀 节点选择
  - DOMAIN-SUFFIX,18board.com,🚀 节点选择
  - DOMAIN-SUFFIX,18board.info,🚀 节点选择
+ - DOMAIN-SUFFIX,18comic.org,🚀 节点选择
  - DOMAIN-SUFFIX,18onlygirls.com,🚀 节点选择
  - DOMAIN-SUFFIX,18p2p.com,🚀 节点选择
  - DOMAIN-SUFFIX,18virginsex.com,🚀 节点选择
@@ -9590,6 +9588,7 @@ rules:
  - DOMAIN-SUFFIX,adblockplus.org,🚀 节点选择
  - DOMAIN-SUFFIX,adcex.com,🚀 节点选择
  - DOMAIN-SUFFIX,addictedtocoffee.de,🚀 节点选择
+ - DOMAIN-SUFFIX,addons.mozilla.org,🚀 节点选择
  - DOMAIN-SUFFIX,adelaidebbs.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,admob.com,🚀 节点选择
@@ -9718,6 +9717,7 @@ rules:
  - DOMAIN-SUFFIX,angularjs.org,🚀 节点选择
  - DOMAIN-SUFFIX,animecrazy.net,🚀 节点选择
  - DOMAIN-SUFFIX,aniscartujo.com,🚀 节点选择
+ - DOMAIN-SUFFIX,annas-archive.org,🚀 节点选择
  - DOMAIN-SUFFIX,annas-archive.se,🚀 节点选择
  - DOMAIN-SUFFIX,annatam.com,🚀 节点选择
  - DOMAIN-SUFFIX,anobii.com,🚀 节点选择
@@ -9841,6 +9841,7 @@ rules:
  - DOMAIN-SUFFIX,av-e-body.com,🚀 节点选择
  - DOMAIN-SUFFIX,av.com,🚀 节点选择
  - DOMAIN-SUFFIX,av.movie,🚀 节点选择
+ - DOMAIN-SUFFIX,av01.tv,🚀 节点选择
  - DOMAIN-SUFFIX,avaaz.org,🚀 节点选择
  - DOMAIN-SUFFIX,avbody.tv,🚀 节点选择
  - DOMAIN-SUFFIX,avcity.tv,🚀 节点选择
@@ -10174,6 +10175,7 @@ rules:
  - DOMAIN-SUFFIX,c-est-simple.com,🚀 节点选择
  - DOMAIN-SUFFIX,c-span.org,🚀 节点选择
  - DOMAIN-SUFFIX,c-spanvideo.org,🚀 节点选择
+ - DOMAIN-SUFFIX,c.mi.com,🚀 节点选择
  - DOMAIN-SUFFIX,c100tibet.org,🚀 节点选择
  - DOMAIN-SUFFIX,c2cx.com,🚀 节点选择
  - DOMAIN-SUFFIX,cableav.tv,🚀 节点选择
@@ -10443,9 +10445,11 @@ rules:
  - DOMAIN-SUFFIX,clementine-player.org,🚀 节点选择
  - DOMAIN-SUFFIX,clien.net,🚀 节点选择
  - DOMAIN-SUFFIX,clinica-tibet.ru,🚀 节点选择
+ - DOMAIN-SUFFIX,clipconverter.cc,🚀 节点选择
  - DOMAIN-SUFFIX,clipfish.de,🚀 节点选择
  - DOMAIN-SUFFIX,cloakpoint.com,🚀 节点选择
  - DOMAIN-SUFFIX,cloud.cupronickel.goog,🚀 节点选择
+ - DOMAIN-SUFFIX,cloud.dify.ai,🚀 节点选择
  - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
  - DOMAIN-SUFFIX,cloudflare-ipfs.com,🚀 节点选择
  - DOMAIN-SUFFIX,cloudflare.com,🚀 节点选择
@@ -10502,6 +10506,7 @@ rules:
  - DOMAIN-SUFFIX,cointiger.com,🚀 节点选择
  - DOMAIN-SUFFIX,cointobe.com,🚀 节点选择
  - DOMAIN-SUFFIX,coinut.com,🚀 节点选择
+ - DOMAIN-SUFFIX,colacloud.net,🚀 节点选择
  - DOMAIN-SUFFIX,collateralmurder.com,🚀 节点选择
  - DOMAIN-SUFFIX,collateralmurder.org,🚀 节点选择
  - DOMAIN-SUFFIX,com.uk,🚀 节点选择
@@ -10652,7 +10657,6 @@ rules:
  - DOMAIN-SUFFIX,dashlane.com,🚀 节点选择
  - DOMAIN-SUFFIX,dastrassi.org,🚀 节点选择
  - DOMAIN-SUFFIX,data-vocabulary.org,🚀 节点选择
- - DOMAIN-SUFFIX,data.flurry.com,🚀 节点选择
  - DOMAIN-SUFFIX,data.gov.tw,🚀 节点选择
  - DOMAIN-SUFFIX,daum.net,🚀 节点选择
  - DOMAIN-SUFFIX,david-kilgour.com,🚀 节点选择
@@ -10682,6 +10686,7 @@ rules:
  - DOMAIN-SUFFIX,deja.com,🚀 节点选择
  - DOMAIN-SUFFIX,delcamp.net,🚀 节点选择
  - DOMAIN-SUFFIX,delicious.com,🚀 节点选择
+ - DOMAIN-SUFFIX,demo.unlock-music.dev,🚀 节点选择
  - DOMAIN-SUFFIX,democrats.org,🚀 节点选择
  - DOMAIN-SUFFIX,demosisto.hk,🚀 节点选择
  - DOMAIN-SUFFIX,depositphotos.com,🚀 节点选择
@@ -10915,6 +10920,7 @@ rules:
  - DOMAIN-SUFFIX,eksisozluk.com,🚀 节点选择
  - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
  - DOMAIN-SUFFIX,elastic.com,🚀 节点选择
+ - DOMAIN-SUFFIX,elconfidencial.com,🚀 节点选择
  - DOMAIN-SUFFIX,electionsmeter.com,🚀 节点选择
  - DOMAIN-SUFFIX,elgoog.im,🚀 节点选择
  - DOMAIN-SUFFIX,ellawine.org,🚀 节点选择
@@ -11097,6 +11103,7 @@ rules:
  - DOMAIN-SUFFIX,fartit.com,🚀 节点选择
  - DOMAIN-SUFFIX,farwestchina.com,🚀 节点选择
  - DOMAIN-SUFFIX,fastestvpn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,fastgpt.run,🚀 节点选择
  - DOMAIN-SUFFIX,fastly.net,🚀 节点选择
  - DOMAIN-SUFFIX,fastmail.com,🚀 节点选择
  - DOMAIN-SUFFIX,fastpic.ru,🚀 节点选择
@@ -11127,6 +11134,7 @@ rules:
  - DOMAIN-SUFFIX,feedburner.com,🚀 节点选择
  - DOMAIN-SUFFIX,feeder.co,🚀 节点选择
  - DOMAIN-SUFFIX,feedly.com,🚀 节点选择
+ - DOMAIN-SUFFIX,feedly.comfastgpt.run,🚀 节点选择
  - DOMAIN-SUFFIX,feedsportal.com,🚀 节点选择
  - DOMAIN-SUFFIX,feedx.net,🚀 节点选择
  - DOMAIN-SUFFIX,feelssh.com,🚀 节点选择
@@ -11228,6 +11236,7 @@ rules:
  - DOMAIN-SUFFIX,free-ss.site,🚀 节点选择
  - DOMAIN-SUFFIX,free-ssh.com,🚀 节点选择
  - DOMAIN-SUFFIX,free.bg,🚀 节点选择
+ - DOMAIN-SUFFIX,free.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,free.fr,🚀 节点选择
  - DOMAIN-SUFFIX,free4u.com.ar,🚀 节点选择
  - DOMAIN-SUFFIX,freealim.com,🚀 节点选择
@@ -11295,6 +11304,7 @@ rules:
  - DOMAIN-SUFFIX,frommel.net,🚀 节点选择
  - DOMAIN-SUFFIX,frontlinedefenders.org,🚀 节点选择
  - DOMAIN-SUFFIX,frootvpn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,froth.zone,🚀 节点选择
  - DOMAIN-SUFFIX,fscked.org,🚀 节点选择
  - DOMAIN-SUFFIX,fsurf.com,🚀 节点选择
  - DOMAIN-SUFFIX,ftchinese.com,🚀 节点选择
@@ -11449,6 +11459,7 @@ rules:
  - DOMAIN-SUFFIX,girlbanker.com,🚀 节点选择
  - DOMAIN-SUFFIX,git.io,🚀 节点选择
  - DOMAIN-SUFFIX,gitbook.com,🚀 节点选择
+ - DOMAIN-SUFFIX,gitbook.io,🚀 节点选择
  - DOMAIN-SUFFIX,gitbooks.io,🚀 节点选择
  - DOMAIN-SUFFIX,githack.com,🚀 节点选择
  - DOMAIN-SUFFIX,gitlab.com,🚀 节点选择
@@ -11483,6 +11494,7 @@ rules:
  - DOMAIN-SUFFIX,gnci.org.hk,🚀 节点选择
  - DOMAIN-SUFFIX,gnews.org,🚀 节点选择
  - DOMAIN-SUFFIX,go-pki.com,🚀 节点选择
+ - DOMAIN-SUFFIX,go-to-zlibrary.se,🚀 节点选择
  - DOMAIN-SUFFIX,go.com,🚀 节点选择
  - DOMAIN-SUFFIX,go.jp,🚀 节点选择
  - DOMAIN-SUFFIX,go141.com,🚀 节点选择
@@ -11621,6 +11633,7 @@ rules:
  - DOMAIN-SUFFIX,hackthatphone.net,🚀 节点选择
  - DOMAIN-SUFFIX,hahlo.com,🚀 节点选择
  - DOMAIN-SUFFIX,haijiao.com,🚀 节点选择
+ - DOMAIN-SUFFIX,haiwaikan.com,🚀 节点选择
  - DOMAIN-SUFFIX,hakkatv.org.tw,🚀 节点选择
  - DOMAIN-SUFFIX,handcraftedsoftware.org,🚀 节点选择
  - DOMAIN-SUFFIX,hanime.tv,🚀 节点选择
@@ -11780,6 +11793,7 @@ rules:
  - DOMAIN-SUFFIX,hole.thu.monster,🚀 节点选择
  - DOMAIN-SUFFIX,holymountaincn.com,🚀 节点选择
  - DOMAIN-SUFFIX,holyspiritspeaks.org,🚀 节点选择
+ - DOMAIN-SUFFIX,home.saxo,🚀 节点选择
  - DOMAIN-SUFFIX,home.sina.com,🚀 节点选择
  - DOMAIN-SUFFIX,homedepot.com,🚀 节点选择
  - DOMAIN-SUFFIX,homeperversion.com,🚀 节点选择
@@ -11956,6 +11970,7 @@ rules:
  - DOMAIN-SUFFIX,ikwb.com,🚀 节点选择
  - DOMAIN-SUFFIX,ilbe.com,🚀 节点选择
  - DOMAIN-SUFFIX,ilhamtohtiinstitute.org,🚀 节点选择
+ - DOMAIN-SUFFIX,illawarramercury.com.au,🚀 节点选择
  - DOMAIN-SUFFIX,illusionfactory.com,🚀 节点选择
  - DOMAIN-SUFFIX,ilove80.be,🚀 节点选择
  - DOMAIN-SUFFIX,ilovelongtoes.com,🚀 节点选择
@@ -11969,6 +11984,7 @@ rules:
  - DOMAIN-SUFFIX,imageshack.us,🚀 节点选择
  - DOMAIN-SUFFIX,imagevenue.com,🚀 节点选择
  - DOMAIN-SUFFIX,imagezilla.net,🚀 节点选择
+ - DOMAIN-SUFFIX,imago-images.com,🚀 节点选择
  - DOMAIN-SUFFIX,imb.org,🚀 节点选择
  - DOMAIN-SUFFIX,imdb.com,🚀 节点选择
  - DOMAIN-SUFFIX,img.ly,🚀 节点选择
@@ -12126,6 +12142,7 @@ rules:
  - DOMAIN-SUFFIX,jav68.tv,🚀 节点选择
  - DOMAIN-SUFFIX,javakiba.org,🚀 节点选择
  - DOMAIN-SUFFIX,javbus.com,🚀 节点选择
+ - DOMAIN-SUFFIX,javdb.com,🚀 节点选择
  - DOMAIN-SUFFIX,javfinder.ai,🚀 节点选择
  - DOMAIN-SUFFIX,javfor.me,🚀 节点选择
  - DOMAIN-SUFFIX,javhip.com,🚀 节点选择
@@ -12157,6 +12174,7 @@ rules:
  - DOMAIN-SUFFIX,jiehua.tv,🚀 节点选择
  - DOMAIN-SUFFIX,jiepang.com,🚀 节点选择
  - DOMAIN-SUFFIX,jieshibaobao.com,🚀 节点选择
+ - DOMAIN-SUFFIX,jifangge.com,🚀 节点选择
  - DOMAIN-SUFFIX,jigglegifs.com,🚀 节点选择
  - DOMAIN-SUFFIX,jigong1024.com,🚀 节点选择
  - DOMAIN-SUFFIX,jigsy.com,🚀 节点选择
@@ -12421,6 +12439,7 @@ rules:
  - DOMAIN-SUFFIX,link-o-rama.com,🚀 节点选择
  - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
  - DOMAIN-SUFFIX,linkideo.com,🚀 节点选择
+ - DOMAIN-SUFFIX,linktr.ee,🚀 节点选择
  - DOMAIN-SUFFIX,linkuswell.com,🚀 节点选择
  - DOMAIN-SUFFIX,linode.com,🚀 节点选择
  - DOMAIN-SUFFIX,linpie.com,🚀 节点选择
@@ -12518,10 +12537,12 @@ rules:
  - DOMAIN-SUFFIX,mad-ar.ch,🚀 节点选择
  - DOMAIN-SUFFIX,madewithcode.com,🚀 节点选择
  - DOMAIN-SUFFIX,madonna-av.com,🚀 节点选择
+ - DOMAIN-SUFFIX,madou.club,🚀 节点选择
  - DOMAIN-SUFFIX,madrau.com,🚀 节点选择
  - DOMAIN-SUFFIX,madthumbs.com,🚀 节点选择
  - DOMAIN-SUFFIX,magic-net.info,🚀 节点选择
  - DOMAIN-SUFFIX,mahabodhi.org,🚀 节点选择
+ - DOMAIN-SUFFIX,mahjongsoul.com,🚀 节点选择
  - DOMAIN-SUFFIX,maiio.net,🚀 节点选择
  - DOMAIN-SUFFIX,mail-archive.com,🚀 节点选择
  - DOMAIN-SUFFIX,mail.ru,🚀 节点选择
@@ -12695,11 +12716,13 @@ rules:
  - DOMAIN-SUFFIX,miroguide.com,🚀 节点选择
  - DOMAIN-SUFFIX,mirrorbooks.com,🚀 节点选择
  - DOMAIN-SUFFIX,mirrormedia.mg,🚀 节点选择
+ - DOMAIN-SUFFIX,missav.com,🚀 节点选择
  - DOMAIN-SUFFIX,mist.vip,🚀 节点选择
  - DOMAIN-SUFFIX,mit.edu,🚀 节点选择
  - DOMAIN-SUFFIX,mitao.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,mitbbs.com,🚀 节点选择
  - DOMAIN-SUFFIX,mitbbsau.com,🚀 节点选择
+ - DOMAIN-SUFFIX,miuipolska.pl,🚀 节点选择
  - DOMAIN-SUFFIX,mixero.com,🚀 节点选择
  - DOMAIN-SUFFIX,mixi.jp,🚀 节点选择
  - DOMAIN-SUFFIX,mixin.one,🚀 节点选择
@@ -12860,6 +12883,7 @@ rules:
  - DOMAIN-SUFFIX,mytalkbox.com,🚀 节点选择
  - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
  - DOMAIN-SUFFIX,mytizi.com,🚀 节点选择
+ - DOMAIN-SUFFIX,mywife.cc,🚀 节点选择
  - DOMAIN-SUFFIX,mywww.biz,🚀 节点选择
  - DOMAIN-SUFFIX,myz.info,🚀 节点选择
  - DOMAIN-SUFFIX,naacoalition.org,🚀 节点选择
@@ -13334,6 +13358,7 @@ rules:
  - DOMAIN-SUFFIX,photonmedia.net,🚀 节点选择
  - DOMAIN-SUFFIX,phprcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,phuquocservices.com,🚀 节点选择
+ - DOMAIN-SUFFIX,piaotia.com,🚀 节点选择
  - DOMAIN-SUFFIX,piaotian.net,🚀 节点选择
  - DOMAIN-SUFFIX,picacomic.com,🚀 节点选择
  - DOMAIN-SUFFIX,picacomiccn.com,🚀 节点选择
@@ -13495,6 +13520,7 @@ rules:
  - DOMAIN-SUFFIX,ptt.cc,🚀 节点选择
  - DOMAIN-SUFFIX,pttgame.com,🚀 节点选择
  - DOMAIN-SUFFIX,pttvan.org,🚀 节点选择
+ - DOMAIN-SUFFIX,ptwxz.com,🚀 节点选择
  - DOMAIN-SUFFIX,pubu.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,puffinbrowser.com,🚀 节点选择
  - DOMAIN-SUFFIX,puffstore.com,🚀 节点选择
@@ -13793,6 +13819,7 @@ rules:
  - DOMAIN-SUFFIX,seevpn.com,🚀 节点选择
  - DOMAIN-SUFFIX,seezone.net,🚀 节点选择
  - DOMAIN-SUFFIX,sehuatang.net,🚀 节点选择
+ - DOMAIN-SUFFIX,sehuatang.org,🚀 节点选择
  - DOMAIN-SUFFIX,sejie.com,🚀 节点选择
  - DOMAIN-SUFFIX,sellclassics.com,🚀 节点选择
  - DOMAIN-SUFFIX,sendsmtp.com,🚀 节点选择
@@ -13900,6 +13927,7 @@ rules:
  - DOMAIN-SUFFIX,sinchew.com.my,🚀 节点选择
  - DOMAIN-SUFFIX,singaporepools.com.sg,🚀 节点选择
  - DOMAIN-SUFFIX,singfortibet.com,🚀 节点选择
+ - DOMAIN-SUFFIX,singlelogin.se,🚀 节点选择
  - DOMAIN-SUFFIX,singpao.com.hk,🚀 节点选择
  - DOMAIN-SUFFIX,singtao.ca,🚀 节点选择
  - DOMAIN-SUFFIX,singtao.com,🚀 节点选择
@@ -13946,6 +13974,7 @@ rules:
  - DOMAIN-SUFFIX,sleazyfork.org,🚀 节点选择
  - DOMAIN-SUFFIX,slheng.com,🚀 节点选择
  - DOMAIN-SUFFIX,slickvpn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,slides.com,🚀 节点选择
  - DOMAIN-SUFFIX,slides.new,🚀 节点选择
  - DOMAIN-SUFFIX,slideshare.net,🚀 节点选择
  - DOMAIN-SUFFIX,slime.com.tw,🚀 节点选择
@@ -14147,6 +14176,8 @@ rules:
  - DOMAIN-SUFFIX,sun1911.com,🚀 节点选择
  - DOMAIN-SUFFIX,sundayguardianlive.com,🚀 节点选择
  - DOMAIN-SUFFIX,sunmedia.ca,🚀 节点选择
+ - DOMAIN-SUFFIX,suno.ai,🚀 节点选择
+ - DOMAIN-SUFFIX,suno.com,🚀 节点选择
  - DOMAIN-SUFFIX,sunskyforum.com,🚀 节点选择
  - DOMAIN-SUFFIX,sunta.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,sunvpn.net,🚀 节点选择
@@ -14346,6 +14377,7 @@ rules:
  - DOMAIN-SUFFIX,therock.net.nz,🚀 节点选择
  - DOMAIN-SUFFIX,thesaturdaypaper.com.au,🚀 节点选择
  - DOMAIN-SUFFIX,thestandnews.com,🚀 节点选择
+ - DOMAIN-SUFFIX,thetatoken.org,🚀 节点选择
  - DOMAIN-SUFFIX,thetibetcenter.org,🚀 节点选择
  - DOMAIN-SUFFIX,thetibetconnection.org,🚀 节点选择
  - DOMAIN-SUFFIX,thetibetmuseum.org,🚀 节点选择
@@ -14511,6 +14543,7 @@ rules:
  - DOMAIN-SUFFIX,tokyo-hot.com,🚀 节点选择
  - DOMAIN-SUFFIX,tokyocn.com,🚀 节点选择
  - DOMAIN-SUFFIX,tomonews.net,🚀 节点选择
+ - DOMAIN-SUFFIX,tomp3.cc,🚀 节点选择
  - DOMAIN-SUFFIX,tomshardware.com,🚀 节点选择
  - DOMAIN-SUFFIX,tongil.or.kr,🚀 节点选择
  - DOMAIN-SUFFIX,tono-oka.jp,🚀 节点选择
@@ -14593,6 +14626,7 @@ rules:
  - DOMAIN-SUFFIX,tuidang.se,🚀 节点选择
  - DOMAIN-SUFFIX,tuitui.info,🚀 节点选择
  - DOMAIN-SUFFIX,tuitwit.com,🚀 节点选择
+ - DOMAIN-SUFFIX,tukaani.org,🚀 节点选择
  - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
  - DOMAIN-SUFFIX,tumblr.co,🚀 节点选择
  - DOMAIN-SUFFIX,tumblr.com,🚀 节点选择
@@ -14722,6 +14756,7 @@ rules:
  - DOMAIN-SUFFIX,typcn.com,🚀 节点选择
  - DOMAIN-SUFFIX,typekit.net,🚀 节点选择
  - DOMAIN-SUFFIX,typepad.com,🚀 节点选择
+ - DOMAIN-SUFFIX,typeset.io,🚀 节点选择
  - DOMAIN-SUFFIX,typography.com,🚀 节点选择
  - DOMAIN-SUFFIX,typora.io,🚀 节点选择
  - DOMAIN-SUFFIX,u15.info,🚀 节点选择
@@ -14879,6 +14914,7 @@ rules:
  - DOMAIN-SUFFIX,verizon.net,🚀 节点选择
  - DOMAIN-SUFFIX,verizonwireless.com,🚀 节点选择
  - DOMAIN-SUFFIX,vermonttibet.org,🚀 节点选择
+ - DOMAIN-SUFFIX,vern.cc,🚀 节点选择
  - DOMAIN-SUFFIX,versavpn.com,🚀 节点选择
  - DOMAIN-SUFFIX,verybs.com,🚀 节点选择
  - DOMAIN-SUFFIX,vevo.com,🚀 节点选择
@@ -15127,6 +15163,7 @@ rules:
  - DOMAIN-SUFFIX,wikileaks.lu,🚀 节点选择
  - DOMAIN-SUFFIX,wikileaks.org,🚀 节点选择
  - DOMAIN-SUFFIX,wikileaks.pl,🚀 节点选择
+ - DOMAIN-SUFFIX,wikiless.funami.tech,🚀 节点选择
  - DOMAIN-SUFFIX,wikilivres.info,🚀 节点选择
  - DOMAIN-SUFFIX,wikimapia.org,🚀 节点选择
  - DOMAIN-SUFFIX,wikimedia.org,🚀 节点选择
@@ -15215,11 +15252,13 @@ rules:
  - DOMAIN-SUFFIX,wuguoguang.com,🚀 节点选择
  - DOMAIN-SUFFIX,wujie.net,🚀 节点选择
  - DOMAIN-SUFFIX,wukangrui.net,🚀 节点选择
+ - DOMAIN-SUFFIX,wunderground.com,🚀 节点选择
  - DOMAIN-SUFFIX,wuw.red,🚀 节点选择
  - DOMAIN-SUFFIX,wuyanblog.com,🚀 节点选择
  - DOMAIN-SUFFIX,wwe.com,🚀 节点选择
  - DOMAIN-SUFFIX,wwitv.com,🚀 节点选择
  - DOMAIN-SUFFIX,www.linksalpha.com,🚀 节点选择
+ - DOMAIN-SUFFIX,www.lorenzetti.com.br,🚀 节点选择
  - DOMAIN-SUFFIX,www1.biz,🚀 节点选择
  - DOMAIN-SUFFIX,wwwhost.biz,🚀 节点选择
  - DOMAIN-SUFFIX,wzyboy.im,🚀 节点选择
@@ -15442,6 +15481,7 @@ rules:
  - DOMAIN-SUFFIX,zfreet.com,🚀 节点选择
  - DOMAIN-SUFFIX,zgsddh.com,🚀 节点选择
  - DOMAIN-SUFFIX,zgzcjj.net,🚀 节点选择
+ - DOMAIN-SUFFIX,zh-hans.cfsh99.com,🚀 节点选择
  - DOMAIN-SUFFIX,zhanbin.net,🚀 节点选择
  - DOMAIN-SUFFIX,zhangboli.net,🚀 节点选择
  - DOMAIN-SUFFIX,zhangtianliang.com,🚀 节点选择
