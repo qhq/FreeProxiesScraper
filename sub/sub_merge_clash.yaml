@@ -240,7 +240,7 @@ proxies:
   - {name: 🇫🇷 法国+巴黎Amazon数据中心, server: 35.181.188.78, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇫🇮 芬兰+赫尔辛基Hetzner数据中心, server: fr1.ftpcomand.com, port: 110, type: trojan, password: SQXdz0p1cP, skip-cert-verify: false}
   - {name: 🇨🇳 广东省广州市+移动, server: naiu-hk.05vr9nyqg5.download, port: 13008, type: trojan, password: c471ef32-798d-40a0-a57c-acf3475a204e, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 🇨🇳 广东省广州市+移动 2, server: naiu-jp.05vr9nyqg5.download, port: 13018, type: trojan, password: cf8c51d3-e692-46a6-b351-4c5ef0b5efc3, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: 🇨🇳 广东省广州市+移动 4, server: naiu-sg.05vr9nyqg5.download, port: 13027, type: trojan, password: c471ef32-798d-40a0-a57c-acf3475a204e, sni: sni=cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
   - {name: 🇰🇷 韩国+V2CROSS.COM, server: 117.123.144.67, port: 28825, type: trojan, password: 95b, sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com, skip-cert-verify: false}
   - {name: 🇰🇷 韩国+V2CROSS.COM 2, server: 211.107.201.14, port: 25001, type: trojan, password: 95b, sni: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com, skip-cert-verify: false}
   - {name: 🇳🇱 荷兰+V2CROSS.COM, server: 91.199.84.246, port: 443, type: trojan, password: "!<str> 3672449442956713984", sni: immense-buzzard.mite885.beauty, skip-cert-verify: false}
@@ -492,8 +492,12 @@ proxies:
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇧🇷 18巴西圣保罗, server: 104.18.23.211, port: 80, type: vmess, uuid: be9ac665-07b8-45b7-b99e-8b913b50da99, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /s15.html, headers: {Host: 555548458930032025033118091942841.s15.chibaba.filegear-sg.me}}}
-  - {name: 🇧🇷 2巴西圣保罗, server: 104.18.23.112, port: 80, type: vmess, uuid: be9ac665-07b8-45b7-b99e-8b913b50da99, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /s15.html, headers: {Host: 671631768227512025033118091897024.s15.chibaba.filegear-sg.me}}}
+  - {name: "🇭🇰 [ss]香港-08", server: fs.yd.3.8.cdnlinkms001.xyz, port: 41475, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7}
+  - {name: "🇭🇰 [ss]香港-01", server: jg647hf446ghvw.fcbjw.com, port: 47707, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7}
+  - {name: "🇭🇰 [ss]香港-03", server: wngv7ewkj1.gym0boy.com, port: 30598, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7}
+  - {name: "🇭🇰 [ss]香港 BGP IEPL专线 自动线路", server: iplc-9i6ouzip.hjoyaky.misakra.lat, port: 46119, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7}
+  - {name: "🇯🇵 [ss]日本-02", server: sq.yd.3.07.cdnlinkms001.xyz, port: 26417, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7}
+  - {name: "🇩🇪 [ss]德国-02", server: gtm-sg-acm44szjs05.gym0boy.com, port: 41909, type: ss, cipher: aes-128-gcm, password: 492e27b0-d18f-4851-bed4-6c6afe1307d7}
   - {name: 🇺🇸 _US_美国, server: 134.195.211.116, port: 21022, type: vmess, uuid: f17c76c1-2c3b-4791-b2a7-15435b81ed3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇬🇧 _GB_英国->🇨🇳_CN_中国, server: 51.21.7.106, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 111.62.241.211, port: 20086, type: trojan, password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc, sni: 6.p5zqtpj2n7.xyz, skip-cert-verify: true}
@@ -503,7 +507,6 @@ proxies:
   - {name: 🇺🇸 _DE_德国->🇺🇸_US_美国, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
   - {name: 🇺🇸 _US_美国_3, server: ru.mjt000.com, port: 443, type: trojan, password: 6557bf4a-852b-4a69-ad35-d53293386a13, sni: ru.mjt000.com, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国_4, server: 34.209.118.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯_1, server: 20.2.156.105, port: 443, type: trojan, password: 6557bf4a-852b-4a69-ad35-d53293386a13, sni: ru.mjt000.com, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国_5, server: 34.219.71.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 _US_美国_7, server: 35.93.21.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 github.com/freefq - 美国Microsoft数据中心 1, server: ggni.miaoge.gay, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ggni.miaoge.gay}}}
@@ -514,7 +517,6 @@ proxies:
   - {name: 🇺🇸 github.com/freefq - 美国宾夕法尼亚州拉克万纳县克拉克斯萨密特自治区VolumeDrive股份有限公司 6, server: 199.115.228.30, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
   - {name: github.com/freefq - 广东省移动 7 2, server: yn-zf.jiashumao.net, port: 40375, type: trojan, password: e2afc128-ca51-39b6-897c-eb2649825df9, skip-cert-verify: false}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: github.com/freefq - 广东省移动 9, server: twb-zf.jiashumao.net, port: 25888, type: trojan, password: e2afc128-ca51-39b6-897c-eb2649825df9, skip-cert-verify: false}
   - {name: 🇺🇸 github.com/freefq - 美国  10, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: false}
   - {name: 🇺🇸 github.com/freefq - 美国  11, server: 161.35.229.94, port: 443, type: vmess, uuid: 27848739-7e62-4138-9fd3-098a63964b6b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 161.35.229.94}}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 12, server: shopify.com, port: 80, type: vmess, uuid: 353bbf5f-a264-4731-e735-984e611c2e01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tgus.cloudflare.quest}}}
@@ -564,46 +566,36 @@ proxies:
   - {name: 🇺🇸 美国 007, server: 18.130.190.255, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国 009, server: 104.21.44.185, port: 2052, type: vmess, uuid: 8088e23c-2332-4422-c754-927729c568bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: Freedomisnear.onetwothree123.ir}}}
   - {name: 🇺🇸 美国 013, server: freedomisnear.onetwothree123.ir, port: 8080, type: vmess, uuid: 597649de-d8a0-48e7-a6a6-4fa471058f03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: freedomisnear.onetwothree123.ir}}}
-  - {name: 🇺🇸 美国 014, server: s3.cn-db.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 100-119-215-158.s3.cn-db.top}}}
   - {name: 🇺🇸 美国 015, server: 156.229.48.237, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: lax1.ibgfw.top}}}
   - {name: 🇺🇸 美国 017, server: 172.66.44.230, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Ftro8sFW1S91B6sZrM1%3Fed%3D2560", headers: {Host: Koma-YT.PAGeS.Dev}}}
   - {name: 🇺🇸 美国 018, server: 172.66.47.42, port: 2053, type: trojan, password: T%40_WvT8Ho%40LW%25w_%2C, sni: NOp-55q.pAgEs.dEv, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FtrGPZDfetEwuO25SAs%3Fed%3D2560", headers: {Host: NOp-55q.pAgEs.dEv}}}
   - {name: 🇷🇺 俄罗斯 002, server: 213.241.198.57, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
   - {name: 🇸🇪 瑞典 001, server: 13.53.219.38, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇭🇰 0|🇭🇰香港 01 | 1x HK, server: free.2apzhfa.xyz, port: 31141, type: ss, cipher: chacha20-ietf-poly1305, password: d8b920ca-b2e2-41d8-9ac9-a02d9a56270c}
-  - {name: 1|🇯🇵1 |  3.2MB/s, server: mk4s4-g06.jp02-9a99-vm0.entry.fr0307a.art, port: 11778, type: vmess, uuid: e9537990-d286-3eaf-8596-d74249d3f347, alterId: 1, cipher: auto, tls: false}
-  - {name: 1|🇯🇵2 |  5.6MB/s, server: wwkzh-g05.jp01-0986-vm0.entry.fr0307a.art, port: 21585, type: vmess, uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a, alterId: 1, cipher: auto, tls: true}
-  - {name: 1|🇯🇵3 |  1.2MB/s, server: gy.58n.net, port: 20298, type: trojan, password: a915b751-0da6-3d37-ac30-a6d7672a5d49, sni: z298.hongkongnode.top, skip-cert-verify: true}
-  - {name: 1|🇯🇵5 |  6.1MB/s, server: 4tfrv-g05.jp04-3771-vm0.entry.fr0307a.art, port: 448, type: vmess, uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a, alterId: 1, cipher: auto, tls: false}
-  - {name: 1|🌀1- |  5.7MB/s, server: 52.37.220.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 1|🇯🇵6 |  6.0MB/s, server: 7zf3m-g05.jp05-6786-vm0.entry.fr0307a.art, port: 46486, type: vmess, uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a, alterId: 1, cipher: auto, tls: false}
-  - {name: 1|🇯🇵13 |  2.6MB/s, server: y8qy3-g06.jp06-7c5a-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: e9537990-d286-3eaf-8596-d74249d3f347, alterId: 1, cipher: auto, tls: true}
-  - {name: 1|🇯🇵10 |  1.3MB/s, server: 7uq8b-g01.jp03-7d22-vm0.entry.fr0307a.art, port: 21581, type: vmess, uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704, alterId: 1, cipher: auto, tls: true}
-  - {name: 1|🇰🇷1 |  4.2MB/s, server: 3.36.72.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 1|🇭🇰4 |  1.7MB/s, server: 103.149.182.191, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: 1|🌀5-SK |  1.2MB/s, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 1|🇹🇼3 |  1.8MB/s, server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 846a0e02-026c-3aa2-ab8d-d4d266934d79, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 19.mamamajd.site}}}
-  - {name: 1|🌀6- |  3.0MB/s, server: 103.149.183.61, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: 1|🌀11-SE |  1.8MB/s, server: 104.21.48.6, port: 2053, type: vmess, uuid: 514288e2-90c6-422b-944d-876048f0c1d4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: office.farsonline24.ir}}}
-  - {name: 1|🌀12-MX |  5.7MB/s, server: cu.awslcn.info, port: 25284, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}}
-  - {name: 1|🇨🇭1 |  5.2MB/s, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 1|🇺🇸17 |  1.2MB/s, server: 54.245.10.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 1|🇳🇱1 |  5.2MB/s, server: 149.34.244.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 1|🇭🇰10 |  2.5MB/s, server: vt-bana2-cn-11.ghpgwqswodgzv.com, port: 40021, type: trojan, password: a38c9e28-9960-4e31-9f18-ed2495a756aa, sni: vt-bana2-cn-11.ghpgwqswodgzv.com, skip-cert-verify: false}
-  - {name: 1|🇬🇧5 |  5.1MB/s, server: cm.awslcn.info, port: 25240, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}}
-  - {name: 1|🇯🇵54 |  2.2MB/s, server: 43.207.157.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 1|🇯🇵55 |  1.1MB/s, server: 54.199.64.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇯🇵 1,12|🇯🇵 日本特殊|@ripaojiedian", server: 44.247.247.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 12|tg频道@ripaojiedian, server: 13.213.69.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 0|🇭🇰 香港 01 | 1x HK, server: free.2weradf.xyz, port: 36141, type: ss, cipher: chacha20-ietf-poly1305, password: 2044143b-38bf-4204-bb5a-6df713593585}
+  - {name: 2|🇬🇧1 |  5.1MB/s, server: 81.19.137.66, port: 44316, type: ss, cipher: chacha20-ietf-poly1305, password: Qx22XZwNt4SCcnWNkypEAj}
+  - {name: 2|🇺🇸2 |  2.7MB/s, server: 89.187.181.172, port: 43118, type: trojan, password: ypDt8RkT7J, skip-cert-verify: true}
+  - {name: 2|🇯🇵4 |  3.6MB/s, server: 3.9n3pqn1406.xyz, port: 20003, type: trojan, password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc, sni: 3.9n3pqn1406.xyz, skip-cert-verify: true}
+  - {name: 2|🇩🇪1 |  2.3MB/s, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 2|🇸🇬3 |  1.3MB/s, server: 18.140.70.168, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 2|🇺🇸10 |  5.5MB/s, server: 34.217.15.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇭🇰 2,12|🇭🇰 香港8|@ripaojiedian", server: south.inmysecretlife.xyz, port: 10001, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E}
+  - {name: 2|🌀14- |  5.4MB/s, server: csuzhou01.1cooldns.com, port: 42303, type: trojan, password: VMhGp5wEIyCDf90T, sni: hk06.run.place, skip-cert-verify: true}
+  - {name: 2|🇺🇸16 |  2.2MB/s, server: 52.37.220.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 2|🇭🇰11 |  1.0MB/s, server: 103.149.182.191, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: 2|🇸🇬5 |  5.2MB/s, server: 54.169.188.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 2|🇺🇸18 |  1.9MB/s, server: 120.198.71.216, port: 35001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "2,12|tg频道@ripaojiedian", server: 13.213.69.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 2|🇯🇵16 |  5.3MB/s, server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art, port: 28788, type: vmess, uuid: 2278146c-8fb0-3683-8300-342238f8a9d0, alterId: 1, cipher: auto, tls: true}
+  - {name: "🇯🇵 2,12|🇯🇵 日本特殊|@ripaojiedian", server: 44.247.247.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 2|🇨🇭1 |  5.1MB/s, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 2|🌀23- |  2.7MB/s, server: 103.149.183.61, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
   - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 15015, type: ss, cipher: aes-256-gcm, password: MQ6J7FHRWL2EBDKX}
   - {name: 🇭🇰 12|🇭🇰 香港3|@ripaojiedian, server: v2-hk1-zx.netcar.live, port: 10032, type: vmess, uuid: bfd93c5c-abc7-416a-a205-372d3db979a4, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 12|🇭🇰 香港4|@ripaojiedian, server: w72tapyb.slashdevslashnetslashtun.net, port: 15004, type: ss, cipher: aes-256-gcm, password: HU1AA5DVZP3V8PZD}
   - {name: 🇭🇰 12|🇭🇰 香港5|@ripaojiedian, server: 120.232.153.40, port: 41002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
   - {name: "🇭🇰 12,13|香港6|@ripaojiedian", server: hk.ggpdx.ggff.net, port: 8443, type: vmess, uuid: 0c08b87c-67d7-401e-93dc-7bcda12e795b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 0c08b87c-67d7-401e-93dc-7bcda12e795b-vm, headers: {Host: hk.ggpdx.ggff.net}}}
   - {name: "🇭🇰 12,13|香港7|@ripaojiedian", server: 6.elk3b3nwfy.xyz, port: 20016, type: trojan, password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc, sni: 6.elk3b3nwfy.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 12|🇭🇰 香港8|@ripaojiedian, server: south.inmysecretlife.xyz, port: 10001, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E}
   - {name: 🇭🇰 12|🇭🇰 香港9|@ripaojiedian, server: ac9d3c3c-su2dc0-sv9ymy-dezg.d.volczijie.com, port: 4136, type: vmess, uuid: 952f0a9a-097d-11f0-aa52-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇨🇳 12,13|台湾|@ripaojiedian", server: 7.qzhm8l42g1.xyz, port: 20027, type: trojan, password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc, sni: 7.qzhm8l42g1.xyz, skip-cert-verify: true}
   - {name: 🇯🇵 12|🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun}
   - {name: 🇯🇵 12|🇯🇵 日本2|@ripaojiedian, server: 156.231.104.13, port: 18003, type: ss, cipher: aes-256-gcm, password: QSM88IU0D1Y77F3O}
   - {name: "🇯🇵 12,13|日本3|@ripaojiedian", server: lc.loc.cc, port: 19608, type: vmess, uuid: 3a5ca001-9884-4d96-a002-2b04f306747e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 3a5ca001-9884-4d96-a002-2b04f306747e-vm, headers: {Host: lc.loc.cc}}}
@@ -611,7 +603,6 @@ proxies:
   - {name: "🇰🇷 12,13|韩国|@ripaojiedian", server: kr.ttcc.tech, port: 443, type: vmess, uuid: 41cfbd9d-d2da-4300-a142-b49068f7ad3d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /41cfbd9d-d2da-4300-a142-b49068f7ad3d, headers: {Host: kr.ttcc.tech}}}
   - {name: 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian, server: 43.201.54.89, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian, server: 3.36.26.148, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 14|US_speednode_0051, server: 89.187.181.172, port: 43118, type: trojan, password: ypDt8RkT7J, sni: 89.187.181.172, skip-cert-verify: true}
   - {name: 🇨🇳 中国(TG频道@kxswa), server: zfd-moble.gatknqh.cn, port: 16108, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false}
   - {name: CN_19 v2cross.com, server: 14.29.124.174, port: 11044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
   - {name: 🇸🇬 SG 2 → openitsub.com, server: 139.162.29.179, port: 18231, type: vmess, uuid: cb185001-85ed-4186-e391-fdeb7b624403, alterId: 0, cipher: auto, tls: false}
@@ -649,4 +640,13 @@ proxies:
   - {name: 🇺🇸 _US_美国 14, server: 104.19.46.59, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 _US_美国 15, server: 104.19.46.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 _US_美国 16, server: 104.19.45.15, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 1|🇬🇧5 |  5.1MB/s 2, server: cm.awslcn.info, port: 25240, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}}
+  - {name: 1|🌀1-SK |  5.1MB/s, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 1|🇯🇵2 |  5.1MB/s, server: 54.199.64.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 1|🇯🇵3 |  1.2MB/s, server: 120.198.71.214, port: 40125, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 1|🇺🇸8 |  3.8MB/s, server: 34.208.203.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 1|🇸🇬4 |  4.1MB/s, server: a5944a92-su7b40-tclkqs-deip.b.fosant.com, port: 3683, type: vmess, uuid: 7a2512b4-09ee-11f0-8d46-f23c9313b177, alterId: 0, cipher: auto, tls: false}
+  - {name: 1|🇸🇬6 |  1.3MB/s, server: 13.229.73.58, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 1|🇺🇸16 |  5.4MB/s, server: 54.69.221.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 1|🇸🇬12 |  1.1MB/s, server: 183.236.51.38, port: 53102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 1|🌀19-TH |  5.2MB/s, server: v2-tgzz.netcar.live, port: 18139, type: vmess, uuid: 76f19582-5c4b-49c6-a023-0f7c9e3c807a, alterId: 0, cipher: auto, tls: false}
+  - {name: 1|🇸🇬13 |  1.5MB/s, server: 18.141.139.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
