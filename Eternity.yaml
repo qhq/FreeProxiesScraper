@@ -5,9 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 11|🇯🇵 日本特殊|@ripaojiedian, server: 43.207.150.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 11|🇸🇬 狮城特殊|@ripaojiedian, server: 43.207.203.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 JP😈SSRSUB_3528396055, server: 54.199.66.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国+V2CROSS.COM, server: 117.123.144.67, port: 28825, type: trojan, password: 95b, sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国+V2CROSS.COM 2, server: 211.107.201.14, port: 25001, type: trojan, password: 95b, sni: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com, skip-cert-verify: false}
   - {name: 🇯🇵 日本+东京Amazon数据中心, server: bgroup.node1.t.nodelist-airport.com, port: 50001, type: trojan, password: 2155145a-b1b5-443a-8977-670f6bd10f02, skip-cert-verify: false}
   - {name: 🇭🇰 香港+阿里云, server: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma, port: 443, type: trojan, password: a3ca0380-8a17-403a-a5b3-a9f6e59be193, sni: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma, skip-cert-verify: false}
   - {name: 🇭🇰 香港+电讯盈科有限公司, server: aliyun.2096.us.kg, port: 443, type: trojan, password: 95b, sni: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org, skip-cert-verify: false}
@@ -35,23 +35,23 @@ proxies:
   - {name: 🇯🇵 日本_121320045, server: 167.179.83.138, port: 36013, type: vmess, uuid: 97700372-07d0-4e10-db96-937844f30a50, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320051, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320054, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国_121320001, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}}
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3, server: relay1.sgdns.club, port: 11070, type: vmess, uuid: 2dc10784-c7fb-377d-a579-2b541eb16d7b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /sgy, headers: {Host: relay1.sgdns.club}}}
-  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}}
-  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk857.fans8.xyz}}}
-  - {name: 🇯🇵 日本(欢迎订阅Youtube破解资源君) 4, server: scjp.scsevers.cf, port: 11312, type: vmess, uuid: 71f2e024-6b64-4f37-dba3-dc25614ccce8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: scjp.scsevers.cf}}}
-  - {name: 🇯🇵 日本(欢迎订阅Youtube破解资源君) 2, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0320jp.fans8.xyz}}}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
   - {name: 🇯🇵 github.com/freefq - 日本  48, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 0|🇭🇰香港 01 | 1x HK, server: free.2apzhfa.xyz, port: 31141, type: ss, cipher: chacha20-ietf-poly1305, password: 7124f7ec-df3d-4039-91fb-b06f286a8f5f}
-  - {name: 🇺🇸 _US_美国_9, server: 52.88.180.184, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国_121320027, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}}
+  - {name: 🇭🇰 0|🇭🇰香港 01 | 1x HK, server: free.2apzhfa.xyz, port: 31141, type: ss, cipher: chacha20-ietf-poly1305, password: 542ebf21-0875-4ac1-bb37-e50f74d7598c}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3, server: relay1.sgdns.club, port: 11070, type: vmess, uuid: 2dc10784-c7fb-377d-a579-2b541eb16d7b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /sgy, headers: {Host: relay1.sgdns.club}}}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: 🇭🇰 12|🇭🇰 香港3|@ripaojiedian, server: v2-hk1-zx.netcar.live, port: 10032, type: vmess, uuid: bfd93c5c-abc7-416a-a205-372d3db979a4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: w72tapyb.slashdevslashnetslashtun.net, port: 15008, type: ss, cipher: aes-256-gcm, password: CDG9XK11MN9S70IY}
+  - {name: 🇭🇰 12|🇭🇰 香港5|@ripaojiedian, server: 120.232.153.40, port: 41002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 12|🇭🇰 香港6|@ripaojiedian, server: rk1.nynode0.cc, port: 36222, type: ss, cipher: chacha20-ietf-poly1305, password: fa7336fd-365d-4bc2-a1f3-7233d6abdb05}
+  - {name: 🇺🇸 美国 030, server: 104.18.149.76, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: us.kkp.me.eu.org}}}
   - {name: 🇺🇸 美国+Amazon+EC2服务器, server: 3.143.42.57, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+Amazon+EC2服务器 4, server: 3.67.211.46, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon+EC2服务器 5, server: 3.78.23.212, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon数据中心, server: 13.36.4.38, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon数据中心 2, server: 18.169.245.178, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
@@ -72,10 +72,9 @@ proxies:
   - {name: 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心, server: 54.86.248.206, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+惠普HP, server: 16.171.91.51, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+麻省理工学院, server: 18.135.167.255, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 2|🇯🇵1 |  1.4MB/s, server: 18.183.76.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 2|🇯🇵5 |  5.6MB/s, server: 18.179.8.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: CH😈SSRSUB_1834157617, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2852c164-1a5b-4628-b668-3554c7aa4453}
-  - {name: CH😈SSRSUB_1647550822, server: hzhz1.sssyun.xyz, port: 39202, type: ss, cipher: chacha20-ietf-poly1305, password: b40fb56c-f538-4bf2-951e-b645f48b9937}
-  - {name: Euro😈SSRSUB_1145647923, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: UM😈SSRSUB_549064432, server: 35.95.35.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅, server: cdnssr.ssrsub.com, port: 443, type: ss, cipher: aes-256-cfb, password: cdnssr.ssrsub.com}
   - {name: 公益机场https//bit.ly/3BPeo5G, server: ssr3.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: 公益机场https//dlj.tf/SpivhEz, server: ssr4.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
@@ -92,6 +91,7 @@ proxies:
   - {name: 🇫🇷 法国+巴黎Amazon数据中心, server: 35.181.188.78, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇫🇮 芬兰+赫尔辛基Hetzner数据中心, server: fr1.ftpcomand.com, port: 110, type: trojan, password: SQXdz0p1cP, skip-cert-verify: false}
   - {name: 🇨🇳 广东省广州市+移动, server: naiu-hk.05vr9nyqg5.download, port: 13008, type: trojan, password: c471ef32-798d-40a0-a57c-acf3475a204e, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: 🇨🇳 广东省广州市+移动 2, server: naiu-jp.05vr9nyqg5.download, port: 13018, type: trojan, password: cf8c51d3-e692-46a6-b351-4c5ef0b5efc3, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
   - {name: 🇬🇧 英国+社会保险安全部, server: 51.21.146.243, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇬🇧 英国+社会保险安全部 2, server: 51.21.88.148, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇬🇧 英国+社会保险安全部 3, server: 51.44.26.172, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
@@ -111,9 +111,9 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 11|🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 11|🇸🇬 狮城特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3528396055
+      - 🇰🇷 韩国+V2CROSS.COM
+      - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
@@ -141,23 +141,23 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 4
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 2
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - 🇺🇸 _US_美国_9
-      - 🇺🇸 美国_121320027
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
+      - 🇺🇸 美国 030
       - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 4
       - 🇺🇸 美国+Amazon+EC2服务器 5
       - 🇺🇸 美国+Amazon数据中心
       - 🇺🇸 美国+Amazon数据中心 2
@@ -178,10 +178,9 @@ proxy-groups:
       - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
+      - 2|🇯🇵1 |  1.4MB/s
+      - 2|🇯🇵5 |  5.6MB/s
       - CH😈SSRSUB_1834157617
-      - CH😈SSRSUB_1647550822
-      - Euro😈SSRSUB_1145647923
-      - UM😈SSRSUB_549064432
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
       - 公益机场https//bit.ly/3BPeo5G
       - 公益机场https//dlj.tf/SpivhEz
@@ -198,6 +197,7 @@ proxy-groups:
       - 🇫🇷 法国+巴黎Amazon数据中心
       - 🇫🇮 芬兰+赫尔辛基Hetzner数据中心
       - 🇨🇳 广东省广州市+移动
+      - 🇨🇳 广东省广州市+移动 2
       - 🇬🇧 英国+社会保险安全部
       - 🇬🇧 英国+社会保险安全部 2
       - 🇬🇧 英国+社会保险安全部 3
@@ -252,9 +252,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 11|🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 11|🇸🇬 狮城特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3528396055
+      - 🇰🇷 韩国+V2CROSS.COM
+      - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
@@ -282,23 +282,23 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 4
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 2
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - 🇺🇸 _US_美国_9
-      - 🇺🇸 美国_121320027
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
+      - 🇺🇸 美国 030
       - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 4
       - 🇺🇸 美国+Amazon+EC2服务器 5
       - 🇺🇸 美国+Amazon数据中心
       - 🇺🇸 美国+Amazon数据中心 2
@@ -319,10 +319,9 @@ proxy-groups:
       - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
+      - 2|🇯🇵1 |  1.4MB/s
+      - 2|🇯🇵5 |  5.6MB/s
       - CH😈SSRSUB_1834157617
-      - CH😈SSRSUB_1647550822
-      - Euro😈SSRSUB_1145647923
-      - UM😈SSRSUB_549064432
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
       - 公益机场https//bit.ly/3BPeo5G
       - 公益机场https//dlj.tf/SpivhEz
@@ -339,6 +338,7 @@ proxy-groups:
       - 🇫🇷 法国+巴黎Amazon数据中心
       - 🇫🇮 芬兰+赫尔辛基Hetzner数据中心
       - 🇨🇳 广东省广州市+移动
+      - 🇨🇳 广东省广州市+移动 2
       - 🇬🇧 英国+社会保险安全部
       - 🇬🇧 英国+社会保险安全部 2
       - 🇬🇧 英国+社会保险安全部 3
@@ -349,9 +349,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 11|🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 11|🇸🇬 狮城特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3528396055
+      - 🇰🇷 韩国+V2CROSS.COM
+      - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
@@ -379,23 +379,23 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 4
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 2
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - 🇺🇸 _US_美国_9
-      - 🇺🇸 美国_121320027
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
+      - 🇺🇸 美国 030
       - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 4
       - 🇺🇸 美国+Amazon+EC2服务器 5
       - 🇺🇸 美国+Amazon数据中心
       - 🇺🇸 美国+Amazon数据中心 2
@@ -416,10 +416,9 @@ proxy-groups:
       - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
+      - 2|🇯🇵1 |  1.4MB/s
+      - 2|🇯🇵5 |  5.6MB/s
       - CH😈SSRSUB_1834157617
-      - CH😈SSRSUB_1647550822
-      - Euro😈SSRSUB_1145647923
-      - UM😈SSRSUB_549064432
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
       - 公益机场https//bit.ly/3BPeo5G
       - 公益机场https//dlj.tf/SpivhEz
@@ -436,6 +435,7 @@ proxy-groups:
       - 🇫🇷 法国+巴黎Amazon数据中心
       - 🇫🇮 芬兰+赫尔辛基Hetzner数据中心
       - 🇨🇳 广东省广州市+移动
+      - 🇨🇳 广东省广州市+移动 2
       - 🇬🇧 英国+社会保险安全部
       - 🇬🇧 英国+社会保险安全部 2
       - 🇬🇧 英国+社会保险安全部 3
@@ -446,9 +446,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国_9
-      - 🇺🇸 美国_121320027
+      - 🇺🇸 美国 030
       - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 4
       - 🇺🇸 美国+Amazon+EC2服务器 5
       - 🇺🇸 美国+Amazon数据中心
       - 🇺🇸 美国+Amazon数据中心 2
@@ -475,9 +475,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 11|🇯🇵 日本特殊|@ripaojiedian
-      - 🇸🇬 11|🇸🇬 狮城特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3528396055
+      - 🇰🇷 韩国+V2CROSS.COM
+      - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇭🇰 香港+阿里云
       - 🇭🇰 香港+电讯盈科有限公司
@@ -505,31 +505,29 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 4
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 2
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 11|🇸🇬 狮城特殊|@ripaojiedian
+      - 2|🇯🇵1 |  1.4MB/s
+      - 2|🇯🇵5 |  5.6MB/s
       - CH😈SSRSUB_1834157617
-      - CH😈SSRSUB_1647550822
-      - Euro😈SSRSUB_1145647923
-      - UM😈SSRSUB_549064432
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
       - 公益机场https//bit.ly/3BPeo5G
       - 公益机场https//dlj.tf/SpivhEz
@@ -546,6 +544,7 @@ proxy-groups:
       - 🇫🇷 法国+巴黎Amazon数据中心
       - 🇫🇮 芬兰+赫尔辛基Hetzner数据中心
       - 🇨🇳 广东省广州市+移动
+      - 🇨🇳 广东省广州市+移动 2
       - 🇬🇧 英国+社会保险安全部
       - 🇬🇧 英国+社会保险安全部 2
       - 🇬🇧 英国+社会保险安全部 3
@@ -556,9 +555,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国_9
-      - 🇺🇸 美国_121320027
+      - 🇺🇸 美国 030
       - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 4
       - 🇺🇸 美国+Amazon+EC2服务器 5
       - 🇺🇸 美国+Amazon数据中心
       - 🇺🇸 美国+Amazon数据中心 2
@@ -590,17 +589,19 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
+      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
       - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
       - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
-      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
+      - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
+      - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 11|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -614,7 +615,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 11|🇯🇵 日本特殊|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇯🇵 日本_121320001
@@ -631,8 +631,6 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 4
-      - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 2
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
@@ -652,7 +650,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 韩国_121320001
+      - 🇰🇷 韩国+V2CROSS.COM
+      - 🇰🇷 韩国+V2CROSS.COM 2
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
@@ -2315,6 +2314,7 @@ rules:
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.com.au,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.wang,🍎 苹果服务
@@ -2347,7 +2347,6 @@ rules:
  - DOMAIN-SUFFIX,iphoto.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
- - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
