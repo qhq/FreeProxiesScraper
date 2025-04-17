@@ -36,6 +36,7 @@ proxies:
   - {name: 🇯🇵 日本_121320045, server: 167.179.83.138, port: 36013, type: vmess, uuid: 97700372-07d0-4e10-db96-937844f30a50, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320051, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320054, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国_121320001, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}}
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -49,10 +50,10 @@ proxies:
   - {name: 🇭🇰 12|🇭🇰 香港5|@ripaojiedian, server: cloudgd.coemn.com, port: 46003, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: cloudgd.coemn.com}}}
   - {name: 🇭🇰 12|🇭🇰 香港6|@ripaojiedian, server: gg21.hangfengjiasu.com, port: 12202, type: ss, cipher: chacha20-ietf-poly1305, password: cdc48a7a-b618-45af-a831-5afbd686b02f}
   - {name: 🇭🇰 12|🇭🇰 香港7|@ripaojiedian, server: 120.232.153.40, port: 36609, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 421, server: 141.101.120.64, port: 2053, type: vmess, uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua}}}
-  - {name: 🇺🇸 美国 413, server: 1744007541.tencentapp.cn, port: 2053, type: vmess, uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua}}}
-  - {name: 🇺🇸 美国 409, server: 141.101.120.41, port: 2053, type: vmess, uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua}}}
+  - {name: 🇺🇸 美国 411, server: 152.67.251.232, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
+  - {name: 🇺🇸 美国 415, server: 172.67.154.84, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
   - {name: 🇺🇸 美国+Amazon+EC2服务器, server: 3.143.42.57, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+Amazon+EC2服务器 5, server: 3.78.23.212, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon数据中心, server: 13.36.4.38, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon数据中心 2, server: 18.169.245.178, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon数据中心 3, server: 18.175.105.52, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
@@ -72,14 +73,13 @@ proxies:
   - {name: 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心, server: 54.86.248.206, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+惠普HP, server: 16.171.91.51, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+麻省理工学院, server: 18.135.167.255, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇭🇷 克罗地亚 002, server: 89.18.58.71, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.99.205, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
-  - {name: 🇧🇷 巴西 029, server: 188.114.97.6, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
-  - {name: 🇧🇷 巴西 028, server: 188.114.99.183, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 🇬🇧 _GB_英国, server: 51.15.15.82, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: 🇧🇷 巴西 030, server: 188.114.96.5, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
-  - {name: Euro😈SSRSUB_2663973607, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
   - {name: 🇦🇺 _AU_澳大利亚, server: 43.162.118.156, port: 443, type: trojan, password: oIwjHDXpKePvYIg8, sni: myvps.cfd, skip-cert-verify: false}
-  - {name: CH😈SSRSUB_431941033, server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: Other😈SSRSUB_3087487628, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: Other😈SSRSUB_1873915727, server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: UM😈SSRSUB_3928733360, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
+  - {name: CH😈SSRSUB_3574339605, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 Americas😈SSRSUB_3391161080, server: 104.19.45.42, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip19.6929198.xyz}}}
   - {name: UM😈SSRSUB_2004026099, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 Americas😈SSRSUB_1358187351, server: www.visa.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
@@ -89,13 +89,14 @@ proxies:
   - {name: Other😈SSRSUB_2578581128, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 Americas😈SSRSUB_518610679, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
   - {name: 🇷🇺 RU😈SSRSUB_432833167, server: 194.87.31.160, port: 8081, type: vmess, uuid: a7e00c2f-411a-438f-9119-0f022a85a5e3, alterId: 0, cipher: auto, tls: false}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 12, server: 139.99.61.53, port: 80, type: vmess, uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 139.99.61.53}}}
-  - {name: CH😈SSRSUB_3574339605, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: Euro😈SSRSUB_125949122, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 11, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.19.45.117}}}
   - {name: UM😈SSRSUB_108119541, server: 205.134.180.150, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2}
   - {name: CH😈SSRSUB_1834157617, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2852c164-1a5b-4628-b668-3554c7aa4453}
   - {name: CH😈SSRSUB_3783732564, server: iepl1.nezha.tech, port: 33577, type: ss, cipher: chacha20-ietf-poly1305, password: 96a8c243-0219-403e-b8fa-f48f696435e1}
   - {name: CH😈SSRSUB_1647550822, server: hzhz1.sssyun.xyz, port: 39202, type: ss, cipher: chacha20-ietf-poly1305, password: b40fb56c-f538-4bf2-951e-b645f48b9937}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 11, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.19.45.117}}}
+  - {name: UM😈SSRSUB_549064432, server: 35.95.35.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅, server: cdnssr.ssrsub.com, port: 443, type: ss, cipher: aes-256-cfb, password: cdnssr.ssrsub.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -142,6 +143,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -155,10 +157,10 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 413
-      - 🇺🇸 美国 409
+      - 🇺🇸 美国 411
+      - 🇺🇸 美国 415
       - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 5
       - 🇺🇸 美国+Amazon数据中心
       - 🇺🇸 美国+Amazon数据中心 2
       - 🇺🇸 美国+Amazon数据中心 3
@@ -178,14 +180,13 @@ proxy-groups:
       - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
-      - 🇭🇷 克罗地亚 002
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇧🇷 巴西 029
-      - 🇧🇷 巴西 028
+      - 🇬🇧 _GB_英国
       - 🇧🇷 巴西 030
-      - Euro😈SSRSUB_2663973607
       - 🇦🇺 _AU_澳大利亚
-      - CH😈SSRSUB_431941033
+      - Other😈SSRSUB_3087487628
+      - Other😈SSRSUB_1873915727
+      - UM😈SSRSUB_3928733360
+      - CH😈SSRSUB_3574339605
       - 🇺🇸 Americas😈SSRSUB_3391161080
       - UM😈SSRSUB_2004026099
       - 🇺🇸 Americas😈SSRSUB_1358187351
@@ -195,13 +196,14 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 12
-      - CH😈SSRSUB_3574339605
+      - Euro😈SSRSUB_125949122
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 11
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 11
+      - UM😈SSRSUB_549064432
+      - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -283,6 +285,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -296,10 +299,10 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 413
-      - 🇺🇸 美国 409
+      - 🇺🇸 美国 411
+      - 🇺🇸 美国 415
       - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 5
       - 🇺🇸 美国+Amazon数据中心
       - 🇺🇸 美国+Amazon数据中心 2
       - 🇺🇸 美国+Amazon数据中心 3
@@ -319,14 +322,13 @@ proxy-groups:
       - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
-      - 🇭🇷 克罗地亚 002
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇧🇷 巴西 029
-      - 🇧🇷 巴西 028
+      - 🇬🇧 _GB_英国
       - 🇧🇷 巴西 030
-      - Euro😈SSRSUB_2663973607
       - 🇦🇺 _AU_澳大利亚
-      - CH😈SSRSUB_431941033
+      - Other😈SSRSUB_3087487628
+      - Other😈SSRSUB_1873915727
+      - UM😈SSRSUB_3928733360
+      - CH😈SSRSUB_3574339605
       - 🇺🇸 Americas😈SSRSUB_3391161080
       - UM😈SSRSUB_2004026099
       - 🇺🇸 Americas😈SSRSUB_1358187351
@@ -336,13 +338,14 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 12
-      - CH😈SSRSUB_3574339605
+      - Euro😈SSRSUB_125949122
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 11
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 11
+      - UM😈SSRSUB_549064432
+      - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -380,6 +383,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -393,10 +397,10 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 413
-      - 🇺🇸 美国 409
+      - 🇺🇸 美国 411
+      - 🇺🇸 美国 415
       - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 5
       - 🇺🇸 美国+Amazon数据中心
       - 🇺🇸 美国+Amazon数据中心 2
       - 🇺🇸 美国+Amazon数据中心 3
@@ -416,14 +420,13 @@ proxy-groups:
       - 🇺🇸 美国+弗吉尼亚州阿什本Amazon数据中心
       - 🇺🇸 美国+惠普HP
       - 🇺🇸 美国+麻省理工学院
-      - 🇭🇷 克罗地亚 002
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇧🇷 巴西 029
-      - 🇧🇷 巴西 028
+      - 🇬🇧 _GB_英国
       - 🇧🇷 巴西 030
-      - Euro😈SSRSUB_2663973607
       - 🇦🇺 _AU_澳大利亚
-      - CH😈SSRSUB_431941033
+      - Other😈SSRSUB_3087487628
+      - Other😈SSRSUB_1873915727
+      - UM😈SSRSUB_3928733360
+      - CH😈SSRSUB_3574339605
       - 🇺🇸 Americas😈SSRSUB_3391161080
       - UM😈SSRSUB_2004026099
       - 🇺🇸 Americas😈SSRSUB_1358187351
@@ -433,23 +436,24 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 12
-      - CH😈SSRSUB_3574339605
+      - Euro😈SSRSUB_125949122
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 11
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 11
+      - UM😈SSRSUB_549064432
+      - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 413
-      - 🇺🇸 美国 409
+      - 🇺🇸 美国 411
+      - 🇺🇸 美国 415
       - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 5
       - 🇺🇸 美国+Amazon数据中心
       - 🇺🇸 美国+Amazon数据中心 2
       - 🇺🇸 美国+Amazon数据中心 3
@@ -506,6 +510,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -525,14 +530,13 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇷 克罗地亚 002
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇧🇷 巴西 029
-      - 🇧🇷 巴西 028
+      - 🇬🇧 _GB_英国
       - 🇧🇷 巴西 030
-      - Euro😈SSRSUB_2663973607
       - 🇦🇺 _AU_澳大利亚
-      - CH😈SSRSUB_431941033
+      - Other😈SSRSUB_3087487628
+      - Other😈SSRSUB_1873915727
+      - UM😈SSRSUB_3928733360
+      - CH😈SSRSUB_3574339605
       - 🇺🇸 Americas😈SSRSUB_3391161080
       - UM😈SSRSUB_2004026099
       - 🇺🇸 Americas😈SSRSUB_1358187351
@@ -542,23 +546,24 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 12
-      - CH😈SSRSUB_3574339605
+      - Euro😈SSRSUB_125949122
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 11
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
       - CH😈SSRSUB_1647550822
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 11
+      - UM😈SSRSUB_549064432
+      - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 413
-      - 🇺🇸 美国 409
+      - 🇺🇸 美国 411
+      - 🇺🇸 美国 415
       - 🇺🇸 美国+Amazon+EC2服务器
+      - 🇺🇸 美国+Amazon+EC2服务器 5
       - 🇺🇸 美国+Amazon数据中心
       - 🇺🇸 美国+Amazon数据中心 2
       - 🇺🇸 美国+Amazon数据中心 3
@@ -652,6 +657,7 @@ proxy-groups:
     proxies:
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
+      - 🇰🇷 韩国_121320001
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
@@ -1931,6 +1937,7 @@ rules:
  - DOMAIN-SUFFIX,app-store.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,appe-store.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-appstore.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-itunes.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.rs,🍎 苹果服务
@@ -1941,6 +1948,7 @@ rules:
  - DOMAIN-SUFFIX,appleappstore.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.us,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-iclou.com,🍎 苹果服务
@@ -1949,6 +1957,7 @@ rules:
  - DOMAIN-SUFFIX,appleid.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hk,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.audio,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.blog,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.chat,🍎 苹果服务
@@ -1984,6 +1993,7 @@ rules:
  - DOMAIN-SUFFIX,applepaysupplies.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.tv,🍎 苹果服务
+ - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.co.id,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.hk,🍎 苹果服务
@@ -1995,7 +2005,50 @@ rules:
  - DOMAIN-SUFFIX,darwinsource.com,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsource.org,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsourcecode.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ids-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itun.es,🍎 苹果服务
  - DOMAIN-SUFFIX,itunbes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ituneas.com,🍎 苹果服务
@@ -2029,8 +2082,12 @@ rules:
  - DOMAIN-SUFFIX,itunesu.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunesu.net,🍎 苹果服务
  - DOMAIN-SUFFIX,iutunes.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,myappleid.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
  - DOMAIN-SUFFIX,tvappstore.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplestore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplleipods.com,🍎 苹果服务
@@ -2262,7 +2319,6 @@ rules:
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
- - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.com.au,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.wang,🍎 苹果服务
@@ -2295,64 +2351,14 @@ rules:
  - DOMAIN-SUFFIX,iphoto.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
- - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-livephotoskit.com,🍎 苹果服务
- - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
- - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
- - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-KEYWORD,apple-support.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.edgekey.net,🍎 苹果服务
@@ -9492,6 +9498,16 @@ rules:
  - DOMAIN-SUFFIX,1bao.org,🚀 节点选择
  - DOMAIN-SUFFIX,1dumb.com,🚀 节点选择
  - DOMAIN-SUFFIX,1eew.com,🚀 节点选择
+ - DOMAIN-SUFFIX,1lib.cloud,🚀 节点选择
+ - DOMAIN-SUFFIX,1lib.cz,🚀 节点选择
+ - DOMAIN-SUFFIX,1lib.domains,🚀 节点选择
+ - DOMAIN-SUFFIX,1lib.education,🚀 节点选择
+ - DOMAIN-SUFFIX,1lib.eu,🚀 节点选择
+ - DOMAIN-SUFFIX,1lib.limited,🚀 节点选择
+ - DOMAIN-SUFFIX,1lib.pl,🚀 节点选择
+ - DOMAIN-SUFFIX,1lib.sk,🚀 节点选择
+ - DOMAIN-SUFFIX,1lib.to,🚀 节点选择
+ - DOMAIN-SUFFIX,1lib.tw,🚀 节点选择
  - DOMAIN-SUFFIX,1mobile.com,🚀 节点选择
  - DOMAIN-SUFFIX,1mobile.tw,🚀 节点选择
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
@@ -9516,6 +9532,7 @@ rules:
  - DOMAIN-SUFFIX,24smile.org,🚀 节点选择
  - DOMAIN-SUFFIX,25u.com,🚀 节点选择
  - DOMAIN-SUFFIX,2du5.com,🚀 节点选择
+ - DOMAIN-SUFFIX,2lib.org,🚀 节点选择
  - DOMAIN-SUFFIX,2lipstube.com,🚀 节点选择
  - DOMAIN-SUFFIX,2shared.com,🚀 节点选择
  - DOMAIN-SUFFIX,2waky.com,🚀 节点选择
@@ -9528,6 +9545,7 @@ rules:
  - DOMAIN-SUFFIX,3arabtv.com,🚀 节点选择
  - DOMAIN-SUFFIX,3boys2girls.com,🚀 节点选择
  - DOMAIN-SUFFIX,3d-game.com,🚀 节点选择
+ - DOMAIN-SUFFIX,3lib.net,🚀 节点选择
  - DOMAIN-SUFFIX,3proxy.ru,🚀 节点选择
  - DOMAIN-SUFFIX,3ren.ca,🚀 节点选择
  - DOMAIN-SUFFIX,3tui.net,🚀 节点选择
@@ -9840,6 +9858,7 @@ rules:
  - DOMAIN-SUFFIX,appspot.com,🚀 节点选择
  - DOMAIN-SUFFIX,appsto.re,🚀 节点选择
  - DOMAIN-SUFFIX,aptoide.com,🚀 节点选择
+ - DOMAIN-SUFFIX,ar.hao123.com,🚀 节点选择
  - DOMAIN-SUFFIX,arcgis.com,🚀 节点选择
  - DOMAIN-SUFFIX,archive.fo,🚀 节点选择
  - DOMAIN-SUFFIX,archive.is,🚀 节点选择
@@ -9860,6 +9879,7 @@ rules:
  - DOMAIN-SUFFIX,arlingtoncemetery.mil,🚀 节点选择
  - DOMAIN-SUFFIX,armorgames.com,🚀 节点选择
  - DOMAIN-SUFFIX,army.mil,🚀 节点选择
+ - DOMAIN-SUFFIX,art1lib.com,🚀 节点选择
  - DOMAIN-SUFFIX,art4tibet1998.org,🚀 节点选择
  - DOMAIN-SUFFIX,arte.tv,🚀 节点选择
  - DOMAIN-SUFFIX,artofpeacefoundation.org,🚀 节点选择
@@ -9933,7 +9953,11 @@ rules:
  - DOMAIN-SUFFIX,azure.com,🚀 节点选择
  - DOMAIN-SUFFIX,azureedge.net,🚀 节点选择
  - DOMAIN-SUFFIX,azurewebsites.net,🚀 节点选择
+ - DOMAIN-SUFFIX,b-ok.africa,🚀 节点选择
+ - DOMAIN-SUFFIX,b-ok.asia,🚀 节点选择
  - DOMAIN-SUFFIX,b-ok.cc,🚀 节点选择
+ - DOMAIN-SUFFIX,b-ok.global,🚀 节点选择
+ - DOMAIN-SUFFIX,b-ok.org,🚀 节点选择
  - DOMAIN-SUFFIX,b0ne.com,🚀 节点选择
  - DOMAIN-SUFFIX,baby-kingdom.com,🚀 节点选择
  - DOMAIN-SUFFIX,babylonbee.com,🚀 节点选择
@@ -10153,9 +10177,18 @@ rules:
  - DOMAIN-SUFFIX,bonfoundation.org,🚀 节点选择
  - DOMAIN-SUFFIX,boobstagram.com,🚀 节点选择
  - DOMAIN-SUFFIX,book.com.tw,🚀 节点选择
+ - DOMAIN-SUFFIX,book4you.org,🚀 节点选择
  - DOMAIN-SUFFIX,bookdepository.com,🚀 节点选择
  - DOMAIN-SUFFIX,bookepub.com,🚀 节点选择
+ - DOMAIN-SUFFIX,bookfi.net,🚀 节点选择
  - DOMAIN-SUFFIX,books.com.tw,🚀 节点选择
+ - DOMAIN-SUFFIX,booksc.eu,🚀 节点选择
+ - DOMAIN-SUFFIX,booksc.me,🚀 节点选择
+ - DOMAIN-SUFFIX,booksc.org,🚀 节点选择
+ - DOMAIN-SUFFIX,booksc.xyz,🚀 节点选择
+ - DOMAIN-SUFFIX,bookshome.info,🚀 节点选择
+ - DOMAIN-SUFFIX,bookshome.net,🚀 节点选择
+ - DOMAIN-SUFFIX,bookshome.world,🚀 节点选择
  - DOMAIN-SUFFIX,booktopia.com.au,🚀 节点选择
  - DOMAIN-SUFFIX,bookwalker.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,boomssr.com,🚀 节点选择
@@ -10784,6 +10817,7 @@ rules:
  - DOMAIN-SUFFIX,ddhw.info,🚀 节点选择
  - DOMAIN-SUFFIX,dditscdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,de-sci.org,🚀 节点选择
+ - DOMAIN-SUFFIX,de1lib.org,🚀 节点选择
  - DOMAIN-SUFFIX,deadhouse.org,🚀 节点选择
  - DOMAIN-SUFFIX,deadline.com,🚀 节点选择
  - DOMAIN-SUFFIX,deaftone.com,🚀 节点选择
@@ -11654,6 +11688,7 @@ rules:
  - DOMAIN-SUFFIX,gnci.org.hk,🚀 节点选择
  - DOMAIN-SUFFIX,gnews.org,🚀 节点选择
  - DOMAIN-SUFFIX,go-pki.com,🚀 节点选择
+ - DOMAIN-SUFFIX,go-to-library.sk,🚀 节点选择
  - DOMAIN-SUFFIX,go-to-zlibrary.se,🚀 节点选择
  - DOMAIN-SUFFIX,go.com,🚀 节点选择
  - DOMAIN-SUFFIX,go.jp,🚀 节点选择
@@ -11903,6 +11938,7 @@ rules:
  - DOMAIN-SUFFIX,hk-pub.com,🚀 节点选择
  - DOMAIN-SUFFIX,hk.hao123img.com,🚀 节点选择
  - DOMAIN-SUFFIX,hk01.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hk1lib.org,🚀 节点选择
  - DOMAIN-SUFFIX,hk32168.com,🚀 节点选择
  - DOMAIN-SUFFIX,hkacg.com,🚀 节点选择
  - DOMAIN-SUFFIX,hkacg.net,🚀 节点选择
@@ -12280,6 +12316,7 @@ rules:
  - DOMAIN-SUFFIX,isupportuyghurs.org,🚀 节点选择
  - DOMAIN-SUFFIX,itaboo.info,🚀 节点选择
  - DOMAIN-SUFFIX,itaiwan.gov.tw,🚀 节点选择
+ - DOMAIN-SUFFIX,italian-books.sk,🚀 节点选择
  - DOMAIN-SUFFIX,italiatibet.org,🚀 节点选择
  - DOMAIN-SUFFIX,itasoftware.com,🚀 节点选择
  - DOMAIN-SUFFIX,itemdb.com,🚀 节点选择
@@ -12611,6 +12648,9 @@ rules:
  - DOMAIN-SUFFIX,libertytimes.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,libraryinformationtechnology.com,🚀 节点选择
  - DOMAIN-SUFFIX,libredd.it,🚀 节点选择
+ - DOMAIN-SUFFIX,libsolutions.app,🚀 节点选择
+ - DOMAIN-SUFFIX,libsolutions.domains,🚀 节点选择
+ - DOMAIN-SUFFIX,libsolutions.net,🚀 节点选择
  - DOMAIN-SUFFIX,libsyn.com,🚀 节点选择
  - DOMAIN-SUFFIX,licdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,lidecheng.com,🚀 节点选择
@@ -12729,6 +12769,7 @@ rules:
  - DOMAIN-SUFFIX,m.me,🚀 节点选择
  - DOMAIN-SUFFIX,m8008.com,🚀 节点选择
  - DOMAIN-SUFFIX,ma.hao123.com,🚀 节点选择
+ - DOMAIN-SUFFIX,ma1lib.org,🚀 节点选择
  - DOMAIN-SUFFIX,macgamestore.com,🚀 节点选择
  - DOMAIN-SUFFIX,macid.co,🚀 节点选择
  - DOMAIN-SUFFIX,macromedia.com,🚀 节点选择
@@ -13429,6 +13470,7 @@ rules:
  - DOMAIN-SUFFIX,onmoon.net,🚀 节点选择
  - DOMAIN-SUFFIX,onmypc.biz,🚀 节点选择
  - DOMAIN-SUFFIX,onmypc.info,🚀 节点选择
+ - DOMAIN-SUFFIX,onmypc.net,🚀 节点选择
  - DOMAIN-SUFFIX,onmypc.org,🚀 节点选择
  - DOMAIN-SUFFIX,onmypc.us,🚀 节点选择
  - DOMAIN-SUFFIX,onthehunt.com,🚀 节点选择
@@ -14130,6 +14172,7 @@ rules:
  - DOMAIN-SUFFIX,sftindia.org,🚀 节点选择
  - DOMAIN-SUFFIX,sftuk.org,🚀 节点选择
  - DOMAIN-SUFFIX,sfx.ms,🚀 节点选择
+ - DOMAIN-SUFFIX,sg1lib.org,🚀 节点选择
  - DOMAIN-SUFFIX,sgwritings.com,🚀 节点选择
  - DOMAIN-SUFFIX,sgzhan.com,🚀 节点选择
  - DOMAIN-SUFFIX,shadeyouvpn.com,🚀 节点选择
@@ -14212,7 +14255,11 @@ rules:
  - DOMAIN-SUFFIX,sing-box.sagernet.org,🚀 节点选择
  - DOMAIN-SUFFIX,singaporepools.com.sg,🚀 节点选择
  - DOMAIN-SUFFIX,singfortibet.com,🚀 节点选择
+ - DOMAIN-SUFFIX,singlelogin.app,🚀 节点选择
+ - DOMAIN-SUFFIX,singlelogin.me,🚀 节点选择
+ - DOMAIN-SUFFIX,singlelogin.re,🚀 节点选择
  - DOMAIN-SUFFIX,singlelogin.se,🚀 节点选择
+ - DOMAIN-SUFFIX,singlelogin.site,🚀 节点选择
  - DOMAIN-SUFFIX,singpao.com.hk,🚀 节点选择
  - DOMAIN-SUFFIX,singtao.ca,🚀 节点选择
  - DOMAIN-SUFFIX,singtao.com,🚀 节点选择
@@ -15828,8 +15875,13 @@ rules:
  - DOMAIN-SUFFIX,yyjlymb.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,yysub.net,🚀 节点选择
  - DOMAIN-SUFFIX,yzzk.com,🚀 节点选择
+ - DOMAIN-SUFFIX,z-lib.gd,🚀 节点选择
+ - DOMAIN-SUFFIX,z-lib.gs,🚀 节点选择
  - DOMAIN-SUFFIX,z-lib.io,🚀 节点选择
  - DOMAIN-SUFFIX,z-lib.org,🚀 节点选择
+ - DOMAIN-SUFFIX,z-lib.ps,🚀 节点选择
+ - DOMAIN-SUFFIX,z-library.se,🚀 节点选择
+ - DOMAIN-SUFFIX,z-library.sk,🚀 节点选择
  - DOMAIN-SUFFIX,zacebook.com,🚀 节点选择
  - DOMAIN-SUFFIX,zalmos.com,🚀 节点选择
  - DOMAIN-SUFFIX,zamimg.com,🚀 节点选择
@@ -15880,6 +15932,9 @@ rules:
  - DOMAIN-SUFFIX,zippyshare.com,🚀 节点选择
  - DOMAIN-SUFFIX,zkaip.com,🚀 节点选择
  - DOMAIN-SUFFIX,zkiz.com,🚀 节点选择
+ - DOMAIN-SUFFIX,zlib.life,🚀 节点选择
+ - DOMAIN-SUFFIX,zlibcdn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,zlibcdn2.com,🚀 节点选择
  - DOMAIN-SUFFIX,zmedia.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,zodgame.us,🚀 节点选择
  - DOMAIN-SUFFIX,zoho.com,🚀 节点选择
