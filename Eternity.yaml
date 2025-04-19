@@ -49,8 +49,8 @@ proxies:
   - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
   - {name: 🇯🇵 github.com/freefq - 日本  48, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇭🇰 0|🇭🇰香港 01 | 1x HK, server: free.2apzhfa.xyz, port: 31141, type: ss, cipher: chacha20-ietf-poly1305, password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549}
-  - {name: 🇺🇸 美国 002, server: www.xinjuc.com, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: hk.freeyyds.dpdns.org}}}
   - {name: US_09, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: US_11, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: Pool_🇺🇸US_12, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws}}
   - {name: US_13, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false}
   - {name: US_14, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}}
@@ -72,7 +72,7 @@ proxies:
   - {name: 🇺🇸 美国+CloudFlare节点 6, server: 172.64.33.110, port: 443, type: trojan, password: Trevely, sni: trojan.trevely.us.kg, skip-cert-verify: false}
   - {name: 🇺🇸 美国+CloudFlare节点 7, server: 172.67.130.66, port: 443, type: trojan, password: trojan, sni: test-a23.pages.dev, skip-cert-verify: false}
   - {name: 🇺🇸 美国+CloudFlare节点 8, server: 173.245.59.110, port: 443, type: trojan, password: Trevely, sni: trojan.trevely.us.kg, skip-cert-verify: false}
-  - {name: 🇩🇪 _GB_英国->🇩🇪_DE_德国, server: 51.15.15.82, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 2|🇺🇸1 |  3.3MB/s, server: 185.189.32.179, port: 22702, type: vmess, uuid: 483a1cce-af9b-4416-d7c6-10b9b63be66f, alterId: 0, cipher: auto, tls: false}
   - {name: _01, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
@@ -155,8 +155,8 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - 🇺🇸 美国 002
       - US_09
+      - US_11
       - Pool_🇺🇸US_12
       - US_13
       - US_14
@@ -178,7 +178,7 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 6
       - 🇺🇸 美国+CloudFlare节点 7
       - 🇺🇸 美国+CloudFlare节点 8
-      - 🇩🇪 _GB_英国->🇩🇪_DE_德国
+      - 2|🇺🇸1 |  3.3MB/s
       - _01
       - ZZ_20
       - ZZ_21
@@ -296,8 +296,8 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - 🇺🇸 美国 002
       - US_09
+      - US_11
       - Pool_🇺🇸US_12
       - US_13
       - US_14
@@ -319,7 +319,7 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 6
       - 🇺🇸 美国+CloudFlare节点 7
       - 🇺🇸 美国+CloudFlare节点 8
-      - 🇩🇪 _GB_英国->🇩🇪_DE_德国
+      - 2|🇺🇸1 |  3.3MB/s
       - _01
       - ZZ_20
       - ZZ_21
@@ -393,8 +393,8 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - 🇺🇸 美国 002
       - US_09
+      - US_11
       - Pool_🇺🇸US_12
       - US_13
       - US_14
@@ -416,7 +416,7 @@ proxy-groups:
       - 🇺🇸 美国+CloudFlare节点 6
       - 🇺🇸 美国+CloudFlare节点 7
       - 🇺🇸 美国+CloudFlare节点 8
-      - 🇩🇪 _GB_英国->🇩🇪_DE_德国
+      - 2|🇺🇸1 |  3.3MB/s
       - _01
       - ZZ_20
       - ZZ_21
@@ -446,8 +446,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 002
       - US_09
+      - US_11
       - Pool_🇺🇸US_12
       - US_13
       - US_14
@@ -525,7 +525,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇩🇪 _GB_英国->🇩🇪_DE_德国
+      - 2|🇺🇸1 |  3.3MB/s
       - _01
       - ZZ_20
       - ZZ_21
@@ -555,8 +555,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 002
       - US_09
+      - US_11
       - Pool_🇺🇸US_12
       - US_13
       - US_14
