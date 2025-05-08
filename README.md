@@ -74,9 +74,9 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyYmUwYzk1NC00MjkxLTQ1ZWEtYjQ3ZC1jYTcxMzE4MDU1MGI@111.29.57.125:52612#%F0%9F%87%AD%F0%9F%87%B0%2012%7C%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgMTJ88J+HrfCfh7Ag6aaZ5rivNXxAcmlwYW9qaWVkaWFuIiwiYWRkIjoiY2xvdWRnZC5jb2Vtbi5jb20iLCJwb3J0IjoiNDYwMDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiNGM1YThhNzUtN2Q2NS00MGE5LThjM2ItYTY3YWJhZTA4NTM0IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii96aC1jbiIsImhvc3QiOiJjbG91ZGdkLmNvZW1uLmNvbSIsInRscyI6IiJ9
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZGM0OGE3YS1iNjE4LTQ1YWYtYTgzMS01YWZiZDY4NmIwMmY@gg21.hangfengjiasu.com:12202#%F0%9F%87%AD%F0%9F%87%B0%2012%7C%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF6%7C%40ripaojiedian
-    vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9KOasoui/juiuoumYhVlvdXR1YmXnoLTop6PotYTmupDlkJspIDE5IiwiYWRkIjoiMTcyLjY3LjE2Ny4xMDMiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImRmMGE0M2NhLTE5YjItNWE2OS01MjEzLTljYmE0ZjJlMmM1ZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIva2ducHZ3cyIsImhvc3QiOiJsLm9sZXguY2YiLCJ0bHMiOiJ0bHMifQ==
-    trojan://telegram-id-directvpn@3.64.17.216:22222?allowInsecure=0&sni=trojan.burgerip.co.uk#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%2BAmazon%2BEC2%E6%9C%8D%E5%8A%A1%E5%99%A8%202
-    trojan://telegram-id-privatevpns@3.64.191.45:22222?allowInsecure=0&sni=sni=trojan.burgerip.co.uk#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%2BAmazon%2BEC2%E6%9C%8D%E5%8A%A1%E5%99%A8%203
+    vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IDA0MCIsImFkZCI6IjJlMjFjZWRjLWZhOGItNDAyMC04Y2UwLTM5MGU3Mjg3ZDI3Ni44OTA2MDMucHAudWEiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjU0NTNhZTI2LTI1MGQtNGU3OS1iNGVjLTAxNmJhZjgwNjg2NSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvaDdSY3UweTMwbGhqZFZqSjNnYzRhaiIsImhvc3QiOiIyRTIxQ0VEYy1mQThCLTQwMjAtOENlMC0zOTBlNzI4N0QyNzYuODkwNjAzLlBwLnVBIiwidGxzIjoidGxzIn0=
+    vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IDAzMCIsImFkZCI6IjEwNC4xOC4xNDkuNzYiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImRlOTRjYzBhLTA1OTItNDk2OS1iMWZjLTk3ZWE4ZjBlYTBiMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYWEiLCJob3N0IjoidXMua2twLm1lLmV1Lm9yZyIsInRscyI6InRscyJ9
+    trojan://081a4198-d664-4bc5-a7c6-e35982da964b@jgwhdlb4.gaox.ml:443?allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%28%E6%AC%A2%E8%BF%8E%E8%AE%A2%E9%98%85Youtube%E7%A0%B4%E8%A7%A3%E8%B5%84%E6%BA%90%E5%90%9B%29%2010
     trojan://telegram-id-privatevpns@3.67.211.46:22222?allowInsecure=0&sni=trojan.burgerip.co.uk#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%2BAmazon%2BEC2%E6%9C%8D%E5%8A%A1%E5%99%A8%204
     trojan://telegram-id-directvpn@3.78.23.212:22222?allowInsecure=0&sni=trojan.burgerip.co.uk#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%2BAmazon%2BEC2%E6%9C%8D%E5%8A%A1%E5%99%A8%205
     trojan://telegram-id-privatevpns@13.36.4.38:22222?allowInsecure=0&sni=trojan.burgerip.co.uk#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%2BAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
@@ -97,13 +97,12 @@ Fork from TopFreeProxies.
     trojan://cf13832b-4ca0-4fee-8e85-2b2411104e75@us004.421421.xyz:20230?allowInsecure=0&sni=421421.xyz#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%2B%E4%BF%84%E5%8B%92%E5%86%88%E5%B7%9E%E6%B3%A2%E7%89%B9%E5%85%B0Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
     trojan://telegram-id-directvpn@54.86.248.206:22222?allowInsecure=0&sni=trojan.burgerip.co.uk#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%2B%E5%BC%97%E5%90%89%E5%B0%BC%E4%BA%9A%E5%B7%9E%E9%98%BF%E4%BB%80%E6%9C%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
     trojan://telegram-id-privatevpns@16.171.91.51:22222?allowInsecure=0&sni=trojan.burgerip.co.uk#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%2B%E6%83%A0%E6%99%AEHP
-    vmess://eyJ2IjoiMiIsInBzIjoi8J+Ht/Cfh7ogUlXwn5iIU1NSU1VCXzQzMjgzMzE2NyIsImFkZCI6IjE5NC44Ny4zMS4xNjAiLCJwb3J0IjoiODA4MSIsInR5cGUiOiJub25lIiwiaWQiOiJhN2UwMGMyZi00MTFhLTQzOGYtOTExOS0wZjAyMmE4NWE1ZTMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoidHJvamFuLmJ1cmdlcmlwLmNvLnVrIiwidGxzIjoiIn0=
-    ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@134.195.196.205:5004#%F0%9F%87%AA%F0%9F%87%BA%20%E6%AC%A7%E6%B4%B2%28%E6%AC%A2%E8%BF%8E%E8%AE%A2%E9%98%85Youtube%E7%A0%B4%E8%A7%A3%E8%B5%84%E6%BA%90%E5%90%9B%29%2011
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.150:443#UM%F0%9F%98%88SSRSUB_108119541
+    vmess://eyJ2IjoiMiIsInBzIjoiMTnvvZ5UR+mikemBk0BzdHltZWkxIiwiYWRkIjoibXBkZS5jbG91ZGZsYXJlLjE4MjY4Mi54eXoiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImJhY2ZjZGYzLWFiYzEtMzhlZS05YTcwLTZjZmJjNzI2MjFjNyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvaGxzL2NjdHY1cGhkLm0zdTgiLCJob3N0IjoidjJkZTEuMzMzNzg5Lnh5eiIsInRscyI6InRscyJ9
+    vmess://eyJ2IjoiMiIsInBzIjoi8J+Ht/Cfh7ogUlXwn5iIU1NSU1VCXzQzMjgzMzE2NyIsImFkZCI6IjE5NC44Ny4zMS4xNjAiLCJwb3J0IjoiODA4MSIsInR5cGUiOiJub25lIiwiaWQiOiJhN2UwMGMyZi00MTFhLTQzOGYtOTExOS0wZjAyMmE4NWE1ZTMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii9obHMvY2N0djVwaGQubTN1OCIsImhvc3QiOiJ2MmRlMS4zMzM3ODkueHl6IiwidGxzIjoiIn0=
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyODUyYzE2NC0xYTViLTQ2MjgtYjY2OC0zNTU0YzdhYTQ0NTM@61.172.235.22:11001#CH%F0%9F%98%88SSRSUB_1834157617
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5NmE4YzI0My0wMjE5LTQwM2UtYjhmYS1mNDhmNjk2NDM1ZTE@iepl1.nezha.tech:33577#CH%F0%9F%98%88SSRSUB_3783732564
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNDBmYjU2Yy1mNTM4LTRiZjItOTUxZS1iNjQ1ZjQ4Yjk5Mzc@hzhz1.sssyun.xyz:39202#CH%F0%9F%98%88SSRSUB_1647550822
-    trojan://99b166ff-25ab-4bda-9493-618d491c2a9a@us232.support-putin-kill-all-ukrainians.98848.xyz:443?allowInsecure=1&sni=us232.support-putin-kill-all-ukrainians.98848.xyz#%F0%9F%87%AA%F0%9F%87%BA%20%E6%AC%A7%E6%B4%B2%28%E6%AC%A2%E8%BF%8E%E8%AE%A2%E9%98%85Youtube%E7%A0%B4%E8%A7%A3%E8%B5%84%E6%BA%90%E5%90%9B%29%208
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.150:443#UM%F0%9F%98%88SSRSUB_108119541
     ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.95.35.11:443#UM%F0%9F%98%88SSRSUB_549064432
     ss://YWVzLTI1Ni1jZmI6Y2Ruc3NyLnNzcnN1Yi5jb20@cdnssr.ssrsub.com:443#SSR%E5%AE%B9%E6%98%93%E8%A2%AB%E9%98%BB%E6%96%AD%20%E8%BF%BD%E6%B1%82%E7%A8%B3%E5%AE%9A%E8%AF%B7%E6%9B%B4%E6%8D%A2SS%2FV2Ray%2FTrojan%E8%AE%A2%E9%98%85
     ss://cmM0LW1kNTpwYXNzZncyeHM0ZSE@ssr3.ssrsub.com:8333#%E5%85%AC%E7%9B%8A%E6%9C%BA%E5%9C%BAhttps%2F%2Fbit.ly%2F3BPeo5G
@@ -121,17 +120,18 @@ Fork from TopFreeProxies.
     trojan://telegram-id-privatevpns@35.181.188.78:22222?allowInsecure=0&sni=trojan.burgerip.co.uk#%F0%9F%87%AB%F0%9F%87%B7%20%E6%B3%95%E5%9B%BD%2B%E5%B7%B4%E9%BB%8EAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
     trojan://SQXdz0p1cP@fr1.ftpcomand.com:110?allowInsecure=0#%F0%9F%87%AB%F0%9F%87%AE%20%E8%8A%AC%E5%85%B0%2B%E8%B5%AB%E5%B0%94%E8%BE%9B%E5%9F%BAHetzner%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
     trojan://c471ef32-798d-40a0-a57c-acf3475a204e@naiu-hk.05vr9nyqg5.download:13008?allowInsecure=0&sni=cloudflare.node-ssl.cdn-alibaba.com#%F0%9F%87%A8%F0%9F%87%B3%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%B9%BF%E5%B7%9E%E5%B8%82%2B%E7%A7%BB%E5%8A%A8
+    trojan://cf8c51d3-e692-46a6-b351-4c5ef0b5efc3@naiu-jp.05vr9nyqg5.download:13018?allowInsecure=0&sni=cloudflare.node-ssl.cdn-alibaba.com#%F0%9F%87%A8%F0%9F%87%B3%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%B9%BF%E5%B7%9E%E5%B8%82%2B%E7%A7%BB%E5%8A%A8%202
     
 
 
 </details>
 
 ### 所有节点
-合并节点总数: `690`
+合并节点总数: `698`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `71`
+- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `70`
 - [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `156`
 - [freefq/free](https://github.com/freefq/free), 节点数量: `14`
 - [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `1`
