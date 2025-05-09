@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 13|🇯🇵 日本4|@ripaojiedian, server: 47.79.88.113, port: 53710, type: vmess, uuid: 1db838d0-ecd2-4b73-a7f8-5af6b401d833, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 JP😈SSRSUB_3557893587, server: yd2.ainivp.com, port: 33202, type: vmess, uuid: 9204afcd-023e-781f-1abc-c12efccd1344, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: yd2.ainivp.com}}}
+  - {name: 🇯🇵 JP😈SSRSUB_3528396055, server: 54.199.66.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 韩国+V2CROSS.COM, server: 117.123.144.67, port: 28825, type: trojan, password: 95b, sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com, skip-cert-verify: false}
   - {name: 🇰🇷 韩国+V2CROSS.COM 2, server: 211.107.201.14, port: 25001, type: trojan, password: 95b, sni: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com, skip-cert-verify: false}
   - {name: 🇯🇵 日本+东京Amazon数据中心, server: bgroup.node1.t.nodelist-airport.com, port: 50001, type: trojan, password: 2155145a-b1b5-443a-8977-670f6bd10f02, skip-cert-verify: false}
@@ -49,9 +49,8 @@ proxies:
   - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: hk2.fgmcx.top, port: 41049, type: ss, cipher: chacha20-ietf-poly1305, password: be443689-bc64-49ff-85a5-8eecaa2235d3}
   - {name: 🇭🇰 12|🇭🇰 香港3|@ripaojiedian, server: 111.29.57.125, port: 52612, type: ss, cipher: chacha20-ietf-poly1305, password: 2be0c954-4291-45ea-b47d-ca713180550b}
   - {name: 🇭🇰 12|🇭🇰 香港5|@ripaojiedian, server: cloudgd.coemn.com, port: 46003, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: cloudgd.coemn.com}}}
-  - {name: "🇭🇰 12|🇭🇰 香港6|@ripaojiediantrojan//MeQVCkMzCg@vui.sysucc.ga49865?allowInsecure=1#🇺🇸 美国(欢迎订阅Youtube破解资源君) 25", server: gg21.hangfengjiasu.com, port: 12202, type: ss, cipher: chacha20-ietf-poly1305, password: cdc48a7a-b618-45af-a831-5afbd686b02f}
+  - {name: 🇺🇸 美国 040, server: 2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua, port: 443, type: vmess, uuid: 5453ae26-250d-4e79-b4ec-016baf806865, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /h7Rcu0y30lhjdVjJ3gc4aj, headers: {Host: 2E21CEDc-fA8B-4020-8Ce0-390e7287D276.890603.Pp.uA}}}
   - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 24, server: free.spcloud.us, port: 10001, type: trojan, password: fdb6f3a3-9d29-47c3-8c92-5a279626dc5b, skip-cert-verify: true}
-  - {name: 🇺🇸 美国+Amazon+EC2服务器, server: 3.143.42.57, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon+EC2服务器 2, server: 3.64.17.216, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon+EC2服务器 3, server: 3.64.191.45, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: sni=trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇺🇸 美国+Amazon+EC2服务器 4, server: 3.67.211.46, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
@@ -80,7 +79,6 @@ proxies:
   - {name: Other😈SSRSUB_2578581128, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 Americas😈SSRSUB_518610679, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}}
   - {name: 🇷🇺 RU😈SSRSUB_432833167, server: 194.87.31.160, port: 8081, type: vmess, uuid: a7e00c2f-411a-438f-9119-0f022a85a5e3, alterId: 0, cipher: auto, tls: false}
-  - {name: Euro😈SSRSUB_2663973607, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
   - {name: UM😈SSRSUB_108119541, server: 205.134.180.150, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2}
   - {name: CH😈SSRSUB_1834157617, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 2852c164-1a5b-4628-b668-3554c7aa4453}
   - {name: CH😈SSRSUB_3783732564, server: iepl1.nezha.tech, port: 33577, type: ss, cipher: chacha20-ietf-poly1305, password: 96a8c243-0219-403e-b8fa-f48f696435e1}
@@ -97,6 +95,7 @@ proxies:
   - {name: 🇮🇪 爱尔兰+都柏林Amazon数据中心, server: 176.34.228.179, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇮🇪 爱尔兰+都柏林Amazon数据中心 2, server: 52.18.111.240, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇮🇪 爱尔兰+都柏林Amazon数据中心 3, server: 54.194.131.175, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇩🇪 德国+黑森州法兰克福Amazon数据中心, server: 18.196.105.231, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,8 +111,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3557893587
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
@@ -156,9 +155,8 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港6|@ripaojiediantrojan//MeQVCkMzCg@vui.sysucc.ga49865?allowInsecure=1#🇺🇸 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇸 美国 040
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 24
-      - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
       - 🇺🇸 美国+Amazon+EC2服务器 4
@@ -187,7 +185,6 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - Euro😈SSRSUB_2663973607
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
@@ -204,6 +201,7 @@ proxy-groups:
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心 2
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
+      - 🇩🇪 德国+黑森州法兰克福Amazon数据中心
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,8 +252,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3557893587
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
@@ -298,9 +296,8 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港6|@ripaojiediantrojan//MeQVCkMzCg@vui.sysucc.ga49865?allowInsecure=1#🇺🇸 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇸 美国 040
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 24
-      - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
       - 🇺🇸 美国+Amazon+EC2服务器 4
@@ -329,7 +326,6 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - Euro😈SSRSUB_2663973607
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
@@ -346,14 +342,15 @@ proxy-groups:
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心 2
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
+      - 🇩🇪 德国+黑森州法兰克福Amazon数据中心
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3557893587
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
@@ -396,9 +393,8 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港6|@ripaojiediantrojan//MeQVCkMzCg@vui.sysucc.ga49865?allowInsecure=1#🇺🇸 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇸 美国 040
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 24
-      - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
       - 🇺🇸 美国+Amazon+EC2服务器 4
@@ -427,7 +423,6 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - Euro😈SSRSUB_2663973607
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
@@ -444,15 +439,15 @@ proxy-groups:
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心 2
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
+      - 🇩🇪 德国+黑森州法兰克福Amazon数据中心
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 12|🇭🇰 香港6|@ripaojiediantrojan//MeQVCkMzCg@vui.sysucc.ga49865?allowInsecure=1#🇺🇸 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇸 美国 040
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 24
-      - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
       - 🇺🇸 美国+Amazon+EC2服务器 4
@@ -480,8 +475,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3557893587
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇰🇷 韩国+V2CROSS.COM
       - 🇰🇷 韩国+V2CROSS.COM 2
       - 🇯🇵 日本+东京Amazon数据中心
@@ -524,7 +519,6 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港6|@ripaojiediantrojan//MeQVCkMzCg@vui.sysucc.ga49865?allowInsecure=1#🇺🇸 美国(欢迎订阅Youtube破解资源君) 25
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -538,7 +532,6 @@ proxy-groups:
       - Other😈SSRSUB_2578581128
       - 🇺🇸 Americas😈SSRSUB_518610679
       - 🇷🇺 RU😈SSRSUB_432833167
-      - Euro😈SSRSUB_2663973607
       - UM😈SSRSUB_108119541
       - CH😈SSRSUB_1834157617
       - CH😈SSRSUB_3783732564
@@ -555,15 +548,15 @@ proxy-groups:
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心 2
       - 🇮🇪 爱尔兰+都柏林Amazon数据中心 3
+      - 🇩🇪 德国+黑森州法兰克福Amazon数据中心
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 12|🇭🇰 香港6|@ripaojiediantrojan//MeQVCkMzCg@vui.sysucc.ga49865?allowInsecure=1#🇺🇸 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇸 美国 040
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 24
-      - 🇺🇸 美国+Amazon+EC2服务器
       - 🇺🇸 美国+Amazon+EC2服务器 2
       - 🇺🇸 美国+Amazon+EC2服务器 3
       - 🇺🇸 美国+Amazon+EC2服务器 4
@@ -601,7 +594,6 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港6|@ripaojiediantrojan//MeQVCkMzCg@vui.sysucc.ga49865?allowInsecure=1#🇺🇸 美国(欢迎订阅Youtube破解资源君) 25
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
@@ -621,8 +613,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 JP😈SSRSUB_3557893587
+      - 🇯🇵 JP😈SSRSUB_3528396055
       - 🇯🇵 日本+东京Amazon数据中心
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
