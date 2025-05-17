@@ -5,15 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇨🇳 关注TG@dafei_di 台湾 01, server: records.godeove.xyz, port: 43125, type: ssr, cipher: chacha20-ietf, password: sGWdzYDx5J, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇯🇵 关注TG@dafei_di 日本 01, server: jp007.421421.xyz, port: 20230, type: trojan, password: 5a81db08-7af3-49a4-b089-b7a5b2c24c38, sni: www.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 关注TG@dafei_di 日本 04, server: i.needss.top, port: 20017, type: vmess, uuid: 4f9c8abd-1c00-485b-b82b-477d32f52228, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 关注TG@dafei_di 日本 07, server: 59.42.247.189, port: 8004, type: vmess, uuid: ebb3b22f-1485-40a3-aa37-ea7e444c2327, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nmkj, headers: {Host: www.bing.com}}}
   - {name: 🇯🇵 关注TG@dafei_di 日本 24, server: 183.237.84.53, port: 55002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 关注TG@dafei_di 日本 34, server: 183.36.41.50, port: 19008, type: ss, cipher: aes-256-gcm, password: 1d6fc1e2-a36d-4bd7-b0d0-e901343d9b97}
-  - {name: 🇰🇷 关注TG@dafei_di 韩国 08, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: 🇰🇷 关注TG@dafei_di 韩国 11, server: 13.209.10.213, port: 6666, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228}
   - {name: 🇰🇷 关注TG@dafei_di 韩国 14, server: 59.3.209.82, port: 50000, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 关注TG@dafei_di 台湾 01, server: records.godeove.xyz, port: 43125, type: ssr, cipher: chacha20-ietf, password: sGWdzYDx5J, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇯🇵 关注TG@dafei_di 日本 04, server: i.needss.top, port: 20017, type: vmess, uuid: 4f9c8abd-1c00-485b-b82b-477d32f52228, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 关注TG@dafei_di 台湾 04, server: wb.kaiqsz.com, port: 42765, type: trojan, password: 4abad10b-be0d-48bf-ab8a-3311463084d4, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true}
   - {name: 🇨🇳 关注TG@dafei_di 台湾 05, server: 210.61.97.241, port: 81, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true}
   - {name: 🇭🇰 关注TG@dafei_di 香港 01, server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
@@ -50,8 +49,8 @@ proxies:
   - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 18, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true}
   - {name: US_09, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
   - {name: US_10, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false}
   - {name: US_11, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
@@ -64,26 +63,24 @@ proxies:
   - {name: 🇺🇸 关注TG@dafei_di 美国 05, server: 72135393-swb8g0-sxzls8-1gxvd.cu.plebai.net, port: 15229, type: trojan, password: 398e0d38-8649-11ef-959c-f23c9164ca5d, sni: 72135393-swb8g0-sxzls8-1gxvd.cu.plebai.net, skip-cert-verify: true}
   - {name: 🇺🇸 关注TG@dafei_di 美国 10, server: us003.421421.xyz, port: 20230, type: trojan, password: 5a81db08-7af3-49a4-b089-b7a5b2c24c38, sni: www.alibaba.com, skip-cert-verify: true}
   - {name: 🇺🇸 关注TG@dafei_di 美国 15, server: 45.67.215.5, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
-  - {name: 🇺🇸 关注TG@dafei_di 美国 22, server: 104.21.112.1, port: 2087, type: vmess, uuid: 1c36906e-1a21-4330-b04f-85baf1a6ff26, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: rak1d3.777269.xyz}}}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 17, server: kr01.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true}
   - {name: 🇺🇸 关注TG@dafei_di 美国 25, server: 160.79.105.81, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true}
   - {name: 🇺🇸 关注TG@dafei_di 美国 31, server: 172.67.144.126, port: 443, type: trojan, password: 895552fa-6284-4c1d-ba00-3944e0c7c626, sni: CFR56ty7890.288288.sHOP, skip-cert-verify: true}
   - {name: 🇺🇸 关注TG@dafei_di 美国 50, server: 172.67.204.120, port: 443, type: trojan, password: 4a3ee276-f50f-46f6-ba4d-13571732ab70, sni: ddcDe.890603.XYz, skip-cert-verify: true}
-  - {name: 🇺🇸 关注TG@dafei_di 美国 58, server: 104.21.32.1, port: 443, type: trojan, password: ad4a124c-12fb-4467-9ad0-dc6d9b509ac0, sni: 7bhui.191262.xyz, skip-cert-verify: true}
   - {name: 🇺🇸 关注TG@dafei_di 美国 62, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
   - {name: 🇺🇸 关注TG@dafei_di 美国 78, server: 172.67.188.77, port: 443, type: trojan, password: 15153c1d-fc81-4b2a-9689-7b4e4a72dce5, sni: edfr4.890604.dpdns.org, skip-cert-verify: true}
   - {name: 🇺🇸 关注TG@dafei_di 美国 83, server: 172.67.205.22, port: 443, type: trojan, password: 5453ae26-250d-4e79-b4ec-016baf806865, sni: 1SSdDdFfffHhHJJJJ.20220420.Pp.uA, skip-cert-verify: true}
+  - {name: 🇺🇸 关注TG@dafei_di 美国 85, server: 172.67.133.248, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: DDd.890604.FIlEGear-sG.Me, skip-cert-verify: true}
+  - {name: 🇺🇸 关注TG@dafei_di 美国 112, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}}
   - {name: Euro😈SSRSUB_1145647923, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 167.86.82.191, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1z7k5IMlPsvk}
-  - {name: RO_08, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
-  - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _02, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
+  - {name: 3|🌀1-T1 |  2.0MB/s|22%|Openai, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇵🇹 关注TG@dafei_di 葡萄牙 01, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: _01, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: _03, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false}
   - {name: _04, server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true}
   - {name: _05, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false}
   - {name: Relay_-🇬🇧GB_06, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 关注TG@dafei_di 德国 01, server: 26a33cb5-swb8g0-t1bnjq-1krtb.cu.plebai.net, port: 15229, type: trojan, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, sni: 26a33cb5-swb8g0-t1bnjq-1krtb.cu.plebai.net, skip-cert-verify: true}
   - {name: 🇩🇪 关注TG@dafei_di 德国 02, server: sd.needss.top, port: 52100, type: vmess, uuid: 4f9c8abd-1c00-485b-b82b-477d32f52228, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 关注TG@dafei_di 德国 08, server: 162.159.152.205, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true}
   - {name: 🇩🇪 关注TG@dafei_di 德国 14, server: 52.58.168.251, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true}
@@ -97,6 +94,8 @@ proxies:
   - {name: 🇫🇷 关注TG@dafei_di 法国 03, server: 13.37.147.179, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true}
   - {name: 🇫🇷 关注TG@dafei_di 法国 04, server: 13.37.170.237, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true}
   - {name: 🇫🇷 关注TG@dafei_di 法国 08, server: lt.fxlcn.com, port: 45417, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 关注TG@dafei_di 英国 02, server: 217.163.76.51, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true}
+  - {name: 🇬🇧 关注TG@dafei_di 英国 35, server: 217.163.76.227, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: 217.163.76.227%3A443%3FallowInsecure%3D0%26sni%3Dicecream.955850.xyz%26type%3Dws%26host%3Dicecream.955850.xyz%26path%3D%2Fproxyip%3D217.163.76.227, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,15 +111,14 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇨🇳 关注TG@dafei_di 台湾 01
       - 🇯🇵 关注TG@dafei_di 日本 01
-      - 🇯🇵 关注TG@dafei_di 日本 04
       - 🇯🇵 关注TG@dafei_di 日本 07
       - 🇯🇵 关注TG@dafei_di 日本 24
       - 🇯🇵 关注TG@dafei_di 日本 34
-      - 🇰🇷 关注TG@dafei_di 韩国 08
       - 🇰🇷 关注TG@dafei_di 韩国 11
       - 🇰🇷 关注TG@dafei_di 韩国 14
-      - 🇨🇳 关注TG@dafei_di 台湾 01
+      - 🇯🇵 关注TG@dafei_di 日本 04
       - 🇨🇳 关注TG@dafei_di 台湾 04
       - 🇨🇳 关注TG@dafei_di 台湾 05
       - 🇭🇰 关注TG@dafei_di 香港 01
@@ -157,8 +155,8 @@ proxy-groups:
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 18
       - US_09
       - US_10
       - US_11
@@ -171,26 +169,24 @@ proxy-groups:
       - 🇺🇸 关注TG@dafei_di 美国 05
       - 🇺🇸 关注TG@dafei_di 美国 10
       - 🇺🇸 关注TG@dafei_di 美国 15
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇺🇸 关注TG@dafei_di 美国 22
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 17
       - 🇺🇸 关注TG@dafei_di 美国 25
       - 🇺🇸 关注TG@dafei_di 美国 31
       - 🇺🇸 关注TG@dafei_di 美国 50
-      - 🇺🇸 关注TG@dafei_di 美国 58
       - 🇺🇸 关注TG@dafei_di 美国 62
       - 🇺🇸 关注TG@dafei_di 美国 78
       - 🇺🇸 关注TG@dafei_di 美国 83
+      - 🇺🇸 关注TG@dafei_di 美国 85
+      - 🇺🇸 关注TG@dafei_di 美国 112
       - Euro😈SSRSUB_1145647923
-      - github.com/freefq - 广东省移动 7
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - RO_08
-      - ZZ_20
-      - ZZ_21
-      - _02
+      - 3|🌀1-T1 |  2.0MB/s|22%|Openai
+      - 🇵🇹 关注TG@dafei_di 葡萄牙 01
+      - _01
       - _03
       - _04
       - _05
       - Relay_-🇬🇧GB_06
+      - 🇩🇪 关注TG@dafei_di 德国 01
       - 🇩🇪 关注TG@dafei_di 德国 02
       - 🇩🇪 关注TG@dafei_di 德国 08
       - 🇩🇪 关注TG@dafei_di 德国 14
@@ -204,6 +200,8 @@ proxy-groups:
       - 🇫🇷 关注TG@dafei_di 法国 03
       - 🇫🇷 关注TG@dafei_di 法国 04
       - 🇫🇷 关注TG@dafei_di 法国 08
+      - 🇬🇧 关注TG@dafei_di 英国 02
+      - 🇬🇧 关注TG@dafei_di 英国 35
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,15 +252,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 关注TG@dafei_di 台湾 01
       - 🇯🇵 关注TG@dafei_di 日本 01
-      - 🇯🇵 关注TG@dafei_di 日本 04
       - 🇯🇵 关注TG@dafei_di 日本 07
       - 🇯🇵 关注TG@dafei_di 日本 24
       - 🇯🇵 关注TG@dafei_di 日本 34
-      - 🇰🇷 关注TG@dafei_di 韩国 08
       - 🇰🇷 关注TG@dafei_di 韩国 11
       - 🇰🇷 关注TG@dafei_di 韩国 14
-      - 🇨🇳 关注TG@dafei_di 台湾 01
+      - 🇯🇵 关注TG@dafei_di 日本 04
       - 🇨🇳 关注TG@dafei_di 台湾 04
       - 🇨🇳 关注TG@dafei_di 台湾 05
       - 🇭🇰 关注TG@dafei_di 香港 01
@@ -299,8 +296,8 @@ proxy-groups:
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 18
       - US_09
       - US_10
       - US_11
@@ -313,26 +310,24 @@ proxy-groups:
       - 🇺🇸 关注TG@dafei_di 美国 05
       - 🇺🇸 关注TG@dafei_di 美国 10
       - 🇺🇸 关注TG@dafei_di 美国 15
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇺🇸 关注TG@dafei_di 美国 22
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 17
       - 🇺🇸 关注TG@dafei_di 美国 25
       - 🇺🇸 关注TG@dafei_di 美国 31
       - 🇺🇸 关注TG@dafei_di 美国 50
-      - 🇺🇸 关注TG@dafei_di 美国 58
       - 🇺🇸 关注TG@dafei_di 美国 62
       - 🇺🇸 关注TG@dafei_di 美国 78
       - 🇺🇸 关注TG@dafei_di 美国 83
+      - 🇺🇸 关注TG@dafei_di 美国 85
+      - 🇺🇸 关注TG@dafei_di 美国 112
       - Euro😈SSRSUB_1145647923
-      - github.com/freefq - 广东省移动 7
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - RO_08
-      - ZZ_20
-      - ZZ_21
-      - _02
+      - 3|🌀1-T1 |  2.0MB/s|22%|Openai
+      - 🇵🇹 关注TG@dafei_di 葡萄牙 01
+      - _01
       - _03
       - _04
       - _05
       - Relay_-🇬🇧GB_06
+      - 🇩🇪 关注TG@dafei_di 德国 01
       - 🇩🇪 关注TG@dafei_di 德国 02
       - 🇩🇪 关注TG@dafei_di 德国 08
       - 🇩🇪 关注TG@dafei_di 德国 14
@@ -346,21 +341,22 @@ proxy-groups:
       - 🇫🇷 关注TG@dafei_di 法国 03
       - 🇫🇷 关注TG@dafei_di 法国 04
       - 🇫🇷 关注TG@dafei_di 法国 08
+      - 🇬🇧 关注TG@dafei_di 英国 02
+      - 🇬🇧 关注TG@dafei_di 英国 35
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 关注TG@dafei_di 台湾 01
       - 🇯🇵 关注TG@dafei_di 日本 01
-      - 🇯🇵 关注TG@dafei_di 日本 04
       - 🇯🇵 关注TG@dafei_di 日本 07
       - 🇯🇵 关注TG@dafei_di 日本 24
       - 🇯🇵 关注TG@dafei_di 日本 34
-      - 🇰🇷 关注TG@dafei_di 韩国 08
       - 🇰🇷 关注TG@dafei_di 韩国 11
       - 🇰🇷 关注TG@dafei_di 韩国 14
-      - 🇨🇳 关注TG@dafei_di 台湾 01
+      - 🇯🇵 关注TG@dafei_di 日本 04
       - 🇨🇳 关注TG@dafei_di 台湾 04
       - 🇨🇳 关注TG@dafei_di 台湾 05
       - 🇭🇰 关注TG@dafei_di 香港 01
@@ -397,8 +393,8 @@ proxy-groups:
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 18
       - US_09
       - US_10
       - US_11
@@ -411,26 +407,24 @@ proxy-groups:
       - 🇺🇸 关注TG@dafei_di 美国 05
       - 🇺🇸 关注TG@dafei_di 美国 10
       - 🇺🇸 关注TG@dafei_di 美国 15
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇺🇸 关注TG@dafei_di 美国 22
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 17
       - 🇺🇸 关注TG@dafei_di 美国 25
       - 🇺🇸 关注TG@dafei_di 美国 31
       - 🇺🇸 关注TG@dafei_di 美国 50
-      - 🇺🇸 关注TG@dafei_di 美国 58
       - 🇺🇸 关注TG@dafei_di 美国 62
       - 🇺🇸 关注TG@dafei_di 美国 78
       - 🇺🇸 关注TG@dafei_di 美国 83
+      - 🇺🇸 关注TG@dafei_di 美国 85
+      - 🇺🇸 关注TG@dafei_di 美国 112
       - Euro😈SSRSUB_1145647923
-      - github.com/freefq - 广东省移动 7
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - RO_08
-      - ZZ_20
-      - ZZ_21
-      - _02
+      - 3|🌀1-T1 |  2.0MB/s|22%|Openai
+      - 🇵🇹 关注TG@dafei_di 葡萄牙 01
+      - _01
       - _03
       - _04
       - _05
       - Relay_-🇬🇧GB_06
+      - 🇩🇪 关注TG@dafei_di 德国 01
       - 🇩🇪 关注TG@dafei_di 德国 02
       - 🇩🇪 关注TG@dafei_di 德国 08
       - 🇩🇪 关注TG@dafei_di 德国 14
@@ -444,14 +438,16 @@ proxy-groups:
       - 🇫🇷 关注TG@dafei_di 法国 03
       - 🇫🇷 关注TG@dafei_di 法国 04
       - 🇫🇷 关注TG@dafei_di 法国 08
+      - 🇬🇧 关注TG@dafei_di 英国 02
+      - 🇬🇧 关注TG@dafei_di 英国 35
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 18
       - US_09
       - US_10
       - US_11
@@ -464,30 +460,29 @@ proxy-groups:
       - 🇺🇸 关注TG@dafei_di 美国 05
       - 🇺🇸 关注TG@dafei_di 美国 10
       - 🇺🇸 关注TG@dafei_di 美国 15
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇺🇸 关注TG@dafei_di 美国 22
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 17
       - 🇺🇸 关注TG@dafei_di 美国 25
       - 🇺🇸 关注TG@dafei_di 美国 31
       - 🇺🇸 关注TG@dafei_di 美国 50
-      - 🇺🇸 关注TG@dafei_di 美国 58
       - 🇺🇸 关注TG@dafei_di 美国 62
       - 🇺🇸 关注TG@dafei_di 美国 78
       - 🇺🇸 关注TG@dafei_di 美国 83
+      - 🇺🇸 关注TG@dafei_di 美国 85
+      - 🇺🇸 关注TG@dafei_di 美国 112
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇨🇳 关注TG@dafei_di 台湾 01
       - 🇯🇵 关注TG@dafei_di 日本 01
-      - 🇯🇵 关注TG@dafei_di 日本 04
       - 🇯🇵 关注TG@dafei_di 日本 07
       - 🇯🇵 关注TG@dafei_di 日本 24
       - 🇯🇵 关注TG@dafei_di 日本 34
-      - 🇰🇷 关注TG@dafei_di 韩国 08
       - 🇰🇷 关注TG@dafei_di 韩国 11
       - 🇰🇷 关注TG@dafei_di 韩国 14
-      - 🇨🇳 关注TG@dafei_di 台湾 01
+      - 🇯🇵 关注TG@dafei_di 日本 04
       - 🇨🇳 关注TG@dafei_di 台湾 04
       - 🇨🇳 关注TG@dafei_di 台湾 05
       - 🇭🇰 关注TG@dafei_di 香港 01
@@ -531,16 +526,14 @@ proxy-groups:
     tolerance: 100
     proxies:
       - Euro😈SSRSUB_1145647923
-      - github.com/freefq - 广东省移动 7
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - RO_08
-      - ZZ_20
-      - ZZ_21
-      - _02
+      - 3|🌀1-T1 |  2.0MB/s|22%|Openai
+      - 🇵🇹 关注TG@dafei_di 葡萄牙 01
+      - _01
       - _03
       - _04
       - _05
       - Relay_-🇬🇧GB_06
+      - 🇩🇪 关注TG@dafei_di 德国 01
       - 🇩🇪 关注TG@dafei_di 德国 02
       - 🇩🇪 关注TG@dafei_di 德国 08
       - 🇩🇪 关注TG@dafei_di 德国 14
@@ -554,14 +547,16 @@ proxy-groups:
       - 🇫🇷 关注TG@dafei_di 法国 03
       - 🇫🇷 关注TG@dafei_di 法国 04
       - 🇫🇷 关注TG@dafei_di 法国 08
+      - 🇬🇧 关注TG@dafei_di 英国 02
+      - 🇬🇧 关注TG@dafei_di 英国 35
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 18
       - US_09
       - US_10
       - US_11
@@ -574,15 +569,15 @@ proxy-groups:
       - 🇺🇸 关注TG@dafei_di 美国 05
       - 🇺🇸 关注TG@dafei_di 美国 10
       - 🇺🇸 关注TG@dafei_di 美国 15
-      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
-      - 🇺🇸 关注TG@dafei_di 美国 22
+      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 17
       - 🇺🇸 关注TG@dafei_di 美国 25
       - 🇺🇸 关注TG@dafei_di 美国 31
       - 🇺🇸 关注TG@dafei_di 美国 50
-      - 🇺🇸 关注TG@dafei_di 美国 58
       - 🇺🇸 关注TG@dafei_di 美国 62
       - 🇺🇸 关注TG@dafei_di 美国 78
       - 🇺🇸 关注TG@dafei_di 美国 83
+      - 🇺🇸 关注TG@dafei_di 美国 85
+      - 🇺🇸 关注TG@dafei_di 美国 112
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -620,10 +615,10 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇯🇵 关注TG@dafei_di 日本 01
-      - 🇯🇵 关注TG@dafei_di 日本 04
       - 🇯🇵 关注TG@dafei_di 日本 07
       - 🇯🇵 关注TG@dafei_di 日本 24
       - 🇯🇵 关注TG@dafei_di 日本 34
+      - 🇯🇵 关注TG@dafei_di 日本 04
       - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 5
       - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 4
       - 🇯🇵 日本(欢迎订阅Youtube破解资源君) 3
@@ -653,7 +648,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 关注TG@dafei_di 韩国 08
       - 🇰🇷 关注TG@dafei_di 韩国 11
       - 🇰🇷 关注TG@dafei_di 韩国 14
       - 🇰🇷 韩国+V2CROSS.COM
