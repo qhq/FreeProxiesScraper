@@ -5,16 +5,19 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 一元机场ssrsub.de 日本 01, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 8b18d7e7-758c-4fa2-bc06-e88223e10226, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 一元机场ssrsub.de 日本 18, server: h.cm2.xiaomi-api.xyz, port: 19832, type: ss, cipher: chacha20-ietf-poly1305, password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e}
-  - {name: 🇭🇰 一元机场ssrsub.de 香港 01, server: 3.link-hub.click, port: 40238, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: 🇭🇰 一元机场ssrsub.de 香港 05, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 一元机场ssrsub.de 香港 06, server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
-  - {name: 🇭🇰 一元机场ssrsub.de 香港 07, server: 183.236.51.38, port: 59652, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 一元机场ssrsub.de 香港 13, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, sni: usla.mjt000.com, skip-cert-verify: false}
-  - {name: 🇨🇳 一元机场ssrsub.de 台湾 02, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: d484b050-d99f-4c39-bebc-08280e4d34ab}
-  - {name: 🇸🇬 一元机场ssrsub.de 新加坡 01, server: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b, sni: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com, skip-cert-verify: false}
-  - {name: 🇸🇬 一元机场ssrsub.de 新加坡 03, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇰🇷 一元机场ssrsub.de 韩国 19, server: p231.panda004.net, port: 11389, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 一元机场ssrsub.de 韩国 27, server: 125.141.26.12, port: 4857, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇯🇵 一元机场ssrsub.de 日本 14, server: 35.76.107.8, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228}
+  - {name: 🇯🇵 一元机场ssrsub.de 日本 15, server: shltt.sub-zrj.com, port: 2323, type: trojan, password: 2f653ecd-c290-451e-a848-f8f525bc5a21, sni: streaming.sub-zrj.com, skip-cert-verify: false}
+  - {name: 🇭🇰 一元机场ssrsub.de 香港 01, server: 120.253.242.230, port: 25601, type: ss, cipher: chacha20-ietf-poly1305, password: 07a426bb-b7c9-4eb9-830d-d109e62083e9}
+  - {name: 🇭🇰 一元机场ssrsub.de 香港 05, server: 45.192.222.112, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false}
+  - {name: 🇭🇰 一元机场ssrsub.de 香港 06, server: 183.236.51.38, port: 49554, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 一元机场ssrsub.de 香港 08, server: 113.99.140.184, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true}
+  - {name: 🇭🇰 一元机场ssrsub.de 香港 11, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, sni: usla.mjt000.com, skip-cert-verify: false}
+  - {name: 🇭🇰 一元机场ssrsub.de 香港 13, server: 103.149.182.191, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: 🇨🇳 一元机场ssrsub.de 台湾 03, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: d484b050-d99f-4c39-bebc-08280e4d34ab}
+  - {name: 🇨🇳 一元机场ssrsub.de 台湾 04, server: hinet.mjt000.com, port: 443, type: trojan, password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf, sni: hinet.mjt000.com, skip-cert-verify: false}
+  - {name: 🇨🇳 一元机场ssrsub.de 台湾 05, server: taifo03a.kbservice.club, port: 443, type: trojan, password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610, sni: 45.32.28.232, skip-cert-verify: false}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
   - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -47,22 +50,14 @@ proxies:
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
   - {name: 🇯🇵 github.com/freefq - 日本  48, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 0|🇭🇰香港 01 | 1x HK, server: free.2apzhfa.xyz, port: 31141, type: ss, cipher: chacha20-ietf-poly1305, password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549}
-  - {name: "🇨🇳 2,13|台湾|@ripaojiedian", server: fadawtawd.zhangwei.li, port: 46005, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: fadawtawd.zhangwei.li}}}
-  - {name: 🇺🇸 美国 030, server: 104.18.149.76, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: us.kkp.me.eu.org}}}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 16, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 41, server: 172.67.204.120, port: 443, type: trojan, password: 4a3ee276-f50f-46f6-ba4d-13571732ab70, sni: ddcDe.890603.XYz, skip-cert-verify: false}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 42, server: 45.207.201.15, port: 34625, type: vmess, uuid: 35510df4-9899-4427-e826-d005f0aabc6c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 39, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 49, server: 104.16.120.250, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa}}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 50, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 51, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 337edede-50e3-4a26-97e7-7a1013e2f1d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 52, server: 13.39.3.20, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 54, server: tci2.tiamoci.us.kg, port: 80, type: vmess, uuid: 749c4694-c824-4d51-b210-cc54d5925444, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tci2.tiamoci.us.kg}}}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 55, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 56, server: 45.147.201.231, port: 23093, type: vmess, uuid: 78546323-3c10-4c50-813a-66bf2e6d93f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 57, server: 185.47.254.177, port: 20007, type: ss, cipher: aes-256-gcm, password: 4QHLWJ3KNY7GIS40}
-  - {name: 🇺🇸 一元机场ssrsub.de 美国 58, server: 104.21.15.232, port: 443, type: trojan, password: 15b24b56-d667-4fa8-b548-f3dc942fb461, sni: ab2c7f0b-bf1b-4eb3-9884-256f4de3d.2030.pp.ua, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 001, server: www.hdmoli.com, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: fr.freeyyds.dpdns.org}}}
+  - {name: 🇺🇸 一元机场ssrsub.de 美国 02, server: 8c6d096b-sxjog0-sxlqds-1qs82.cu.plebai.net, port: 15229, type: trojan, password: 9c6d1142-dc2b-11ee-88c7-f23c913c8d2b, sni: 8c6d096b-sxjog0-sxlqds-1qs82.cu.plebai.net, skip-cert-verify: false}
+  - {name: 🇺🇸 一元机场ssrsub.de 美国 32, server: 172.67.204.120, port: 443, type: trojan, password: 4a3ee276-f50f-46f6-ba4d-13571732ab70, sni: ddcDe.890603.XYz, skip-cert-verify: false}
+  - {name: 🇺🇸 一元机场ssrsub.de 美国 44, server: 13.39.3.20, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 一元机场ssrsub.de 美国 46, server: 104.21.15.232, port: 443, type: trojan, password: 15b24b56-d667-4fa8-b548-f3dc942fb461, sni: ab2c7f0b-bf1b-4eb3-9884-256f4de3d.2030.pp.ua, skip-cert-verify: false}
+  - {name: 🇺🇸 一元机场ssrsub.de 美国 48, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}}
+  - {name: 🇺🇸 一元机场ssrsub.de 美国 56, server: gozargah5.cloudflare3-80.hosting-ip.com, port: 443, type: trojan, password: Ng35283528, sni: c2.validbv3528.eu.org, skip-cert-verify: true}
+  - {name: 🇺🇸 一元机场ssrsub.de 美国 58, server: speed.cloudflare.182682.xyz, port: 443, type: vmess, uuid: 0d2c9656-92b5-4e4e-8ad3-5d72883e4486, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: foree1.starsea.vip}}}
   - {name: 🇺🇸 美国(油管破解资源君2.0) 12, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, sni: jgwhdlb4.gaox.ml, skip-cert-verify: true}
   - {name: 🇺🇸 美国(油管破解资源君2.0) 10, server: 150.230.60.8, port: 26195, type: vmess, uuid: 8c44be2e-2e16-4cf4-db1e-a1c8c61b7fd4, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国(油管破解资源君2.0) 9, server: s162.s2022.xyz, port: 23802, type: trojan, password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934, skip-cert-verify: true}
@@ -72,17 +67,25 @@ proxies:
   - {name: 🇨🇦 加拿大_121320032, server: 193.203.203.63, port: 80, type: vmess, uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 193.203.203.63}}}
   - {name: 🇺🇸 美国_121320003, server: e691d61a-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: e691d61a-f.3nvx.com}}}
   - {name: 🇺🇸 美国_121320005, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: 13|tg频道@ripaojiedian, server: 54.250.145.124, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501}
-  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 8, server: 43.128.253.82, port: 31372, type: vmess, uuid: 2a9056a7-bf92-40c8-f155-1e14aac9beba, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
+  - {name: 🇺🇸 美国_121320009, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
+  - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
+  - {name: 🇺🇸 美国_121320011, server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
+  - {name: 🇺🇸 美国_121320012, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
+  - {name: 🇺🇸 美国_121320013, server: www.wto.org, port: 443, type: vmess, uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm, headers: {Host: copies-bandwidth-harold-tops.trycloudflare.com}}}
   - {name: 🇪🇺 欧洲(油管破解资源君2.0) 7, server: 43.154.114.208, port: 3245, type: vmess, uuid: e4a15b1d-8dfd-4bd7-ab33-06c8cd174c0b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 一元机场ssrsub.de 希腊 01, server: 185.126.238.37, port: 20004, type: ss, cipher: aes-256-gcm, password: IHSACL0J5GOV5K4J}
-  - {name: 🇩🇪 一元机场ssrsub.de 瑞典 03, server: 185.146.173.25, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560", headers: {Host: google.whatsapp.snapp.torob.basalam.sarzamiiinahang.ir.}}}
-  - {name: 🇩🇪 一元机场ssrsub.de 西班牙 02, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false}
-  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 6, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 一元机场ssrsub.de 俄罗斯 08, server: 185.22.153.67, port: 51002, type: ss, cipher: aes-256-gcm, password: b55c7e84afdd52cb}
   - {name: 🇪🇺 欧洲(油管破解资源君2.0) 5, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
   - {name: 🇪🇺 欧洲(油管破解资源君2.0) 4, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 6, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 一元机场ssrsub.de 德国 02, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false}
+  - {name: 🇩🇪 一元机场ssrsub.de 德国 04, server: 35.156.176.104, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇪🇺 欧洲(油管破解资源君2.0) 3, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true}
+  - {name: 🇩🇪 一元机场ssrsub.de 德国 08, server: 63.178.80.159, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
   - {name: 🇪🇺 欧洲(油管破解资源君2.0), server: oz.moonfree.top, port: 443, type: vmess, uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}}
+  - {name: 🇩🇪 一元机场ssrsub.de 荷兰 06, server: 120.233.44.201, port: 21102, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k28.tudou211.com, skip-cert-verify: false}
+  - {name: 🇩🇪 一元机场ssrsub.de 秘鲁 01, server: 185.47.252.16, port: 20009, type: ss, cipher: aes-256-gcm, password: YD0X9ALLU7NZX2RD}
+  - {name: 🇩🇪 一元机场ssrsub.de 菲律宾 01, server: 154.83.2.54, port: 2096, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true}
   - {name: 🇨🇭 一元机场ssrsub.de 瑞士 01, server: 15002.kuaiyin02.top, port: 15002, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false}
   - {name: 防失效github SubCrawler乌克兰_121320002, server: ua1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ua1-vmess.sshmax.xyz}}}
   - {name: 乌克兰_121320004, server: 185.250.150.220, port: 8080, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
@@ -94,8 +97,6 @@ proxies:
   - {name: 🇱🇺 卢森堡_121320001, server: 107.189.29.193, port: 21280, type: vmess, uuid: 2d23b71f-78e1-4f17-a7cc-1ef04a910a4c, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320001, server: 103.114.201.143, port: 59487, type: vmess, uuid: 51fb562e-0a9b-4c27-e4d8-6f4883bb5165, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320002, server: 103.114.201.44, port: 45233, type: vmess, uuid: 8e87821e-c22a-44c6-c741-43ab791f47b6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.114.201.44}}}
-  - {name: 🇮🇳 印度_121320003, server: 205.164.28.103, port: 13487, type: vmess, uuid: f5502283-53ba-442b-bdb1-a25745fd5c17, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度_121320005, server: 103.106.230.153, port: 32732, type: vmess, uuid: eb931108-646b-4ceb-a741-d32490cb00f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,16 +112,19 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 一元机场ssrsub.de 日本 01
-      - 🇯🇵 一元机场ssrsub.de 日本 18
+      - 🇰🇷 一元机场ssrsub.de 韩国 19
+      - 🇰🇷 一元机场ssrsub.de 韩国 27
+      - 🇯🇵 一元机场ssrsub.de 日本 14
+      - 🇯🇵 一元机场ssrsub.de 日本 15
       - 🇭🇰 一元机场ssrsub.de 香港 01
       - 🇭🇰 一元机场ssrsub.de 香港 05
       - 🇭🇰 一元机场ssrsub.de 香港 06
-      - 🇭🇰 一元机场ssrsub.de 香港 07
+      - 🇭🇰 一元机场ssrsub.de 香港 08
+      - 🇭🇰 一元机场ssrsub.de 香港 11
       - 🇭🇰 一元机场ssrsub.de 香港 13
-      - 🇨🇳 一元机场ssrsub.de 台湾 02
-      - 🇸🇬 一元机场ssrsub.de 新加坡 01
-      - 🇸🇬 一元机场ssrsub.de 新加坡 03
+      - 🇨🇳 一元机场ssrsub.de 台湾 03
+      - 🇨🇳 一元机场ssrsub.de 台湾 04
+      - 🇨🇳 一元机场ssrsub.de 台湾 05
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -153,21 +157,13 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - 🇨🇳 2,13|台湾|@ripaojiedian
-      - 🇺🇸 美国 030
-      - 🇺🇸 一元机场ssrsub.de 美国 16
-      - 🇺🇸 一元机场ssrsub.de 美国 41
-      - 🇺🇸 一元机场ssrsub.de 美国 42
-      - 🇺🇸 一元机场ssrsub.de 美国 39
-      - 🇺🇸 一元机场ssrsub.de 美国 49
-      - 🇺🇸 一元机场ssrsub.de 美国 50
-      - 🇺🇸 一元机场ssrsub.de 美国 51
-      - 🇺🇸 一元机场ssrsub.de 美国 52
-      - 🇺🇸 一元机场ssrsub.de 美国 54
-      - 🇺🇸 一元机场ssrsub.de 美国 55
+      - 🇺🇸 美国 001
+      - 🇺🇸 一元机场ssrsub.de 美国 02
+      - 🇺🇸 一元机场ssrsub.de 美国 32
+      - 🇺🇸 一元机场ssrsub.de 美国 44
+      - 🇺🇸 一元机场ssrsub.de 美国 46
+      - 🇺🇸 一元机场ssrsub.de 美国 48
       - 🇺🇸 一元机场ssrsub.de 美国 56
-      - 🇺🇸 一元机场ssrsub.de 美国 57
       - 🇺🇸 一元机场ssrsub.de 美国 58
       - 🇺🇸 美国(油管破解资源君2.0) 12
       - 🇺🇸 美国(油管破解资源君2.0) 10
@@ -178,17 +174,25 @@ proxy-groups:
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
-      - 13|tg频道@ripaojiedian
-      - 🇪🇺 欧洲(油管破解资源君2.0) 8
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
+      - 🇺🇸 美国_121320012
+      - 🇺🇸 美国_121320013
       - 🇪🇺 欧洲(油管破解资源君2.0) 7
-      - 🇩🇪 一元机场ssrsub.de 希腊 01
-      - 🇩🇪 一元机场ssrsub.de 瑞典 03
-      - 🇩🇪 一元机场ssrsub.de 西班牙 02
-      - 🇪🇺 欧洲(油管破解资源君2.0) 6
+      - 🇩🇪 一元机场ssrsub.de 俄罗斯 08
       - 🇪🇺 欧洲(油管破解资源君2.0) 5
       - 🇪🇺 欧洲(油管破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管破解资源君2.0) 6
+      - 🇩🇪 一元机场ssrsub.de 德国 02
+      - 🇩🇪 一元机场ssrsub.de 德国 04
       - 🇪🇺 欧洲(油管破解资源君2.0) 3
+      - 🇩🇪 一元机场ssrsub.de 德国 08
       - 🇪🇺 欧洲(油管破解资源君2.0)
+      - 🇩🇪 一元机场ssrsub.de 荷兰 06
+      - 🇩🇪 一元机场ssrsub.de 秘鲁 01
+      - 🇩🇪 一元机场ssrsub.de 菲律宾 01
       - 🇨🇭 一元机场ssrsub.de 瑞士 01
       - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
@@ -200,8 +204,6 @@ proxy-groups:
       - 🇱🇺 卢森堡_121320001
       - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320002
-      - 🇮🇳 印度_121320003
-      - 🇮🇳 印度_121320005
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,16 +254,19 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 一元机场ssrsub.de 日本 01
-      - 🇯🇵 一元机场ssrsub.de 日本 18
+      - 🇰🇷 一元机场ssrsub.de 韩国 19
+      - 🇰🇷 一元机场ssrsub.de 韩国 27
+      - 🇯🇵 一元机场ssrsub.de 日本 14
+      - 🇯🇵 一元机场ssrsub.de 日本 15
       - 🇭🇰 一元机场ssrsub.de 香港 01
       - 🇭🇰 一元机场ssrsub.de 香港 05
       - 🇭🇰 一元机场ssrsub.de 香港 06
-      - 🇭🇰 一元机场ssrsub.de 香港 07
+      - 🇭🇰 一元机场ssrsub.de 香港 08
+      - 🇭🇰 一元机场ssrsub.de 香港 11
       - 🇭🇰 一元机场ssrsub.de 香港 13
-      - 🇨🇳 一元机场ssrsub.de 台湾 02
-      - 🇸🇬 一元机场ssrsub.de 新加坡 01
-      - 🇸🇬 一元机场ssrsub.de 新加坡 03
+      - 🇨🇳 一元机场ssrsub.de 台湾 03
+      - 🇨🇳 一元机场ssrsub.de 台湾 04
+      - 🇨🇳 一元机场ssrsub.de 台湾 05
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -294,21 +299,13 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - 🇨🇳 2,13|台湾|@ripaojiedian
-      - 🇺🇸 美国 030
-      - 🇺🇸 一元机场ssrsub.de 美国 16
-      - 🇺🇸 一元机场ssrsub.de 美国 41
-      - 🇺🇸 一元机场ssrsub.de 美国 42
-      - 🇺🇸 一元机场ssrsub.de 美国 39
-      - 🇺🇸 一元机场ssrsub.de 美国 49
-      - 🇺🇸 一元机场ssrsub.de 美国 50
-      - 🇺🇸 一元机场ssrsub.de 美国 51
-      - 🇺🇸 一元机场ssrsub.de 美国 52
-      - 🇺🇸 一元机场ssrsub.de 美国 54
-      - 🇺🇸 一元机场ssrsub.de 美国 55
+      - 🇺🇸 美国 001
+      - 🇺🇸 一元机场ssrsub.de 美国 02
+      - 🇺🇸 一元机场ssrsub.de 美国 32
+      - 🇺🇸 一元机场ssrsub.de 美国 44
+      - 🇺🇸 一元机场ssrsub.de 美国 46
+      - 🇺🇸 一元机场ssrsub.de 美国 48
       - 🇺🇸 一元机场ssrsub.de 美国 56
-      - 🇺🇸 一元机场ssrsub.de 美国 57
       - 🇺🇸 一元机场ssrsub.de 美国 58
       - 🇺🇸 美国(油管破解资源君2.0) 12
       - 🇺🇸 美国(油管破解资源君2.0) 10
@@ -319,17 +316,25 @@ proxy-groups:
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
-      - 13|tg频道@ripaojiedian
-      - 🇪🇺 欧洲(油管破解资源君2.0) 8
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
+      - 🇺🇸 美国_121320012
+      - 🇺🇸 美国_121320013
       - 🇪🇺 欧洲(油管破解资源君2.0) 7
-      - 🇩🇪 一元机场ssrsub.de 希腊 01
-      - 🇩🇪 一元机场ssrsub.de 瑞典 03
-      - 🇩🇪 一元机场ssrsub.de 西班牙 02
-      - 🇪🇺 欧洲(油管破解资源君2.0) 6
+      - 🇩🇪 一元机场ssrsub.de 俄罗斯 08
       - 🇪🇺 欧洲(油管破解资源君2.0) 5
       - 🇪🇺 欧洲(油管破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管破解资源君2.0) 6
+      - 🇩🇪 一元机场ssrsub.de 德国 02
+      - 🇩🇪 一元机场ssrsub.de 德国 04
       - 🇪🇺 欧洲(油管破解资源君2.0) 3
+      - 🇩🇪 一元机场ssrsub.de 德国 08
       - 🇪🇺 欧洲(油管破解资源君2.0)
+      - 🇩🇪 一元机场ssrsub.de 荷兰 06
+      - 🇩🇪 一元机场ssrsub.de 秘鲁 01
+      - 🇩🇪 一元机场ssrsub.de 菲律宾 01
       - 🇨🇭 一元机场ssrsub.de 瑞士 01
       - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
@@ -341,24 +346,25 @@ proxy-groups:
       - 🇱🇺 卢森堡_121320001
       - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320002
-      - 🇮🇳 印度_121320003
-      - 🇮🇳 印度_121320005
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 一元机场ssrsub.de 日本 01
-      - 🇯🇵 一元机场ssrsub.de 日本 18
+      - 🇰🇷 一元机场ssrsub.de 韩国 19
+      - 🇰🇷 一元机场ssrsub.de 韩国 27
+      - 🇯🇵 一元机场ssrsub.de 日本 14
+      - 🇯🇵 一元机场ssrsub.de 日本 15
       - 🇭🇰 一元机场ssrsub.de 香港 01
       - 🇭🇰 一元机场ssrsub.de 香港 05
       - 🇭🇰 一元机场ssrsub.de 香港 06
-      - 🇭🇰 一元机场ssrsub.de 香港 07
+      - 🇭🇰 一元机场ssrsub.de 香港 08
+      - 🇭🇰 一元机场ssrsub.de 香港 11
       - 🇭🇰 一元机场ssrsub.de 香港 13
-      - 🇨🇳 一元机场ssrsub.de 台湾 02
-      - 🇸🇬 一元机场ssrsub.de 新加坡 01
-      - 🇸🇬 一元机场ssrsub.de 新加坡 03
+      - 🇨🇳 一元机场ssrsub.de 台湾 03
+      - 🇨🇳 一元机场ssrsub.de 台湾 04
+      - 🇨🇳 一元机场ssrsub.de 台湾 05
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -391,21 +397,13 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - 🇨🇳 2,13|台湾|@ripaojiedian
-      - 🇺🇸 美国 030
-      - 🇺🇸 一元机场ssrsub.de 美国 16
-      - 🇺🇸 一元机场ssrsub.de 美国 41
-      - 🇺🇸 一元机场ssrsub.de 美国 42
-      - 🇺🇸 一元机场ssrsub.de 美国 39
-      - 🇺🇸 一元机场ssrsub.de 美国 49
-      - 🇺🇸 一元机场ssrsub.de 美国 50
-      - 🇺🇸 一元机场ssrsub.de 美国 51
-      - 🇺🇸 一元机场ssrsub.de 美国 52
-      - 🇺🇸 一元机场ssrsub.de 美国 54
-      - 🇺🇸 一元机场ssrsub.de 美国 55
+      - 🇺🇸 美国 001
+      - 🇺🇸 一元机场ssrsub.de 美国 02
+      - 🇺🇸 一元机场ssrsub.de 美国 32
+      - 🇺🇸 一元机场ssrsub.de 美国 44
+      - 🇺🇸 一元机场ssrsub.de 美国 46
+      - 🇺🇸 一元机场ssrsub.de 美国 48
       - 🇺🇸 一元机场ssrsub.de 美国 56
-      - 🇺🇸 一元机场ssrsub.de 美国 57
       - 🇺🇸 一元机场ssrsub.de 美国 58
       - 🇺🇸 美国(油管破解资源君2.0) 12
       - 🇺🇸 美国(油管破解资源君2.0) 10
@@ -416,17 +414,25 @@ proxy-groups:
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
-      - 13|tg频道@ripaojiedian
-      - 🇪🇺 欧洲(油管破解资源君2.0) 8
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
+      - 🇺🇸 美国_121320012
+      - 🇺🇸 美国_121320013
       - 🇪🇺 欧洲(油管破解资源君2.0) 7
-      - 🇩🇪 一元机场ssrsub.de 希腊 01
-      - 🇩🇪 一元机场ssrsub.de 瑞典 03
-      - 🇩🇪 一元机场ssrsub.de 西班牙 02
-      - 🇪🇺 欧洲(油管破解资源君2.0) 6
+      - 🇩🇪 一元机场ssrsub.de 俄罗斯 08
       - 🇪🇺 欧洲(油管破解资源君2.0) 5
       - 🇪🇺 欧洲(油管破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管破解资源君2.0) 6
+      - 🇩🇪 一元机场ssrsub.de 德国 02
+      - 🇩🇪 一元机场ssrsub.de 德国 04
       - 🇪🇺 欧洲(油管破解资源君2.0) 3
+      - 🇩🇪 一元机场ssrsub.de 德国 08
       - 🇪🇺 欧洲(油管破解资源君2.0)
+      - 🇩🇪 一元机场ssrsub.de 荷兰 06
+      - 🇩🇪 一元机场ssrsub.de 秘鲁 01
+      - 🇩🇪 一元机场ssrsub.de 菲律宾 01
       - 🇨🇭 一元机场ssrsub.de 瑞士 01
       - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
@@ -438,27 +444,19 @@ proxy-groups:
       - 🇱🇺 卢森堡_121320001
       - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320002
-      - 🇮🇳 印度_121320003
-      - 🇮🇳 印度_121320005
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 030
-      - 🇺🇸 一元机场ssrsub.de 美国 16
-      - 🇺🇸 一元机场ssrsub.de 美国 41
-      - 🇺🇸 一元机场ssrsub.de 美国 42
-      - 🇺🇸 一元机场ssrsub.de 美国 39
-      - 🇺🇸 一元机场ssrsub.de 美国 49
-      - 🇺🇸 一元机场ssrsub.de 美国 50
-      - 🇺🇸 一元机场ssrsub.de 美国 51
-      - 🇺🇸 一元机场ssrsub.de 美国 52
-      - 🇺🇸 一元机场ssrsub.de 美国 54
-      - 🇺🇸 一元机场ssrsub.de 美国 55
+      - 🇺🇸 美国 001
+      - 🇺🇸 一元机场ssrsub.de 美国 02
+      - 🇺🇸 一元机场ssrsub.de 美国 32
+      - 🇺🇸 一元机场ssrsub.de 美国 44
+      - 🇺🇸 一元机场ssrsub.de 美国 46
+      - 🇺🇸 一元机场ssrsub.de 美国 48
       - 🇺🇸 一元机场ssrsub.de 美国 56
-      - 🇺🇸 一元机场ssrsub.de 美国 57
       - 🇺🇸 一元机场ssrsub.de 美国 58
       - 🇺🇸 美国(油管破解资源君2.0) 12
       - 🇺🇸 美国(油管破解资源君2.0) 10
@@ -469,22 +467,31 @@ proxy-groups:
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
+      - 🇺🇸 美国_121320012
+      - 🇺🇸 美国_121320013
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 一元机场ssrsub.de 日本 01
-      - 🇯🇵 一元机场ssrsub.de 日本 18
+      - 🇰🇷 一元机场ssrsub.de 韩国 19
+      - 🇰🇷 一元机场ssrsub.de 韩国 27
+      - 🇯🇵 一元机场ssrsub.de 日本 14
+      - 🇯🇵 一元机场ssrsub.de 日本 15
       - 🇭🇰 一元机场ssrsub.de 香港 01
       - 🇭🇰 一元机场ssrsub.de 香港 05
       - 🇭🇰 一元机场ssrsub.de 香港 06
-      - 🇭🇰 一元机场ssrsub.de 香港 07
+      - 🇭🇰 一元机场ssrsub.de 香港 08
+      - 🇭🇰 一元机场ssrsub.de 香港 11
       - 🇭🇰 一元机场ssrsub.de 香港 13
-      - 🇨🇳 一元机场ssrsub.de 台湾 02
-      - 🇸🇬 一元机场ssrsub.de 新加坡 01
-      - 🇸🇬 一元机场ssrsub.de 新加坡 03
+      - 🇨🇳 一元机场ssrsub.de 台湾 03
+      - 🇨🇳 一元机场ssrsub.de 台湾 04
+      - 🇨🇳 一元机场ssrsub.de 台湾 05
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -517,25 +524,25 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
-      - 🇨🇳 2,13|台湾|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 13|tg频道@ripaojiedian
-      - 🇪🇺 欧洲(油管破解资源君2.0) 8
       - 🇪🇺 欧洲(油管破解资源君2.0) 7
-      - 🇩🇪 一元机场ssrsub.de 希腊 01
-      - 🇩🇪 一元机场ssrsub.de 瑞典 03
-      - 🇩🇪 一元机场ssrsub.de 西班牙 02
-      - 🇪🇺 欧洲(油管破解资源君2.0) 6
+      - 🇩🇪 一元机场ssrsub.de 俄罗斯 08
       - 🇪🇺 欧洲(油管破解资源君2.0) 5
       - 🇪🇺 欧洲(油管破解资源君2.0) 4
+      - 🇪🇺 欧洲(油管破解资源君2.0) 6
+      - 🇩🇪 一元机场ssrsub.de 德国 02
+      - 🇩🇪 一元机场ssrsub.de 德国 04
       - 🇪🇺 欧洲(油管破解资源君2.0) 3
+      - 🇩🇪 一元机场ssrsub.de 德国 08
       - 🇪🇺 欧洲(油管破解资源君2.0)
+      - 🇩🇪 一元机场ssrsub.de 荷兰 06
+      - 🇩🇪 一元机场ssrsub.de 秘鲁 01
+      - 🇩🇪 一元机场ssrsub.de 菲律宾 01
       - 🇨🇭 一元机场ssrsub.de 瑞士 01
       - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
@@ -547,27 +554,19 @@ proxy-groups:
       - 🇱🇺 卢森堡_121320001
       - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320002
-      - 🇮🇳 印度_121320003
-      - 🇮🇳 印度_121320005
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 030
-      - 🇺🇸 一元机场ssrsub.de 美国 16
-      - 🇺🇸 一元机场ssrsub.de 美国 41
-      - 🇺🇸 一元机场ssrsub.de 美国 42
-      - 🇺🇸 一元机场ssrsub.de 美国 39
-      - 🇺🇸 一元机场ssrsub.de 美国 49
-      - 🇺🇸 一元机场ssrsub.de 美国 50
-      - 🇺🇸 一元机场ssrsub.de 美国 51
-      - 🇺🇸 一元机场ssrsub.de 美国 52
-      - 🇺🇸 一元机场ssrsub.de 美国 54
-      - 🇺🇸 一元机场ssrsub.de 美国 55
+      - 🇺🇸 美国 001
+      - 🇺🇸 一元机场ssrsub.de 美国 02
+      - 🇺🇸 一元机场ssrsub.de 美国 32
+      - 🇺🇸 一元机场ssrsub.de 美国 44
+      - 🇺🇸 一元机场ssrsub.de 美国 46
+      - 🇺🇸 一元机场ssrsub.de 美国 48
       - 🇺🇸 一元机场ssrsub.de 美国 56
-      - 🇺🇸 一元机场ssrsub.de 美国 57
       - 🇺🇸 一元机场ssrsub.de 美国 58
       - 🇺🇸 美国(油管破解资源君2.0) 12
       - 🇺🇸 美国(油管破解资源君2.0) 10
@@ -576,6 +575,12 @@ proxy-groups:
       - 🇺🇸 美国(油管破解资源君2.0) 7
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
+      - 🇺🇸 美国_121320012
+      - 🇺🇸 美国_121320013
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -585,20 +590,18 @@ proxy-groups:
       - 🇭🇰 一元机场ssrsub.de 香港 01
       - 🇭🇰 一元机场ssrsub.de 香港 05
       - 🇭🇰 一元机场ssrsub.de 香港 06
-      - 🇭🇰 一元机场ssrsub.de 香港 07
+      - 🇭🇰 一元机场ssrsub.de 香港 08
+      - 🇭🇰 一元机场ssrsub.de 香港 11
       - 🇭🇰 一元机场ssrsub.de 香港 13
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 0|🇭🇰香港 01 | 1x HK
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 一元机场ssrsub.de 新加坡 01
-      - 🇸🇬 一元机场ssrsub.de 新加坡 03
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -612,8 +615,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 一元机场ssrsub.de 日本 01
-      - 🇯🇵 一元机场ssrsub.de 日本 18
+      - 🇯🇵 一元机场ssrsub.de 日本 14
+      - 🇯🇵 一元机场ssrsub.de 日本 15
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320009
@@ -637,18 +640,21 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 一元机场ssrsub.de 台湾 02
+      - 🇨🇳 一元机场ssrsub.de 台湾 03
+      - 🇨🇳 一元机场ssrsub.de 台湾 04
+      - 🇨🇳 一元机场ssrsub.de 台湾 05
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
-      - 🇨🇳 2,13|台湾|@ripaojiedian
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇰🇷 一元机场ssrsub.de 韩国 19
+      - 🇰🇷 一元机场ssrsub.de 韩国 27
       - 🇰🇷 韩国_121320001
 rules:
  - DOMAIN,asusrouter.com,DIRECT
