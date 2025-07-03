@@ -5,11 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 _KR_韩国->🏳️_unKnow_未知, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇯🇵 日本(油管破解资源君2.0) 5, server: 194.156.231.126, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇸🇬 机场推荐dafei.de 新加坡 01, server: 9fd5e6e8-sytz40-t1a26b-1dn6p.cm5.cnkuaishou.com, port: 27231, type: trojan, password: f30891a2-7d0e-11ed-bb05-f23c913c8d2b, sni: 9fd5e6e8-sytz40-t1a26b-1dn6p.cm5.cnkuaishou.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本(油管破解资源君2.0), server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
-  - {name: 🇨🇳 台湾(油管破解资源君2.0) 2, server: in-tw-1.iivvppnn.info, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
-  - {name: 🇭🇰 香港(油管破解资源君2.0) 4, server: ch1.nodegz.top, port: 1400, type: trojan, password: 8087b6af-8b74-3097-9ec6-f688da88073e, skip-cert-verify: true}
+  - {name: 🇸🇬 机场推荐dafei.de 新加坡 02, server: 36.151.192.60, port: 7571, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡(油管破解资源君2.0) 3, server: azhk.yeem.cc, port: 21216, type: vmess, uuid: b111ef0c-4c03-426d-9954-79c10a6ea1ba, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 机场推荐dafei.de 台湾 02, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: b171585a-4ddc-4a83-9f79-47ed2fe8de0c, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 机场推荐dafei.de 香港 03, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
   - {name: 🇭🇰 机场推荐dafei.de 香港 08, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 24e32978-4858-11eb-8684-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}}
@@ -47,16 +46,10 @@ proxies:
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 香港(油管破解资源君2.0) 2, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
-  - {name: 🇸🇬 机场推荐dafei.de 新加坡 02, server: 36.151.192.60, port: 7571, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本(油管破解资源君2.0) 3, server: tt6.tjvpn.top, port: 443, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, skip-cert-verify: true}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: 🇺🇸 机场推荐dafei.de 美国 49, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 9f758225-8ffa-4ad4-9b0d-5bf8c7fb92e1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}}
-  - {name: US_16, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: 🇺🇸 机场推荐dafei.de 美国 13, server: 111.26.109.79, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo}}
-  - {name: 🇺🇸 机场推荐dafei.de 美国 25, server: 104.21.6.179, port: 443, type: trojan, password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51, sni: ZZzzzZZ.890601.XYZ, skip-cert-verify: false}
-  - {name: 🇺🇸 机场推荐dafei.de 美国 26, server: 104.17.128.1, port: 2096, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, skip-cert-verify: true}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 机场推荐dafei.de 美国 40, server: "_WvT8Ho@LW%w_,@172.66.44.214", port: 2053, type: trojan, password: T, sni: NOp-55q.pAgEs.dEv, skip-cert-verify: false}
-  - {name: 🇺🇸 机场推荐dafei.de 美国 10, server: 36.151.192.61, port: 4447, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇺🇸 机场推荐dafei.de 美国 53, server: 36.151.251.56, port: 5975, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true}
   - {name: 🇺🇸 机场推荐dafei.de 美国 54, server: a34b6d89-sytz40-ta64ri-1qzi1.cu2.plebai.net, port: 15229, type: trojan, password: 8f99107c-f091-11ee-9935-f23c9164ca5d, sni: a34b6d89-sytz40-ta64ri-1qzi1.cu2.plebai.net, skip-cert-verify: false}
   - {name: 🇺🇸 机场推荐dafei.de 美国 316, server: 45.147.201.231, port: 20071, type: vmess, uuid: 4b41312a-e40f-40c3-aa85-efc148060242, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -73,9 +66,16 @@ proxies:
   - {name: 🇺🇸 美国_121320013, server: www.wto.org, port: 443, type: vmess, uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm, headers: {Host: copies-bandwidth-harold-tops.trycloudflare.com}}}
   - {name: 🇺🇸 美国_121320014, server: cloudconeaaa.gorgorchicken.one, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
   - {name: 🇺🇸 美国_121320015, server: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top}}}
-  - {name: 🇪🇺 欧洲(油管破解资源君2.0), server: 178.62.16.161, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
-  - {name: 🇩🇪 机场推荐dafei.de 法国 02, server: a784fd6f-sytz40-t2c3sq-1spnr.cu2.plebai.net, port: 15229, type: trojan, password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9, sni: a784fd6f-sytz40-t2c3sq-1spnr.cu2.plebai.net, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_121320017, server: 144.202.81.122, port: 25514, type: vmess, uuid: 13bf827e-55cd-4b46-e9f1-b7f9ffbe7955, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国_121320018, server: 172.67.206.124, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: rlhrwtqusd.site}}}
+  - {name: 🇺🇸 美国_121320019, server: cf.network383.online, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
+  - {name: 🇺🇸 美国_121320020, server: 172.67.131.150, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
+  - {name: 🇺🇸 美国_121320023, server: 172.252.56.69, port: 36450, type: vmess, uuid: 2f5144ae-8fb8-43e1-b6f9-52bb36f124ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国_121320024, server: 172.67.221.114, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
+  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 4, server: usyy.884899.cf, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, skip-cert-verify: true}
   - {name: 🇩🇪 机场推荐dafei.de 马来 02, server: 6857dd60-sz1ds0-t3l98h-2gok.d.volczijie.com, port: 3682, type: vmess, uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 机场推荐dafei.de 法国 02, server: a784fd6f-sytz40-t2c3sq-1spnr.cu2.plebai.net, port: 15229, type: trojan, password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9, sni: a784fd6f-sytz40-t2c3sq-1spnr.cu2.plebai.net, skip-cert-verify: false}
+  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 3, server: 138.197.166.205, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
   - {name: 🇩🇪 机场推荐dafei.de 菲律宾 01, server: 154.83.2.200, port: 443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, skip-cert-verify: true}
   - {name: 🇩🇪 机场推荐dafei.de 德国 01, server: 45.145.41.132, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: qscavF5UviIL-8V-E4raBA}
   - {name: 乌克兰_121320004, server: 185.250.150.220, port: 8080, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
@@ -90,13 +90,12 @@ proxies:
   - {name: 🇮🇳 印度_121320003, server: 205.164.28.103, port: 13487, type: vmess, uuid: f5502283-53ba-442b-bdb1-a25745fd5c17, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320005, server: 103.106.230.153, port: 32732, type: vmess, uuid: eb931108-646b-4ceb-a741-d32490cb00f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
   - {name: 🇮🇳 印度_121320008, server: 103.113.68.233, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 103.113.68.233}}}
-  - {name: 🇮🇳 印度_121320009, server: ru1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}}
   - {name: 🇮🇩 印度尼西亚_121320001, server: 113.20.28.102, port: 22188, type: vmess, uuid: 00677eb4-91c2-41f1-e790-963b9a093fd5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇿 哈萨克斯坦_121320002, server: kz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 0a6ae6c5-e1f8-411c-8f11-cfa5433c58e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: kz1-vmess.sshmax.xyz}}}
   - {name: 🇬🇷 希腊_121320001, server: 185.242.84.49, port: 80, type: vmess, uuid: 9db34944-bc87-43cb-8b57-45cf87b2b006, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
   - {name: 🇩🇪 德国_121320001, server: 157.230.28.129, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇩🇪 德国_121320004, server: v2.vipstore.cfd, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: v2.vipstore.cfd}}}
   - {name: 🇩🇪 德国_121320005, server: 116.203.60.6, port: 18180, type: vmess, uuid: b1cfd141-4f0d-40b4-b169-ed332a4a92b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇩🇪 德国_121320007, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,11 +111,10 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇰🇷 _KR_韩国->🏳️_unKnow_未知
+      - 🇯🇵 日本(油管破解资源君2.0) 5
       - 🇸🇬 机场推荐dafei.de 新加坡 01
-      - 🇯🇵 日本(油管破解资源君2.0)
-      - 🇨🇳 台湾(油管破解资源君2.0) 2
-      - 🇭🇰 香港(油管破解资源君2.0) 4
+      - 🇸🇬 机场推荐dafei.de 新加坡 02
+      - 🇸🇬 新加坡(油管破解资源君2.0) 3
       - 🇨🇳 机场推荐dafei.de 台湾 02
       - 🇭🇰 机场推荐dafei.de 香港 03
       - 🇭🇰 机场推荐dafei.de 香港 08
@@ -154,16 +152,10 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 香港(油管破解资源君2.0) 2
-      - 🇸🇬 机场推荐dafei.de 新加坡 02
+      - 🇯🇵 日本(油管破解资源君2.0) 3
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇺🇸 机场推荐dafei.de 美国 49
-      - US_16
-      - 🇺🇸 机场推荐dafei.de 美国 13
-      - 🇺🇸 机场推荐dafei.de 美国 25
-      - 🇺🇸 机场推荐dafei.de 美国 26
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇺🇸 机场推荐dafei.de 美国 40
-      - 🇺🇸 机场推荐dafei.de 美国 10
       - 🇺🇸 机场推荐dafei.de 美国 53
       - 🇺🇸 机场推荐dafei.de 美国 54
       - 🇺🇸 机场推荐dafei.de 美国 316
@@ -180,9 +172,16 @@ proxy-groups:
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
-      - 🇪🇺 欧洲(油管破解资源君2.0)
-      - 🇩🇪 机场推荐dafei.de 法国 02
+      - 🇺🇸 美国_121320017
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇪🇺 欧洲(油管破解资源君2.0) 4
       - 🇩🇪 机场推荐dafei.de 马来 02
+      - 🇩🇪 机场推荐dafei.de 法国 02
+      - 🇪🇺 欧洲(油管破解资源君2.0) 3
       - 🇩🇪 机场推荐dafei.de 菲律宾 01
       - 🇩🇪 机场推荐dafei.de 德国 01
       - 乌克兰_121320004
@@ -197,13 +196,12 @@ proxy-groups:
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
-      - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
       - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
-      - 🇩🇪 德国_121320007
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,11 +252,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 _KR_韩国->🏳️_unKnow_未知
+      - 🇯🇵 日本(油管破解资源君2.0) 5
       - 🇸🇬 机场推荐dafei.de 新加坡 01
-      - 🇯🇵 日本(油管破解资源君2.0)
-      - 🇨🇳 台湾(油管破解资源君2.0) 2
-      - 🇭🇰 香港(油管破解资源君2.0) 4
+      - 🇸🇬 机场推荐dafei.de 新加坡 02
+      - 🇸🇬 新加坡(油管破解资源君2.0) 3
       - 🇨🇳 机场推荐dafei.de 台湾 02
       - 🇭🇰 机场推荐dafei.de 香港 03
       - 🇭🇰 机场推荐dafei.de 香港 08
@@ -296,16 +293,10 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 香港(油管破解资源君2.0) 2
-      - 🇸🇬 机场推荐dafei.de 新加坡 02
+      - 🇯🇵 日本(油管破解资源君2.0) 3
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇺🇸 机场推荐dafei.de 美国 49
-      - US_16
-      - 🇺🇸 机场推荐dafei.de 美国 13
-      - 🇺🇸 机场推荐dafei.de 美国 25
-      - 🇺🇸 机场推荐dafei.de 美国 26
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇺🇸 机场推荐dafei.de 美国 40
-      - 🇺🇸 机场推荐dafei.de 美国 10
       - 🇺🇸 机场推荐dafei.de 美国 53
       - 🇺🇸 机场推荐dafei.de 美国 54
       - 🇺🇸 机场推荐dafei.de 美国 316
@@ -322,9 +313,16 @@ proxy-groups:
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
-      - 🇪🇺 欧洲(油管破解资源君2.0)
-      - 🇩🇪 机场推荐dafei.de 法国 02
+      - 🇺🇸 美国_121320017
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇪🇺 欧洲(油管破解资源君2.0) 4
       - 🇩🇪 机场推荐dafei.de 马来 02
+      - 🇩🇪 机场推荐dafei.de 法国 02
+      - 🇪🇺 欧洲(油管破解资源君2.0) 3
       - 🇩🇪 机场推荐dafei.de 菲律宾 01
       - 🇩🇪 机场推荐dafei.de 德国 01
       - 乌克兰_121320004
@@ -339,24 +337,22 @@ proxy-groups:
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
-      - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
       - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
-      - 🇩🇪 德国_121320007
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 _KR_韩国->🏳️_unKnow_未知
+      - 🇯🇵 日本(油管破解资源君2.0) 5
       - 🇸🇬 机场推荐dafei.de 新加坡 01
-      - 🇯🇵 日本(油管破解资源君2.0)
-      - 🇨🇳 台湾(油管破解资源君2.0) 2
-      - 🇭🇰 香港(油管破解资源君2.0) 4
+      - 🇸🇬 机场推荐dafei.de 新加坡 02
+      - 🇸🇬 新加坡(油管破解资源君2.0) 3
       - 🇨🇳 机场推荐dafei.de 台湾 02
       - 🇭🇰 机场推荐dafei.de 香港 03
       - 🇭🇰 机场推荐dafei.de 香港 08
@@ -394,16 +390,10 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 香港(油管破解资源君2.0) 2
-      - 🇸🇬 机场推荐dafei.de 新加坡 02
+      - 🇯🇵 日本(油管破解资源君2.0) 3
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇺🇸 机场推荐dafei.de 美国 49
-      - US_16
-      - 🇺🇸 机场推荐dafei.de 美国 13
-      - 🇺🇸 机场推荐dafei.de 美国 25
-      - 🇺🇸 机场推荐dafei.de 美国 26
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇺🇸 机场推荐dafei.de 美国 40
-      - 🇺🇸 机场推荐dafei.de 美国 10
       - 🇺🇸 机场推荐dafei.de 美国 53
       - 🇺🇸 机场推荐dafei.de 美国 54
       - 🇺🇸 机场推荐dafei.de 美国 316
@@ -420,9 +410,16 @@ proxy-groups:
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
-      - 🇪🇺 欧洲(油管破解资源君2.0)
-      - 🇩🇪 机场推荐dafei.de 法国 02
+      - 🇺🇸 美国_121320017
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇪🇺 欧洲(油管破解资源君2.0) 4
       - 🇩🇪 机场推荐dafei.de 马来 02
+      - 🇩🇪 机场推荐dafei.de 法国 02
+      - 🇪🇺 欧洲(油管破解资源君2.0) 3
       - 🇩🇪 机场推荐dafei.de 菲律宾 01
       - 🇩🇪 机场推荐dafei.de 德国 01
       - 乌克兰_121320004
@@ -437,26 +434,19 @@ proxy-groups:
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
-      - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
       - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
-      - 🇩🇪 德国_121320007
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 机场推荐dafei.de 美国 49
-      - US_16
-      - 🇺🇸 机场推荐dafei.de 美国 13
-      - 🇺🇸 机场推荐dafei.de 美国 25
-      - 🇺🇸 机场推荐dafei.de 美国 26
       - 🇺🇸 机场推荐dafei.de 美国 40
-      - 🇺🇸 机场推荐dafei.de 美国 10
       - 🇺🇸 机场推荐dafei.de 美国 53
       - 🇺🇸 机场推荐dafei.de 美国 54
       - 🇺🇸 机场推荐dafei.de 美国 316
@@ -473,17 +463,22 @@ proxy-groups:
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
+      - 🇺🇸 美国_121320017
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 _KR_韩国->🏳️_unKnow_未知
+      - 🇯🇵 日本(油管破解资源君2.0) 5
       - 🇸🇬 机场推荐dafei.de 新加坡 01
-      - 🇯🇵 日本(油管破解资源君2.0)
-      - 🇨🇳 台湾(油管破解资源君2.0) 2
-      - 🇭🇰 香港(油管破解资源君2.0) 4
+      - 🇸🇬 机场推荐dafei.de 新加坡 02
+      - 🇸🇬 新加坡(油管破解资源君2.0) 3
       - 🇨🇳 机场推荐dafei.de 台湾 02
       - 🇭🇰 机场推荐dafei.de 香港 03
       - 🇭🇰 机场推荐dafei.de 香港 08
@@ -521,18 +516,19 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 香港(油管破解资源君2.0) 2
-      - 🇸🇬 机场推荐dafei.de 新加坡 02
+      - 🇯🇵 日本(油管破解资源君2.0) 3
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇪🇺 欧洲(油管破解资源君2.0)
-      - 🇩🇪 机场推荐dafei.de 法国 02
+      - 🇪🇺 欧洲(油管破解资源君2.0) 4
       - 🇩🇪 机场推荐dafei.de 马来 02
+      - 🇩🇪 机场推荐dafei.de 法国 02
+      - 🇪🇺 欧洲(油管破解资源君2.0) 3
       - 🇩🇪 机场推荐dafei.de 菲律宾 01
       - 🇩🇪 机场推荐dafei.de 德国 01
       - 乌克兰_121320004
@@ -547,26 +543,19 @@ proxy-groups:
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
-      - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
       - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
-      - 🇩🇪 德国_121320007
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 机场推荐dafei.de 美国 49
-      - US_16
-      - 🇺🇸 机场推荐dafei.de 美国 13
-      - 🇺🇸 机场推荐dafei.de 美国 25
-      - 🇺🇸 机场推荐dafei.de 美国 26
       - 🇺🇸 机场推荐dafei.de 美国 40
-      - 🇺🇸 机场推荐dafei.de 美国 10
       - 🇺🇸 机场推荐dafei.de 美国 53
       - 🇺🇸 机场推荐dafei.de 美国 54
       - 🇺🇸 机场推荐dafei.de 美国 316
@@ -581,13 +570,18 @@ proxy-groups:
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
+      - 🇺🇸 美国_121320017
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 香港(油管破解资源君2.0) 4
       - 🇭🇰 机场推荐dafei.de 香港 03
       - 🇭🇰 机场推荐dafei.de 香港 08
       - 🇭🇰 机场推荐dafei.de 香港 09
@@ -597,7 +591,6 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 香港(油管破解资源君2.0) 2
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
@@ -605,13 +598,14 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 机场推荐dafei.de 新加坡 01
+      - 🇸🇬 机场推荐dafei.de 新加坡 02
+      - 🇸🇬 新加坡(油管破解资源君2.0) 3
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
-      - 🇸🇬 机场推荐dafei.de 新加坡 02
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
   - name: 日本
     type: url-test
@@ -619,7 +613,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 日本(油管破解资源君2.0)
+      - 🇯🇵 日本(油管破解资源君2.0) 5
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320009
@@ -634,13 +628,14 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇯🇵 日本(油管破解资源君2.0) 3
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 台湾(油管破解资源君2.0) 2
       - 🇨🇳 机场推荐dafei.de 台湾 02
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
@@ -652,7 +647,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 _KR_韩国->🏳️_unKnow_未知
       - 🇰🇷 机场推荐dafei.de 韩国 01
       - 🇰🇷 机场推荐dafei.de 韩国 03
       - 🇰🇷 韩国_121320001
@@ -1935,6 +1929,7 @@ rules:
  - DOMAIN-SUFFIX,app-store.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,appe-store.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-appstore.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-itunes.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.rs,🍎 苹果服务
@@ -1945,6 +1940,7 @@ rules:
  - DOMAIN-SUFFIX,appleappstore.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.us,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-iclou.com,🍎 苹果服务
@@ -1953,6 +1949,7 @@ rules:
  - DOMAIN-SUFFIX,appleid.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hk,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.audio,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.blog,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.chat,🍎 苹果服务
@@ -2000,7 +1997,50 @@ rules:
  - DOMAIN-SUFFIX,darwinsource.com,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsource.org,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsourcecode.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ids-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itun.es,🍎 苹果服务
  - DOMAIN-SUFFIX,itunbes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ituneas.com,🍎 苹果服务
@@ -2034,8 +2074,12 @@ rules:
  - DOMAIN-SUFFIX,itunesu.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunesu.net,🍎 苹果服务
  - DOMAIN-SUFFIX,iutunes.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,myappleid.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
  - DOMAIN-SUFFIX,tvappstore.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplestore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplleipods.com,🍎 苹果服务
@@ -2264,10 +2308,10 @@ rules:
  - DOMAIN-SUFFIX,wwwipodlounge.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwmacbookair.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.comscoreresearch.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
- - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.com.au,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.wang,🍎 苹果服务
@@ -2300,63 +2344,13 @@ rules:
  - DOMAIN-SUFFIX,iphoto.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
+ - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-livephotoskit.com,🍎 苹果服务
- - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
- - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
- - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
- - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-KEYWORD,apple-support.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.edgekey.net,🍎 苹果服务
