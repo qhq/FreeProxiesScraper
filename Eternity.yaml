@@ -5,6 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1, server: v6.583181.xyz, port: 80, type: vmess, uuid: 561d9533-e20a-4ff0-83d4-80d0cc588dfb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v6.583181.xyz}}}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
   - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -46,7 +47,6 @@ proxies:
   - {name: 🇭🇰 12|🇭🇰 香港6|@ripaojiedian, server: gg21.hangfengjiasu.com, port: 12202, type: ss, cipher: chacha20-ietf-poly1305, password: cdc48a7a-b618-45af-a831-5afbd686b02f}
   - {name: 🇭🇰 12|🇭🇰 香港7|@ripaojiedian, server: 120.232.153.40, port: 36609, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇭🇰 12|🇭🇰 香港8|@ripaojiedian, server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27101, type: trojan, password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇯🇵 12|🇯🇵 日本2|@ripaojiedian, server: hzz9.fgmcx.top, port: 23919, type: vmess, uuid: be443689-bc64-49ff-85a5-8eecaa2235d3, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 12|🇯🇵 日本5|@ripaojiedian, server: 103.232.213.117, port: 8080, type: trojan, password: ji0612uenfs, sni: ji0612e.nfjunka.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560%252526proxyip%25253D103.232.213.117%25253A8080", headers: {Host: ji0612e.nfjunka.xyz}}}
   - {name: 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian, server: 3.34.192.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
@@ -79,7 +79,6 @@ proxies:
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144, server: cf.gheychi.me, port: 8080, type: vmess, uuid: ad98ffa2-914b-11ed-a1eb-0242ac120002, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ws, headers: {Host: cf.gheychi.me}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.18.7.138}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇭🇰 adi|0703v - dg-hk-node02, server: dg-hk-node02.linkthink.app, port: 12025, type: ssr, cipher: dummy, password: e5opjuLDEQ, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ajax.microsoft.com}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148, server: 45.136.244.181, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fr-unlimitxxx, headers: {Host: 45.136.244.181}}}
   - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
   - {name: 🇮🇳 github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
@@ -97,6 +96,7 @@ proxies:
   - {name: Relay_-🇬🇧GB_06, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false}
   - {name: 乌克兰_121320004, server: 185.250.150.220, port: 8080, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
   - {name: 🇮🇷 伊朗_121320001, server: 195.211.44.107, port: 20515, type: vmess, uuid: a56b1fb2-6a48-4d08-80e7-7cc1b2df019e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇷 伊朗_121320006, server: 81.12.27.2, port: 58768, type: vmess, uuid: 324d3868-cfef-4bd4-ab44-1776a406635f, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,6 +112,7 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -153,7 +154,6 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
@@ -186,7 +186,6 @@ proxy-groups:
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
-      - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
@@ -204,6 +203,7 @@ proxy-groups:
       - Relay_-🇬🇧GB_06
       - 乌克兰_121320004
       - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗_121320006
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,6 +254,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -295,7 +296,6 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
@@ -328,7 +328,6 @@ proxy-groups:
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
-      - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
@@ -346,12 +345,14 @@ proxy-groups:
       - Relay_-🇬🇧GB_06
       - 乌克兰_121320004
       - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗_121320006
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -393,7 +394,6 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
@@ -426,7 +426,6 @@ proxy-groups:
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
-      - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
@@ -444,6 +443,7 @@ proxy-groups:
       - Relay_-🇬🇧GB_06
       - 乌克兰_121320004
       - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗_121320006
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -480,6 +480,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
@@ -521,7 +522,6 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
   - name: 🌍 其它地区
@@ -536,7 +536,6 @@ proxy-groups:
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
-      - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
@@ -554,6 +553,7 @@ proxy-groups:
       - Relay_-🇬🇧GB_06
       - 乌克兰_121320004
       - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗_121320006
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -618,6 +618,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320009
@@ -635,7 +636,6 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇯🇵 12|🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
   - name: 台湾
     type: url-test
