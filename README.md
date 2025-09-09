@@ -127,7 +127,7 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `711`
+合并节点总数: `714`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
