@@ -49,8 +49,8 @@ proxies:
   - {name: 🇯🇵 12|🇯🇵 日本5|@ripaojiedian, server: 103.232.213.117, port: 8080, type: trojan, password: ji0612uenfs, sni: ji0612e.nfjunka.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560%252526proxyip%25253D103.232.213.117%25253A8080", headers: {Host: ji0612e.nfjunka.xyz}}}
   - {name: 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian, server: 3.34.192.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian, server: 3.36.96.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国_121320005, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
+  - {name: 🇺🇸 美国 019, server: 216.173.69.250, port: 8443, type: vmess, uuid: 91382092-2330-455b-8a1c-9c129cfe661a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: google.com}}}
+  - {name: 🇺🇸 美国_121320003, server: e691d61a-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: e691d61a-f.3nvx.com}}}
   - {name: 🇺🇸 美国_121320009, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
   - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 🇺🇸 美国_121320011, server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
@@ -64,7 +64,6 @@ proxies:
   - {name: 🇺🇸 美国_121320020, server: 172.67.131.150, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
   - {name: 🇺🇸 美国_121320023, server: 172.252.56.69, port: 36450, type: vmess, uuid: 2f5144ae-8fb8-43e1-b6f9-52bb36f124ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320024, server: 172.67.221.114, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
-  - {name: 🇺🇸 美国_121320027, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}}
   - {name: 🇺🇸 美国_121320028, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
@@ -72,9 +71,12 @@ proxies:
   - {name: 🇺🇸 美国_121320036, server: 64.176.59.68, port: 59350, type: vmess, uuid: 5821ac21-8e3f-4c8b-832d-a55190c944e9, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320037, server: 47.236.22.3, port: 47885, type: vmess, uuid: 2fb7aa37-e195-44f1-f000-5727610d22e3, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320039, server: 158.178.227.16, port: 30839, type: vmess, uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 _RU_俄罗斯, server: 217.30.10.70, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C}
-  - {name: 🇲🇩 _MD_摩尔多瓦, server: 91.132.94.200, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇮🇳 印度_121320009, server: ru1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}}
+  - {name: 🇺🇸 美国_121320052, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_121320056, server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国 026, server: 47.243.245.143, port: 11455, type: vmess, uuid: 06e10e0b-57ae-48db-a37a-f2fd207e3b11, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度_121320008, server: 103.113.68.233, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 103.113.68.233}}}
+  - {name: 🇰🇿 哈萨克斯坦_121320002, server: kz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 0a6ae6c5-e1f8-411c-8f11-cfa5433c58e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: kz1-vmess.sshmax.xyz}}}
+  - {name: 🇬🇷 希腊_121320001, server: 185.242.84.49, port: 80, type: vmess, uuid: 9db34944-bc87-43cb-8b57-45cf87b2b006, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
   - {name: 🇩🇪 德国_121320001, server: 157.230.28.129, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇩🇪 德国_121320004, server: v2.vipstore.cfd, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: v2.vipstore.cfd}}}
   - {name: 🇩🇪 德国_121320005, server: 116.203.60.6, port: 18180, type: vmess, uuid: b1cfd141-4f0d-40b4-b169-ed332a4a92b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -95,7 +97,6 @@ proxies:
   - {name: 未知_121320005, server: 104.21.91.254, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
   - {name: 未知_121320006, server: 104.21.75.246, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ophelia.mom:443/linkvws, headers: {Host: cf.tonyluk.link}}}
   - {name: 未知_121320007, server: octavi.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
-  - {name: 未知_121320008, server: ginson.efnten.top, port: 443, type: vmess, uuid: 673ba378-840f-4928-81f2-203148d07350, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /673ba378-840f-4928-81f2-203148d07350, headers: {Host: cowochtmtrkers.turbo021.link}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -155,8 +156,8 @@ proxy-groups:
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
       - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇺🇸 美国_121320005
-      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国 019
+      - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -170,7 +171,6 @@ proxy-groups:
       - 🇺🇸 美国_121320020
       - 🇺🇸 美国_121320023
       - 🇺🇸 美国_121320024
-      - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
@@ -178,9 +178,12 @@ proxy-groups:
       - 🇺🇸 美国_121320036
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
-      - 🇷🇺 _RU_俄罗斯
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇮🇳 印度_121320009
+      - 🇺🇸 美国_121320052
+      - 🇺🇸 美国_121320056
+      - 🇨🇳 中国 026
+      - 🇮🇳 印度_121320008
+      - 🇰🇿 哈萨克斯坦_121320002
+      - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
@@ -201,7 +204,6 @@ proxy-groups:
       - 未知_121320005
       - 未知_121320006
       - 未知_121320007
-      - 未知_121320008
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -296,8 +298,8 @@ proxy-groups:
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
       - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇺🇸 美国_121320005
-      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国 019
+      - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -311,7 +313,6 @@ proxy-groups:
       - 🇺🇸 美国_121320020
       - 🇺🇸 美国_121320023
       - 🇺🇸 美国_121320024
-      - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
@@ -319,9 +320,12 @@ proxy-groups:
       - 🇺🇸 美国_121320036
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
-      - 🇷🇺 _RU_俄罗斯
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇮🇳 印度_121320009
+      - 🇺🇸 美国_121320052
+      - 🇺🇸 美国_121320056
+      - 🇨🇳 中国 026
+      - 🇮🇳 印度_121320008
+      - 🇰🇿 哈萨克斯坦_121320002
+      - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
@@ -342,7 +346,6 @@ proxy-groups:
       - 未知_121320005
       - 未知_121320006
       - 未知_121320007
-      - 未知_121320008
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -393,8 +396,8 @@ proxy-groups:
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
       - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇺🇸 美国_121320005
-      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国 019
+      - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -408,7 +411,6 @@ proxy-groups:
       - 🇺🇸 美国_121320020
       - 🇺🇸 美国_121320023
       - 🇺🇸 美国_121320024
-      - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
@@ -416,9 +418,12 @@ proxy-groups:
       - 🇺🇸 美国_121320036
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
-      - 🇷🇺 _RU_俄罗斯
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇮🇳 印度_121320009
+      - 🇺🇸 美国_121320052
+      - 🇺🇸 美国_121320056
+      - 🇨🇳 中国 026
+      - 🇮🇳 印度_121320008
+      - 🇰🇿 哈萨克斯坦_121320002
+      - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
@@ -439,15 +444,14 @@ proxy-groups:
       - 未知_121320005
       - 未知_121320006
       - 未知_121320007
-      - 未知_121320008
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国_121320005
-      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国 019
+      - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -461,7 +465,6 @@ proxy-groups:
       - 🇺🇸 美国_121320020
       - 🇺🇸 美国_121320023
       - 🇺🇸 美国_121320024
-      - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
@@ -469,6 +472,8 @@ proxy-groups:
       - 🇺🇸 美国_121320036
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
+      - 🇺🇸 美国_121320052
+      - 🇺🇸 美国_121320056
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -526,9 +531,10 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇷🇺 _RU_俄罗斯
-      - 🇲🇩 _MD_摩尔多瓦
-      - 🇮🇳 印度_121320009
+      - 🇨🇳 中国 026
+      - 🇮🇳 印度_121320008
+      - 🇰🇿 哈萨克斯坦_121320002
+      - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
@@ -549,15 +555,14 @@ proxy-groups:
       - 未知_121320005
       - 未知_121320006
       - 未知_121320007
-      - 未知_121320008
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国_121320005
-      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国 019
+      - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -571,7 +576,6 @@ proxy-groups:
       - 🇺🇸 美国_121320020
       - 🇺🇸 美国_121320023
       - 🇺🇸 美国_121320024
-      - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
@@ -579,6 +583,8 @@ proxy-groups:
       - 🇺🇸 美国_121320036
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
+      - 🇺🇸 美国_121320052
+      - 🇺🇸 美国_121320056
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
