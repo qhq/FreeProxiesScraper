@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 58.152.110.216, port: 443, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
+  - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
@@ -34,7 +34,6 @@ proxies:
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: 36.156.102.115, port: 26876, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: 🇭🇰 香港(油管破解资源君2.0) 7, server: 119.247.119.212, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, sni: sg-01.tiktokcdn.top, skip-cert-verify: true}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
@@ -49,7 +48,8 @@ proxies:
   - {name: 🇭🇰 12|🇭🇰 香港7|@ripaojiedian, server: 120.232.153.40, port: 36609, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇭🇰 12|🇭🇰 香港8|@ripaojiedian, server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27101, type: trojan, password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
   - {name: 🇯🇵 12|🇯🇵 日本5|@ripaojiedian, server: 103.232.213.117, port: 8080, type: trojan, password: ji0612uenfs, sni: ji0612e.nfjunka.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560%252526proxyip%25253D103.232.213.117%25253A8080", headers: {Host: ji0612e.nfjunka.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
+  - {name: 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian, server: 3.34.192.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
   - {name: US_09, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
   - {name: US_10, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false}
@@ -73,8 +73,7 @@ proxies:
   - {name: 🇺🇸 美国_121320015, server: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top}}}
   - {name: 🇺🇸 美国_121320017, server: 144.202.81.122, port: 25514, type: vmess, uuid: 13bf827e-55cd-4b46-e9f1-b7f9ffbe7955, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320018, server: 172.67.206.124, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: rlhrwtqusd.site}}}
-  - {name: github.com/freefq - 广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: GB_07, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: _01, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: RO_08, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
   - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
@@ -97,6 +96,7 @@ proxies:
   - {name: 🇮🇳 印度_121320005, server: 103.106.230.153, port: 32732, type: vmess, uuid: eb931108-646b-4ceb-a741-d32490cb00f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
   - {name: 🇮🇳 印度_121320008, server: 103.113.68.233, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 103.113.68.233}}}
   - {name: 🇮🇳 印度_121320009, server: ru1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}}
+  - {name: 🇮🇩 印度尼西亚_121320001, server: 113.20.28.102, port: 22188, type: vmess, uuid: 00677eb4-91c2-41f1-e790-963b9a093fd5, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,8 +112,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
@@ -141,7 +141,6 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇭🇰 香港(油管破解资源君2.0) 7
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -156,7 +155,8 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - US_09
       - US_10
@@ -180,8 +180,7 @@ proxy-groups:
       - 🇺🇸 美国_121320015
       - 🇺🇸 美国_121320017
       - 🇺🇸 美国_121320018
-      - github.com/freefq - 广东省江门市移动 8
-      - GB_07
+      - _01
       - RO_08
       - ZZ_20
       - ZZ_21
@@ -204,6 +203,7 @@ proxy-groups:
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
+      - 🇮🇩 印度尼西亚_121320001
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,8 +254,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
@@ -283,7 +283,6 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇭🇰 香港(油管破解资源君2.0) 7
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -298,7 +297,8 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - US_09
       - US_10
@@ -322,8 +322,7 @@ proxy-groups:
       - 🇺🇸 美国_121320015
       - 🇺🇸 美国_121320017
       - 🇺🇸 美国_121320018
-      - github.com/freefq - 广东省江门市移动 8
-      - GB_07
+      - _01
       - RO_08
       - ZZ_20
       - ZZ_21
@@ -346,14 +345,15 @@ proxy-groups:
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
+      - 🇮🇩 印度尼西亚_121320001
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
@@ -381,7 +381,6 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇭🇰 香港(油管破解资源君2.0) 7
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -396,7 +395,8 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - US_09
       - US_10
@@ -420,8 +420,7 @@ proxy-groups:
       - 🇺🇸 美国_121320015
       - 🇺🇸 美国_121320017
       - 🇺🇸 美国_121320018
-      - github.com/freefq - 广东省江门市移动 8
-      - GB_07
+      - _01
       - RO_08
       - ZZ_20
       - ZZ_21
@@ -444,13 +443,14 @@ proxy-groups:
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
+      - 🇮🇩 印度尼西亚_121320001
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - US_09
       - US_10
@@ -480,8 +480,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
@@ -509,7 +509,6 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇭🇰 香港(油管破解资源君2.0) 7
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -524,14 +523,14 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
+      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - github.com/freefq - 广东省江门市移动 8
-      - GB_07
+      - _01
       - RO_08
       - ZZ_20
       - ZZ_21
@@ -554,13 +553,14 @@ proxy-groups:
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
+      - 🇮🇩 印度尼西亚_121320001
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - US_09
       - US_10
@@ -588,11 +588,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 香港(油管破解资源君2.0) 7
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
       - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
@@ -646,6 +644,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇨🇳 2,13|台湾|@ripaojiedian
@@ -656,6 +655,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇰🇷 韩国_121320001
+      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
@@ -1935,7 +1935,6 @@ rules:
  - DOMAIN-SUFFIX,app-store.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,appe-store.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-appstore.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-itunes.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.rs,🍎 苹果服务
@@ -1946,7 +1945,6 @@ rules:
  - DOMAIN-SUFFIX,appleappstore.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.net,🍎 苹果服务
- - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.us,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-iclou.com,🍎 苹果服务
@@ -1955,7 +1953,6 @@ rules:
  - DOMAIN-SUFFIX,appleid.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hk,🍎 苹果服务
- - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.audio,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.blog,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.chat,🍎 苹果服务
@@ -1991,6 +1988,7 @@ rules:
  - DOMAIN-SUFFIX,applepaysupplies.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.tv,🍎 苹果服务
+ - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.co.id,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.hk,🍎 苹果服务
@@ -2002,50 +2000,7 @@ rules:
  - DOMAIN-SUFFIX,darwinsource.com,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsource.org,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsourcecode.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ids-apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itun.es,🍎 苹果服务
  - DOMAIN-SUFFIX,itunbes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ituneas.com,🍎 苹果服务
@@ -2079,12 +2034,8 @@ rules:
  - DOMAIN-SUFFIX,itunesu.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunesu.net,🍎 苹果服务
  - DOMAIN-SUFFIX,iutunes.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,myappleid.com,🍎 苹果服务
- - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
  - DOMAIN-SUFFIX,tvappstore.net,🍎 苹果服务
- - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplestore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplleipods.com,🍎 苹果服务
@@ -2351,12 +2302,61 @@ rules:
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
- - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
- - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-livephotoskit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-KEYWORD,apple-support.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.edgekey.net,🍎 苹果服务
@@ -9819,6 +9819,7 @@ rules:
  - DOMAIN-SUFFIX,aolnews.com,🚀 节点选择
  - DOMAIN-SUFFIX,aomedia.org,🚀 节点选择
  - DOMAIN-SUFFIX,aomiwang.com,🚀 节点选择
+ - DOMAIN-SUFFIX,aoxvpn.com,🚀 节点选择
  - DOMAIN-SUFFIX,ap.org,🚀 节点选择
  - DOMAIN-SUFFIX,apache.org,🚀 节点选择
  - DOMAIN-SUFFIX,apartmentratings.com,🚀 节点选择
@@ -10054,6 +10055,7 @@ rules:
  - DOMAIN-SUFFIX,bet365.com,🚀 节点选择
  - DOMAIN-SUFFIX,betaclouds.net,🚀 节点选择
  - DOMAIN-SUFFIX,betfair.com,🚀 节点选择
+ - DOMAIN-SUFFIX,bettergpt.chat,🚀 节点选择
  - DOMAIN-SUFFIX,betterhash.net,🚀 节点选择
  - DOMAIN-SUFFIX,betternet.co,🚀 节点选择
  - DOMAIN-SUFFIX,bettervpn.com,🚀 节点选择
@@ -10320,6 +10322,7 @@ rules:
  - DOMAIN-SUFFIX,cams.org.sg,🚀 节点选择
  - DOMAIN-SUFFIX,canadameet.com,🚀 节点选择
  - DOMAIN-SUFFIX,cantonese.asia,🚀 节点选择
+ - DOMAIN-SUFFIX,canva.com,🚀 节点选择
  - DOMAIN-SUFFIX,canyu.org,🚀 节点选择
  - DOMAIN-SUFFIX,cao.im,🚀 节点选择
  - DOMAIN-SUFFIX,caobian.info,🚀 节点选择
@@ -10362,6 +10365,7 @@ rules:
  - DOMAIN-SUFFIX,ccdtr.org,🚀 节点选择
  - DOMAIN-SUFFIX,ccfd.org.tw,🚀 节点选择
  - DOMAIN-SUFFIX,cchere.com,🚀 节点选择
+ - DOMAIN-SUFFIX,cchostvps.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,ccim.org,🚀 节点选择
  - DOMAIN-SUFFIX,cclife.ca,🚀 节点选择
  - DOMAIN-SUFFIX,cclife.org,🚀 节点选择
@@ -10426,8 +10430,10 @@ rules:
  - DOMAIN-SUFFIX,chaos.social,🚀 节点选择
  - DOMAIN-SUFFIX,chapm25.com,🚀 节点选择
  - DOMAIN-SUFFIX,character.ai,🚀 节点选择
+ - DOMAIN-SUFFIX,chat.com,🚀 节点选择
  - DOMAIN-SUFFIX,chat.openai.com,🚀 节点选择
  - DOMAIN-SUFFIX,chatnook.com,🚀 节点选择
+ - DOMAIN-SUFFIX,chatpdf.com,🚀 节点选择
  - DOMAIN-SUFFIX,chaturbate.com,🚀 节点选择
  - DOMAIN-SUFFIX,checkgfw.com,🚀 节点选择
  - DOMAIN-SUFFIX,chengmingmag.com,🚀 节点选择
@@ -10788,6 +10794,7 @@ rules:
  - DOMAIN-SUFFIX,daozhongxing.org,🚀 节点选择
  - DOMAIN-SUFFIX,darktech.org,🚀 节点选择
  - DOMAIN-SUFFIX,darktoy.net,🚀 节点选择
+ - DOMAIN-SUFFIX,darmau.co,🚀 节点选择
  - DOMAIN-SUFFIX,darpa.mil,🚀 节点选择
  - DOMAIN-SUFFIX,darrenliuwei.com,🚀 节点选择
  - DOMAIN-SUFFIX,dartlang.org,🚀 节点选择
@@ -11321,6 +11328,7 @@ rules:
  - DOMAIN-SUFFIX,figprayer.com,🚀 节点选择
  - DOMAIN-SUFFIX,fileflyer.com,🚀 节点选择
  - DOMAIN-SUFFIX,fileforum.com,🚀 节点选择
+ - DOMAIN-SUFFIX,files.oaiusercontent.com,🚀 节点选择
  - DOMAIN-SUFFIX,files2me.com,🚀 节点选择
  - DOMAIN-SUFFIX,fileserve.com,🚀 节点选择
  - DOMAIN-SUFFIX,filesor.com,🚀 节点选择
@@ -11364,6 +11372,7 @@ rules:
  - DOMAIN-SUFFIX,flitto.com,🚀 节点选择
  - DOMAIN-SUFFIX,flnet.org,🚀 节点选择
  - DOMAIN-SUFFIX,flog.tw,🚀 节点选择
+ - DOMAIN-SUFFIX,flowgpt.com,🚀 节点选择
  - DOMAIN-SUFFIX,flowhongkong.net,🚀 节点选择
  - DOMAIN-SUFFIX,flypool.org,🚀 节点选择
  - DOMAIN-SUFFIX,flyvpn.com,🚀 节点选择
@@ -11383,6 +11392,7 @@ rules:
  - DOMAIN-SUFFIX,fooooo.com,🚀 节点选择
  - DOMAIN-SUFFIX,footwiball.com,🚀 节点选择
  - DOMAIN-SUFFIX,forbes.com,🚀 节点选择
+ - DOMAIN-SUFFIX,forefront.ai,🚀 节点选择
  - DOMAIN-SUFFIX,foreignaffairs.com,🚀 节点选择
  - DOMAIN-SUFFIX,foreignpolicy.com,🚀 节点选择
  - DOMAIN-SUFFIX,form.new,🚀 节点选择
@@ -12121,6 +12131,7 @@ rules:
  - DOMAIN-SUFFIX,hxwk.org,🚀 节点选择
  - DOMAIN-SUFFIX,hxwq.org,🚀 节点选择
  - DOMAIN-SUFFIX,hybrid-analysis.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hyperbeam.com,🚀 节点选择
  - DOMAIN-SUFFIX,hyperrate.com,🚀 节点选择
  - DOMAIN-SUFFIX,hypothes.is,🚀 节点选择
  - DOMAIN-SUFFIX,hyread.com.tw,🚀 节点选择
@@ -12644,6 +12655,7 @@ rules:
  - DOMAIN-SUFFIX,letou.com,🚀 节点选择
  - DOMAIN-SUFFIX,letscorp.net,🚀 节点选择
  - DOMAIN-SUFFIX,level-plus.net,🚀 节点选择
+ - DOMAIN-SUFFIX,lexica.art,🚀 节点选择
  - DOMAIN-SUFFIX,lflink.com,🚀 节点选择
  - DOMAIN-SUFFIX,lflinkup.com,🚀 节点选择
  - DOMAIN-SUFFIX,lflinkup.net,🚀 节点选择
@@ -12689,6 +12701,7 @@ rules:
  - DOMAIN-SUFFIX,linkuswell.com,🚀 节点选择
  - DOMAIN-SUFFIX,linode.com,🚀 节点选择
  - DOMAIN-SUFFIX,linpie.com,🚀 节点选择
+ - DOMAIN-SUFFIX,linux.do,🚀 节点选择
  - DOMAIN-SUFFIX,linux.org.hk,🚀 节点选择
  - DOMAIN-SUFFIX,linuxtoy.org,🚀 节点选择
  - DOMAIN-SUFFIX,lionsroar.com,🚀 节点选择
@@ -12725,6 +12738,7 @@ rules:
  - DOMAIN-SUFFIX,lkcn.net,🚀 节点选择
  - DOMAIN-SUFFIX,llnwd.net,🚀 节点选择
  - DOMAIN-SUFFIX,llss.me,🚀 节点选择
+ - DOMAIN-SUFFIX,lmarena.ai,🚀 节点选择
  - DOMAIN-SUFFIX,lmsys.org,🚀 节点选择
  - DOMAIN-SUFFIX,load.to,🚀 节点选择
  - DOMAIN-SUFFIX,lobsangwangyal.com,🚀 节点选择
@@ -12760,6 +12774,7 @@ rules:
  - DOMAIN-SUFFIX,lsmradio.com,🚀 节点选择
  - DOMAIN-SUFFIX,lsmwebcast.com,🚀 节点选择
  - DOMAIN-SUFFIX,lsxszzg.com,🚀 节点选择
+ - DOMAIN-SUFFIX,lt.sntp.uk,🚀 节点选择
  - DOMAIN-SUFFIX,ltn.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,luckydesigner.space,🚀 节点选择
  - DOMAIN-SUFFIX,luckymobile.ca,🚀 节点选择
@@ -13993,6 +14008,7 @@ rules:
  - DOMAIN-SUFFIX,releaseinternational.org,🚀 节点选择
  - DOMAIN-SUFFIX,religionnews.com,🚀 节点选择
  - DOMAIN-SUFFIX,religioustolerance.org,🚀 节点选择
+ - DOMAIN-SUFFIX,rentry.co,🚀 节点选择
  - DOMAIN-SUFFIX,renyurenquan.org,🚀 节点选择
  - DOMAIN-SUFFIX,resilio.com,🚀 节点选择
  - DOMAIN-SUFFIX,resistchina.org,🚀 节点选择
@@ -14701,6 +14717,7 @@ rules:
  - DOMAIN-SUFFIX,tenzinpalmo.com,🚀 节点选择
  - DOMAIN-SUFFIX,terabox.com,🚀 节点选择
  - DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,terobox.com,🚀 节点选择
  - DOMAIN-SUFFIX,tew.org,🚀 节点选择
  - DOMAIN-SUFFIX,textnow.com,🚀 节点选择
  - DOMAIN-SUFFIX,textnow.me,🚀 节点选择
