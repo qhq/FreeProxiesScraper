@@ -30,7 +30,7 @@ Fork from TopFreeProxies.
 <details>
   <summary>展开复制节点</summary>
 
-    trojan://BxceQaOe@58.152.53.22:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF5%7C%40ripaojiedian
+    trojan://BxceQaOe@153.121.67.215:2145?allowInsecure=1&sni=t.me%2Fripaojiedian#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Y+w5rm+XzEyMTMyMDAwMSIsImFkZCI6IjEwMy4xNTkuMjA2LjM1IiwicG9ydCI6IjMxOTQ1IiwidHlwZSI6Im5vbmUiLCJpZCI6ImUyZTUxMWIwLTdkZWYtNGUxYi1kMjM4LTZjYjUzOTFiMmUzZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IjEwMy4xNTkuMjA2LjM1IiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Y+w5rm+XzEyMTMyMDAwNiIsImFkZCI6IjEyMy41OC4xOTcuNzAiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjRjYTAxOTZjLTA1ZTctNDVlYi05MDM2LTY5MmMyMDFmNDVmYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Y+w5rm+XzEyMTMyMDAwNyIsImFkZCI6IjE1Mi4zMi4xNjcuMTY2IiwicG9ydCI6IjE5NTg4IiwidHlwZSI6Im5vbmUiLCJpZCI6ImUxNjBkMGJhLTViMWEtNDQ4Yy1mY2ZiLTM1YmZjNWMyYjFiNSIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
@@ -127,7 +127,7 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1195`
+合并节点总数: `1194`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
