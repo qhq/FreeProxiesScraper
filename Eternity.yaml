@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 160.16.242.183, port: 2145, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
-  - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
@@ -73,7 +73,7 @@ proxies:
   - {name: 🇺🇸 美国_121320037, server: 47.236.22.3, port: 47885, type: vmess, uuid: 2fb7aa37-e195-44f1-f000-5727610d22e3, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320039, server: 158.178.227.16, port: 30839, type: vmess, uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320052, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇱🇺 卢森堡_121320001, server: 107.189.29.193, port: 21280, type: vmess, uuid: 2d23b71f-78e1-4f17-a7cc-1ef04a910a4c, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度_121320001, server: 103.114.201.143, port: 59487, type: vmess, uuid: 51fb562e-0a9b-4c27-e4d8-6f4883bb5165, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320002, server: 103.114.201.44, port: 45233, type: vmess, uuid: 8e87821e-c22a-44c6-c741-43ab791f47b6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.114.201.44}}}
   - {name: 🇮🇳 印度_121320003, server: 205.164.28.103, port: 13487, type: vmess, uuid: f5502283-53ba-442b-bdb1-a25745fd5c17, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320005, server: 103.106.230.153, port: 32732, type: vmess, uuid: eb931108-646b-4ceb-a741-d32490cb00f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
@@ -112,8 +112,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇯🇵 日本|@ripaojiedian
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
@@ -180,7 +180,7 @@ proxy-groups:
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
-      - 🇱🇺 卢森堡_121320001
+      - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320002
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
@@ -254,8 +254,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 日本|@ripaojiedian
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
@@ -322,7 +322,7 @@ proxy-groups:
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
-      - 🇱🇺 卢森堡_121320001
+      - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320002
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
@@ -352,8 +352,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 日本|@ripaojiedian
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
@@ -420,7 +420,7 @@ proxy-groups:
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
-      - 🇱🇺 卢森堡_121320001
+      - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320002
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
@@ -480,8 +480,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 日本|@ripaojiedian
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
@@ -530,7 +530,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇱🇺 卢森堡_121320001
+      - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320002
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
@@ -620,6 +620,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320009
@@ -646,7 +647,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇨🇳 2,13|台湾|@ripaojiedian
