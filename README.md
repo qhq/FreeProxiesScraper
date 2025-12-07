@@ -26,13 +26,13 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `93`
+高速节点数量: `92`
 <details>
   <summary>展开复制节点</summary>
 
-    trojan://79314e99f0a473fe86efc7827942ad00@160.16.150.76:1596?allowInsecure=0&sni=www.nintendogames.net#%F0%9F%87%B8%F0%9F%87%AC%20SG%20TROJAN-66%20%7C%20free-nodes
     vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7UgZ2l0aHViLmNvbS9mcmVlZnEgLSDml6XmnKzkuJzkuqxMaW5vZGXmlbDmja7kuK3lv4MgMSIsImFkZCI6InY2LjU4MzE4MS54eXoiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNTYxZDk1MzMtZTIwYS00ZmYwLTgzZDQtODBkMGNjNTg4ZGZiIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoidjYuNTgzMTgxLnh5eiIsInRscyI6IiJ9
-    vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Y+w5rm+XzEyMTMyMDAwMiIsImFkZCI6IjQ1LjEyMS40OC4xOTYiLCJwb3J0IjoiMTAwMDEiLCJ0eXBlIjoibm9uZSIsImlkIjoiMGVkMzU2MjktOTE5YS00ODkxLWJhMGYtMTNjZDE5OGY4NjNiIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6InY2LjU4MzE4MS54eXoiLCJ0bHMiOiIifQ==
+    vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Y+w5rm+XzEyMTMyMDAwMSIsImFkZCI6IjEwMy4xNTkuMjA2LjM1IiwicG9ydCI6IjMxOTQ1IiwidHlwZSI6Im5vbmUiLCJpZCI6ImUyZTUxMWIwLTdkZWYtNGUxYi1kMjM4LTZjYjUzOTFiMmUzZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IjEwMy4xNTkuMjA2LjM1IiwidGxzIjoiIn0=
+    vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Y+w5rm+XzEyMTMyMDAwMiIsImFkZCI6IjQ1LjEyMS40OC4xOTYiLCJwb3J0IjoiMTAwMDEiLCJ0eXBlIjoibm9uZSIsImlkIjoiMGVkMzU2MjktOTE5YS00ODkxLWJhMGYtMTNjZDE5OGY4NjNiIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IjEwMy4xNTkuMjA2LjM1IiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Y+w5rm+XzEyMTMyMDAwNiIsImFkZCI6IjEyMy41OC4xOTcuNzAiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjRjYTAxOTZjLTA1ZTctNDVlYi05MDM2LTY5MmMyMDFmNDVmYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Y+w5rm+XzEyMTMyMDAwNyIsImFkZCI6IjE1Mi4zMi4xNjcuMTY2IiwicG9ydCI6IjE5NTg4IiwidHlwZSI6Im5vbmUiLCJpZCI6ImUxNjBkMGJhLTViMWEtNDQ4Yy1mY2ZiLTM1YmZjNWMyYjFiNSIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HuPCfh6wg5paw5Yqg5Z2hXzEyMTMyMDAwMSIsImFkZCI6IjguMjIyLjIzOS43IiwicG9ydCI6IjMwMzI3IiwidHlwZSI6Im5vbmUiLCJpZCI6ImIzMTNlNjcwLWJmZDQtNGI2Mi1kMzE0LTBkMjk2ZTM2MzE5MiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
@@ -74,7 +74,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgMTJ88J+HrfCfh7Ag6aaZ5rivN3xAcmlwYW9qaWVkaWFuIiwiYWRkIjoiMTIwLjIzMi4xNTMuNDAiLCJwb3J0IjoiMzY2MDkiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiYWlkIjoiNjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiL3poLWNuIiwiaG9zdCI6ImNsb3VkZ2QuY29lbW4uY29tIiwidGxzIjoiIn0=
     trojan://1d28a2a2-2fb3-4456-b119-749e75ad9c93@aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz:27101?allowInsecure=0&sni=q08m.vgraxiw73s.hasyaf.cn#%F0%9F%87%AD%F0%9F%87%B0%2012%7C%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF8%7C%40ripaojiedian
     trojan://ji0612uenfs@103.232.213.117:8080?allowInsecure=0&sni=ji0612e.nfjunka.xyz&ws=1&wspath=%2525252F%2525253Fed%2525253D2560%25252526proxyip%2525253D103.232.213.117%2525253A8080#%F0%9F%87%AF%F0%9F%87%B5%2012%7C%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC5%7C%40ripaojiedian
-    trojan://79314e99f0a473fe86efc7827942ad00@160.16.151.196:2890?allowInsecure=0&sni=www.nintendogames.net#%F0%9F%87%BA%F0%9F%87%B8%20US%20TROJAN-50%20%7C%20free-nodes
+    ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@15.204.247.49:12000#%F0%9F%87%BA%F0%9F%87%B8%20US%20SS-82%20%7C%20free-nodes
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggZ2l0aHViLmNvbS9mcmVlZnEgLSDnvo7lm71DbG91ZEZsYXJl5YWs5Y+4Q0RO6IqC54K5IDQiLCJhZGQiOiJ3d3cuZGFya3Jvb20ubG9sIiwicG9ydCI6IjgwODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMjI4MjZiNDQtNWMxYS00YjRiLWRiYWEtODNhMmU4YmQ5NWYwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoid3d3LmRhcmtyb29tLmxvbCIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggZ2l0aHViLmNvbS9mcmVlZnEgLSDnvo7lm71GYXN0bHnlhajnkINBbnljYXN06IqC54K5IDEzIiwiYWRkIjoiZ292LnVrIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3Nzg0ODgyNC05M2I3LTRiODktZmZkMC1lOTFhZmZmNDA2Y2UiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLzc3ODQ4ODI0IiwiaG9zdCI6InpoZXNoaXNjcC5jb20iLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggZ2l0aHViLmNvbS9mcmVlZnEgLSDnvo7lm71DbG91ZEZsYXJl6IqC54K5IDE0IiwiYWRkIjoic2VydmVyMzIuYmVoZXNodGJhbmVoLmNvbSIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjA0NGJhOGVkLTcyODUtNDcyYS1iYzE0LWZiOTFkYzZiZTRjOSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InNlcnZlcjMyLmJlaGVzaHRiYW5laC5jb20iLCJ0bHMiOiIifQ==
@@ -97,7 +97,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9XzEyMTMyMDAxMiIsImFkZCI6IndheW5uLm1ha2V1cCIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiYWlkIjoiMSIsIm5ldCI6IndzIiwicGF0aCI6Imxpbmt2d3MiLCJob3N0Ijoid2F5bm4ubWFrZXVwIiwidGxzIjoidGxzIn0=
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9XzEyMTMyMDAxMyIsImFkZCI6Ind3dy53dG8ub3JnIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI1MzlkMWYzYy02MTljLTQxODAtOTYwMy1kMjNlMmI0ZGI2MmYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiNTM5ZDFmM2MtNjE5Yy00MTgwLTk2MDMtZDIzZTJiNGRiNjJmLXZtIiwiaG9zdCI6ImNvcGllcy1iYW5kd2lkdGgtaGFyb2xkLXRvcHMudHJ5Y2xvdWRmbGFyZS5jb20iLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9XzEyMTMyMDAxNCIsImFkZCI6ImNsb3VkY29uZWFhYS5nb3Jnb3JjaGlja2VuLm9uZSIsInBvcnQiOiI4NDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjFjZWMxZWJjLWI0ODktNDc2OS1mMmQ5LWUwNzliNTgzMmE2MCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvY2xvdWRjb25lYWFhIiwiaG9zdCI6ImNsb3VkY29uZWFhYS5nb3Jnb3JjaGlja2VuLm9uZSIsInRscyI6InRscyJ9
-    vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9XzEyMTMyMDAxNSIsImFkZCI6IjU2YzVkMmIxLTU3NWYtNDcxOC1hZDM3LTRjYjFmYjBkNDRkYy5hc291bC1hdmEudG9wIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI1ZjcyNmZlMy1kODJlLTRkYTUtYTcxMS04YWYwY2JiMmI2ODIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2F6dW1hc2UucmVuIiwiaG9zdCI6IjU2YzVkMmIxLTU3NWYtNDcxOC1hZDM3LTRjYjFmYjBkNDRkYy5hc291bC1hdmEudG9wIiwidGxzIjoidGxzIn0=
+    vmess://eyJ2IjoiMiIsInBzIjoi6L+Z5Lqb6IqC54K55Y+q6IO95aSH55So5oiW6ICF6Ziy5q2i5aSx6IGU77yM6Jm954S26LSo6YeP5bm25LiN5piv5b6I5aW977yM5Lmf6K+35L2O6LCD5L2/55SoKSAxMDMiLCJhZGQiOiIxNjIuMTkuMjI0LjE3NSIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI0MmJhMjc4ZC02NWUwLTQ3NDMtODcwNy1lMThlZDk4Y2ZlZDUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzIiwiaG9zdCI6IjE2Mi4xOS4yMjQuMTc1IiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoi6L+Z5Lqb6IqC54K55Y+q6IO95aSH55So5oiW6ICF6Ziy5q2i5aSx6IGU77yM6Jm954S26LSo6YeP5bm25LiN5piv5b6I5aW977yM5Lmf6K+35L2O6LCD5L2/55SoKSAxMDYiLCJhZGQiOiIxMDQuMTY4Ljg3LjE5MCIsInBvcnQiOiIxMjM0IiwidHlwZSI6Im5vbmUiLCJpZCI6ImRmMmJjOGY0LWZjMWEtNGY0ZS1iMGU1LWZkNDkwNTViMzJhOSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYmIiLCJob3N0IjoiMTA0LjE2OC44Ny4xOTAiLCJ0bHMiOiIifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwcnloeXh5YQ@52.58.249.78:57824#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%29%20107
     ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@172.99.190.39:5500#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%29%20108
@@ -121,14 +121,13 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@78.129.253.9:809#%E8%BF%99%E4%BA%9B%E8%8A%82%E7%82%B9%E5%8F%AA%E8%83%BD%E5%A4%87%E7%94%A8%E6%88%96%E8%80%85%E9%98%B2%E6%AD%A2%E5%A4%B1%E8%81%94%EF%BC%8C%E8%99%BD%E7%84%B6%E8%B4%A8%E9%87%8F%E5%B9%B6%E4%B8%8D%E6%98%AF%E5%BE%88%E5%A5%BD%EF%BC%8C%E4%B9%9F%E8%AF%B7%E4%BD%8E%E8%B0%83%E4%BD%BF%E7%94%A8%29%20136
     vmess://eyJ2IjoiMiIsInBzIjoi6L+Z5Lqb6IqC54K55Y+q6IO95aSH55So5oiW6ICF6Ziy5q2i5aSx6IGU77yM6Jm954S26LSo6YeP5bm25LiN5piv5b6I5aW977yM5Lmf6K+35L2O6LCD5L2/55SoKSAxMzciLCJhZGQiOiJjYWNlcnRzLmRpZ2ljZXJ0LmNvbSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDYxMjYxOGMtMjRjZC00Mzc5LTk5MjQtY2ZkZjNkNjFmYTVhIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiY2FjZXJ0cy5kaWdpY2VydC5jb20iLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoi6L+Z5Lqb6IqC54K55Y+q6IO95aSH55So5oiW6ICF6Ziy5q2i5aSx6IGU77yM6Jm954S26LSo6YeP5bm25LiN5piv5b6I5aW977yM5Lmf6K+35L2O6LCD5L2/55SoKSAxMzgiLCJhZGQiOiIxNzMuMjQ1LjQ5LjIzIiwicG9ydCI6Ijg0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiYTZhMzdlMDQtNWU4MS00NGM5LWJlNTMtYmFhM2ZmNDZlYjhiIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiMTczLjI0NS40OS4yMyIsInRscyI6InRscyJ9
-    vmess://eyJ2IjoiMiIsInBzIjoi6L+Z5Lqb6IqC54K55Y+q6IO95aSH55So5oiW6ICF6Ziy5q2i5aSx6IGU77yM6Jm954S26LSo6YeP5bm25LiN5piv5b6I5aW977yM5Lmf6K+35L2O6LCD5L2/55SoKSAxNDAiLCJhZGQiOiJybnR3by5sYW9iYW42NjYueHl6IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIxMTRmNTc4Ni1hOGEwLTQ0NmEtYTMyZi00NDY4OTM0ODA1NjAiLCJhaWQiOiIxMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8yNzM1MzQ4NmYzYTFkNGYvIiwiaG9zdCI6InJudHdvLmxhb2JhbjY2Ni54eXoiLCJ0bHMiOiJ0bHMifQ==
     
 
 
 </details>
 
 ### 所有节点
-合并节点总数: `1615`
+合并节点总数: `1609`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
@@ -143,20 +142,20 @@ Fork from TopFreeProxies.
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), 节点数量: `339`
 - [yu-steven/openit](https://github.com/yu-steven/openit), 节点数量: `1`
 - [Jason6111/TopFreeProxies](https://github.com/Jason6111/TopFreeProxies), 节点数量: `1`
-- [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `10`
+- [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `1`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `3`
 - [wrfree/free](https://github.com/wrfree/free), 节点数量: `51`
 - [changfengoss](https://github.com/ronghuaxueleng/get_v2), 节点数量: `187`
 - [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `767`
 - [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `1`
 - [mhmhone/shadowrocket-free-subscribe](https://github.com/mhmhone/shadowrocket-free-subscribe), 节点数量: `1`
-- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `1870`
+- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `1863`
 - [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `13`
 - [kxswa/k](https://github.com/kxswa/k), 节点数量: `1`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `1`
 - [Rokate/Proxy-Sub](https://github.com/Rokate/Proxy-Sub), 节点数量: `1`
 - [mianfeifq/share](https://github.com/mianfeifq/share), 节点数量: `1`
-- [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `40`
+- [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `36`
 - [ClashNode](https://clashnode.com/f/freenode), 节点数量: `1`
 
 
