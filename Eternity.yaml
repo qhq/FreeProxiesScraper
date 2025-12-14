@@ -72,7 +72,6 @@ proxies:
   - {name: 🇺🇸 美国_121320012, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
   - {name: 🇺🇸 美国_121320013, server: www.wto.org, port: 443, type: vmess, uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm, headers: {Host: copies-bandwidth-harold-tops.trycloudflare.com}}}
   - {name: 🇺🇸 美国_121320014, server: cloudconeaaa.gorgorchicken.one, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
-  - {name: 🇭🇰 adi|0703v - dg-hk-node02, server: dg-hk-node02.linkthink.app, port: 12025, type: ssr, cipher: dummy, password: e5opjuLDEQ, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ajax.microsoft.com}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148, server: 45.136.244.181, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fr-unlimitxxx, headers: {Host: 45.136.244.181}}}
   - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
   - {name: 🇮🇳 github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
@@ -96,6 +95,7 @@ proxies:
   - {name: 🇮🇷 伊朗_121320007, server: 158.58.188.21, port: 45061, type: vmess, uuid: 096bb799-6554-4bac-822e-3aa564ea31ff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇮🇷 伊朗_121320008, server: 79.143.84.117, port: 11541, type: vmess, uuid: 46465bbe-628a-4988-ae3c-0c164237a039, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 俄罗斯联邦_121320002, server: 46.29.166.237, port: 47555, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇱🇺 卢森堡_121320001, server: 107.189.29.193, port: 21280, type: vmess, uuid: 2d23b71f-78e1-4f17-a7cc-1ef04a910a4c, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -178,7 +178,6 @@ proxy-groups:
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
-      - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
@@ -202,6 +201,7 @@ proxy-groups:
       - 🇮🇷 伊朗_121320007
       - 🇮🇷 伊朗_121320008
       - 🇷🇺 俄罗斯联邦_121320002
+      - 🇱🇺 卢森堡_121320001
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -319,7 +319,6 @@ proxy-groups:
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
-      - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
@@ -343,6 +342,7 @@ proxy-groups:
       - 🇮🇷 伊朗_121320007
       - 🇮🇷 伊朗_121320008
       - 🇷🇺 俄罗斯联邦_121320002
+      - 🇱🇺 卢森堡_121320001
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -416,7 +416,6 @@ proxy-groups:
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
-      - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
@@ -440,6 +439,7 @@ proxy-groups:
       - 🇮🇷 伊朗_121320007
       - 🇮🇷 伊朗_121320008
       - 🇷🇺 俄罗斯联邦_121320002
+      - 🇱🇺 卢森堡_121320001
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -525,7 +525,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 adi|0703v - dg-hk-node02
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 148
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
@@ -549,6 +548,7 @@ proxy-groups:
       - 🇮🇷 伊朗_121320007
       - 🇮🇷 伊朗_121320008
       - 🇷🇺 俄罗斯联邦_121320002
+      - 🇱🇺 卢森堡_121320001
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
