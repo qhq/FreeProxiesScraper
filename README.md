@@ -30,10 +30,9 @@ Fork from TopFreeProxies.
 <details>
   <summary>展开复制节点</summary>
 
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@45.66.134.176:803#%F0%9F%87%AF%F0%9F%87%B5%20Relay_%F0%9F%87%AF%F0%9F%87%B5JP-%F0%9F%87%AF%F0%9F%87%B5JP_229
+    trojan://44e660b0ee21cf3ac66aee2c08af85d2@160.16.81.84:2760?allowInsecure=1&sni=www.nintendogames.net#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1%7C%40ripaojiedian
+    trojan://44e660b0ee21cf3ac66aee2c08af85d2@160.16.236.32:2760?allowInsecure=1&sni=www.nintendogames.net#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A12%7C%40ripaojiedian
     ss://YWVzLTI1Ni1nY206Y1ZGVk5XOVJNVk54ZDB4dGJVeGFSRzVFWTFrd2NHWlJRbWhKYVhOUFRFVm5XVWxUV0hseFIyTTVSRGMzZDA5aWRFeEVOV1pCUjNaQ1pGbDBUR0U0Tmc9PQ@54.238.118.5:34100#%F0%9F%87%AF%F0%9F%87%B5%20Relay_%F0%9F%87%AF%F0%9F%87%B5JP-%F0%9F%87%BA%F0%9F%87%B8US_240
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@217.197.161.138:800#Pool_%F0%9F%87%B8%F0%9F%87%ACSG_596
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@217.197.161.136:810#Pool_%F0%9F%87%B8%F0%9F%87%ACSG_601
     ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@139.99.68.21:6379#SG_604
     trojan://kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf@hk-gz-hk-hkt-tr-b.cdn.savoy.click:889?allowInsecure=0&sni=hk-gz-hk-hkt-tr-b.cdn.savoy.click#HK_271
     trojan://881091b5-4172-4329-a0e7-17fca1e72292@kr1.api-aws.com:443?allowInsecure=0&sni=kr1.api-aws.com#JP_285%20%7C26.85Mb
@@ -75,6 +74,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7Ug5pel5pysXzEyMTMyMDAyNCIsImFkZCI6IjEzOS4xODAuMjAyLjIxMyIsInBvcnQiOiI0MjQzNCIsInR5cGUiOiJub25lIiwiaWQiOiJkOWE3YzUyOS1mOThiLTQyOWItZWIyNi1jOTA5NzljOTEwYTMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7Ug5pel5pysXzEyMTMyMDAyNSIsImFkZCI6IjEzOS4xNjIuMTI1Ljk3IiwicG9ydCI6IjQ5NDk5IiwidHlwZSI6Im5vbmUiLCJpZCI6IjNjZTFkMmUzLTBlMWItNGIwMC05MjFiLWZjYzBmOGFiZTFmNiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7Ug5pel5pysXzEyMTMyMDAyNyIsImFkZCI6IjE3Mi4xMDUuMjI2LjE2NiIsInBvcnQiOiIzNjE3MyIsInR5cGUiOiJub25lIiwiaWQiOiI1ZGU4MDhkMS1iNzA3LTQ2MmMtODNmMy02ODczOTUwNGFkNzAiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
+    vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7Ug5pel5pysXzEyMTMyMDAyOCIsImFkZCI6IjIwMi4xODIuMTA3LjUyIiwicG9ydCI6IjEyNjI2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjRiMDFlNTE3LWY5OGEtNGRiZC04MDJiLTAyMzMwMmFmYzJmNyIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     ss://YWVzLTI1Ni1nY206Y1ZGVk5XOVJNVk54ZDB4dGJVeGFSRzVFWTFrd2NHWlJRbWhKYVhOUFRFVm5XVWxUV0hseFIyTTVSRGMzZDA5aWRFeEVOV1pCUjNaQ1pGbDBUR0U0Tmc9PQ@54.238.118.5:34100#%F0%9F%87%AF%F0%9F%87%B5%20Relay_%F0%9F%87%AF%F0%9F%87%B5JP-%F0%9F%87%BA%F0%9F%87%B8US_240%202
     ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@142.202.48.7:3389#US_614
     ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@167.88.61.14:8000#US_617
@@ -129,11 +129,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `945`
+合并节点总数: `621`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `1709`
+- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `141`
 - [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `156`
 - [freefq/free](https://github.com/freefq/free), 节点数量: `14`
 - [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `1`
