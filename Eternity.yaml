@@ -5,10 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_229, server: 45.66.134.176, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.81.84, port: 2760, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.236.32, port: 2760, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: true}
   - {name: 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240, server: 54.238.118.5, port: 34100, type: ss, cipher: aes-256-gcm, password: cVFVNW9RMVNxd0xtbUxaRG5EY1kwcGZRQmhJaXNPTEVnWUlTWHlxR2M5RDc3d09idExENWZBR3ZCZFl0TGE4Ng==}
-  - {name: Pool_🇸🇬SG_596, server: 217.197.161.138, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Pool_🇸🇬SG_601, server: 217.197.161.136, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: SG_604, server: 139.99.68.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: HK_271, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf, sni: hk-gz-hk-hkt-tr-b.cdn.savoy.click, skip-cert-verify: false}
   - {name: JP_285 |26.85Mb, server: kr1.api-aws.com, port: 443, type: trojan, password: 881091b5-4172-4329-a0e7-17fca1e72292, sni: kr1.api-aws.com, skip-cert-verify: false}
@@ -50,6 +49,7 @@ proxies:
   - {name: 🇯🇵 日本_121320024, server: 139.180.202.213, port: 42434, type: vmess, uuid: d9a7c529-f98b-429b-eb26-c90979c910a3, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320025, server: 139.162.125.97, port: 49499, type: vmess, uuid: 3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320027, server: 172.105.226.166, port: 36173, type: vmess, uuid: 5de808d1-b707-462c-83f3-68739504ad70, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本_121320028, server: 202.182.107.52, port: 12626, type: vmess, uuid: 4b01e517-f98a-4dbd-802b-023302afc2f7, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240 2, server: 54.238.118.5, port: 34100, type: ss, cipher: aes-256-gcm, password: cVFVNW9RMVNxd0xtbUxaRG5EY1kwcGZRQmhJaXNPTEVnWUlTWHlxR2M5RDc3d09idExENWZBR3ZCZFl0TGE4Ng==}
   - {name: US_614, server: 142.202.48.7, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: US_617, server: 167.88.61.14, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -113,10 +113,9 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_229
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240
-      - Pool_🇸🇬SG_596
-      - Pool_🇸🇬SG_601
       - SG_604
       - HK_271
       - JP_285 |26.85Mb
@@ -158,6 +157,7 @@ proxy-groups:
       - 🇯🇵 日本_121320024
       - 🇯🇵 日本_121320025
       - 🇯🇵 日本_121320027
+      - 🇯🇵 日本_121320028
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240 2
       - US_614
       - US_617
@@ -256,10 +256,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_229
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240
-      - Pool_🇸🇬SG_596
-      - Pool_🇸🇬SG_601
       - SG_604
       - HK_271
       - JP_285 |26.85Mb
@@ -301,6 +300,7 @@ proxy-groups:
       - 🇯🇵 日本_121320024
       - 🇯🇵 日本_121320025
       - 🇯🇵 日本_121320027
+      - 🇯🇵 日本_121320028
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240 2
       - US_614
       - US_617
@@ -355,10 +355,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_229
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240
-      - Pool_🇸🇬SG_596
-      - Pool_🇸🇬SG_601
       - SG_604
       - HK_271
       - JP_285 |26.85Mb
@@ -400,6 +399,7 @@ proxy-groups:
       - 🇯🇵 日本_121320024
       - 🇯🇵 日本_121320025
       - 🇯🇵 日本_121320027
+      - 🇯🇵 日本_121320028
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240 2
       - US_614
       - US_617
@@ -485,10 +485,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_229
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240
-      - Pool_🇸🇬SG_596
-      - Pool_🇸🇬SG_601
       - SG_604
       - HK_271
       - JP_285 |26.85Mb
@@ -530,6 +529,7 @@ proxy-groups:
       - 🇯🇵 日本_121320024
       - 🇯🇵 日本_121320025
       - 🇯🇵 日本_121320027
+      - 🇯🇵 日本_121320028
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240 2
   - name: 🌍 其它地区
     type: url-test
@@ -605,8 +605,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - Pool_🇸🇬SG_596
-      - Pool_🇸🇬SG_601
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
       - SG_604
       - SG_439
       - SG_440 |44.10Mb
@@ -629,7 +629,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_229
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240
       - JP_285 |26.85Mb
       - JP_287 |120.90Mb
@@ -645,6 +644,7 @@ proxy-groups:
       - 🇯🇵 日本_121320024
       - 🇯🇵 日本_121320025
       - 🇯🇵 日本_121320027
+      - 🇯🇵 日本_121320028
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240 2
   - name: 台湾
     type: url-test

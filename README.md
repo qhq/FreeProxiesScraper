@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `93`
+高速节点数量: `94`
 <details>
   <summary>展开复制节点</summary>
 
@@ -74,7 +74,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7Ug5pel5pysXzEyMTMyMDAyMyIsImFkZCI6IjQ1Ljc3LjE3Ni4yMTciLCJwb3J0IjoiMTYxNDIiLCJ0eXBlIjoibm9uZSIsImlkIjoiMWY1N2ExY2MtZDM5NS00YmRlLWJmY2YtZjYyYThhNGY5NTU5IiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7Ug5pel5pysXzEyMTMyMDAyNCIsImFkZCI6IjEzOS4xODAuMjAyLjIxMyIsInBvcnQiOiI0MjQzNCIsInR5cGUiOiJub25lIiwiaWQiOiJkOWE3YzUyOS1mOThiLTQyOWItZWIyNi1jOTA5NzljOTEwYTMiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7Ug5pel5pysXzEyMTMyMDAyNSIsImFkZCI6IjEzOS4xNjIuMTI1Ljk3IiwicG9ydCI6IjQ5NDk5IiwidHlwZSI6Im5vbmUiLCJpZCI6IjNjZTFkMmUzLTBlMWItNGIwMC05MjFiLWZjYzBmOGFiZTFmNiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
-    ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@167.88.61.213:8888#US_613
+    vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7Ug5pel5pysXzEyMTMyMDAyNyIsImFkZCI6IjE3Mi4xMDUuMjI2LjE2NiIsInBvcnQiOiIzNjE3MyIsInR5cGUiOiJub25lIiwiaWQiOiI1ZGU4MDhkMS1iNzA3LTQ2MmMtODNmMy02ODczOTUwNGFkNzAiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
+    ss://YWVzLTI1Ni1nY206Y1ZGVk5XOVJNVk54ZDB4dGJVeGFSRzVFWTFrd2NHWlJRbWhKYVhOUFRFVm5XVWxUV0hseFIyTTVSRGMzZDA5aWRFeEVOV1pCUjNaQ1pGbDBUR0U0Tmc9PQ@54.238.118.5:34100#%F0%9F%87%AF%F0%9F%87%B5%20Relay_%F0%9F%87%AF%F0%9F%87%B5JP-%F0%9F%87%BA%F0%9F%87%B8US_240%202
     ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@142.202.48.7:3389#US_614
     ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@167.88.61.14:8000#US_617
     ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@38.114.114.104:7001#US_618
@@ -128,7 +129,7 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `946`
+合并节点总数: `945`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
