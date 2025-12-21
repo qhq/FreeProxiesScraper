@@ -5,6 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_229, server: 45.66.134.176, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240, server: 54.238.118.5, port: 34100, type: ss, cipher: aes-256-gcm, password: cVFVNW9RMVNxd0xtbUxaRG5EY1kwcGZRQmhJaXNPTEVnWUlTWHlxR2M5RDc3d09idExENWZBR3ZCZFl0TGE4Ng==}
   - {name: Pool_🇸🇬SG_596, server: 217.197.161.138, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: Pool_🇸🇬SG_601, server: 217.197.161.136, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
@@ -48,7 +49,6 @@ proxies:
   - {name: 🇯🇵 日本_121320023, server: 45.77.176.217, port: 16142, type: vmess, uuid: 1f57a1cc-d395-4bde-bfcf-f62a8a4f9559, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320024, server: 139.180.202.213, port: 42434, type: vmess, uuid: d9a7c529-f98b-429b-eb26-c90979c910a3, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320025, server: 139.162.125.97, port: 49499, type: vmess, uuid: 3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本_121320027, server: 172.105.226.166, port: 36173, type: vmess, uuid: 5de808d1-b707-462c-83f3-68739504ad70, alterId: 0, cipher: auto, tls: false}
   - {name: US_613, server: 167.88.61.213, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: US_614, server: 142.202.48.7, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: US_617, server: 167.88.61.14, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -112,6 +112,7 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_229
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240
       - Pool_🇸🇬SG_596
       - Pool_🇸🇬SG_601
@@ -155,7 +156,6 @@ proxy-groups:
       - 🇯🇵 日本_121320023
       - 🇯🇵 日本_121320024
       - 🇯🇵 日本_121320025
-      - 🇯🇵 日本_121320027
       - US_613
       - US_614
       - US_617
@@ -254,6 +254,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_229
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240
       - Pool_🇸🇬SG_596
       - Pool_🇸🇬SG_601
@@ -297,7 +298,6 @@ proxy-groups:
       - 🇯🇵 日本_121320023
       - 🇯🇵 日本_121320024
       - 🇯🇵 日本_121320025
-      - 🇯🇵 日本_121320027
       - US_613
       - US_614
       - US_617
@@ -352,6 +352,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_229
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240
       - Pool_🇸🇬SG_596
       - Pool_🇸🇬SG_601
@@ -395,7 +396,6 @@ proxy-groups:
       - 🇯🇵 日本_121320023
       - 🇯🇵 日本_121320024
       - 🇯🇵 日本_121320025
-      - 🇯🇵 日本_121320027
       - US_613
       - US_614
       - US_617
@@ -481,6 +481,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_229
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240
       - Pool_🇸🇬SG_596
       - Pool_🇸🇬SG_601
@@ -524,7 +525,6 @@ proxy-groups:
       - 🇯🇵 日本_121320023
       - 🇯🇵 日本_121320024
       - 🇯🇵 日本_121320025
-      - 🇯🇵 日本_121320027
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -623,6 +623,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_229
       - 🇯🇵 Relay_🇯🇵JP-🇺🇸US_240
       - JP_285 |26.85Mb
       - JP_287 |120.90Mb
@@ -637,7 +638,6 @@ proxy-groups:
       - 🇯🇵 日本_121320023
       - 🇯🇵 日本_121320024
       - 🇯🇵 日本_121320025
-      - 🇯🇵 日本_121320027
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
