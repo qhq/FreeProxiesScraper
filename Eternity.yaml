@@ -53,14 +53,6 @@ proxies:
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
   - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
-  - {name: US_09, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: US_10, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false}
-  - {name: US_11, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: Pool_🇺🇸US_12, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws}}
-  - {name: US_13, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false}
-  - {name: US_14, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}}
-  - {name: US_16, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: US_17, server: 68.183.129.197, port: 8080, type: vmess, uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
   - {name: 🇨🇦 加拿大_121320003, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇦 加拿大_121320032, server: 193.203.203.63, port: 80, type: vmess, uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 193.203.203.63}}}
   - {name: 🇺🇸 美国_121320003, server: e691d61a-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: e691d61a-f.3nvx.com}}}
@@ -72,7 +64,14 @@ proxies:
   - {name: 🇺🇸 美国_121320014, server: cloudconeaaa.gorgorchicken.one, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
   - {name: 🇺🇸 美国_121320015, server: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top}}}
   - {name: 🇺🇸 美国_121320017, server: 144.202.81.122, port: 25514, type: vmess, uuid: 13bf827e-55cd-4b46-e9f1-b7f9ffbe7955, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /111111.online, headers: {Host: www.digitalocean.com}}}
+  - {name: 🇺🇸 美国_121320018, server: 172.67.206.124, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: rlhrwtqusd.site}}}
+  - {name: 🇺🇸 美国_121320019, server: cf.network383.online, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
+  - {name: 🇺🇸 美国_121320020, server: 172.67.131.150, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
+  - {name: 🇺🇸 美国_121320023, server: 172.252.56.69, port: 36450, type: vmess, uuid: 2f5144ae-8fb8-43e1-b6f9-52bb36f124ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国_121320024, server: 172.67.221.114, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
+  - {name: 🇺🇸 美国_121320028, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 130, server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-opts: {path: /sdafasfsa, headers: {Host: ban4.feiclouddd.me}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 131, server: 103.83.156.89, port: 8888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.83.156.89}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133, server: 164.90.234.85, port: 18492, type: ss, cipher: chacha20-ietf-poly1305, password: fdRAl4scWDTg}
@@ -90,12 +89,13 @@ proxies:
   - {name: 🇵🇱 github.com/freefq - 波兰  5, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
   - {name: github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
   - {name: github.com/freefq - 广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: _01, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: GB_07, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: RO_08, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
-  - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _02, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
+  - {name: 防失效github SubCrawler乌克兰_121320002, server: ua1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ua1-vmess.sshmax.xyz}}}
+  - {name: 乌克兰_121320004, server: 185.250.150.220, port: 8080, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
+  - {name: 🇮🇷 伊朗_121320001, server: 195.211.44.107, port: 20515, type: vmess, uuid: a56b1fb2-6a48-4d08-80e7-7cc1b2df019e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇷 伊朗_121320006, server: 81.12.27.2, port: 58768, type: vmess, uuid: 324d3868-cfef-4bd4-ab44-1776a406635f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇷 伊朗_121320007, server: 158.58.188.21, port: 45061, type: vmess, uuid: 096bb799-6554-4bac-822e-3aa564ea31ff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇮🇷 伊朗_121320008, server: 79.143.84.117, port: 11541, type: vmess, uuid: 46465bbe-628a-4988-ae3c-0c164237a039, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯联邦_121320002, server: 46.29.166.237, port: 47555, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -159,14 +159,6 @@ proxy-groups:
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
-      - US_09
-      - US_10
-      - US_11
-      - Pool_🇺🇸US_12
-      - US_13
-      - US_14
-      - US_16
-      - US_17
       - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
@@ -178,7 +170,14 @@ proxy-groups:
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
       - 🇺🇸 美国_121320017
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇺🇸 美国_121320028
+      - 🇺🇸 美国_121320029
+      - 🇺🇸 美国_121320032
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 130
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 131
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133
@@ -196,12 +195,13 @@ proxy-groups:
       - 🇵🇱 github.com/freefq - 波兰  5
       - github.com/freefq - 广东省移动 7
       - github.com/freefq - 广东省江门市移动 8
-      - _01
-      - GB_07
-      - RO_08
-      - ZZ_20
-      - ZZ_21
-      - _02
+      - 防失效github SubCrawler乌克兰_121320002
+      - 乌克兰_121320004
+      - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗_121320006
+      - 🇮🇷 伊朗_121320007
+      - 🇮🇷 伊朗_121320008
+      - 🇷🇺 俄罗斯联邦_121320002
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -300,14 +300,6 @@ proxy-groups:
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
-      - US_09
-      - US_10
-      - US_11
-      - Pool_🇺🇸US_12
-      - US_13
-      - US_14
-      - US_16
-      - US_17
       - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
@@ -319,7 +311,14 @@ proxy-groups:
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
       - 🇺🇸 美国_121320017
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇺🇸 美国_121320028
+      - 🇺🇸 美国_121320029
+      - 🇺🇸 美国_121320032
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 130
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 131
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133
@@ -337,12 +336,13 @@ proxy-groups:
       - 🇵🇱 github.com/freefq - 波兰  5
       - github.com/freefq - 广东省移动 7
       - github.com/freefq - 广东省江门市移动 8
-      - _01
-      - GB_07
-      - RO_08
-      - ZZ_20
-      - ZZ_21
-      - _02
+      - 防失效github SubCrawler乌克兰_121320002
+      - 乌克兰_121320004
+      - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗_121320006
+      - 🇮🇷 伊朗_121320007
+      - 🇮🇷 伊朗_121320008
+      - 🇷🇺 俄罗斯联邦_121320002
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -397,14 +397,6 @@ proxy-groups:
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
-      - US_09
-      - US_10
-      - US_11
-      - Pool_🇺🇸US_12
-      - US_13
-      - US_14
-      - US_16
-      - US_17
       - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
@@ -416,7 +408,14 @@ proxy-groups:
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
       - 🇺🇸 美国_121320017
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇺🇸 美国_121320028
+      - 🇺🇸 美国_121320029
+      - 🇺🇸 美国_121320032
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 130
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 131
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133
@@ -434,12 +433,13 @@ proxy-groups:
       - 🇵🇱 github.com/freefq - 波兰  5
       - github.com/freefq - 广东省移动 7
       - github.com/freefq - 广东省江门市移动 8
-      - _01
-      - GB_07
-      - RO_08
-      - ZZ_20
-      - ZZ_21
-      - _02
+      - 防失效github SubCrawler乌克兰_121320002
+      - 乌克兰_121320004
+      - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗_121320006
+      - 🇮🇷 伊朗_121320007
+      - 🇮🇷 伊朗_121320008
+      - 🇷🇺 俄罗斯联邦_121320002
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -450,14 +450,6 @@ proxy-groups:
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
-      - US_09
-      - US_10
-      - US_11
-      - Pool_🇺🇸US_12
-      - US_13
-      - US_14
-      - US_16
-      - US_17
       - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
@@ -469,6 +461,14 @@ proxy-groups:
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
       - 🇺🇸 美国_121320017
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇺🇸 美国_121320028
+      - 🇺🇸 美国_121320029
+      - 🇺🇸 美国_121320032
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -525,7 +525,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 130
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 131
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133
@@ -543,12 +542,13 @@ proxy-groups:
       - 🇵🇱 github.com/freefq - 波兰  5
       - github.com/freefq - 广东省移动 7
       - github.com/freefq - 广东省江门市移动 8
-      - _01
-      - GB_07
-      - RO_08
-      - ZZ_20
-      - ZZ_21
-      - _02
+      - 防失效github SubCrawler乌克兰_121320002
+      - 乌克兰_121320004
+      - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗_121320006
+      - 🇮🇷 伊朗_121320007
+      - 🇮🇷 伊朗_121320008
+      - 🇷🇺 俄罗斯联邦_121320002
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -559,14 +559,6 @@ proxy-groups:
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
-      - US_09
-      - US_10
-      - US_11
-      - Pool_🇺🇸US_12
-      - US_13
-      - US_14
-      - US_16
-      - US_17
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -576,6 +568,14 @@ proxy-groups:
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
       - 🇺🇸 美国_121320017
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇺🇸 美国_121320028
+      - 🇺🇸 美国_121320029
+      - 🇺🇸 美国_121320032
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
