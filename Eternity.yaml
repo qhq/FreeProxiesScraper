@@ -5,9 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "#121 HK43", server: n1747624280.lie5d.cyou, port: 443, type: vmess, uuid: 49dcf4b4-81eb-4fe2-91d3-86dc2e27ced5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1747624280.lie5d.cyou}}}
+  - {name: "#114 JP10", server: n1753598451.74qxv.top, port: 443, type: vmess, uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1753598451.74qxv.top}}}
+  - {name: "#119 JP12", server: n1753598448.74qxv.top, port: 443, type: vmess, uuid: 3cd6f849-078e-4da9-8080-a2791b51b766, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1753598448.74qxv.top}}}
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1, server: v6.583181.xyz, port: 80, type: vmess, uuid: 561d9533-e20a-4ff0-83d4-80d0cc588dfb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v6.583181.xyz}}}
-  - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
@@ -35,7 +35,6 @@ proxies:
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: 36.156.102.115, port: 26876, type: trojan, password: BxceQaOe, skip-cert-verify: true}
-  - {name: 🇭🇰 香港(油管破解资源君), server: gcsshkkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Falling42gcsshkkknode, headers: {Host: gcsshkkk.sylu.cyou}}}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
@@ -49,6 +48,7 @@ proxies:
   - {name: 🇭🇰 12|🇭🇰 香港6|@ripaojiedian, server: gg21.hangfengjiasu.com, port: 12202, type: ss, cipher: chacha20-ietf-poly1305, password: cdc48a7a-b618-45af-a831-5afbd686b02f}
   - {name: 🇭🇰 12|🇭🇰 香港7|@ripaojiedian, server: 120.232.153.40, port: 36609, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇭🇰 12|🇭🇰 香港8|@ripaojiedian, server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27101, type: trojan, password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇯🇵 12|🇯🇵 日本5|@ripaojiedian, server: 103.232.213.117, port: 8080, type: trojan, password: ji0612uenfs, sni: ji0612e.nfjunka.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560%252526proxyip%25253D103.232.213.117%25253A8080", headers: {Host: ji0612e.nfjunka.xyz}}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
   - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
@@ -111,9 +111,9 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - "#121 HK43"
+      - "#114 JP10"
+      - "#119 JP12"
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
@@ -141,7 +141,6 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇭🇰 香港(油管破解资源君)
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -155,6 +154,7 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
@@ -252,9 +252,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "#121 HK43"
+      - "#114 JP10"
+      - "#119 JP12"
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
@@ -282,7 +282,6 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇭🇰 香港(油管破解资源君)
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -296,6 +295,7 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
@@ -349,9 +349,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "#121 HK43"
+      - "#114 JP10"
+      - "#119 JP12"
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
@@ -379,7 +379,6 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇭🇰 香港(油管破解资源君)
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -393,6 +392,7 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
@@ -475,9 +475,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - "#121 HK43"
+      - "#114 JP10"
+      - "#119 JP12"
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
@@ -505,7 +505,6 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇭🇰 香港(油管破解资源君)
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -519,6 +518,7 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
+      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -582,11 +582,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - "#121 HK43"
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 香港(油管破解资源君)
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
       - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
@@ -614,6 +612,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - "#114 JP10"
+      - "#119 JP12"
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
@@ -633,13 +633,13 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
+      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
       - 🇨🇳 2,13|台湾|@ripaojiedian
