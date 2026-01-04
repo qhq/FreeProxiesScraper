@@ -85,6 +85,7 @@ proxies:
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 26, server: 172.67.222.46, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 172.67.222.46}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 27, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 28, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: false}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 29, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free-russian01-cdn.xiaohouzi.club}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 30, server: 185.167.116.253, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 31, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 32, server: news.microsoft.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: news.microsoft.com}}}
@@ -300,7 +301,6 @@ proxies:
   - {name: 🇵🇱 波兰_121320026, server: 94.131.96.137, port: 2086, type: vmess, uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 94.131.96.137}}}
   - {name: 🇹🇭 泰国_121320001, server: 38.54.82.54, port: 41604, type: vmess, uuid: 54de50e5-5e4b-443f-d9b8-9e9e0eee865c, alterId: 0, cipher: auto, tls: false}
   - {name: 🇦🇺 澳大利亚_121320002, server: au.takeshi.wiki, port: 80, type: vmess, uuid: a19f357b-c836-4cf6-9e43-72390e6a00df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: dl.kgvn.garenanow.com}}}
-  - {name: 🇦🇺 澳大利亚_121320009, server: au2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: bf86a617-e0c2-4f7f-8a3a-12364d2a4df9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: au2-vmess.greenssh.xyz}}}
   - {name: 🇦🇺 澳大利亚_121320022, server: 154.26.157.244, port: 80, type: vmess, uuid: 59517e0b-ae1c-41d3-9c44-c44cea6f7546, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: 154.26.157.244}}}
   - {name: 🇲🇴 澳门_121320001, server: 163.53.246.239, port: 10065, type: vmess, uuid: 1f308996-7fa6-46ac-8700-7d766eae084b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇪 瑞典_121320007, server: se1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: se1-vmess.sshmax.xyz}}}
@@ -578,8 +578,8 @@ proxies:
   - {name: "#094 DE8 CF14", server: 91.107.145.203, port: 37607, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true}
   - {name: "#100 HK50", server: hkt-ty-line-1.sudatech.store, port: 21521, type: trojan, password: smart%40-PhVxMdT5OVnjtTecU-kZoej, sni: www.cloudflare.com, skip-cert-verify: true}
   - {name: "#101 ID2", server: z-sg1.2513142.xyz, port: 10007, type: trojan, password: smart%40-PhVxMdT5OVnjtTecU-kZoej, sni: www.cloudflare.com, skip-cert-verify: true}
-  - {name: "#104 ID5", server: z-sg2.2513142.xyz, port: 10002, type: trojan, password: smart%40-PhVxMdT5OVnjtTecU-kZoej, sni: www.cloudflare.com, skip-cert-verify: true}
-  - {name: "#106 TH3", server: z-sg2.2513142.xyz, port: 10001, type: trojan, password: smart%40-PhVxMdT5OVnjtTecU-kZoej, sni: www.cloudflare.com, skip-cert-verify: true}
+  - {name: "#102 ID3", server: z-sg2.2513142.xyz, port: 10007, type: trojan, password: smart%40-PhVxMdT5OVnjtTecU-kZoej, sni: www.cloudflare.com, skip-cert-verify: true}
+  - {name: "#108 BD2", server: z-sg2.2513142.xyz, port: 10010, type: trojan, password: smart%40-PhVxMdT5OVnjtTecU-kZoej, sni: www.cloudflare.com, skip-cert-verify: true}
   - {name: "#121 DE11", server: starlink-de1.2513142.xyz, port: 443, type: trojan, password: smart%40-PhVxMdT5OVnjtTecU-kZoej, sni: www.cloudflare.com, skip-cert-verify: true}
   - {name: "#122 DE12", server: starlink-de2.2513142.xyz, port: 443, type: trojan, password: smart%40-PhVxMdT5OVnjtTecU-kZoej, sni: www.cloudflare.com, skip-cert-verify: true}
   - {name: "#144 PL3", server: 212.127.78.119, port: 20181, type: trojan, password: smart%40-PhVxMdT5OVnjtTecU-kZoej, sni: www.cloudflare.com, skip-cert-verify: true}
@@ -604,5 +604,11 @@ proxies:
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 153.121.44.99, port: 1281, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.181.195.198, port: 1112, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
   - {name: 🇻🇳 越南|@ripaojiedian, server: 103.186.154.251, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV}
+  - {name: 🇭🇰 香港3|@ripaojiedian 2, server: 58.152.110.104, port: 443, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇯🇵 日本|@ripaojiedian 2, server: 57.180.10.245, port: 3760, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian 2, server: 13.231.188.173, port: 4006, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国|@ripaojiedian 2, server: 125.141.31.75, port: 22376, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian 2, server: 18.163.28.248, port: 804, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true}
+  - {name: 🇻🇳 越南|@ripaojiedian 2, server: 103.186.154.248, port: 38388, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW}
   - {name: GB_speednode_0005, server: uk-1.fishchipsexpress.com, port: 443, type: trojan, password: R8ufkVqwRZAgtwjyrA, sni: uk-1.fishchipsexpress.com, skip-cert-verify: true}
   - {name: US_speednode_0019, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epge.muarua.filegear-sg.me, skip-cert-verify: false}
