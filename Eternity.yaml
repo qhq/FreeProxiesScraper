@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TW3｜商宽｜非常安全, server: tuntro011.instconn.com, port: 40130, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: cntwbta.686911.xyz, skip-cert-verify: true}
+  - {name: JP29｜机房｜低风险, server: tuntro003.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: login-staticjpc.jasmine-douyin.top, skip-cert-verify: true}
   - {name: HK86｜机房｜低风险, server: tuntro000.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: hkip5.686911.xyz, skip-cert-verify: true}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
   - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
@@ -111,7 +111,7 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - TW3｜商宽｜非常安全
+      - JP29｜机房｜低风险
       - HK86｜机房｜低风险
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320007
@@ -252,7 +252,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - TW3｜商宽｜非常安全
+      - JP29｜机房｜低风险
       - HK86｜机房｜低风险
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320007
@@ -349,7 +349,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - TW3｜商宽｜非常安全
+      - JP29｜机房｜低风险
       - HK86｜机房｜低风险
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320007
@@ -475,7 +475,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - TW3｜商宽｜非常安全
+      - JP29｜机房｜低风险
       - HK86｜机房｜低风险
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320007
@@ -613,6 +613,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - JP29｜机房｜低风险
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320009
@@ -638,7 +639,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - TW3｜商宽｜非常安全
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320007
       - 🇨🇳 2,13|台湾|@ripaojiedian
