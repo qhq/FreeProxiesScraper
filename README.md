@@ -128,7 +128,7 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `605`
+合并节点总数: `601`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
@@ -143,7 +143,7 @@ Fork from TopFreeProxies.
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), 节点数量: `339`
 - [yu-steven/openit](https://github.com/yu-steven/openit), 节点数量: `1`
 - [Jason6111/TopFreeProxies](https://github.com/Jason6111/TopFreeProxies), 节点数量: `1`
-- [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `4`
+- [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `1`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `3`
 - [wrfree/free](https://github.com/wrfree/free), 节点数量: `51`
 - [changfengoss](https://github.com/ronghuaxueleng/get_v2), 节点数量: `187`
