@@ -80,7 +80,6 @@ proxies:
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144, server: cf.gheychi.me, port: 8080, type: vmess, uuid: ad98ffa2-914b-11ed-a1eb-0242ac120002, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ws, headers: {Host: cf.gheychi.me}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.18.7.138}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇭🇰 adi|0703v - dg-hk-node02, server: dg-hk-node02.linkthink.app, port: 12025, type: ssr, cipher: dummy, password: e5opjuLDEQ, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ajax.microsoft.com}
   - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
   - {name: 🇮🇳 github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
   - {name: 🇵🇱 github.com/freefq - 波兰  5, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
@@ -96,6 +95,7 @@ proxies:
   - {name: _04, server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true}
   - {name: _05, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false}
   - {name: Relay_-🇬🇧GB_06, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false}
+  - {name: 防失效github SubCrawler乌克兰_121320002, server: ua1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ua1-vmess.sshmax.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -186,7 +186,6 @@ proxy-groups:
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
-      - 🇭🇰 adi|0703v - dg-hk-node02
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
       - 🇵🇱 github.com/freefq - 波兰  5
@@ -202,6 +201,7 @@ proxy-groups:
       - _04
       - _05
       - Relay_-🇬🇧GB_06
+      - 防失效github SubCrawler乌克兰_121320002
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -327,7 +327,6 @@ proxy-groups:
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
-      - 🇭🇰 adi|0703v - dg-hk-node02
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
       - 🇵🇱 github.com/freefq - 波兰  5
@@ -343,6 +342,7 @@ proxy-groups:
       - _04
       - _05
       - Relay_-🇬🇧GB_06
+      - 防失效github SubCrawler乌克兰_121320002
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -424,7 +424,6 @@ proxy-groups:
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
-      - 🇭🇰 adi|0703v - dg-hk-node02
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
       - 🇵🇱 github.com/freefq - 波兰  5
@@ -440,6 +439,7 @@ proxy-groups:
       - _04
       - _05
       - Relay_-🇬🇧GB_06
+      - 防失效github SubCrawler乌克兰_121320002
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -533,7 +533,6 @@ proxy-groups:
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 144
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 146
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 147
-      - 🇭🇰 adi|0703v - dg-hk-node02
       - 🇷🇺 github.com/freefq - 俄罗斯  1
       - 🇮🇳 github.com/freefq - 印度  2
       - 🇵🇱 github.com/freefq - 波兰  5
@@ -549,6 +548,7 @@ proxy-groups:
       - _04
       - _05
       - Relay_-🇬🇧GB_06
+      - 防失效github SubCrawler乌克兰_121320002
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
