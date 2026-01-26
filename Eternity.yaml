@@ -73,7 +73,6 @@ proxies:
   - {name: 🇺🇸 美国_121320019, server: cf.network383.online, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
   - {name: 🇺🇸 美国_121320020, server: 172.67.131.150, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
   - {name: 🇺🇸 美国_121320023, server: 172.252.56.69, port: 36450, type: vmess, uuid: 2f5144ae-8fb8-43e1-b6f9-52bb36f124ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: GB_07, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: RO_08, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
   - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
@@ -97,6 +96,7 @@ proxies:
   - {name: 🇮🇳 印度_121320008, server: 103.113.68.233, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 103.113.68.233}}}
   - {name: 🇮🇳 印度_121320009, server: ru1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}}
   - {name: 🇮🇩 印度尼西亚_121320001, server: 113.20.28.102, port: 22188, type: vmess, uuid: 00677eb4-91c2-41f1-e790-963b9a093fd5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇿 哈萨克斯坦_121320002, server: kz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 0a6ae6c5-e1f8-411c-8f11-cfa5433c58e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: kz1-vmess.sshmax.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -180,7 +180,6 @@ proxy-groups:
       - 🇺🇸 美国_121320019
       - 🇺🇸 美国_121320020
       - 🇺🇸 美国_121320023
-      - GB_07
       - RO_08
       - ZZ_20
       - ZZ_21
@@ -204,6 +203,7 @@ proxy-groups:
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -322,7 +322,6 @@ proxy-groups:
       - 🇺🇸 美国_121320019
       - 🇺🇸 美国_121320020
       - 🇺🇸 美国_121320023
-      - GB_07
       - RO_08
       - ZZ_20
       - ZZ_21
@@ -346,6 +345,7 @@ proxy-groups:
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -420,7 +420,6 @@ proxy-groups:
       - 🇺🇸 美国_121320019
       - 🇺🇸 美国_121320020
       - 🇺🇸 美国_121320023
-      - GB_07
       - RO_08
       - ZZ_20
       - ZZ_21
@@ -444,6 +443,7 @@ proxy-groups:
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -531,7 +531,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - GB_07
       - RO_08
       - ZZ_20
       - ZZ_21
@@ -555,6 +554,7 @@ proxy-groups:
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
