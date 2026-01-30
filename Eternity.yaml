@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: HK45｜家宽｜非常安全, server: 219.76.135.98, port: 443, type: trojan, password: BxceQaOe, sni: 219.76.135.98, skip-cert-verify: true}
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1, server: v6.583181.xyz, port: 80, type: vmess, uuid: 561d9533-e20a-4ff0-83d4-80d0cc588dfb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v6.583181.xyz}}}
-  - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
   - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
@@ -111,8 +111,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - HK45｜家宽｜非常安全
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -252,8 +252,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - HK45｜家宽｜非常安全
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -349,8 +349,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - HK45｜家宽｜非常安全
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -475,8 +475,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - HK45｜家宽｜非常安全
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 1
-      - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -582,6 +582,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - HK45｜家宽｜非常安全
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -638,7 +639,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
