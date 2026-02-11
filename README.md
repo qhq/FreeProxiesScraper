@@ -128,11 +128,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `599`
+合并节点总数: `590`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `89`
+- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `61`
 - [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `156`
 - [freefq/free](https://github.com/freefq/free), 节点数量: `14`
 - [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `1`
@@ -156,7 +156,7 @@ Fork from TopFreeProxies.
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `1`
 - [Rokate/Proxy-Sub](https://github.com/Rokate/Proxy-Sub), 节点数量: `1`
 - [mianfeifq/share](https://github.com/mianfeifq/share), 节点数量: `1`
-- [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `105`
+- [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `107`
 - [ClashNode](https://clashnode.com/f/freenode), 节点数量: `1`
 
 
