@@ -73,6 +73,7 @@ proxies:
   - {name: 🇺🇸 美国_121320039, server: 158.178.227.16, port: 30839, type: vmess, uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320052, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320056, server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度_121320001, server: 103.114.201.143, port: 59487, type: vmess, uuid: 51fb562e-0a9b-4c27-e4d8-6f4883bb5165, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320002, server: 103.114.201.44, port: 45233, type: vmess, uuid: 8e87821e-c22a-44c6-c741-43ab791f47b6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.114.201.44}}}
   - {name: 🇮🇳 印度_121320003, server: 205.164.28.103, port: 13487, type: vmess, uuid: f5502283-53ba-442b-bdb1-a25745fd5c17, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320005, server: 103.106.230.153, port: 32732, type: vmess, uuid: eb931108-646b-4ceb-a741-d32490cb00f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
@@ -96,7 +97,6 @@ proxies:
   - {name: 🇸🇰 斯洛伐克_121320002, server: 5.252.23.133, port: 80, type: vmess, uuid: 2892f8c0-c4bc-49ad-b31f-2146b67d4f6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.252.23.133}}}
   - {name: 未知_121320001, server: 2876be99-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: 2876be99-f.3nvx.com}}}
   - {name: 未知_121320002, server: 104.21.53.12, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: 未知_121320003, server: 104.21.36.26, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -180,6 +180,7 @@ proxy-groups:
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
       - 🇺🇸 美国_121320056
+      - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320002
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
@@ -203,7 +204,6 @@ proxy-groups:
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
       - 未知_121320002
-      - 未知_121320003
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -322,6 +322,7 @@ proxy-groups:
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
       - 🇺🇸 美国_121320056
+      - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320002
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
@@ -345,7 +346,6 @@ proxy-groups:
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
       - 未知_121320002
-      - 未知_121320003
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -420,6 +420,7 @@ proxy-groups:
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
       - 🇺🇸 美国_121320056
+      - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320002
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
@@ -443,7 +444,6 @@ proxy-groups:
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
       - 未知_121320002
-      - 未知_121320003
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -530,6 +530,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320002
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
@@ -553,7 +554,6 @@ proxy-groups:
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
       - 未知_121320002
-      - 未知_121320003
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
