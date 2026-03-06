@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `93`
+高速节点数量: `94`
 <details>
   <summary>展开复制节点</summary>
 
@@ -65,6 +65,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7MgMiwxM3zlj7Dmub58QHJpcGFvamllZGlhbiIsImFkZCI6ImZhZGF3dGF3ZC56aGFuZ3dlaS5saSIsInBvcnQiOiI0NjAwNSIsInR5cGUiOiJub25lIiwiaWQiOiI0YzVhOGE3NS03ZDY1LTQwYTktOGMzYi1hNjdhYmFlMDg1MzQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3poLWNuIiwiaG9zdCI6ImZhZGF3dGF3ZC56aGFuZ3dlaS5saSIsInRscyI6IiJ9
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyYmUwYzk1NC00MjkxLTQ1ZWEtYjQ3ZC1jYTcxMzE4MDU1MGI@hk02.x.quickcht3.club:52612#%F0%9F%87%AD%F0%9F%87%B0%2012%7C%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%7C%40ripaojiedian
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiZTQ0MzY4OS1iYzY0LTQ5ZmYtODVhNS04ZWVjYWEyMjM1ZDM@hk2.fgmcx.top:41049#%F0%9F%87%AD%F0%9F%87%B0%2012%7C%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF2%7C%40ripaojiedian
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyYmUwYzk1NC00MjkxLTQ1ZWEtYjQ3ZC1jYTcxMzE4MDU1MGI@111.29.57.125:52612#%F0%9F%87%AD%F0%9F%87%B0%2012%7C%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgMTJ88J+HrfCfh7Ag6aaZ5rivNXxAcmlwYW9qaWVkaWFuIiwiYWRkIjoiY2xvdWRnZC5jb2Vtbi5jb20iLCJwb3J0IjoiNDYwMDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiNGM1YThhNzUtN2Q2NS00MGE5LThjM2ItYTY3YWJhZTA4NTM0IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii96aC1jbiIsImhvc3QiOiJjbG91ZGdkLmNvZW1uLmNvbSIsInRscyI6IiJ9
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZGM0OGE3YS1iNjE4LTQ1YWYtYTgzMS01YWZiZDY4NmIwMmY@gg21.hangfengjiasu.com:12202#%F0%9F%87%AD%F0%9F%87%B0%2012%7C%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF6%7C%40ripaojiedian
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgMTJ88J+HrfCfh7Ag6aaZ5rivN3xAcmlwYW9qaWVkaWFuIiwiYWRkIjoiMTIwLjIzMi4xNTMuNDAiLCJwb3J0IjoiMzY2MDkiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiYWlkIjoiNjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiL3poLWNuIiwiaG9zdCI6ImNsb3VkZ2QuY29lbW4uY29tIiwidGxzIjoiIn0=
@@ -156,7 +157,7 @@ Fork from TopFreeProxies.
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `1`
 - [Rokate/Proxy-Sub](https://github.com/Rokate/Proxy-Sub), 节点数量: `1`
 - [mianfeifq/share](https://github.com/mianfeifq/share), 节点数量: `1`
-- [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `24`
+- [peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `25`
 - [ClashNode](https://clashnode.com/f/freenode), 节点数量: `1`
 
 
