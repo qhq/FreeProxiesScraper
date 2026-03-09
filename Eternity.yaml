@@ -72,8 +72,7 @@ proxies:
   - {name: 🇺🇸 美国_121320037, server: 47.236.22.3, port: 47885, type: vmess, uuid: 2fb7aa37-e195-44f1-f000-5727610d22e3, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320039, server: 158.178.227.16, port: 30839, type: vmess, uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320052, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_121320056, server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度_121320003, server: 205.164.28.103, port: 13487, type: vmess, uuid: f5502283-53ba-442b-bdb1-a25745fd5c17, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度_121320002, server: 103.114.201.44, port: 45233, type: vmess, uuid: 8e87821e-c22a-44c6-c741-43ab791f47b6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.114.201.44}}}
   - {name: 🇮🇳 印度_121320005, server: 103.106.230.153, port: 32732, type: vmess, uuid: eb931108-646b-4ceb-a741-d32490cb00f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
   - {name: 🇮🇳 印度_121320008, server: 103.113.68.233, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 103.113.68.233}}}
   - {name: 🇮🇳 印度_121320009, server: ru1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}}
@@ -179,8 +178,7 @@ proxy-groups:
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
-      - 🇺🇸 美国_121320056
-      - 🇮🇳 印度_121320003
+      - 🇮🇳 印度_121320002
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
@@ -321,8 +319,7 @@ proxy-groups:
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
-      - 🇺🇸 美国_121320056
-      - 🇮🇳 印度_121320003
+      - 🇮🇳 印度_121320002
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
@@ -419,8 +416,7 @@ proxy-groups:
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
-      - 🇺🇸 美国_121320056
-      - 🇮🇳 印度_121320003
+      - 🇮🇳 印度_121320002
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
@@ -473,7 +469,6 @@ proxy-groups:
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
-      - 🇺🇸 美国_121320056
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -530,7 +525,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇮🇳 印度_121320003
+      - 🇮🇳 印度_121320002
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
@@ -583,7 +578,6 @@ proxy-groups:
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
-      - 🇺🇸 美国_121320056
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
