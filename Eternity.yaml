@@ -41,7 +41,6 @@ proxies:
   - {name: 🇭🇰 0|🇭🇰香港 01 | 1x HK, server: free.2apzhfa.xyz, port: 31141, type: ss, cipher: chacha20-ietf-poly1305, password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549}
   - {name: "🇨🇳 2,13|台湾|@ripaojiedian", server: fadawtawd.zhangwei.li, port: 46005, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: fadawtawd.zhangwei.li}}}
   - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: hk02.x.quickcht3.club, port: 52612, type: ss, cipher: chacha20-ietf-poly1305, password: 2be0c954-4291-45ea-b47d-ca713180550b}
-  - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: hk2.fgmcx.top, port: 41049, type: ss, cipher: chacha20-ietf-poly1305, password: be443689-bc64-49ff-85a5-8eecaa2235d3}
   - {name: 🇭🇰 12|🇭🇰 香港3|@ripaojiedian, server: 111.29.57.125, port: 52612, type: ss, cipher: chacha20-ietf-poly1305, password: 2be0c954-4291-45ea-b47d-ca713180550b}
   - {name: 🇭🇰 12|🇭🇰 香港5|@ripaojiedian, server: cloudgd.coemn.com, port: 46003, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: cloudgd.coemn.com}}}
   - {name: 🇭🇰 12|🇭🇰 香港6|@ripaojiedian, server: gg21.hangfengjiasu.com, port: 12202, type: ss, cipher: chacha20-ietf-poly1305, password: cdc48a7a-b618-45af-a831-5afbd686b02f}
@@ -49,6 +48,7 @@ proxies:
   - {name: 🇭🇰 12|🇭🇰 香港8|@ripaojiedian, server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27101, type: trojan, password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
   - {name: 🇯🇵 12|🇯🇵 日本5|@ripaojiedian, server: 103.232.213.117, port: 8080, type: trojan, password: ji0612uenfs, sni: ji0612e.nfjunka.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560%252526proxyip%25253D103.232.213.117%25253A8080", headers: {Host: ji0612e.nfjunka.xyz}}}
   - {name: 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian, server: 3.34.192.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian, server: 3.36.96.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: US_11, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: Pool_🇺🇸US_12, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws}}
   - {name: US_13, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false}
@@ -147,7 +147,6 @@ proxy-groups:
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
       - 🇨🇳 2,13|台湾|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
@@ -155,6 +154,7 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
       - US_11
       - Pool_🇺🇸US_12
       - US_13
@@ -288,7 +288,6 @@ proxy-groups:
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
       - 🇨🇳 2,13|台湾|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
@@ -296,6 +295,7 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
       - US_11
       - Pool_🇺🇸US_12
       - US_13
@@ -385,7 +385,6 @@ proxy-groups:
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
       - 🇨🇳 2,13|台湾|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
@@ -393,6 +392,7 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
       - US_11
       - Pool_🇺🇸US_12
       - US_13
@@ -511,7 +511,6 @@ proxy-groups:
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
       - 🇨🇳 2,13|台湾|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
@@ -519,12 +518,14 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
       - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
       - _02
       - _03
       - _04
@@ -587,7 +588,6 @@ proxy-groups:
       - 🇭🇰 香港_121320012
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
       - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
@@ -606,6 +606,7 @@ proxy-groups:
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
+      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
