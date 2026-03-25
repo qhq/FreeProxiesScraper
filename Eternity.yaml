@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320004, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡_121320008, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
@@ -31,6 +31,9 @@ proxies:
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 6, server: 116.162.14.228, port: 20761, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 4, server: 0319tw123.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319tw123.fans8.xyz}}}
+  - {name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 3, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314tw02.fans8.xyz}}}
   - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: 36.156.102.115, port: 26876, type: trojan, password: BxceQaOe, skip-cert-verify: true}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
@@ -46,10 +49,6 @@ proxies:
   - {name: 🇭🇰 12|🇭🇰 香港7|@ripaojiedian, server: 120.232.153.40, port: 36609, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇭🇰 12|🇭🇰 香港8|@ripaojiedian, server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27101, type: trojan, password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
   - {name: 🇯🇵 12|🇯🇵 日本5|@ripaojiedian, server: 103.232.213.117, port: 8080, type: trojan, password: ji0612uenfs, sni: ji0612e.nfjunka.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560%252526proxyip%25253D103.232.213.117%25253A8080", headers: {Host: ji0612e.nfjunka.xyz}}}
-  - {name: 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian, server: 3.34.192.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian, server: 3.36.96.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian, server: 18.179.174.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 13|香港6|@ripaojiedian, server: 614ea2b0-sux8g0-td95qh-1isea.cm.plebai.net, port: 15229, type: vmess, uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320005, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
   - {name: 🇺🇸 美国_121320009, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
@@ -85,7 +84,6 @@ proxies:
   - {name: 🇩🇪 德国_121320030, server: 82.115.25.173, port: 20091, type: vmess, uuid: 5f75f0dc-8991-4723-de35-af81c9b2fe96, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320040, server: 185.135.9.247, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: ldkpsvvhhe.site}}}
   - {name: 🇩🇪 德国_121320047, server: 5.181.23.67, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.181.23.67}}}
-  - {name: 🇩🇪 德国_121320048, server: ee1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 34d4f393-ead9-48df-9370-ca8b52e6aabd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}}
   - {name: 🇩🇪 德国_121320049, server: ee1-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}}
   - {name: 🇮🇹 意大利_121320001, server: 149.62.189.23, port: 30028, type: vmess, uuid: eb1ab395-1845-4161-e02a-fbcca0086d94, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 149.62.189.23}}}
   - {name: 🇸🇰 斯洛伐克_121320002, server: 5.252.23.133, port: 80, type: vmess, uuid: 2892f8c0-c4bc-49ad-b31f-2146b67d4f6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.252.23.133}}}
@@ -98,6 +96,7 @@ proxies:
   - {name: 未知_121320008, server: ginson.efnten.top, port: 443, type: vmess, uuid: 673ba378-840f-4928-81f2-203148d07350, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /673ba378-840f-4928-81f2-203148d07350, headers: {Host: cowochtmtrkers.turbo021.link}}}
   - {name: 未知_121320009, server: 104.21.4.29, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
   - {name: 未知_121320010, server: rlhrwtqusd.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: rlhrwtqusd.site}}}
+  - {name: 未知_121320011, server: v2ray.ibgfw.top, port: 2053, type: vmess, uuid: 0f1b29b8-0f0f-431a-b6d1-035803a95c32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vVNUJOgb/, headers: {Host: v2ray.ibgfw.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -113,8 +112,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇭🇰 香港|@ripaojiedian
       - 🇨🇳 台湾_121320006
-      - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -139,6 +138,9 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 6
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 4
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 3
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
@@ -154,10 +156,6 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 13|香港6|@ripaojiedian
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
@@ -193,7 +191,6 @@ proxy-groups:
       - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
-      - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
@@ -206,6 +203,7 @@ proxy-groups:
       - 未知_121320008
       - 未知_121320009
       - 未知_121320010
+      - 未知_121320011
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -256,8 +254,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 香港|@ripaojiedian
       - 🇨🇳 台湾_121320006
-      - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -282,6 +280,9 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 6
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 4
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 3
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
@@ -297,10 +298,6 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 13|香港6|@ripaojiedian
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
@@ -336,7 +333,6 @@ proxy-groups:
       - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
-      - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
@@ -349,14 +345,15 @@ proxy-groups:
       - 未知_121320008
       - 未知_121320009
       - 未知_121320010
+      - 未知_121320011
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 香港|@ripaojiedian
       - 🇨🇳 台湾_121320006
-      - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -381,6 +378,9 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 6
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 4
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 3
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
@@ -396,10 +396,6 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 13|香港6|@ripaojiedian
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
@@ -435,7 +431,6 @@ proxy-groups:
       - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
-      - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
@@ -448,6 +443,7 @@ proxy-groups:
       - 未知_121320008
       - 未知_121320009
       - 未知_121320010
+      - 未知_121320011
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -484,8 +480,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇭🇰 香港|@ripaojiedian
       - 🇨🇳 台湾_121320006
-      - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -510,6 +506,9 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 6
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 4
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 3
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
@@ -525,17 +524,12 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 13|香港6|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
       - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
@@ -547,7 +541,6 @@ proxy-groups:
       - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
-      - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
@@ -560,6 +553,7 @@ proxy-groups:
       - 未知_121320008
       - 未知_121320009
       - 未知_121320010
+      - 未知_121320011
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -596,6 +590,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -607,7 +602,6 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇭🇰 13|香港6|@ripaojiedian
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
@@ -621,7 +615,6 @@ proxy-groups:
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
@@ -647,7 +640,6 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本特殊|@ripaojiedian
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -655,7 +647,9 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 台湾_121320006
-      - 🇨🇳 台湾_121320007
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 6
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 4
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 3
       - 🇨🇳 2,13|台湾|@ripaojiedian
   - name: 韩国
     type: url-test
@@ -664,7 +658,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇰🇷 韩国_121320001
-      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
@@ -1942,7 +1935,6 @@ rules:
  - DOMAIN-SUFFIX,app-store.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,appe-store.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-appstore.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-itunes.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.rs,🍎 苹果服务
@@ -1953,7 +1945,6 @@ rules:
  - DOMAIN-SUFFIX,appleappstore.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.net,🍎 苹果服务
- - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.us,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-iclou.com,🍎 苹果服务
@@ -1962,7 +1953,6 @@ rules:
  - DOMAIN-SUFFIX,appleid.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hk,🍎 苹果服务
- - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.audio,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.blog,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.chat,🍎 苹果服务
@@ -2010,50 +2000,7 @@ rules:
  - DOMAIN-SUFFIX,darwinsource.com,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsource.org,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsourcecode.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ids-apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itun.es,🍎 苹果服务
  - DOMAIN-SUFFIX,itunbes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ituneas.com,🍎 苹果服务
@@ -2087,12 +2034,8 @@ rules:
  - DOMAIN-SUFFIX,itunesu.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunesu.net,🍎 苹果服务
  - DOMAIN-SUFFIX,iutunes.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,myappleid.com,🍎 苹果服务
- - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
  - DOMAIN-SUFFIX,tvappstore.net,🍎 苹果服务
- - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplestore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplleipods.com,🍎 苹果服务
@@ -2321,7 +2264,6 @@ rules:
  - DOMAIN-SUFFIX,wwwipodlounge.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwmacbookair.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.comscoreresearch.com,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
@@ -2359,12 +2301,63 @@ rules:
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
- - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-livephotoskit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-sandbox.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-KEYWORD,apple-support.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.edgekey.net,🍎 苹果服务
@@ -14142,6 +14135,7 @@ rules:
  - DOMAIN-SUFFIX,s-cute.com,🚀 节点选择
  - DOMAIN-SUFFIX,s-dragon.org,🚀 节点选择
  - DOMAIN-SUFFIX,s-nbcnews.com,🚀 节点选择
+ - DOMAIN-SUFFIX,s.rmimg.com,🚀 节点选择
  - DOMAIN-SUFFIX,s.team,🚀 节点选择
  - DOMAIN-SUFFIX,s1heng.com,🚀 节点选择
  - DOMAIN-SUFFIX,s1s1s1.com,🚀 节点选择
@@ -15830,6 +15824,7 @@ rules:
  - DOMAIN-SUFFIX,xml-training-guide.com,🚀 节点选择
  - DOMAIN-SUFFIX,xmovies.com,🚀 节点选择
  - DOMAIN-SUFFIX,xn--11xs86f.icu,🚀 节点选择
+ - DOMAIN-SUFFIX,xn--1jqvh729avzfcy2d8ummib.com,🚀 节点选择
  - DOMAIN-SUFFIX,xn--4gq171p.com,🚀 节点选择
  - DOMAIN-SUFFIX,xn--90wwvt03e.com,🚀 节点选择
  - DOMAIN-SUFFIX,xn--9iqy04a7fi01l.com,🚀 节点选择
