@@ -73,12 +73,13 @@ proxies:
   - {name: 🇺🇸 美国_121320039, server: 158.178.227.16, port: 30839, type: vmess, uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320052, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320056, server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国_121320011, server: 43.131.62.103, port: 666, type: vmess, uuid: 11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320012, server: 172.104.240.196, port: 18924, type: vmess, uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320028, server: jp.takeshi.wiki, port: 80, type: vmess, uuid: a19f357b-c836-4cf6-9e43-72390e6a00df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: jp.takeshi.wiki}}}
   - {name: 🇩🇪 德国_121320030, server: 82.115.25.173, port: 20091, type: vmess, uuid: 5f75f0dc-8991-4723-de35-af81c9b2fe96, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320040, server: 185.135.9.247, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: ldkpsvvhhe.site}}}
   - {name: 🇩🇪 德国_121320047, server: 5.181.23.67, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.181.23.67}}}
-  - {name: 🇩🇪 德国_121320049, server: ee1-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}}
+  - {name: 🇩🇪 德国_121320048, server: ee1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 34d4f393-ead9-48df-9370-ca8b52e6aabd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}}
   - {name: 🇮🇹 意大利_121320001, server: 149.62.189.23, port: 30028, type: vmess, uuid: eb1ab395-1845-4161-e02a-fbcca0086d94, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 149.62.189.23}}}
   - {name: 🇸🇰 斯洛伐克_121320002, server: 5.252.23.133, port: 80, type: vmess, uuid: 2892f8c0-c4bc-49ad-b31f-2146b67d4f6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.252.23.133}}}
   - {name: 未知_121320001, server: 2876be99-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: 2876be99-f.3nvx.com}}}
@@ -96,7 +97,6 @@ proxies:
   - {name: 未知_121320015, server: 104.18.154.42, port: 2053, type: vmess, uuid: 754ac3c1-e660-4f7f-bf05-76a7c15556ed, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zUla.eSMaIlkOrEa.sHOp}}}
   - {name: 未知_121320016, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: arthur-experienced-hate-maiden.trycloudflare.com}}}
   - {name: 未知_121320017, server: cf-jpc.handboy.top, port: 2086, type: vmess, uuid: 22425357-dc2f-4001-afe2-7f56a7210fca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-jp.handboy.site}}}
-  - {name: 未知_121320018, server: 104.18.202.232, port: 80, type: vmess, uuid: 239d61bb-fd16-4b53-85a5-f4c12c0d3d94, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: us8vm.cdn-03.live}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -180,12 +180,13 @@ proxy-groups:
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
       - 🇺🇸 美国_121320056
+      - 🇩🇪 德国_121320011
       - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320028
       - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
-      - 🇩🇪 德国_121320049
+      - 🇩🇪 德国_121320048
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
@@ -203,7 +204,6 @@ proxy-groups:
       - 未知_121320015
       - 未知_121320016
       - 未知_121320017
-      - 未知_121320018
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -322,12 +322,13 @@ proxy-groups:
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
       - 🇺🇸 美国_121320056
+      - 🇩🇪 德国_121320011
       - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320028
       - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
-      - 🇩🇪 德国_121320049
+      - 🇩🇪 德国_121320048
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
@@ -345,7 +346,6 @@ proxy-groups:
       - 未知_121320015
       - 未知_121320016
       - 未知_121320017
-      - 未知_121320018
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -420,12 +420,13 @@ proxy-groups:
       - 🇺🇸 美国_121320039
       - 🇺🇸 美国_121320052
       - 🇺🇸 美国_121320056
+      - 🇩🇪 德国_121320011
       - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320028
       - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
-      - 🇩🇪 德国_121320049
+      - 🇩🇪 德国_121320048
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
@@ -443,7 +444,6 @@ proxy-groups:
       - 未知_121320015
       - 未知_121320016
       - 未知_121320017
-      - 未知_121320018
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -531,12 +531,13 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedian
+      - 🇩🇪 德国_121320011
       - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320028
       - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
-      - 🇩🇪 德国_121320049
+      - 🇩🇪 德国_121320048
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
@@ -554,7 +555,6 @@ proxy-groups:
       - 未知_121320015
       - 未知_121320016
       - 未知_121320017
-      - 未知_121320018
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
