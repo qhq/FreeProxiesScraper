@@ -73,6 +73,7 @@ proxies:
   - {name: 🇺🇸 美国_121320023, server: 172.252.56.69, port: 36450, type: vmess, uuid: 2f5144ae-8fb8-43e1-b6f9-52bb36f124ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320024, server: 172.67.221.114, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
   - {name: 🇺🇸 美国_121320027, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}}
+  - {name: 防失效github SubCrawler乌克兰_121320002, server: ua1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ua1-vmess.sshmax.xyz}}}
   - {name: 乌克兰_121320004, server: 185.250.150.220, port: 8080, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
   - {name: 🇮🇷 伊朗_121320001, server: 195.211.44.107, port: 20515, type: vmess, uuid: a56b1fb2-6a48-4d08-80e7-7cc1b2df019e, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇷 伊朗_121320006, server: 81.12.27.2, port: 58768, type: vmess, uuid: 324d3868-cfef-4bd4-ab44-1776a406635f, alterId: 0, cipher: auto, tls: false}
@@ -85,7 +86,6 @@ proxies:
   - {name: 🇮🇳 印度_121320003, server: 205.164.28.103, port: 13487, type: vmess, uuid: f5502283-53ba-442b-bdb1-a25745fd5c17, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320005, server: 103.106.230.153, port: 32732, type: vmess, uuid: eb931108-646b-4ceb-a741-d32490cb00f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
   - {name: 🇮🇳 印度_121320008, server: 103.113.68.233, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 103.113.68.233}}}
-  - {name: 🇮🇳 印度_121320009, server: ru1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}}
   - {name: 🇮🇩 印度尼西亚_121320001, server: 113.20.28.102, port: 22188, type: vmess, uuid: 00677eb4-91c2-41f1-e790-963b9a093fd5, alterId: 0, cipher: auto, tls: false}
   - {name: 🇰🇿 哈萨克斯坦_121320002, server: kz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 0a6ae6c5-e1f8-411c-8f11-cfa5433c58e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: kz1-vmess.sshmax.xyz}}}
   - {name: 🇬🇷 希腊_121320001, server: 185.242.84.49, port: 80, type: vmess, uuid: 9db34944-bc87-43cb-8b57-45cf87b2b006, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
@@ -180,6 +180,7 @@ proxy-groups:
       - 🇺🇸 美国_121320023
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320027
+      - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
       - 🇮🇷 伊朗_121320001
       - 🇮🇷 伊朗_121320006
@@ -192,7 +193,6 @@ proxy-groups:
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
-      - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
       - 🇰🇿 哈萨克斯坦_121320002
       - 🇬🇷 希腊_121320001
@@ -322,6 +322,7 @@ proxy-groups:
       - 🇺🇸 美国_121320023
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320027
+      - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
       - 🇮🇷 伊朗_121320001
       - 🇮🇷 伊朗_121320006
@@ -334,7 +335,6 @@ proxy-groups:
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
-      - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
       - 🇰🇿 哈萨克斯坦_121320002
       - 🇬🇷 希腊_121320001
@@ -420,6 +420,7 @@ proxy-groups:
       - 🇺🇸 美国_121320023
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320027
+      - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
       - 🇮🇷 伊朗_121320001
       - 🇮🇷 伊朗_121320006
@@ -432,7 +433,6 @@ proxy-groups:
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
-      - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
       - 🇰🇿 哈萨克斯坦_121320002
       - 🇬🇷 希腊_121320001
@@ -530,6 +530,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
       - 🇮🇷 伊朗_121320001
       - 🇮🇷 伊朗_121320006
@@ -542,7 +543,6 @@ proxy-groups:
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
-      - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
       - 🇰🇿 哈萨克斯坦_121320002
       - 🇬🇷 希腊_121320001
