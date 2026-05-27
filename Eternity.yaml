@@ -72,7 +72,7 @@ proxies:
   - {name: 🇺🇸 美国_121320024, server: 172.67.221.114, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
   - {name: 🇺🇸 美国_121320027, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}}
   - {name: 🇺🇸 美国_121320028, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
   - {name: github.com/freefq - 广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
   - {name: 防失效github SubCrawler乌克兰_121320002, server: ua1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ua1-vmess.sshmax.xyz}}}
   - {name: 乌克兰_121320004, server: 185.250.150.220, port: 8080, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
@@ -96,7 +96,6 @@ proxies:
   - {name: 🇩🇪 德国_121320005, server: 116.203.60.6, port: 18180, type: vmess, uuid: b1cfd141-4f0d-40b4-b169-ed332a4a92b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇩🇪 德国_121320007, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇩🇪 德国_121320011, server: 43.131.62.103, port: 666, type: vmess, uuid: 11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国_121320012, server: 172.104.240.196, port: 18924, type: vmess, uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -179,7 +178,7 @@ proxy-groups:
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
-      - 🇺🇸 美国_121320029
+      - github.com/freefq - 广东省移动 7
       - github.com/freefq - 广东省江门市移动 8
       - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
@@ -203,7 +202,6 @@ proxy-groups:
       - 🇩🇪 德国_121320005
       - 🇩🇪 德国_121320007
       - 🇩🇪 德国_121320011
-      - 🇩🇪 德国_121320012
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -321,7 +319,7 @@ proxy-groups:
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
-      - 🇺🇸 美国_121320029
+      - github.com/freefq - 广东省移动 7
       - github.com/freefq - 广东省江门市移动 8
       - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
@@ -345,7 +343,6 @@ proxy-groups:
       - 🇩🇪 德国_121320005
       - 🇩🇪 德国_121320007
       - 🇩🇪 德国_121320011
-      - 🇩🇪 德国_121320012
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -419,7 +416,7 @@ proxy-groups:
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
-      - 🇺🇸 美国_121320029
+      - github.com/freefq - 广东省移动 7
       - github.com/freefq - 广东省江门市移动 8
       - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
@@ -443,7 +440,6 @@ proxy-groups:
       - 🇩🇪 德国_121320005
       - 🇩🇪 德国_121320007
       - 🇩🇪 德国_121320011
-      - 🇩🇪 德国_121320012
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -473,7 +469,6 @@ proxy-groups:
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
-      - 🇺🇸 美国_121320029
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -530,6 +525,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - github.com/freefq - 广东省移动 7
       - github.com/freefq - 广东省江门市移动 8
       - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
@@ -553,7 +549,6 @@ proxy-groups:
       - 🇩🇪 德国_121320005
       - 🇩🇪 德国_121320007
       - 🇩🇪 德国_121320011
-      - 🇩🇪 德国_121320012
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -581,7 +576,6 @@ proxy-groups:
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
-      - 🇺🇸 美国_121320029
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
