@@ -39,6 +39,7 @@ proxies:
   - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
   - {name: 🇯🇵 github.com/freefq - 日本  48, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇭🇰 0|🇭🇰香港 01 | 1x HK, server: free.2apzhfa.xyz, port: 31141, type: ss, cipher: chacha20-ietf-poly1305, password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4, server: hk001.369boy.com, port: 30156, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true}
   - {name: "🇨🇳 2,13|台湾|@ripaojiedian", server: fadawtawd.zhangwei.li, port: 46005, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: fadawtawd.zhangwei.li}}}
   - {name: 🇭🇰 12|🇭🇰 香港|@ripaojiedian, server: hk02.x.quickcht3.club, port: 52612, type: ss, cipher: chacha20-ietf-poly1305, password: 2be0c954-4291-45ea-b47d-ca713180550b}
   - {name: 🇭🇰 12|🇭🇰 香港2|@ripaojiedian, server: hk2.fgmcx.top, port: 41049, type: ss, cipher: chacha20-ietf-poly1305, password: be443689-bc64-49ff-85a5-8eecaa2235d3}
@@ -48,8 +49,7 @@ proxies:
   - {name: 🇭🇰 12|🇭🇰 香港6|@ripaojiedian, server: gg21.hangfengjiasu.com, port: 12202, type: ss, cipher: chacha20-ietf-poly1305, password: cdc48a7a-b618-45af-a831-5afbd686b02f}
   - {name: 🇭🇰 12|🇭🇰 香港7|@ripaojiedian, server: 120.232.153.40, port: 36609, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇭🇰 12|🇭🇰 香港8|@ripaojiedian, server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27101, type: trojan, password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇯🇵 12|🇯🇵 日本5|@ripaojiedian, server: 103.232.213.117, port: 8080, type: trojan, password: ji0612uenfs, sni: ji0612e.nfjunka.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560%252526proxyip%25253D103.232.213.117%25253A8080", headers: {Host: ji0612e.nfjunka.xyz}}}
-  - {name: 🇨🇦 加拿大_121320003, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大_121320032, server: 193.203.203.63, port: 80, type: vmess, uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 193.203.203.63}}}
   - {name: 🇺🇸 美国_121320003, server: e691d61a-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: e691d61a-f.3nvx.com}}}
   - {name: 🇺🇸 美国_121320005, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
@@ -146,6 +146,7 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
       - 🇨🇳 2,13|台湾|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
@@ -155,8 +156,7 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇨🇦 加拿大_121320003
+      - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -288,6 +288,7 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
       - 🇨🇳 2,13|台湾|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
@@ -297,8 +298,7 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇨🇦 加拿大_121320003
+      - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -386,6 +386,7 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
       - 🇨🇳 2,13|台湾|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
@@ -395,8 +396,7 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇨🇦 加拿大_121320003
+      - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -450,7 +450,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇦 加拿大_121320003
+      - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -514,6 +514,7 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
       - 🇨🇳 2,13|台湾|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
@@ -523,7 +524,6 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -593,6 +593,7 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
       - 🇭🇰 12|🇭🇰 香港|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港3|@ripaojiedian
@@ -638,7 +639,6 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
