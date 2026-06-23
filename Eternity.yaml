@@ -36,8 +36,8 @@ proxies:
   - {name: 🇭🇰 _HK_中国香港->🇺🇸_US_美国, server: 95.40.68.192, port: 17801, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true}
   - {name: 🇨🇳 _TW_中国台湾->🇸🇬_SG_新加坡, server: 211.76.176.97, port: 19128, type: trojan, password: gcuCpQfaiVeDBdWG, sni: yazhou10.dynu.net, skip-cert-verify: false}
   - {name: 🇨🇳 _TW_中国台湾->🇸🇬_SG_新加坡_1, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: gcuCpQfaiVeDBdWG, sni: yazhou10.dynu.net, skip-cert-verify: false}
-  - {name: 🇭🇰 _ID_印度尼西亚->🇭🇰_HK_中国香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 _HK_中国香港->🇹🇼_TW_中国台湾, server: world.t.51guangtaobao.com, port: 2510, type: vmess, uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 _MY_马来西亚->🇯🇵_JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 _HK_中国香港, server: li.feng3d.com, port: 8388, type: ss, cipher: aes-256-gcm, password: feng3d@ss2025}
   - {name: 🇭🇰 _HK_中国香港_1, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6004, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false}
@@ -50,6 +50,7 @@ proxies:
   - {name: 🇯🇵 github.com/freefq - 日本  48, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇭🇰 0|🇭🇰香港 01 | 1x HK, server: free.2apzhfa.xyz, port: 31141, type: ss, cipher: chacha20-ietf-poly1305, password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549}
   - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
   - {name: 🇨🇦 加拿大_121320003, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇦 加拿大_121320032, server: 193.203.203.63, port: 80, type: vmess, uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 193.203.203.63}}}
   - {name: 🇺🇸 美国_121320003, server: e691d61a-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: e691d61a-f.3nvx.com}}}
@@ -57,7 +58,6 @@ proxies:
   - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
   - {name: 🇺🇸 美国_121320009, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
   - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: 🇺🇸 美国_121320011, server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 🇺🇸 美国_121320012, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
   - {name: 🇺🇸 美国_121320013, server: www.wto.org, port: 443, type: vmess, uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm, headers: {Host: copies-bandwidth-harold-tops.trycloudflare.com}}}
   - {name: 🇺🇸 美国_121320014, server: cloudconeaaa.gorgorchicken.one, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
@@ -72,7 +72,6 @@ proxies:
   - {name: 🇺🇸 美国_121320028, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 乌克兰_121320004, server: 185.250.150.220, port: 8080, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
   - {name: 🇮🇷 伊朗_121320001, server: 195.211.44.107, port: 20515, type: vmess, uuid: a56b1fb2-6a48-4d08-80e7-7cc1b2df019e, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇷 伊朗_121320006, server: 81.12.27.2, port: 58768, type: vmess, uuid: 324d3868-cfef-4bd4-ab44-1776a406635f, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇷 伊朗_121320007, server: 158.58.188.21, port: 45061, type: vmess, uuid: 096bb799-6554-4bac-822e-3aa564ea31ff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -86,6 +85,7 @@ proxies:
   - {name: 🇮🇳 印度_121320008, server: 103.113.68.233, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 103.113.68.233}}}
   - {name: 🇮🇳 印度_121320009, server: ru1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}}
   - {name: 🇮🇩 印度尼西亚_121320001, server: 113.20.28.102, port: 22188, type: vmess, uuid: 00677eb4-91c2-41f1-e790-963b9a093fd5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇿 哈萨克斯坦_121320002, server: kz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 0a6ae6c5-e1f8-411c-8f11-cfa5433c58e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: kz1-vmess.sshmax.xyz}}}
   - {name: 🇬🇷 希腊_121320001, server: 185.242.84.49, port: 80, type: vmess, uuid: 9db34944-bc87-43cb-8b57-45cf87b2b006, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
   - {name: 🇩🇪 德国_121320001, server: 157.230.28.129, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇩🇪 德国_121320004, server: v2.vipstore.cfd, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: v2.vipstore.cfd}}}
@@ -142,8 +142,8 @@ proxy-groups:
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国
       - 🇨🇳 _TW_中国台湾->🇸🇬_SG_新加坡
       - 🇨🇳 _TW_中国台湾->🇸🇬_SG_新加坡_1
-      - 🇭🇰 _ID_印度尼西亚->🇭🇰_HK_中国香港
       - 🇭🇰 _HK_中国香港->🇹🇼_TW_中国台湾
+      - 🇯🇵 _MY_马来西亚->🇯🇵_JP_日本
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
@@ -156,6 +156,7 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
@@ -163,7 +164,6 @@ proxy-groups:
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
@@ -178,7 +178,6 @@ proxy-groups:
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
-      - 乌克兰_121320004
       - 🇮🇷 伊朗_121320001
       - 🇮🇷 伊朗_121320006
       - 🇮🇷 伊朗_121320007
@@ -192,6 +191,7 @@ proxy-groups:
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
       - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
@@ -283,8 +283,8 @@ proxy-groups:
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国
       - 🇨🇳 _TW_中国台湾->🇸🇬_SG_新加坡
       - 🇨🇳 _TW_中国台湾->🇸🇬_SG_新加坡_1
-      - 🇭🇰 _ID_印度尼西亚->🇭🇰_HK_中国香港
       - 🇭🇰 _HK_中国香港->🇹🇼_TW_中国台湾
+      - 🇯🇵 _MY_马来西亚->🇯🇵_JP_日本
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
@@ -297,6 +297,7 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
@@ -304,7 +305,6 @@ proxy-groups:
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
@@ -319,7 +319,6 @@ proxy-groups:
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
-      - 乌克兰_121320004
       - 🇮🇷 伊朗_121320001
       - 🇮🇷 伊朗_121320006
       - 🇮🇷 伊朗_121320007
@@ -333,6 +332,7 @@ proxy-groups:
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
       - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
@@ -380,8 +380,8 @@ proxy-groups:
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国
       - 🇨🇳 _TW_中国台湾->🇸🇬_SG_新加坡
       - 🇨🇳 _TW_中国台湾->🇸🇬_SG_新加坡_1
-      - 🇭🇰 _ID_印度尼西亚->🇭🇰_HK_中国香港
       - 🇭🇰 _HK_中国香港->🇹🇼_TW_中国台湾
+      - 🇯🇵 _MY_马来西亚->🇯🇵_JP_日本
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
@@ -394,6 +394,7 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本  48
       - 🇭🇰 0|🇭🇰香港 01 | 1x HK
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
@@ -401,7 +402,6 @@ proxy-groups:
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
@@ -416,7 +416,6 @@ proxy-groups:
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
-      - 乌克兰_121320004
       - 🇮🇷 伊朗_121320001
       - 🇮🇷 伊朗_121320006
       - 🇮🇷 伊朗_121320007
@@ -430,6 +429,7 @@ proxy-groups:
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
       - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
@@ -450,6 +450,7 @@ proxy-groups:
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国_1
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
@@ -457,7 +458,6 @@ proxy-groups:
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
@@ -509,8 +509,8 @@ proxy-groups:
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国
       - 🇨🇳 _TW_中国台湾->🇸🇬_SG_新加坡
       - 🇨🇳 _TW_中国台湾->🇸🇬_SG_新加坡_1
-      - 🇭🇰 _ID_印度尼西亚->🇭🇰_HK_中国香港
       - 🇭🇰 _HK_中国香港->🇹🇼_TW_中国台湾
+      - 🇯🇵 _MY_马来西亚->🇯🇵_JP_日本
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
@@ -528,7 +528,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 乌克兰_121320004
       - 🇮🇷 伊朗_121320001
       - 🇮🇷 伊朗_121320006
       - 🇮🇷 伊朗_121320007
@@ -542,6 +541,7 @@ proxy-groups:
       - 🇮🇳 印度_121320008
       - 🇮🇳 印度_121320009
       - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
       - 🇬🇷 希腊_121320001
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
@@ -562,12 +562,12 @@ proxy-groups:
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国_1
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
@@ -592,7 +592,6 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国
-      - 🇭🇰 _ID_印度尼西亚->🇭🇰_HK_中国香港
       - 🇭🇰 _HK_中国香港->🇹🇼_TW_中国台湾
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
@@ -636,6 +635,7 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
+      - 🇯🇵 _MY_马来西亚->🇯🇵_JP_日本
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
