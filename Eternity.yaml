@@ -5,9 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 _KR_韩国_1, server: seoul01.zgjok.com, port: 443, type: vmess, uuid: 182f1650-ca13-480c-b0b4-1ca44ed0504e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /henis01, headers: {Host: seoul01.zgjok.com}}}
-  - {name: 🇭🇰 _HK_中国香港_2, server: n1747624274.4u9ma.icu, port: 443, type: vmess, uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1747624274.4u9ma.icu}}}
+  - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
+  - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320004, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 新加坡_121320008, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320009, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320037, server: 8.219.59.222, port: 46998, type: vmess, uuid: 5c9bed1a-716b-43e7-c807-9e0758186360, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡_121320090, server: 143.42.66.9, port: 40637, type: vmess, uuid: 7e30d039-1751-4fbd-aa0a-918b03003515, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /chami}}
@@ -31,8 +35,7 @@ proxies:
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇭🇰 _HK_中国香港->🇺🇸_US_美国, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 _HK_中国香港->🇺🇸_US_美国_1, server: 18.162.53.72, port: 34638, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡_121320008, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_121320004, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇰🇷 _KR_韩国_1, server: seoul01.zgjok.com, port: 443, type: vmess, uuid: 182f1650-ca13-480c-b0b4-1ca44ed0504e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /henis01, headers: {Host: seoul01.zgjok.com}}}
   - {name: 🇸🇬 github.com/freefq - 新加坡OVH 8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 github.com/freefq - 日本东京PEG TECH 18, server: 104.233.240.59, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.233.240.59}}}
@@ -46,13 +49,9 @@ proxies:
   - {name: 🇭🇰 12|🇭🇰 香港5|@ripaojiedian, server: cloudgd.coemn.com, port: 46003, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: cloudgd.coemn.com}}}
   - {name: 🇭🇰 12|🇭🇰 香港6|@ripaojiedian, server: gg21.hangfengjiasu.com, port: 12202, type: ss, cipher: chacha20-ietf-poly1305, password: cdc48a7a-b618-45af-a831-5afbd686b02f}
   - {name: 🇭🇰 12|🇭🇰 香港7|@ripaojiedian, server: 120.232.153.40, port: 36609, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 12|🇭🇰 香港8|@ripaojiedian, server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27101, type: trojan, password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇯🇵 12|🇯🇵 日本5|@ripaojiedian, server: 103.232.213.117, port: 8080, type: trojan, password: ji0612uenfs, sni: ji0612e.nfjunka.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560%252526proxyip%25253D103.232.213.117%25253A8080", headers: {Host: ji0612e.nfjunka.xyz}}}
-  - {name: 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian, server: 3.34.192.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedianss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.17.162.229443#🇺🇸 _US_美国_3, server: 3.36.96.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 053, server: 104.17.124.179, port: 80, type: vmess, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.}}}
-  - {name: 🇺🇸 美国 105, server: 38.60.136.156, port: 443, type: trojan, password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey, skip-cert-verify: false}
-  - {name: 🇺🇸 美国_121320003, server: e691d61a-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: e691d61a-f.3nvx.com}}}
+  - {name: 🇺🇸 美国_121320005, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
+  - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
+  - {name: 🇺🇸 美国_121320009, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
   - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 🇺🇸 美国_121320011, server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 🇺🇸 美国_121320012, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
@@ -73,8 +72,9 @@ proxies:
   - {name: 🇺🇸 美国_121320036, server: 64.176.59.68, port: 59350, type: vmess, uuid: 5821ac21-8e3f-4c8b-832d-a55190c944e9, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320037, server: 47.236.22.3, port: 47885, type: vmess, uuid: 2fb7aa37-e195-44f1-f000-5727610d22e3, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320039, server: 158.178.227.16, port: 30839, type: vmess, uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_121320052, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇷 希腊_121320001, server: 185.242.84.49, port: 80, type: vmess, uuid: 9db34944-bc87-43cb-8b57-45cf87b2b006, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇲🇾 马来西亚 002, server: 47.250.135.244, port: 10000, type: vmess, uuid: aedc66b8-99d7-4a21-8310-61870e7f870d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 _DE_德国_1, server: 213.108.20.209, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: true}
+  - {name: 🇮🇳 印度_121320009, server: ru1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}}
   - {name: 🇩🇪 德国_121320001, server: 157.230.28.129, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇩🇪 德国_121320004, server: v2.vipstore.cfd, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: v2.vipstore.cfd}}}
   - {name: 🇩🇪 德国_121320005, server: 116.203.60.6, port: 18180, type: vmess, uuid: b1cfd141-4f0d-40b4-b169-ed332a4a92b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -85,7 +85,6 @@ proxies:
   - {name: 🇩🇪 德国_121320030, server: 82.115.25.173, port: 20091, type: vmess, uuid: 5f75f0dc-8991-4723-de35-af81c9b2fe96, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320040, server: 185.135.9.247, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: ldkpsvvhhe.site}}}
   - {name: 🇩🇪 德国_121320047, server: 5.181.23.67, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.181.23.67}}}
-  - {name: 🇩🇪 德国_121320048, server: ee1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 34d4f393-ead9-48df-9370-ca8b52e6aabd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}}
   - {name: 🇮🇹 意大利_121320001, server: 149.62.189.23, port: 30028, type: vmess, uuid: eb1ab395-1845-4161-e02a-fbcca0086d94, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 149.62.189.23}}}
   - {name: 🇸🇰 斯洛伐克_121320002, server: 5.252.23.133, port: 80, type: vmess, uuid: 2892f8c0-c4bc-49ad-b31f-2146b67d4f6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.252.23.133}}}
   - {name: 未知_121320001, server: 2876be99-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: 2876be99-f.3nvx.com}}}
@@ -97,7 +96,6 @@ proxies:
   - {name: 未知_121320007, server: octavi.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
   - {name: 未知_121320008, server: ginson.efnten.top, port: 443, type: vmess, uuid: 673ba378-840f-4928-81f2-203148d07350, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /673ba378-840f-4928-81f2-203148d07350, headers: {Host: cowochtmtrkers.turbo021.link}}}
   - {name: 未知_121320009, server: 104.21.4.29, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
-  - {name: 未知_121320010, server: rlhrwtqusd.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: rlhrwtqusd.site}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -113,9 +111,13 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇰🇷 _KR_韩国_1
-      - 🇭🇰 _HK_中国香港_2
+      - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320002
+      - 🇨🇳 台湾_121320006
+      - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320004
+      - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
@@ -139,8 +141,7 @@ proxy-groups:
       - 🇭🇰 香港_121320012
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国_1
-      - 🇸🇬 新加坡_121320008
-      - 🇸🇬 新加坡_121320004
+      - 🇰🇷 _KR_韩国_1
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -154,13 +155,9 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedianss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.17.162.229443#🇺🇸 _US_美国_3
-      - 🇺🇸 美国 053
-      - 🇺🇸 美国 105
-      - 🇺🇸 美国_121320003
+      - 🇺🇸 美国_121320005
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
@@ -181,8 +178,9 @@ proxy-groups:
       - 🇺🇸 美国_121320036
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
-      - 🇺🇸 美国_121320052
-      - 🇬🇷 希腊_121320001
+      - 🇲🇾 马来西亚 002
+      - 🇩🇪 _DE_德国_1
+      - 🇮🇳 印度_121320009
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
@@ -193,7 +191,6 @@ proxy-groups:
       - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
-      - 🇩🇪 德国_121320048
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
@@ -205,7 +202,6 @@ proxy-groups:
       - 未知_121320007
       - 未知_121320008
       - 未知_121320009
-      - 未知_121320010
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -256,9 +252,13 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 _KR_韩国_1
-      - 🇭🇰 _HK_中国香港_2
+      - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320002
+      - 🇨🇳 台湾_121320006
+      - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320004
+      - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
@@ -282,8 +282,7 @@ proxy-groups:
       - 🇭🇰 香港_121320012
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国_1
-      - 🇸🇬 新加坡_121320008
-      - 🇸🇬 新加坡_121320004
+      - 🇰🇷 _KR_韩国_1
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -297,13 +296,9 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedianss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.17.162.229443#🇺🇸 _US_美国_3
-      - 🇺🇸 美国 053
-      - 🇺🇸 美国 105
-      - 🇺🇸 美国_121320003
+      - 🇺🇸 美国_121320005
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
@@ -324,8 +319,9 @@ proxy-groups:
       - 🇺🇸 美国_121320036
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
-      - 🇺🇸 美国_121320052
-      - 🇬🇷 希腊_121320001
+      - 🇲🇾 马来西亚 002
+      - 🇩🇪 _DE_德国_1
+      - 🇮🇳 印度_121320009
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
@@ -336,7 +332,6 @@ proxy-groups:
       - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
-      - 🇩🇪 德国_121320048
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
@@ -348,16 +343,19 @@ proxy-groups:
       - 未知_121320007
       - 未知_121320008
       - 未知_121320009
-      - 未知_121320010
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 _KR_韩国_1
-      - 🇭🇰 _HK_中国香港_2
+      - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320002
+      - 🇨🇳 台湾_121320006
+      - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320004
+      - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
@@ -381,8 +379,7 @@ proxy-groups:
       - 🇭🇰 香港_121320012
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国_1
-      - 🇸🇬 新加坡_121320008
-      - 🇸🇬 新加坡_121320004
+      - 🇰🇷 _KR_韩国_1
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -396,13 +393,9 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedianss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.17.162.229443#🇺🇸 _US_美国_3
-      - 🇺🇸 美国 053
-      - 🇺🇸 美国 105
-      - 🇺🇸 美国_121320003
+      - 🇺🇸 美国_121320005
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
@@ -423,8 +416,9 @@ proxy-groups:
       - 🇺🇸 美国_121320036
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
-      - 🇺🇸 美国_121320052
-      - 🇬🇷 希腊_121320001
+      - 🇲🇾 马来西亚 002
+      - 🇩🇪 _DE_德国_1
+      - 🇮🇳 印度_121320009
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
@@ -435,7 +429,6 @@ proxy-groups:
       - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
-      - 🇩🇪 德国_121320048
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
@@ -447,7 +440,6 @@ proxy-groups:
       - 未知_121320007
       - 未知_121320008
       - 未知_121320009
-      - 未知_121320010
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -456,10 +448,9 @@ proxy-groups:
     proxies:
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国_1
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedianss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.17.162.229443#🇺🇸 _US_美国_3
-      - 🇺🇸 美国 053
-      - 🇺🇸 美国 105
-      - 🇺🇸 美国_121320003
+      - 🇺🇸 美国_121320005
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
@@ -480,16 +471,19 @@ proxy-groups:
       - 🇺🇸 美国_121320036
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
-      - 🇺🇸 美国_121320052
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 _KR_韩国_1
-      - 🇭🇰 _HK_中国香港_2
+      - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320002
+      - 🇨🇳 台湾_121320006
+      - 🇨🇳 台湾_121320007
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320004
+      - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
@@ -513,8 +507,7 @@ proxy-groups:
       - 🇭🇰 香港_121320012
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国_1
-      - 🇸🇬 新加坡_121320008
-      - 🇸🇬 新加坡_121320004
+      - 🇰🇷 _KR_韩国_1
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
@@ -528,17 +521,15 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
-      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
-      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedianss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.17.162.229443#🇺🇸 _US_美国_3
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇬🇷 希腊_121320001
+      - 🇲🇾 马来西亚 002
+      - 🇩🇪 _DE_德国_1
+      - 🇮🇳 印度_121320009
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
@@ -549,7 +540,6 @@ proxy-groups:
       - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
-      - 🇩🇪 德国_121320048
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
@@ -561,7 +551,6 @@ proxy-groups:
       - 未知_121320007
       - 未知_121320008
       - 未知_121320009
-      - 未知_121320010
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -570,10 +559,9 @@ proxy-groups:
     proxies:
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国
       - 🇭🇰 _HK_中国香港->🇺🇸_US_美国_1
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedianss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.17.162.229443#🇺🇸 _US_美国_3
-      - 🇺🇸 美国 053
-      - 🇺🇸 美国 105
-      - 🇺🇸 美国_121320003
+      - 🇺🇸 美国_121320005
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
@@ -594,14 +582,12 @@ proxy-groups:
       - 🇺🇸 美国_121320036
       - 🇺🇸 美国_121320037
       - 🇺🇸 美国_121320039
-      - 🇺🇸 美国_121320052
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 _HK_中国香港_2
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
@@ -615,7 +601,6 @@ proxy-groups:
       - 🇭🇰 12|🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 12|🇭🇰 香港7|@ripaojiedian
-      - 🇭🇰 12|🇭🇰 香港8|@ripaojiedian
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
@@ -623,13 +608,12 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320004
+      - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
-      - 🇸🇬 新加坡_121320008
-      - 🇸🇬 新加坡_121320004
       - 🇸🇬 github.com/freefq - 新加坡OVH 8
-      - 🇸🇬 12|🇸🇬 狮城特殊|@ripaojiedianss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.17.162.229443#🇺🇸 _US_美国_3
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
@@ -653,13 +637,16 @@ proxy-groups:
       - 🇯🇵 github.com/freefq - 日本东京Linode数据中心 16
       - 🇯🇵 github.com/freefq - 日本东京PEG TECH 18
       - 🇯🇵 github.com/freefq - 日本  48
-      - 🇯🇵 12|🇯🇵 日本5|@ripaojiedian
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320002
+      - 🇨🇳 台湾_121320006
+      - 🇨🇳 台湾_121320007
       - 🇨🇳 2,13|台湾|@ripaojiedian
   - name: 韩国
     type: url-test
@@ -667,9 +654,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 _KR_韩国_1
       - 🇰🇷 韩国_121320001
-      - 🇰🇷 12|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 _KR_韩国_1
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
