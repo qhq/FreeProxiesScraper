@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇸🇬 [www.v2nodes.com] ss-SG-1559...", server: 139.180.220.175, port: 8388, type: ss, cipher: aes-256-gcm, password: qpSevKaUXYQKvSjp}
+  - {name: 🇯🇵 日本 008, server: 168.138.43.75, port: 80, type: vmess, uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp01.a0a.xyz}}}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
@@ -33,15 +33,13 @@ proxies:
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇰🇷 _CN_中国->🇰🇷_KR_韩国, server: 36.133.78.37, port: 50016, type: vmess, uuid: 1235431b-b6b8-4add-bff4-a6d71bcc4d71, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_中国香港, server: 36.133.74.15, port: 50011, type: vmess, uuid: 9195e0f1-f466-4e69-838f-a95519b5d45e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_中国香港_1, server: 36.139.117.41, port: 50011, type: vmess, uuid: 9195e0f1-f466-4e69-838f-a95519b5d45e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_中国香港_2, server: 36.134.35.36, port: 50011, type: vmess, uuid: 1235431b-b6b8-4add-bff4-a6d71bcc4d71, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 _HK_中国香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: "🇰🇷 [www.v2nodes.com] ss-KR-1580...", server: ce1fc2d8.krkt.hkssip.com, port: 49642, type: ss, cipher: aes-256-gcm, password: ac9c0a7b}
+  - {name: 🇯🇵 _JP_日本, server: ou44bxs-g04.jp06-jz-vm0.entry.fr0528.art, port: 28786, type: vmess, uuid: d687b024-a5cf-3433-8d06-1c99e2e28821, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇯🇵 _JP_日本_1, server: hhz4qxs-g04.jp03-j7-vm0.entry.fr0528.art, port: 21584, type: vmess, uuid: d687b024-a5cf-3433-8d06-1c99e2e28821, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇨🇳 台湾(油管破解资源君2.0), server: tratw1.bitznet.one, port: 32003, type: trojan, password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4, sni: cert.bitbyte.one, skip-cert-verify: true}
+  - {name: 🇯🇵 日本(油管破解资源君2.0), server: trajp1.bitznet.one, port: 32004, type: trojan, password: 700f759e-6ecb-4632-861c-2c88b1ffc6c4, sni: cert.bitbyte.one, skip-cert-verify: true}
   - {name: "🇸🇬 [www.v2nodes.com] ss-SG-1524...", server: 84.247.49.211, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: XF0klw7870vXn3uQIxe19Q}
   - {name: "🇭🇰 [www.v2nodes.com] trojan-HK-...", server: 104.21.70.21, port: 443, type: trojan, password: Telegram_healer_config, sni: bjsa2ygfitzjtho8ucze29xf2m2q9c.g3fiajpf0erm9k3x6ww-yegzl2.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "%25252Ftr%25252FJ6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr%2525253Fed%2525253D2560", headers: {Host: bjsa2ygfitzjtho8ucze29xf2m2q9c.g3fiajpf0erm9k3x6ww-yegzl2.workers.dev}}}
-  - {name: "🇯🇵 [www.v2nodes.com] trojan-JP-...", server: jp3.998998.best, port: 443, type: trojan, password: 3c6d1933-b22a-484b-ac8a-63e24f5fba75, sni: nat11.outsidemyheart.space, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fw4e5yh0p945y3", headers: {Host: nat11.outsidemyheart.space}}}
+  - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: ADncdOvLHR4M1P36.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: ADncdOvLHR4M1P36.v.3dns.vip}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: kBONDXW9liFCi4h4.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: kBONDXW9liFCi4h4.v.3dns.vip}}}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: aZW0eunYVdvRe73k.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: aZW0eunYVdvRe73k.v.3dns.vip}}}
@@ -49,10 +47,13 @@ proxies:
   - {name: 🇯🇵 日本|@ripaojiedian, server: Z9FfBx3zs2q5O0BG.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: Z9FfBx3zs2q5O0BG.v.3dns.vip}}}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: kQov7UKaDknXb8a3.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: kQov7UKaDknXb8a3.v.3dns.vip}}}
   - {name: 🇯🇵 日本3|@ripaojiedian, server: kneNaKHeSXnZH259.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: kneNaKHeSXnZH259.v.3dns.vip}}}
-  - {name: 🇺🇸 美国 127, server: 66.163.113.176, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇨🇦 [www.v2nodes.com] ss-CA-1546... #1", server: 51.222.155.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: "🇨🇦 [www.v2nodes.com] ss-CA-1546...", server: 51.222.155.113, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: ASaqYIDZa9WDQ9Kq.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: ASaqYIDZa9WDQ9Kq.v.3dns.vip}}}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 6JiziO8PxQAXBAtZ.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: 6JiziO8PxQAXBAtZ.v.3dns.vip}}}
+  - {name: 🇰🇷 韩国|@ripaojiedian, server: 8nTzyR5KNivfabaT.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: 8nTzyR5KNivfabaT.v.3dns.vip}}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
+  - {name: 🇨🇦 加拿大_121320003, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇦 加拿大_121320032, server: 193.203.203.63, port: 80, type: vmess, uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 193.203.203.63}}}
   - {name: 🇺🇸 美国_121320003, server: e691d61a-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: e691d61a-f.3nvx.com}}}
   - {name: 🇺🇸 美国_121320005, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
@@ -72,7 +73,7 @@ proxies:
   - {name: 🇺🇸 美国_121320024, server: 172.67.221.114, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
   - {name: 🇺🇸 美国_121320027, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}}
   - {name: 🇺🇸 美国_121320028, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇩🇪 德国 087, server: 185.177.229.129, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: "[www.v2nodes.com] ss-RO-1298...", server: 154.46.31.106, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: QFWzCw2uX9B9i6qAYeFBIE}
   - {name: 🇵🇱 github.com/freefq - 波兰  5, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
   - {name: 防失效github SubCrawler乌克兰_121320002, server: ua1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ua1-vmess.sshmax.xyz}}}
   - {name: 乌克兰_121320004, server: 185.250.150.220, port: 8080, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
@@ -111,7 +112,7 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇸🇬 [www.v2nodes.com] ss-SG-1559...
+      - 🇯🇵 日本 008
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -139,15 +140,13 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港_1
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港_2
-      - 🇭🇰 _HK_中国香港
-      - 🇰🇷 [www.v2nodes.com] ss-KR-1580...
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本_1
+      - 🇨🇳 台湾(油管破解资源君2.0)
+      - 🇯🇵 日本(油管破解资源君2.0)
       - 🇸🇬 [www.v2nodes.com] ss-SG-1524...
       - 🇭🇰 [www.v2nodes.com] trojan-HK-...
-      - 🇯🇵 [www.v2nodes.com] trojan-JP-...
+      - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -155,10 +154,13 @@ proxy-groups:
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇺🇸 美国 127
-      - "🇨🇦 [www.v2nodes.com] ss-CA-1546... #1"
-      - 🇨🇦 [www.v2nodes.com] ss-CA-1546...
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
@@ -178,7 +180,7 @@ proxy-groups:
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
-      - 🇩🇪 德国 087
+      - "[www.v2nodes.com] ss-RO-1298..."
       - 🇵🇱 github.com/freefq - 波兰  5
       - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
@@ -252,7 +254,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 [www.v2nodes.com] ss-SG-1559...
+      - 🇯🇵 日本 008
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -280,15 +282,13 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港_1
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港_2
-      - 🇭🇰 _HK_中国香港
-      - 🇰🇷 [www.v2nodes.com] ss-KR-1580...
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本_1
+      - 🇨🇳 台湾(油管破解资源君2.0)
+      - 🇯🇵 日本(油管破解资源君2.0)
       - 🇸🇬 [www.v2nodes.com] ss-SG-1524...
       - 🇭🇰 [www.v2nodes.com] trojan-HK-...
-      - 🇯🇵 [www.v2nodes.com] trojan-JP-...
+      - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -296,10 +296,13 @@ proxy-groups:
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇺🇸 美国 127
-      - "🇨🇦 [www.v2nodes.com] ss-CA-1546... #1"
-      - 🇨🇦 [www.v2nodes.com] ss-CA-1546...
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
@@ -319,7 +322,7 @@ proxy-groups:
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
-      - 🇩🇪 德国 087
+      - "[www.v2nodes.com] ss-RO-1298..."
       - 🇵🇱 github.com/freefq - 波兰  5
       - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
@@ -349,7 +352,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 [www.v2nodes.com] ss-SG-1559...
+      - 🇯🇵 日本 008
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -377,15 +380,13 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港_1
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港_2
-      - 🇭🇰 _HK_中国香港
-      - 🇰🇷 [www.v2nodes.com] ss-KR-1580...
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本_1
+      - 🇨🇳 台湾(油管破解资源君2.0)
+      - 🇯🇵 日本(油管破解资源君2.0)
       - 🇸🇬 [www.v2nodes.com] ss-SG-1524...
       - 🇭🇰 [www.v2nodes.com] trojan-HK-...
-      - 🇯🇵 [www.v2nodes.com] trojan-JP-...
+      - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -393,10 +394,13 @@ proxy-groups:
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇺🇸 美国 127
-      - "🇨🇦 [www.v2nodes.com] ss-CA-1546... #1"
-      - 🇨🇦 [www.v2nodes.com] ss-CA-1546...
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
@@ -416,7 +420,7 @@ proxy-groups:
       - 🇺🇸 美国_121320024
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
-      - 🇩🇪 德国 087
+      - "[www.v2nodes.com] ss-RO-1298..."
       - 🇵🇱 github.com/freefq - 波兰  5
       - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
@@ -446,10 +450,10 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 127
-      - "🇨🇦 [www.v2nodes.com] ss-CA-1546... #1"
-      - 🇨🇦 [www.v2nodes.com] ss-CA-1546...
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
+      - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320032
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
@@ -475,7 +479,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 [www.v2nodes.com] ss-SG-1559...
+      - 🇯🇵 日本 008
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -503,15 +507,13 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港_1
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港_2
-      - 🇭🇰 _HK_中国香港
-      - 🇰🇷 [www.v2nodes.com] ss-KR-1580...
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本_1
+      - 🇨🇳 台湾(油管破解资源君2.0)
+      - 🇯🇵 日本(油管破解资源君2.0)
       - 🇸🇬 [www.v2nodes.com] ss-SG-1524...
       - 🇭🇰 [www.v2nodes.com] trojan-HK-...
-      - 🇯🇵 [www.v2nodes.com] trojan-JP-...
+      - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -519,13 +521,16 @@ proxy-groups:
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
+      - 🇰🇷 韩国|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇩🇪 德国 087
+      - "[www.v2nodes.com] ss-RO-1298..."
       - 🇵🇱 github.com/freefq - 波兰  5
       - 防失效github SubCrawler乌克兰_121320002
       - 乌克兰_121320004
@@ -555,8 +560,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 127
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -584,11 +590,8 @@ proxy-groups:
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港_1
-      - 🇭🇰 _CN_中国->🇭🇰_HK_中国香港_2
-      - 🇭🇰 _HK_中国香港
       - 🇭🇰 [www.v2nodes.com] trojan-HK-...
+      - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
@@ -599,7 +602,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 [www.v2nodes.com] ss-SG-1559...
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -607,12 +609,15 @@ proxy-groups:
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇸🇬 [www.v2nodes.com] ss-SG-1524...
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 新加坡2|@ripaojiedian
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 日本 008
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320009
@@ -627,7 +632,9 @@ proxy-groups:
       - 🇯🇵 日本_121320045
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
-      - 🇯🇵 [www.v2nodes.com] trojan-JP-...
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本_1
+      - 🇯🇵 日本(油管破解资源君2.0)
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
@@ -640,6 +647,7 @@ proxy-groups:
       - 🇨🇳 台湾_121320001
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
+      - 🇨🇳 台湾(油管破解资源君2.0)
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
@@ -647,8 +655,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇰🇷 韩国_121320001
-      - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇰🇷 [www.v2nodes.com] ss-KR-1580...
+      - 🇰🇷 韩国|@ripaojiedian
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
@@ -2258,6 +2265,7 @@ rules:
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.com.au,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.wang,🍎 苹果服务
@@ -2290,7 +2298,6 @@ rules:
  - DOMAIN-SUFFIX,iphoto.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
- - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
@@ -11619,6 +11626,7 @@ rules:
  - DOMAIN-SUFFIX,fututrustee.com,🚀 节点选择
  - DOMAIN-SUFFIX,fux.com,🚀 节点选择
  - DOMAIN-SUFFIX,fuyin.net,🚀 节点选择
+ - DOMAIN-SUFFIX,fuyin116.com,🚀 节点选择
  - DOMAIN-SUFFIX,fuyindiantai.org,🚀 节点选择
  - DOMAIN-SUFFIX,fuyu.org.tw,🚀 节点选择
  - DOMAIN-SUFFIX,fw.cm,🚀 节点选择
@@ -13236,6 +13244,7 @@ rules:
  - DOMAIN-SUFFIX,mummysgold.com,🚀 节点选择
  - DOMAIN-SUFFIX,murmur.tw,🚀 节点选择
  - DOMAIN-SUFFIX,muscdn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,muse.ai,🚀 节点选择
  - DOMAIN-SUFFIX,musicade.net,🚀 节点选择
  - DOMAIN-SUFFIX,musical.ly,🚀 节点选择
  - DOMAIN-SUFFIX,musixmatch.com,🚀 节点选择
