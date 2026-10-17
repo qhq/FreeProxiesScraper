@@ -5,11 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇸🇬 [www.v2nodes.com] trojan-SG-... #5", server: inviting-ferret.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: inviting-ferret.rooster465.autos, skip-cert-verify: false}
-  - {name: "🇸🇬 [www.v2nodes.com] trojan-SG-...", server: simple-molly.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: simple-molly.rooster465.autos, skip-cert-verify: false}
-  - {name: "🇸🇬 [www.v2nodes.com] trojan-SG-... #3", server: musical-mouse.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: musical-mouse.rooster465.autos, skip-cert-verify: false}
+  - {name: "🇯🇵 [www.v2nodes.com] ss-JP-1598...", server: 191.223.221.53, port: 8388, type: ss, cipher: aes-256-gcm, password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv}
+  - {name: 🇯🇵 _JP_日本, server: oc.imfun.fun, port: 18112, type: vmess, uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 香港 | HKG #2", server: qtkdr8jxe3wefxjm.v.3dns.vip, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: qTKDR8jXE3wEFxJM.v.3dns.vip}}}
   - {name: "🇭🇰 香港 | HKG #6", server: 47.243.65.243, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: lcv8v9l7oyamxxfz.v.3dns.vip}}}
-  - {name: 🇸🇬 新加坡_121320004, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇭🇰 香港 | HKG #5", server: 47.76.57.83, port: 443, type: vmess, uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: vah4urdzl3jdx5r2.v.3dns.vip}}}
+  - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
+  - {name: 🇸🇬 新加坡_121320008, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320009, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320037, server: 8.219.59.222, port: 46998, type: vmess, uuid: 5c9bed1a-716b-43e7-c807-9e0758186360, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 新加坡_121320090, server: 143.42.66.9, port: 40637, type: vmess, uuid: 7e30d039-1751-4fbd-aa0a-918b03003515, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /chami}}
   - {name: 🇯🇵 日本_121320001, server: 103.35.190.65, port: 443, type: vmess, uuid: ed531ebe-4971-47f9-a881-636d0b101a45, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 日本_121320007, server: 64.176.39.31, port: 56262, type: vmess, uuid: 590f2744-e9d1-4f2c-a384-d35b736bca41, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320009, server: kkyx.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yxtw.651568.xyz}}}
@@ -29,28 +34,26 @@ proxies:
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 _JP_日本, server: oc.imfun.fun, port: 18112, type: vmess, uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320004, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: "🇭🇰 [www.v2nodes.com] ss-HK-1599...", server: ruot.ayucloudservices.nl, port: 40006, type: ss, cipher: aes-128-gcm, password: 30e9c7aa-d86d-4f0d-a0d6-9d0ddf3f5e42}
   - {name: "🇭🇰 [www.v2nodes.com] ss-HK-1576...", server: sth.free-outline.giize.com, port: 1081, type: ss, cipher: chacha20-ietf-poly1305, password: 6qmp91myp2jj13dt}
+  - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
   - {name: "🇸🇬 [www.v2nodes.com] ss-SG-1559...", server: 139.180.220.175, port: 8388, type: ss, cipher: aes-256-gcm, password: qpSevKaUXYQKvSjp}
-  - {name: 🇯🇵 日本(油管破解资源君2.0) 6, server: 221.181.185.153, port: 9036, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本(油管破解资源君2.0) 5, server: 172.105.238.164, port: 443, type: vmess, uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /down, headers: {Host: js.adbse.xyz}}}
-  - {name: 🇭🇰 香港(油管破解资源君2.0) 7, server: kwdod-1056-v2-1.hkg-r-kcd-e.ap.cjhh.beauty, port: 29988, type: vmess, uuid: caac6285-511c-4a07-b6db-edfbdcfe3889, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: s3.cjhh.beauty}}}
   - {name: "🇯🇵 [www.v2nodes.com] trojan-JP-...", server: 45.32.52.173, port: 8886, type: trojan, password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437, sni: 45.32.52.173, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡_121320090, server: 143.42.66.9, port: 40637, type: vmess, uuid: 7e30d039-1751-4fbd-aa0a-918b03003515, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /chami}}
-  - {name: 🇸🇬 新加坡(油管破解资源君2.0) 10, server: aws-beijing-1.dnspro.icu, port: 20028, type: vmess, uuid: 72528103-0642-30c0-a2b3-8aa77a73cec9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iso, headers: {Host: aws-beijing-1.dnspro.icu}}}
-  - {name: 🇸🇬 新加坡_121320037, server: 8.219.59.222, port: 46998, type: vmess, uuid: 5c9bed1a-716b-43e7-c807-9e0758186360, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: "🇸🇬 [www.v2nodes.com] trojan-SG-... #4", server: 139.180.146.200, port: 8886, type: trojan, password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437, sni: 139.180.146.200, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡_121320009, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港|@ripaojiedian, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: ADncdOvLHR4M1P36.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: ADncdOvLHR4M1P36.v.3dns.vip}}}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: kBONDXW9liFCi4h4.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: kBONDXW9liFCi4h4.v.3dns.vip}}}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: aZW0eunYVdvRe73k.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: aZW0eunYVdvRe73k.v.3dns.vip}}}
   - {name: 🇭🇰 香港5|@ripaojiedian, server: syJ2gGUgMwBwQwQx.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: syJ2gGUgMwBwQwQx.v.3dns.vip}}}
   - {name: 🇯🇵 日本|@ripaojiedian, server: Z9FfBx3zs2q5O0BG.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: Z9FfBx3zs2q5O0BG.v.3dns.vip}}}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: kQov7UKaDknXb8a3.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: kQov7UKaDknXb8a3.v.3dns.vip}}}
+  - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: kneNaKHeSXnZH259.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: kneNaKHeSXnZH259.v.3dns.vip}}}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: ASaqYIDZa9WDQ9Kq.v.3dns.vip, port: 443, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: ASaqYIDZa9WDQ9Kq.v.3dns.vip}}}
   - {name: "🇨🇦 [www.v2nodes.com] ss-CA-1545... #1", server: 51.79.49.116, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国_121320003, server: e691d61a-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: e691d61a-f.3nvx.com}}}
+  - {name: "🇨🇦 [www.v2nodes.com] ss-CA-1546...", server: 51.222.155.113, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇨🇦 [www.v2nodes.com] ss-CA-1558...", server: 51.222.200.165, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大_121320003, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320009, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
   - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 🇺🇸 美国_121320011, server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
@@ -70,32 +73,30 @@ proxies:
   - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320035, server: 64.176.42.137, port: 20886, type: vmess, uuid: f574b237-3ebf-405c-d540-541530fe5ed7, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320036, server: 64.176.59.68, port: 59350, type: vmess, uuid: 5821ac21-8e3f-4c8b-832d-a55190c944e9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_121320037, server: 47.236.22.3, port: 47885, type: vmess, uuid: 2fb7aa37-e195-44f1-f000-5727610d22e3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_121320039, server: 158.178.227.16, port: 30839, type: vmess, uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81, alterId: 0, cipher: auto, tls: false}
-  - {name: "[www.v2nodes.com] ss-ZA-1336...", server: 102.37.156.224, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: aduB9HGxQHjA2SBMRjkHX6}
-  - {name: "[www.v2nodes.com] ss-TH-1591...", server: pphfree2.mvpnpvpn.de5.net, port: 52351, type: ss, cipher: aes-256-gcm, password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=}
-  - {name: "[www.v2nodes.com] ss- #1", server: 51.79.85.185, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: "[www.v2nodes.com] ss- #3", server: 185.213.23.63, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=}
-  - {name: 未知_121320001, server: 2876be99-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: 2876be99-f.3nvx.com}}}
-  - {name: 未知_121320007, server: octavi.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
-  - {name: 未知_121320008, server: ginson.efnten.top, port: 443, type: vmess, uuid: 673ba378-840f-4928-81f2-203148d07350, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /673ba378-840f-4928-81f2-203148d07350, headers: {Host: cowochtmtrkers.turbo021.link}}}
-  - {name: 未知_121320009, server: 104.21.4.29, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
-  - {name: 未知_121320010, server: rlhrwtqusd.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: rlhrwtqusd.site}}}
-  - {name: 未知_121320011, server: v2ray.ibgfw.top, port: 2053, type: vmess, uuid: 0f1b29b8-0f0f-431a-b6d1-035803a95c32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vVNUJOgb/, headers: {Host: v2ray.ibgfw.top}}}
-  - {name: 未知_121320012, server: xyfxhiogo.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: xyfxhiogo.site}}}
-  - {name: 未知_121320015, server: 104.18.154.42, port: 2053, type: vmess, uuid: 754ac3c1-e660-4f7f-bf05-76a7c15556ed, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zUla.eSMaIlkOrEa.sHOp}}}
-  - {name: 未知_121320016, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: arthur-experienced-hate-maiden.trycloudflare.com}}}
-  - {name: 未知_121320017, server: cf-jpc.handboy.top, port: 2086, type: vmess, uuid: 22425357-dc2f-4001-afe2-7f56a7210fca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-jp.handboy.site}}}
-  - {name: 未知_121320018, server: 104.18.202.232, port: 80, type: vmess, uuid: 239d61bb-fd16-4b53-85a5-f4c12c0d3d94, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: us8vm.cdn-03.live}}}
-  - {name: 未知_121320019, server: 104.21.33.130, port: 2052, type: vmess, uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: family.mgtajhiz.ir}}}
-  - {name: 未知_121320024, server: cc2.shabijichang.com, port: 80, type: vmess, uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cc2.shabijichang.com}}}
-  - {name: 未知_121320030, server: v118a.ai88888.top, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /526-dekDP6Otf, headers: {Host: v118a.ai88888.top}}}
-  - {name: 未知_121320122, server: polouk.yj2022.gq, port: 8080, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /r8ykwif5rffiqJeJ49zLka7PbhWz3wiHs8cSeiRyZL, headers: {Host: polouk.yj2022.gq}}}
-  - {name: 未知_121320149, server: pla.yj2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /r8ykwif5rffiqJeJ49zLQtAUESmka7PbhWz3wiHs8cSeiRyZL, headers: {Host: pla.yj2022.gq}}}
-  - {name: 未知_121320154, server: free2.1alphaomega.org, port: 8880, type: vmess, uuid: 2f1435e0-a3e6-40c7-bc4f-05f5befeb789, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free.1alphaomega.org}}}
-  - {name: 未知_121320404, server: 104.17.193.145, port: 8080, type: vmess, uuid: e2695bd0-945f-4476-aac5-0e37bcdbd7fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu5.openxai.link}}}
-  - {name: 未知_121320704, server: cdnikuan3.ikuan.dev, port: 8880, type: vmess, uuid: 432c16ac-4ac8-48b4-bc97-97831fe5127b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft?ed=1024", headers: {Host: losangeles.freenode.pro}}}
-  - {name: 未知_121320706, server: dl6.doushimeng.com, port: 80, type: vmess, uuid: c0ff2f90-9f83-451a-a7d3-0994845d9208, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-kr.doushimeng.free.hr}}}
+  - {name: "[www.v2nodes.com] ss-RO-1595...", server: 194.68.44.42, port: 64546, type: ss, cipher: chacha20-ietf-poly1305, password: U83u9OGpvSatIUW7LsWffr}
+  - {name: 🇮🇷 伊朗_121320001, server: 195.211.44.107, port: 20515, type: vmess, uuid: a56b1fb2-6a48-4d08-80e7-7cc1b2df019e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇷 伊朗_121320008, server: 79.143.84.117, port: 11541, type: vmess, uuid: 46465bbe-628a-4988-ae3c-0c164237a039, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯联邦_121320002, server: 46.29.166.237, port: 47555, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇱🇺 卢森堡_121320001, server: 107.189.29.193, port: 21280, type: vmess, uuid: 2d23b71f-78e1-4f17-a7cc-1ef04a910a4c, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度_121320001, server: 103.114.201.143, port: 59487, type: vmess, uuid: 51fb562e-0a9b-4c27-e4d8-6f4883bb5165, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度_121320002, server: 103.114.201.44, port: 45233, type: vmess, uuid: 8e87821e-c22a-44c6-c741-43ab791f47b6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.114.201.44}}}
+  - {name: 🇮🇳 印度_121320003, server: 205.164.28.103, port: 13487, type: vmess, uuid: f5502283-53ba-442b-bdb1-a25745fd5c17, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度_121320005, server: 103.106.230.153, port: 32732, type: vmess, uuid: eb931108-646b-4ceb-a741-d32490cb00f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
+  - {name: 🇮🇳 印度_121320008, server: 103.113.68.233, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 103.113.68.233}}}
+  - {name: 🇮🇳 印度_121320009, server: ru1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}}
+  - {name: 🇮🇩 印度尼西亚_121320001, server: 113.20.28.102, port: 22188, type: vmess, uuid: 00677eb4-91c2-41f1-e790-963b9a093fd5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇿 哈萨克斯坦_121320002, server: kz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 0a6ae6c5-e1f8-411c-8f11-cfa5433c58e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: kz1-vmess.sshmax.xyz}}}
+  - {name: 🇬🇷 希腊_121320001, server: 185.242.84.49, port: 80, type: vmess, uuid: 9db34944-bc87-43cb-8b57-45cf87b2b006, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇩🇪 德国_121320001, server: 157.230.28.129, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇩🇪 德国_121320004, server: v2.vipstore.cfd, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: v2.vipstore.cfd}}}
+  - {name: 🇩🇪 德国_121320005, server: 116.203.60.6, port: 18180, type: vmess, uuid: b1cfd141-4f0d-40b4-b169-ed332a4a92b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇩🇪 德国_121320007, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇩🇪 德国_121320011, server: 43.131.62.103, port: 666, type: vmess, uuid: 11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国_121320012, server: 172.104.240.196, port: 18924, type: vmess, uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国_121320028, server: jp.takeshi.wiki, port: 80, type: vmess, uuid: a19f357b-c836-4cf6-9e43-72390e6a00df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: jp.takeshi.wiki}}}
+  - {name: 🇩🇪 德国_121320030, server: 82.115.25.173, port: 20091, type: vmess, uuid: 5f75f0dc-8991-4723-de35-af81c9b2fe96, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国_121320040, server: 185.135.9.247, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: ldkpsvvhhe.site}}}
+  - {name: 🇩🇪 德国_121320047, server: 5.181.23.67, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.181.23.67}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,11 +112,16 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - "🇸🇬 [www.v2nodes.com] trojan-SG-... #5"
-      - 🇸🇬 [www.v2nodes.com] trojan-SG-...
-      - "🇸🇬 [www.v2nodes.com] trojan-SG-... #3"
+      - 🇯🇵 [www.v2nodes.com] ss-JP-1598...
+      - 🇯🇵 _JP_日本
+      - "🇭🇰 香港 | HKG #2"
       - "🇭🇰 香港 | HKG #6"
-      - 🇸🇬 新加坡_121320004
+      - "🇭🇰 香港 | HKG #5"
+      - 🇨🇳 台湾_121320001
+      - 🇸🇬 新加坡_121320008
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320037
+      - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320009
@@ -135,28 +141,26 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 _JP_日本
+      - 🇸🇬 新加坡_121320004
       - 🇭🇰 [www.v2nodes.com] ss-HK-1599...
       - 🇭🇰 [www.v2nodes.com] ss-HK-1576...
+      - 🇸🇬 新加坡_121320001
       - 🇸🇬 [www.v2nodes.com] ss-SG-1559...
-      - 🇯🇵 日本(油管破解资源君2.0) 6
-      - 🇯🇵 日本(油管破解资源君2.0) 5
-      - 🇭🇰 香港(油管破解资源君2.0) 7
       - 🇯🇵 [www.v2nodes.com] trojan-JP-...
-      - 🇸🇬 新加坡_121320090
-      - 🇸🇬 新加坡(油管破解资源君2.0) 10
-      - 🇸🇬 新加坡_121320037
       - "🇸🇬 [www.v2nodes.com] trojan-SG-... #4"
-      - 🇸🇬 新加坡_121320009
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇨🇳 台湾_121320007
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
       - "🇨🇦 [www.v2nodes.com] ss-CA-1545... #1"
-      - 🇺🇸 美国_121320003
+      - 🇨🇦 [www.v2nodes.com] ss-CA-1546...
+      - 🇨🇦 [www.v2nodes.com] ss-CA-1558...
+      - 🇨🇦 加拿大_121320003
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -176,32 +180,30 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320035
       - 🇺🇸 美国_121320036
-      - 🇺🇸 美国_121320037
-      - 🇺🇸 美国_121320039
-      - "[www.v2nodes.com] ss-ZA-1336..."
-      - "[www.v2nodes.com] ss-TH-1591..."
-      - "[www.v2nodes.com] ss- #1"
-      - "[www.v2nodes.com] ss- #3"
-      - 未知_121320001
-      - 未知_121320007
-      - 未知_121320008
-      - 未知_121320009
-      - 未知_121320010
-      - 未知_121320011
-      - 未知_121320012
-      - 未知_121320015
-      - 未知_121320016
-      - 未知_121320017
-      - 未知_121320018
-      - 未知_121320019
-      - 未知_121320024
-      - 未知_121320030
-      - 未知_121320122
-      - 未知_121320149
-      - 未知_121320154
-      - 未知_121320404
-      - 未知_121320704
-      - 未知_121320706
+      - "[www.v2nodes.com] ss-RO-1595..."
+      - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗_121320008
+      - 🇷🇺 俄罗斯联邦_121320002
+      - 🇱🇺 卢森堡_121320001
+      - 🇮🇳 印度_121320001
+      - 🇮🇳 印度_121320002
+      - 🇮🇳 印度_121320003
+      - 🇮🇳 印度_121320005
+      - 🇮🇳 印度_121320008
+      - 🇮🇳 印度_121320009
+      - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
+      - 🇬🇷 希腊_121320001
+      - 🇩🇪 德国_121320001
+      - 🇩🇪 德国_121320004
+      - 🇩🇪 德国_121320005
+      - 🇩🇪 德国_121320007
+      - 🇩🇪 德国_121320011
+      - 🇩🇪 德国_121320012
+      - 🇩🇪 德国_121320028
+      - 🇩🇪 德国_121320030
+      - 🇩🇪 德国_121320040
+      - 🇩🇪 德国_121320047
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,11 +254,16 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "🇸🇬 [www.v2nodes.com] trojan-SG-... #5"
-      - 🇸🇬 [www.v2nodes.com] trojan-SG-...
-      - "🇸🇬 [www.v2nodes.com] trojan-SG-... #3"
+      - 🇯🇵 [www.v2nodes.com] ss-JP-1598...
+      - 🇯🇵 _JP_日本
+      - "🇭🇰 香港 | HKG #2"
       - "🇭🇰 香港 | HKG #6"
-      - 🇸🇬 新加坡_121320004
+      - "🇭🇰 香港 | HKG #5"
+      - 🇨🇳 台湾_121320001
+      - 🇸🇬 新加坡_121320008
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320037
+      - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320009
@@ -276,28 +283,26 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 _JP_日本
+      - 🇸🇬 新加坡_121320004
       - 🇭🇰 [www.v2nodes.com] ss-HK-1599...
       - 🇭🇰 [www.v2nodes.com] ss-HK-1576...
+      - 🇸🇬 新加坡_121320001
       - 🇸🇬 [www.v2nodes.com] ss-SG-1559...
-      - 🇯🇵 日本(油管破解资源君2.0) 6
-      - 🇯🇵 日本(油管破解资源君2.0) 5
-      - 🇭🇰 香港(油管破解资源君2.0) 7
       - 🇯🇵 [www.v2nodes.com] trojan-JP-...
-      - 🇸🇬 新加坡_121320090
-      - 🇸🇬 新加坡(油管破解资源君2.0) 10
-      - 🇸🇬 新加坡_121320037
       - "🇸🇬 [www.v2nodes.com] trojan-SG-... #4"
-      - 🇸🇬 新加坡_121320009
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇨🇳 台湾_121320007
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
       - "🇨🇦 [www.v2nodes.com] ss-CA-1545... #1"
-      - 🇺🇸 美国_121320003
+      - 🇨🇦 [www.v2nodes.com] ss-CA-1546...
+      - 🇨🇦 [www.v2nodes.com] ss-CA-1558...
+      - 🇨🇦 加拿大_121320003
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -317,43 +322,46 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320035
       - 🇺🇸 美国_121320036
-      - 🇺🇸 美国_121320037
-      - 🇺🇸 美国_121320039
-      - "[www.v2nodes.com] ss-ZA-1336..."
-      - "[www.v2nodes.com] ss-TH-1591..."
-      - "[www.v2nodes.com] ss- #1"
-      - "[www.v2nodes.com] ss- #3"
-      - 未知_121320001
-      - 未知_121320007
-      - 未知_121320008
-      - 未知_121320009
-      - 未知_121320010
-      - 未知_121320011
-      - 未知_121320012
-      - 未知_121320015
-      - 未知_121320016
-      - 未知_121320017
-      - 未知_121320018
-      - 未知_121320019
-      - 未知_121320024
-      - 未知_121320030
-      - 未知_121320122
-      - 未知_121320149
-      - 未知_121320154
-      - 未知_121320404
-      - 未知_121320704
-      - 未知_121320706
+      - "[www.v2nodes.com] ss-RO-1595..."
+      - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗_121320008
+      - 🇷🇺 俄罗斯联邦_121320002
+      - 🇱🇺 卢森堡_121320001
+      - 🇮🇳 印度_121320001
+      - 🇮🇳 印度_121320002
+      - 🇮🇳 印度_121320003
+      - 🇮🇳 印度_121320005
+      - 🇮🇳 印度_121320008
+      - 🇮🇳 印度_121320009
+      - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
+      - 🇬🇷 希腊_121320001
+      - 🇩🇪 德国_121320001
+      - 🇩🇪 德国_121320004
+      - 🇩🇪 德国_121320005
+      - 🇩🇪 德国_121320007
+      - 🇩🇪 德国_121320011
+      - 🇩🇪 德国_121320012
+      - 🇩🇪 德国_121320028
+      - 🇩🇪 德国_121320030
+      - 🇩🇪 德国_121320040
+      - 🇩🇪 德国_121320047
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "🇸🇬 [www.v2nodes.com] trojan-SG-... #5"
-      - 🇸🇬 [www.v2nodes.com] trojan-SG-...
-      - "🇸🇬 [www.v2nodes.com] trojan-SG-... #3"
+      - 🇯🇵 [www.v2nodes.com] ss-JP-1598...
+      - 🇯🇵 _JP_日本
+      - "🇭🇰 香港 | HKG #2"
       - "🇭🇰 香港 | HKG #6"
-      - 🇸🇬 新加坡_121320004
+      - "🇭🇰 香港 | HKG #5"
+      - 🇨🇳 台湾_121320001
+      - 🇸🇬 新加坡_121320008
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320037
+      - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320009
@@ -373,28 +381,26 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 _JP_日本
+      - 🇸🇬 新加坡_121320004
       - 🇭🇰 [www.v2nodes.com] ss-HK-1599...
       - 🇭🇰 [www.v2nodes.com] ss-HK-1576...
+      - 🇸🇬 新加坡_121320001
       - 🇸🇬 [www.v2nodes.com] ss-SG-1559...
-      - 🇯🇵 日本(油管破解资源君2.0) 6
-      - 🇯🇵 日本(油管破解资源君2.0) 5
-      - 🇭🇰 香港(油管破解资源君2.0) 7
       - 🇯🇵 [www.v2nodes.com] trojan-JP-...
-      - 🇸🇬 新加坡_121320090
-      - 🇸🇬 新加坡(油管破解资源君2.0) 10
-      - 🇸🇬 新加坡_121320037
       - "🇸🇬 [www.v2nodes.com] trojan-SG-... #4"
-      - 🇸🇬 新加坡_121320009
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇨🇳 台湾_121320007
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
       - "🇨🇦 [www.v2nodes.com] ss-CA-1545... #1"
-      - 🇺🇸 美国_121320003
+      - 🇨🇦 [www.v2nodes.com] ss-CA-1546...
+      - 🇨🇦 [www.v2nodes.com] ss-CA-1558...
+      - 🇨🇦 加拿大_121320003
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -414,32 +420,30 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320035
       - 🇺🇸 美国_121320036
-      - 🇺🇸 美国_121320037
-      - 🇺🇸 美国_121320039
-      - "[www.v2nodes.com] ss-ZA-1336..."
-      - "[www.v2nodes.com] ss-TH-1591..."
-      - "[www.v2nodes.com] ss- #1"
-      - "[www.v2nodes.com] ss- #3"
-      - 未知_121320001
-      - 未知_121320007
-      - 未知_121320008
-      - 未知_121320009
-      - 未知_121320010
-      - 未知_121320011
-      - 未知_121320012
-      - 未知_121320015
-      - 未知_121320016
-      - 未知_121320017
-      - 未知_121320018
-      - 未知_121320019
-      - 未知_121320024
-      - 未知_121320030
-      - 未知_121320122
-      - 未知_121320149
-      - 未知_121320154
-      - 未知_121320404
-      - 未知_121320704
-      - 未知_121320706
+      - "[www.v2nodes.com] ss-RO-1595..."
+      - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗_121320008
+      - 🇷🇺 俄罗斯联邦_121320002
+      - 🇱🇺 卢森堡_121320001
+      - 🇮🇳 印度_121320001
+      - 🇮🇳 印度_121320002
+      - 🇮🇳 印度_121320003
+      - 🇮🇳 印度_121320005
+      - 🇮🇳 印度_121320008
+      - 🇮🇳 印度_121320009
+      - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
+      - 🇬🇷 希腊_121320001
+      - 🇩🇪 德国_121320001
+      - 🇩🇪 德国_121320004
+      - 🇩🇪 德国_121320005
+      - 🇩🇪 德国_121320007
+      - 🇩🇪 德国_121320011
+      - 🇩🇪 德国_121320012
+      - 🇩🇪 德国_121320028
+      - 🇩🇪 德国_121320030
+      - 🇩🇪 德国_121320040
+      - 🇩🇪 德国_121320047
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -447,7 +451,9 @@ proxy-groups:
     tolerance: 100
     proxies:
       - "🇨🇦 [www.v2nodes.com] ss-CA-1545... #1"
-      - 🇺🇸 美国_121320003
+      - 🇨🇦 [www.v2nodes.com] ss-CA-1546...
+      - 🇨🇦 [www.v2nodes.com] ss-CA-1558...
+      - 🇨🇦 加拿大_121320003
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -467,19 +473,22 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320035
       - 🇺🇸 美国_121320036
-      - 🇺🇸 美国_121320037
-      - 🇺🇸 美国_121320039
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - "🇸🇬 [www.v2nodes.com] trojan-SG-... #5"
-      - 🇸🇬 [www.v2nodes.com] trojan-SG-...
-      - "🇸🇬 [www.v2nodes.com] trojan-SG-... #3"
+      - 🇯🇵 [www.v2nodes.com] ss-JP-1598...
+      - 🇯🇵 _JP_日本
+      - "🇭🇰 香港 | HKG #2"
       - "🇭🇰 香港 | HKG #6"
-      - 🇸🇬 新加坡_121320004
+      - "🇭🇰 香港 | HKG #5"
+      - 🇨🇳 台湾_121320001
+      - 🇸🇬 新加坡_121320008
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320037
+      - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320009
@@ -499,63 +508,58 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 _JP_日本
+      - 🇸🇬 新加坡_121320004
       - 🇭🇰 [www.v2nodes.com] ss-HK-1599...
       - 🇭🇰 [www.v2nodes.com] ss-HK-1576...
+      - 🇸🇬 新加坡_121320001
       - 🇸🇬 [www.v2nodes.com] ss-SG-1559...
-      - 🇯🇵 日本(油管破解资源君2.0) 6
-      - 🇯🇵 日本(油管破解资源君2.0) 5
-      - 🇭🇰 香港(油管破解资源君2.0) 7
       - 🇯🇵 [www.v2nodes.com] trojan-JP-...
-      - 🇸🇬 新加坡_121320090
-      - 🇸🇬 新加坡(油管破解资源君2.0) 10
-      - 🇸🇬 新加坡_121320037
       - "🇸🇬 [www.v2nodes.com] trojan-SG-... #4"
-      - 🇸🇬 新加坡_121320009
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇨🇳 台湾_121320007
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - "[www.v2nodes.com] ss-ZA-1336..."
-      - "[www.v2nodes.com] ss-TH-1591..."
-      - "[www.v2nodes.com] ss- #1"
-      - "[www.v2nodes.com] ss- #3"
-      - 未知_121320001
-      - 未知_121320007
-      - 未知_121320008
-      - 未知_121320009
-      - 未知_121320010
-      - 未知_121320011
-      - 未知_121320012
-      - 未知_121320015
-      - 未知_121320016
-      - 未知_121320017
-      - 未知_121320018
-      - 未知_121320019
-      - 未知_121320024
-      - 未知_121320030
-      - 未知_121320122
-      - 未知_121320149
-      - 未知_121320154
-      - 未知_121320404
-      - 未知_121320704
-      - 未知_121320706
+      - "[www.v2nodes.com] ss-RO-1595..."
+      - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗_121320008
+      - 🇷🇺 俄罗斯联邦_121320002
+      - 🇱🇺 卢森堡_121320001
+      - 🇮🇳 印度_121320001
+      - 🇮🇳 印度_121320002
+      - 🇮🇳 印度_121320003
+      - 🇮🇳 印度_121320005
+      - 🇮🇳 印度_121320008
+      - 🇮🇳 印度_121320009
+      - 🇮🇩 印度尼西亚_121320001
+      - 🇰🇿 哈萨克斯坦_121320002
+      - 🇬🇷 希腊_121320001
+      - 🇩🇪 德国_121320001
+      - 🇩🇪 德国_121320004
+      - 🇩🇪 德国_121320005
+      - 🇩🇪 德国_121320007
+      - 🇩🇪 德国_121320011
+      - 🇩🇪 德国_121320012
+      - 🇩🇪 德国_121320028
+      - 🇩🇪 德国_121320030
+      - 🇩🇪 德国_121320040
+      - 🇩🇪 德国_121320047
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -575,21 +579,20 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320035
       - 🇺🇸 美国_121320036
-      - 🇺🇸 美国_121320037
-      - 🇺🇸 美国_121320039
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - "🇭🇰 香港 | HKG #2"
       - "🇭🇰 香港 | HKG #6"
+      - "🇭🇰 香港 | HKG #5"
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320012
       - 🇭🇰 [www.v2nodes.com] ss-HK-1599...
       - 🇭🇰 [www.v2nodes.com] ss-HK-1576...
-      - 🇭🇰 香港(油管破解资源君2.0) 7
       - 🇭🇰 香港|@ripaojiedian
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港2|@ripaojiedian
@@ -601,22 +604,23 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - "🇸🇬 [www.v2nodes.com] trojan-SG-... #5"
-      - 🇸🇬 [www.v2nodes.com] trojan-SG-...
-      - "🇸🇬 [www.v2nodes.com] trojan-SG-... #3"
-      - 🇸🇬 新加坡_121320004
-      - 🇸🇬 [www.v2nodes.com] ss-SG-1559...
-      - 🇸🇬 新加坡_121320090
-      - 🇸🇬 新加坡(油管破解资源君2.0) 10
-      - 🇸🇬 新加坡_121320037
-      - "🇸🇬 [www.v2nodes.com] trojan-SG-... #4"
+      - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320037
+      - 🇸🇬 新加坡_121320090
+      - 🇸🇬 新加坡_121320004
+      - 🇸🇬 新加坡_121320001
+      - 🇸🇬 [www.v2nodes.com] ss-SG-1559...
+      - "🇸🇬 [www.v2nodes.com] trojan-SG-... #4"
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 [www.v2nodes.com] ss-JP-1598...
+      - 🇯🇵 _JP_日本
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320009
@@ -632,19 +636,17 @@ proxy-groups:
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320054
       - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 _JP_日本
-      - 🇯🇵 日本(油管破解资源君2.0) 6
-      - 🇯🇵 日本(油管破解资源君2.0) 5
       - 🇯🇵 [www.v2nodes.com] trojan-JP-...
       - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 日本2|@ripaojiedian
+      - 🇯🇵 日本3|@ripaojiedian
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320007
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
